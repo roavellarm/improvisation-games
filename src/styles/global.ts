@@ -10,9 +10,12 @@ export default createGlobalStyle`
   body {
     width: 100vw;
     height: 100vh;
-    background: ${(props) => props.theme.colors.background};
+    max-height:100vh;
     font-size: 14px;
     color: ${(props) => props.theme.colors.text};
+    background: ${(props) => props.theme.colors.background};
     font-family: sans-serif;
+    display: flex;
+    align-items: center;
   }
 `
