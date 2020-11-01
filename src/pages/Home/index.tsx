@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Stepper from '../../components/Stepper'
 import * as S from './styles'
 import backgroundImg from '../../assets/background.png'
@@ -7,7 +8,12 @@ export default function Home() {
   return (
     <>
       <S.Header>
-        <S.Option>Home</S.Option>
+        <S.Option>
+          <Link to="/">Home</Link>
+        </S.Option>
+        <S.Option>
+          <Link to="/article">Artigo</Link>
+        </S.Option>
         <S.Option>Sobre</S.Option>
         <S.Option>Revista</S.Option>
         <S.Option>Contato</S.Option>
