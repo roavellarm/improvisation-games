@@ -2,16 +2,13 @@ import React from 'react'
 import Stepper from '../../components/Stepper'
 import * as S from './styles'
 import backgroundImg from '../../assets/background.png'
+import Header from '../Header/Header'
 
 export default function Home() {
   return (
     <>
-      <S.Header>
-        <S.Option>Home</S.Option>
-        <S.Option>Sobre</S.Option>
-        <S.Option>Revista</S.Option>
-        <S.Option>Contato</S.Option>
-      </S.Header>
+      <Header />
+
       <S.Container>
         <S.ImageContainer>
           <S.Image src={backgroundImg} />
