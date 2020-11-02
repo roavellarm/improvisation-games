@@ -7,6 +7,11 @@ export const Container = styled.div`
   max-height: 100%;
   max-width: 100%;
   flex-direction: column;
+
+  @media screen and (min-width: 700px) {
+    width: 100vw;
+    align-items: center;
+  }
 `
 
 export const Content = styled.div`
@@ -15,6 +20,12 @@ export const Content = styled.div`
   height: 100%;
   flex-direction: column;
   justify-content: space-between;
+
+  @media screen and (min-width: 700px) {
+    max-width: 500px;
+    width: 100%;
+    justify-content: space-between;
+  }
 `
 
 export const ImageContainer = styled.div`
