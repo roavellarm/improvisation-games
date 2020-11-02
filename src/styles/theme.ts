@@ -11,9 +11,9 @@ export default {
     black: 900,
   },
   fontSize: {
-    xs: '',
-    sm: '',
-    md: '',
+    xs: '0.9rem',
+    sm: '1rem',
+    md: '1.5rem',
     lg: '',
     xl: '',
     xxl: '2rem',
