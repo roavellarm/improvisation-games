@@ -11,11 +11,11 @@ export default {
     black: 900,
   },
   fontSize: {
-    xs: '',
-    sm: '',
-    md: '12px',
-    lg: '0,3rem',
-    xl: '1rem',
-    xxl: '2rem',
+    xs: '0.9rem',
+    sm: '1rem',
+    md: '1.5rem',
+    lg: '1.8rem',
+    xl: '2rem',
+    xxl: '2.5rem',
   },
 }
