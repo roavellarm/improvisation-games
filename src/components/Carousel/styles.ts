@@ -12,7 +12,7 @@ export const Container = styled.div`
 
 export const Items = styled.div`
   display: flex;
-  overflow-x: auto;
+  overflow-x: hidden;
   scroll-snap-type: x mandatory;
   -webkit-overflow-scrolling: touch;
   scroll-behavior: smooth;
