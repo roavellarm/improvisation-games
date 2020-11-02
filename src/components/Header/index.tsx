@@ -4,10 +4,10 @@ import { Container, Option } from './styles'
 export default function Header() {
   return (
     <Container>
-      <Option>Home</Option>
-      <Option>Sobre</Option>
-      <Option>Revista</Option>
-      <Option>Contato</Option>
+      <Option to="/">Sobre</Option>
+      <Option to="/games">JogoTemp</Option>
+      <Option to="/">Artigo</Option>
+      <Option to="/">Contato</Option>
     </Container>
   )
 }

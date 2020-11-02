@@ -14,9 +14,9 @@ export default createGlobalStyle`
   }
 
   body {
-    background: ${(props) => props.theme.colors.background};
-    font-size: 14px;
-    color: ${(props) => props.theme.colors.text};
-    font-family: sans-serif;
+    background: ${({ theme }) => theme.colors.background};
+    font-size: ${({ theme }) => theme.fontSize.md};
+    color: ${({ theme }) => theme.colors.text};
+    font-family: ${({ theme }) => theme.fontFamily};
   }
 `

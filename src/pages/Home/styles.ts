@@ -32,14 +32,12 @@ export const ImageContainer = styled.div`
 export const Image = styled.img`
   height: auto;
   width: 70%;
-  /* -webkit-transform: scaleX(-1);
-  transform: scaleX(-1); */
 `
 
 export const Title = styled.h1`
   padding: 1.5rem 1rem;
   font-family: ${({ theme }) => theme.fontFamily};
-  font-size: ${({ theme }) => theme.fontSize.xxl};
+  font-size: ${({ theme }) => theme.fontSize.xl};
   font-weight: ${({ theme }) => theme.fontWeight.light};
   text-align: right;
   line-height: 3rem;
