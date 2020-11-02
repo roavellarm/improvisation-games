@@ -7,15 +7,16 @@ export default createGlobalStyle`
     box-sizing: border-box;
   }
 
-  body {
-    width: 100vw;
+  :root {
     height: 100vh;
-    max-height:100vh;
-    font-size: 14px;
-    color: ${(props) => props.theme.colors.text};
-    background: ${(props) => props.theme.colors.background};
-    font-family: sans-serif;
-    display: flex;
-    align-items: center;
+    width: 100vw;
+    max-width: 100%;
+  }
+
+  body {
+    background: ${({ theme }) => theme.colors.background};
+    font-size: ${({ theme }) => theme.fontSize.md};
+    color: ${({ theme }) => theme.colors.text};
+    font-family: ${({ theme }) => theme.fontFamily};
   }
 `
