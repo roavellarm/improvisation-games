@@ -7,9 +7,13 @@ export default createGlobalStyle`
     box-sizing: border-box;
   }
 
-  body {
-    width: 100vw;
+  :root {
     height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+  }
+
+  body {
     background: ${(props) => props.theme.colors.background};
     font-size: 14px;
     color: ${(props) => props.theme.colors.text};
