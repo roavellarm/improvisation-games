@@ -3,7 +3,7 @@ import * as S from './styles'
 import backgroundImg from '../../assets/images/background.png'
 import Carousel from '../../components/Carousel'
 import Header from '../../components/Header'
-import gameList from '../mocks/gameList'
+import gameList from '../../mocks/gameList'
 
 export default function Home() {
   return (
