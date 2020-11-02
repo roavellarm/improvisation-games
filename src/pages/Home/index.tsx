@@ -2,7 +2,7 @@ import React from 'react'
 import * as S from './styles'
 import backgroundImg from '../../assets/images/background.png'
 import Carousel from '../../components/Carousel'
-import Header from '../Header'
+import Header from '../../components/Header'
 
 const gameList = [
   {
