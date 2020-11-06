@@ -1,5 +1,5 @@
 /* eslint-disable import/no-unresolved */
-import React, { useState } from 'react'
+import React from 'react'
 
 import api from '../../services/api'
 
@@ -15,7 +15,7 @@ export default function Article() {
   // }
 
   async function loadProducts() {
-    const data = await api.post('/pagination')
+    const data = await api.post(`/pagination/2`)
     // Object(setProducts(data))
 
     console.log(data)
@@ -54,7 +54,7 @@ export default function Article() {
         </thead>
 
         <tbody>
-          {products.map((product) => {
+          {/* {products.map((product) => {
             return (
               <tr key={product.id}>
                 <td>{product.id}</td>
@@ -62,7 +62,7 @@ export default function Article() {
                 <td>{product.text}</td>
               </tr>
             )
-          })}
+          })} */}
         </tbody>
       </div>
       {/* <div>
