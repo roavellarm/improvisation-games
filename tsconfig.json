@@ -14,8 +14,14 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
+    "typeRoots": ["src/styles/styled.d.ts", "./src/styles/styled.d.ts"],
     "jsx": "react"
   },
-  "include": ["src"],
-  "files": ["src/styles/styled.d.ts"]
+  "include": [
+    "./src",
+    "src",
+    "src/styles/styled.d.ts",
+    "./src/styles/styled.d.ts"
+  ],
+  "files": ["./src/styles/styled.d.ts", "src/styles/styled.d.ts"]
 }
