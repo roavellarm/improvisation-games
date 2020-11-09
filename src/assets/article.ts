@@ -1,4 +1,11 @@
-export default [
+interface Props {
+  text: string
+  flags: Array<string>
+  titleStrong?: string | undefined
+  rest?: string | undefined
+}
+
+const articleJS: Array<Props> = [
   {
     text:
       'JOGOS DE IMPROVISAÇÃO EM MÚSICA CONTEMPORÂNEA: POSSIBILIDADES PARA A INICIAÇÃO COLETIVA AO VIOLONCELO',
@@ -862,3 +869,5 @@ export default [
     flags: ['bibliography'],
   },
 ]
+
+export default articleJS
