@@ -1,15 +1,23 @@
 /* eslint-disable react/no-array-index-key */
 import React, { useEffect, useState } from 'react'
-import styled from 'styled-components'
+// import styled from 'styled-components'
 import articleJS from '../../assets/article'
 import Title1 from '../../components/Title1'
 import Title2 from '../../components/Title2'
 import Title3 from '../../components/Title3'
 import ItemList from '../../components/ItemList'
-import Line from '../../components/Line'
+// import Line from '../../components/Line'
 import Paragraph from '../../components/Paragraph'
+// import Biography from '../../components/Biography'
+import * as S from './styles'
 
-const Container = styled.div``
+// const Container = styled.div`
+//   max-width: 100%;
+//   width: 100%;
+//   height: 100%;
+//   background: orange;
+//   padding: 25px;
+// `
 
 // title1(strong),
 // title2,
@@ -31,7 +39,7 @@ export default function Article() {
   const [article, setArticle] = useState<Array<Props>>([])
   // const [counter, setCounter] = useState(0)
   // const [pages, setPages] = useState([])
-  const MAXLENGHT = 1000
+  const MAXLENGHT = 2100
 
   const featchPages = () => {
     let count = 0
@@ -52,7 +60,7 @@ export default function Article() {
   }, [])
 
   return (
-    <Container>
+    <S.Container>
       {article.map((line, index: number) => {
         if (line.flags.includes('space'))
           return (
@@ -60,13 +68,14 @@ export default function Article() {
               <br />
             </div>
           )
-        if (line.flags.includes('line')) return <Line key={index} />
+        // if (line.flags.includes('line'))
+        //   return <Line key={index}>{line.text}</Line>
         if (line.flags.includes('title1'))
           return <Title1 key={index}>{line.text}</Title1>
         if (line.flags.includes('title2'))
           return <Title2 key={index}>{line.text}</Title2>
-        if (line.flags.includes('title3'))
-          return <Title3 key={index}>{line.text}</Title3>
+        // if (line.flags.includes('title3'))
+        //   return <Title3 key={index}>{line.text}</Title3>
         if (line.flags.includes('itemList'))
           return <ItemList key={index}>{line.text}</ItemList>
         // if (line.flags.includes('bibliography')) {
@@ -99,6 +108,6 @@ export default function Article() {
 
         return null
       })}
-    </Container>
+    </S.Container>
   )
 }

@@ -1,13 +1,30 @@
+/* eslint-disable react/require-default-props */
 import React from 'react'
 import styled from 'styled-components'
 
-const StyledLine = styled.div`
-  display: flex;
-  width: 100%;
-  height: 1px;
-  background: black;
+interface LineProps {
+  children: string
+  bold: boolean
+  italic: boolean
+}
+
+const StyledLine = styled.p<LineProps>`
+  font-style: ${({ italic }: { italic: boolean }) =>
+    italic ? 'italic' : 'normal'};
+
+  font-weight: ${({ bold }: { bold: boolean }) => (bold ? 'bold' : 'regular')};
 `
 
-export default function Line() {
-  return <StyledLine />
+interface Props {
+  children: string
+  bold?: boolean
+  italic?: boolean
+}
+
+export default function Line({ children, bold, italic }: Props) {
+  return (
+    <StyledLine bold={bold || false} italic={italic || false}>
+      {children}
+    </StyledLine>
+  )
 }
