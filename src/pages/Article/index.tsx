@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 /* eslint-disable react/no-array-index-key */
 import React, { useEffect, useState } from 'react'
 // import styled from 'styled-components'
@@ -6,27 +7,9 @@ import Title1 from '../../components/Title1'
 import Title2 from '../../components/Title2'
 import Title3 from '../../components/Title3'
 import ItemList from '../../components/ItemList'
-// import Line from '../../components/Line'
 import Paragraph from '../../components/Paragraph'
-// import Biography from '../../components/Biography'
 import * as S from './styles'
-
-// const Container = styled.div`
-//   max-width: 100%;
-//   width: 100%;
-//   height: 100%;
-//   background: orange;
-//   padding: 25px;
-// `
-
-// title1(strong),
-// title2,
-// title3(strong), title3Italic (sem strong)
-// strong, italic
-// paragraph
-// itemList(italic)
-// space
-// bibliography
+import Line from '../../components/Line'
 
 interface Props {
   text: string
@@ -39,21 +22,24 @@ export default function Article() {
   const [article, setArticle] = useState<Array<Props>>([])
   // const [counter, setCounter] = useState(0)
   // const [pages, setPages] = useState([])
-  const MAXLENGHT = 2100
+  const MAXLENGHT = 1000
 
   const featchPages = () => {
     let count = 0
     const meuArray: Array<Props> = []
-    let i = 0
-    for (i = 0; i <= articleJS.length; i += 1) {
+
+    for (let i = 0; i <= articleJS.length; i += 1) {
       if (!(articleJS[i].text.length + count >= MAXLENGHT)) {
         count += articleJS[i].text.length
         meuArray.push(articleJS[i])
+        console.log(meuArray[i])
       }
       break
     }
     return setArticle(meuArray)
   }
+
+  // console.log(article[0])
 
   useEffect(() => {
     featchPages()
@@ -64,12 +50,18 @@ export default function Article() {
       {article.map((line, index: number) => {
         if (line.flags.includes('space'))
           return (
-            <div key={index}>
-              <br />
-            </div>
+            <>
+              <div key={index}>
+                {line.text}
+                <br />
+              </div>
+
+              <div key={index}>
+                <br />
+              </div>
+            </>
           )
-        // if (line.flags.includes('line'))
-        //   return <Line key={index}>{line.text}</Line>
+        if (line.flags.includes('line')) return <Line key={index}>{}</Line>
         if (line.flags.includes('title1'))
           return <Title1 key={index}>{line.text}</Title1>
         if (line.flags.includes('title2'))
