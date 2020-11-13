@@ -22,17 +22,17 @@ export default function Article() {
   const [article, setArticle] = useState<Array<Props>>([])
   // const [counter, setCounter] = useState(0)
   // const [pages, setPages] = useState([])
-  const MAXLENGHT = 1000
+  const MAXLENGHT = 500
 
   const featchPages = () => {
-    let count = 0
+    // let count = 0
     const meuArray: Array<Props> = []
 
     for (let i = 0; i <= articleJS.length; i += 1) {
-      if (!(articleJS[i].text.length + count >= MAXLENGHT)) {
-        count += articleJS[i].text.length
+      if (articleJS[i].text.length <= MAXLENGHT) {
+        // count += articleJS[i].text.length
         meuArray.push(articleJS[i])
-        console.log(meuArray[i])
+        console.log(meuArray)
       }
       break
     }
