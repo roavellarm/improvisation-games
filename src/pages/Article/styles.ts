@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   padding: 1.5rem;
   padding-top: 0px;
   /* background: blue; */
@@ -13,16 +13,16 @@ export const Container = styled.div`
   text-align: center;
 `
 
-export const ImageContainer = styled.div`
-  position: absolute;
-  margin-top: 2.5rem;
-  margin-left: -1.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: -999;
-  opacity: 0.3;
-`
+// export const ImageContainer = styled.div`
+//   position: absolute;
+//   margin-top: 2.5rem;
+//   margin-left: -1.5rem;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   z-index: -999;
+//   opacity: 0.3;
+// `
 
 export const Image = styled.img`
   height: auto;

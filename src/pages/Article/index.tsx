@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import styled from 'styled-components'
+import arrowLeft from '../../assets/images/arrow-left.svg'
+
 import articleJS from '../../assets/article'
 import Title1 from '../../components/Title1'
 import Title2 from '../../components/Title2'
@@ -11,7 +13,8 @@ import Paragraph from '../../components/Paragraph'
 const Container = styled.div`
   height: 100%;
   width: 100%;
-  display: flex;
+
+  /* display: flex; */
   margin: 1.5rem 0px;
   padding: 1.5rem;
   font-size: 16px;
@@ -32,6 +35,7 @@ export default function Article() {
 
   return (
     <Container>
+      <img src={arrowLeft} alt="imageArrowLeft" />
       {article.map((page) => {
         return page.map((line, index: number) => {
           if (line.flags.includes('space'))
