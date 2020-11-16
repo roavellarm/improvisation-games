@@ -24,4 +24,5 @@ export const GoBack = styled(Link)`
   font-size: ${({ theme }) => theme.fontSize.sm};
   font-weight: ${({ theme }) => theme.fontWeight.bold};
   color: ${({ theme }) => theme.colors.text};
+  padding-top: 15px;
 `
