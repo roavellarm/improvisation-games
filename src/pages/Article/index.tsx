@@ -17,16 +17,6 @@ const Container = styled.div`
   font-size: 16px;
   line-height: 24px;
 `
-
-// title1(strong),
-// title2,
-// title3(strong), title3Italic (sem strong)
-// strong, italic
-// paragraph
-// itemList(italic)
-// space
-// bibliography
-
 interface Props {
   text: string
   flags: Array<string>
