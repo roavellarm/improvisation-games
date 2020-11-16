@@ -34,18 +34,23 @@ export const Header = styled.div`
   justify-content: space-evenly;
   margin-bottom: 1rem;
   padding: 1rem;
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 0.32);
+  font-family: ${({ theme }) => theme.fontFamily};
+  font-weight: ${({ theme }) => theme.fontWeight.regular};
+  color: white;
 `
 
 export const Option = styled.div`
   font-family: ${({ theme }) => theme.fontFamily};
   font-weight: ${({ theme }) => theme.fontWeight.regular};
+  color: white;
 `
 
 export const Title = styled.h1`
   font-family: ${({ theme }) => theme.fontFamily};
   font-size: ${({ theme }) => theme.fontSize.xxl};
   font-weight: ${({ theme }) => theme.fontWeight.bold};
-  text-align: right;
+  text-align: center;
   line-height: 3rem;
+  color: white;
 `

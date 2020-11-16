@@ -9,10 +9,14 @@ export default function Home() {
     <>
       <S.Header>
         <S.Option>
-          <Link to="/">Home</Link>
+          <Link to="/" style={{ color: 'white' }}>
+            Home
+          </Link>
         </S.Option>
         <S.Option>
-          <Link to="/article">Artigo</Link>
+          <Link style={{ color: 'white' }} to="/article">
+            Artigo
+          </Link>
         </S.Option>
         <S.Option>Sobre</S.Option>
         <S.Option>Revista</S.Option>
@@ -22,7 +26,7 @@ export default function Home() {
         <S.ImageContainer>
           <S.Image src={backgroundImg} />
         </S.ImageContainer>
-        <S.Title>Jogos de improvisação pra violoncelistas iniciantes</S.Title>
+        <S.Title>Jogos de improvisação </S.Title>
         {/* <Caroussel>
         <Card title="1" image={backgroundImg} />
         <Card title="2" image={backgroundImg} />

@@ -10,6 +10,7 @@ export const Container = styled.div`
   height: calc(100vh - 4.2rem);
   max-height: 100%;
   max-width: 500px;
+  text-align: center;
 `
 
 export const ImageContainer = styled.div`
@@ -46,6 +47,6 @@ export const Title = styled.h1`
   font-family: ${({ theme }) => theme.fontFamily};
   font-size: ${({ theme }) => theme.fontSize.xxl};
   font-weight: ${({ theme }) => theme.fontWeight.bold};
-  text-align: right;
+  text-align: center;
   line-height: 3rem;
 `

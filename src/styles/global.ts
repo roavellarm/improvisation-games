@@ -13,7 +13,8 @@ export default createGlobalStyle`
     max-height:100vh;
     font-size: 14px;
     color: ${(props) => props.theme.colors.text};
-    background: ${(props) => props.theme.colors.background};
+    /* background: ${(props) => props.theme.colors.background}; */
+    background:  #212728;
     font-family: sans-serif;
     display: flex;
     align-items: center;
