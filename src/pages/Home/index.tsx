@@ -1,6 +1,6 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import Stepper from '../../components/Stepper'
+// import { Link } from 'react-router-dom'
+// import Stepper from '../../components/Stepper'
 import * as S from './styles'
 import backgroundImg from '../../assets/images/background.png'
 import Carousel from '../../components/Carousel'
@@ -15,7 +15,7 @@ export default function Home() {
         <S.Image src={backgroundImg} />
       </S.ImageContainer>
       <S.Content>
-        <S.Title>Jogos de improvisação pra violoncelistas iniciantes</S.Title>
+        <S.Title>Jogos de improvisação</S.Title>
       </S.Content>
       <Carousel gameList={gameList} />
     </S.Container>

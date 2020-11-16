@@ -64,9 +64,9 @@ export const Option = styled.div`
 `
 
 export const Title = styled.h1`
-  padding: 1.5rem 1rem;
+  padding: 0.5rem 0.8rem;
   font-family: ${({ theme }) => theme.fontFamily};
-  font-size: ${({ theme }) => theme.fontSize.xxl};
+  font-size: ${({ theme }) => theme.fontSize.md};
   font-weight: ${({ theme }) => theme.fontWeight.bold};
   text-align: center;
   line-height: 3rem;

@@ -2,11 +2,10 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   display: flex;
-<<<<<<< HEAD
-=======
   /* background: yellow; */
->>>>>>> pagination
   justify-content: space-evenly;
+  padding-top: 20px;
+  justify-content: center;
 `
 
 export const Circle = styled.div`
@@ -18,6 +17,6 @@ export const Circle = styled.div`
 
     return 'blue'
   }};
-  margin: 5px;
+  margin: 10px;
   border-radius: 30px;
 `

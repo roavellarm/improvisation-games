@@ -8,12 +8,19 @@ export const Container = styled.div`
   padding-top: 0px;
   height: calc(100vh - 4.2rem);
   max-height: 100%;
-  max-width: 500px;
+  max-width: 300px;
 `
 
 export const Title = styled.h1`
   font-family: ${({ theme }) => theme.fontFamily};
-  font-size: ${({ theme }) => theme.fontSize.lg};
+  font-size: ${({ theme }) => theme.fontSize.sm};
+  font-weight: ${({ theme }) => theme.fontWeight.bold};
+  line-height: 3rem;
+`
+
+export const GameList = styled.h3`
+  font-family: ${({ theme }) => theme.fontFamily};
+  font-size: ${({ theme }) => theme.fontSize.sm};
   font-weight: ${({ theme }) => theme.fontWeight.bold};
   line-height: 3rem;
 `
@@ -27,15 +34,7 @@ export const GoBack = styled(Link)`
   padding-top: 15px;
 `
 export const BodyContainer = styled.div`
-  width: 100%;
-  height: 100%;
-  background: lightgrey;
-`
-
-export const Title2 = styled.h1`
-  font-family: ${({ theme }) => theme.fontFamily};
-  font-size: ${({ theme }) => theme.fontSize.sm};
-  font-weight: ${({ theme }) => theme.fontWeight.regular};
-  line-height: 3rem;
-  padding: 15px;
+  width: 79vw;
+  height: 110vh;
+  /* background: lightgrey; */
 `

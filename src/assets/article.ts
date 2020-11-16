@@ -859,7 +859,3 @@ const articleJS: Array<Props[]> = [
 ]
 
 export default articleJS
-<<<<<<< HEAD
-
-=======
->>>>>>> pagination
