@@ -26,3 +26,16 @@ export const GoBack = styled(Link)`
   color: ${({ theme }) => theme.colors.text};
   padding-top: 15px;
 `
+export const BodyContainer = styled.div`
+  width: 100%;
+  height: 100%;
+  background: lightgrey;
+`
+
+export const Title2 = styled.h1`
+  font-family: ${({ theme }) => theme.fontFamily};
+  font-size: ${({ theme }) => theme.fontSize.sm};
+  font-weight: ${({ theme }) => theme.fontWeight.regular};
+  line-height: 3rem;
+  padding: 15px;
+`

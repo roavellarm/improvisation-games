@@ -7,7 +7,7 @@ export default function Header() {
       <Navbar>
         <Option to="/">Sobre</Option>
         <Option to="/games">JogoTemp</Option>
-        <Option to="/">Artigo</Option>
+        <Option to="/article">Artigo</Option>
         <Option to="/contact">Contato</Option>
       </Navbar>
     </Container>
