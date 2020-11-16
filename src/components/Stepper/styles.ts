@@ -2,6 +2,10 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   display: flex;
+<<<<<<< HEAD
+=======
+  /* background: yellow; */
+>>>>>>> pagination
   justify-content: space-evenly;
 `
 

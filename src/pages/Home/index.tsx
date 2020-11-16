@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import Stepper from '../../components/Stepper'
 import * as S from './styles'
 import backgroundImg from '../../assets/images/background.png'
 import Carousel from '../../components/Carousel'
