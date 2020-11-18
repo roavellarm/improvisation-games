@@ -11,14 +11,17 @@ import Line from '../../components/Line'
 import Paragraph from '../../components/Paragraph'
 
 const Container = styled.div`
-  height: 100%;
-  width: 100%;
-
-  /* display: flex; */
-  margin: 1.5rem 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   padding: 1.5rem;
-  font-size: 16px;
-  line-height: 24px;
+  padding-top: 50px;
+  /* margin-top: 2800px; */
+  /* background: blue; */
+  /* height: calc(100vh - 4.2rem); */
+  /* max-height: 100%; */
+  max-width: 500px;
+  /* text-align: center; */
 `
 interface Props {
   text: string
