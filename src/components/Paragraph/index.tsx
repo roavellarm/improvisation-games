@@ -11,6 +11,7 @@ interface ParagraphProps {
 const StyledParagraph = styled.p<ParagraphProps>`
   font-style: ${({ italic }: { italic: boolean }) =>
     italic ? 'italic' : 'normal'};
+  width: 120%;
 
   font-weight: ${({ bold }: { bold: boolean }) => (bold ? 'bold' : 'regular')};
 `
