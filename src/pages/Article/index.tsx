@@ -2,15 +2,14 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 import arrowLeft from '../../assets/images/arrow-left.svg'
+// import { SpaceContainer } from './styles'
 
 // import articleJS from '../../assets/article'
 import Title1 from '../../components/Title1'
 import Title2 from '../../components/Title2'
 import Title3 from '../../components/Title3'
-// import ItemList from '../../components/ItemList'
 import Paragraph from '../../components/Paragraph'
-// import Line from '../../components/Line'
-// import Paragraph from '../../components/Paragraph'
+import ItemList from '../../components/ItemList'
 
 const Container = styled.div`
   display: flex;
@@ -59,6 +58,10 @@ export default function Article() {
         possam utilizar livremente seus conhecimentos musicais e organizar suas
         ideias tendo como ponto de partida um ritmo em ostinato.
       </Paragraph>
+      <ItemList>
+        Fonte: Elaborado pela autora, com base nas propostas de Claudia
+        Freixedas
+      </ItemList>
     </Container>
   )
 }

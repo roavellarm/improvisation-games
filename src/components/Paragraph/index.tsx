@@ -14,6 +14,10 @@ const StyledParagraph = styled.p<ParagraphProps>`
   width: 120%;
 
   font-weight: ${({ bold }: { bold: boolean }) => (bold ? 'bold' : 'regular')};
+  @media screen and (min-width: 700px) {
+    font-size: ${({ theme }) => theme.fontSize.sm};
+    width: 260%;
+  }
 `
 
 interface Props {

@@ -11,6 +11,23 @@ export const Container = styled.div`
   max-height: 100%;
   max-width: 500px;
   text-align: center;
+
+  @media screen and (min-width: 700px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    justify-content: space-between;
+  }
+`
+export const SpaceContainer = styled.div`
+  /* @media screen and (min-width: 700px) {
+    width: 500px;
+    height: 50px;
+    background: yellow;
+    display: flex;
+    flex-direction: row;
+  } */
 `
 
 // export const ImageContainer = styled.div`

@@ -12,10 +12,10 @@ export const Circle = styled.div`
   height: 20px;
   width: 20px;
   background: ${({ status }: { status: string }) => {
-    if (status === 'visited') return 'green'
-    if (status === 'not-visited') return 'orange'
+    if (status === 'visited') return '#88aa96'
+    if (status === 'not-visited') return '#e6b800'
 
-    return 'blue'
+    return '#004d99'
   }};
   margin: 10px;
   border-radius: 30px;

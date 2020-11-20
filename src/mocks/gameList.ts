@@ -44,11 +44,11 @@ const gameList = [
     title: 'Jogo9',
     image: 'https://source.unsplash.com/random/100x100',
   },
-  {
-    id: 10,
-    title: 'Jogo10',
-    image: 'https://source.unsplash.com/random/100x100',
-  },
+  // {
+  //   id: 10,
+  //   title: 'Jogo10',
+  //   image: 'https://source.unsplash.com/random/100x100',
+  // },
 ]
 
 export default gameList
