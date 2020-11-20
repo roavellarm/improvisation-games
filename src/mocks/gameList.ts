@@ -39,11 +39,11 @@ const gameList = [
     title: 'Jogo8',
     image: 'https://source.unsplash.com/random/100x100',
   },
-  {
-    id: 9,
-    title: 'Jogo9',
-    image: 'https://source.unsplash.com/random/100x100',
-  },
+  // {
+  //   id: 9,
+  //   title: 'Jogo9',
+  //   image: 'https://source.unsplash.com/random/100x100',
+  // },
   // {
   //   id: 10,
   //   title: 'Jogo10',

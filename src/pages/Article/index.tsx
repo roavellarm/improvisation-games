@@ -32,7 +32,7 @@ export default function Article() {
     <Container>
       <Link to="/">
         <img
-          style={{ padding: '10px 10px' }}
+          style={{ padding: '10px 5px' }}
           src={arrowLeft}
           alt="imageArrowLeft"
         />
@@ -41,12 +41,9 @@ export default function Article() {
         JOGOS DE IMPROVISAÇÃO EM MÚSICA CONTEMPORÂNEA: POSSIBILIDADES PARA A
         INICIAÇÃO COLETIVA AO VIOLONCELO
       </Title1>
-      <br />
-      <br />
+
       <Title2>Marta Macedo Brietzke(martabrietzke@gmail.com)</Title2>
-      <br />
       <Title3>Metodologia e aplicação:</Title3>
-      <br />
       <Paragraph>
         Propomos, então, aos alunos que o grupo se divida em orquestra e
         solista. O grupo que representará a orquestra executará o ritmo ostinato

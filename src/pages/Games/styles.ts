@@ -9,12 +9,25 @@ export const Container = styled.div`
   max-height: 100%;
   max-width: 300px;
 `
+export const Image = styled.img`
+  width: 40px;
+  margin-left: 20px;
+`
 
 export const Title = styled.h1`
   font-family: ${({ theme }) => theme.fontFamily};
   font-size: ${({ theme }) => theme.fontSize.sm};
   font-weight: ${({ theme }) => theme.fontWeight.bold};
-  line-height: 3rem;
+  line-height: 2rem;
+  width: 300px;
+  padding-bottom: 10px;
+
+  @media screen and (min-width: 700px) {
+    font-size: ${({ theme }) => theme.fontSize.md};
+    font-weight: ${({ theme }) => theme.fontWeight.bold};
+    line-height: 2.5rem;
+    width: 800px;
+  }
 `
 
 export const GameList = styled.h3`

@@ -6,6 +6,9 @@ import styled from 'styled-components'
 const StyledTitle2 = styled.p`
   font-size: ${({ theme }) => theme.fontSize.xs};
   font-weight: bold;
+  margin-left: 10px;
+  padding-bottom: 7px;
+
   /* max-width: 250px; */
 
   @media screen and (min-width: 700px) {

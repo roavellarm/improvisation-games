@@ -12,7 +12,7 @@ export const Container = styled.div`
 
 export const Title = styled.h1`
   font-family: ${({ theme }) => theme.fontFamily};
-  font-size: ${({ theme }) => theme.fontSize.lg};
+  font-size: ${({ theme }) => theme.fontSize.xs};
   font-weight: ${({ theme }) => theme.fontWeight.bold};
   line-height: 3rem;
 `

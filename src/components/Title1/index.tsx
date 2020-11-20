@@ -6,7 +6,10 @@ const StyledTitle1 = styled.p`
   font-size: ${({ theme }) => theme.fontSize.sm};
   font-weight: bold;
   color: ${({ theme }) => theme.colors.text};
-  width: 125%;
+  width: 123%;
+  margin-left: 10px;
+  padding-top: 3px;
+  padding-bottom: 20px;
 
   @media screen and (min-width: 700px) {
     font-size: ${({ theme }) => theme.fontSize.md};

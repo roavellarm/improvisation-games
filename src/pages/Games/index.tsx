@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 import React from 'react'
 import arrowLeft from '../../assets/images/arrow-left.svg'
 import * as S from './styles'
@@ -10,10 +11,18 @@ export default function Games() {
       <S.GoBack to="/">
         <img src={arrowLeft} alt="imageArrowLeft" />
       </S.GoBack>
-      <S.Title>Jogo de improvisação </S.Title>
+      <S.Title>
+        Jogo 1: Pergunta e Resposta com cordas soltas em pizzicato
+      </S.Title>
       <S.BodyContainer>
         {gameList.map((item) => {
-          return <S.GameList key={item.id}>{item.title}</S.GameList>
+          return (
+            <S.GameList key={item.id}>
+              {item.title}
+
+              <S.Image src={item.image} alt="image" />
+            </S.GameList>
+          )
         })}
       </S.BodyContainer>
 
