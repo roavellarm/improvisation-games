@@ -5,7 +5,7 @@ export default function Games() {
   return (
     <S.Container>
       <S.GoBack to="/">{`<--`}</S.GoBack>
-      <S.Title>Contato da Marta...</S.Title>
+      <S.Title>martabrietzke@gmail.com</S.Title>
     </S.Container>
   )
 }

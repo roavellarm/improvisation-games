@@ -29,7 +29,11 @@ export const Navbar = styled.div`
 export const Option = styled(Link)`
   font-family: ${({ theme }) => theme.fontFamily};
   font-weight: ${({ theme }) => theme.fontWeight.regular};
-  font-size: ${({ theme }) => theme.fontSize.sm};
+  font-size: ${({ theme }) => theme.fontSize.xs};
   color: ${({ theme }) => theme.colors.text};
   text-decoration: none;
+
+  @media screen and (min-width: 700px) {
+    font-size: ${({ theme }) => theme.fontSize.sm};
+  }
 `
