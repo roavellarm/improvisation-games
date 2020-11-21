@@ -20,6 +20,19 @@ export const Container = styled.div`
     justify-content: space-between;
   }
 `
+
+export const ContainerAll = styled.div`
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  padding: 1.5rem;
+  padding-top: 0px;
+  /* background: blue; */
+  height: calc(100vh - 4.2rem);
+  max-height: 100%;
+  max-width: 500px;
+  text-align: center;
+`
 export const SpaceContainer = styled.div`
   /* @media screen and (min-width: 700px) {
     width: 500px;

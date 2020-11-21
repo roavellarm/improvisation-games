@@ -1,10 +1,12 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from 'react'
+import ReactAudioPlayer from 'react-audio-player'
 import arrowLeft from '../../assets/images/arrow-left.svg'
 import * as S from './styles'
 import Stepper from '../../components/Stepper'
 import gameList from '../../mocks/gameList'
 import Paragraph from '../../components/Paragraph'
+import audio from '../../assets/ironMaiden.mp3'
 
 export default function Games() {
   return (
@@ -32,6 +34,7 @@ export default function Games() {
             </S.GameList>
           )
         })}
+        <ReactAudioPlayer src={audio} controls />
       </S.BodyContainer>
 
       <Stepper />
