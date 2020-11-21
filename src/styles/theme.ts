@@ -12,7 +12,7 @@ export default {
     black: 900,
   },
   fontSize: {
-    xs: '0.9rem',
+    xs: '1rem',
     sm: '1.1rem',
     md: '1.5rem',
     lg: '1.8rem',

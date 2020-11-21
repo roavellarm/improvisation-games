@@ -21,6 +21,7 @@ export const Title = styled.h1`
   line-height: 2rem;
   width: 300px;
   padding-bottom: 10px;
+  padding-left: 5px;
 
   @media screen and (min-width: 700px) {
     font-size: ${({ theme }) => theme.fontSize.md};

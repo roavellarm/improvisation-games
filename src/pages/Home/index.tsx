@@ -17,6 +17,7 @@ export default function Home() {
       <S.Content>
         <S.Title>Jogos de improvisação</S.Title>
       </S.Content>
+
       <Carousel gameList={gameList} />
     </S.Container>
   )
