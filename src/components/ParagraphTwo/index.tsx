@@ -14,6 +14,7 @@ const StyledParagraph = styled.p<ParagraphProps>`
   width: 115%;
   margin-left: 10px;
   padding-bottom: 15px;
+  margin-top: 50px;
 
   font-size: ${({ theme }) => theme.fontSize.xs};
 
@@ -30,7 +31,7 @@ interface Props {
   italic?: boolean
 }
 
-export default function Paragraph({ children, bold, italic }: Props) {
+export default function ParagraphTwo({ children, bold, italic }: Props) {
   return (
     <StyledParagraph bold={bold || false} italic={italic || false}>
       {children}
