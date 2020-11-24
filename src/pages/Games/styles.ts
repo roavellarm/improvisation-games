@@ -36,9 +36,10 @@ export const Title = styled.h1`
 
   @media screen and (min-width: 700px) {
     font-size: ${({ theme }) => theme.fontSize.md};
-    font-weight: ${({ theme }) => theme.fontWeight.bold};
-    line-height: 2.5rem;
-    width: 950px;
+    width: 80%;
+    justify-content: center;
+    padding-bottom: 42px;
+    padding-top: 25px;
   }
 `
 
