@@ -3,11 +3,27 @@ import { Link } from 'react-router-dom'
 
 export const Container = styled.div`
   display: flex;
-  flex-direction: column;
-  padding: 1.6rem;
-  height: calc(100vh - 4.2rem);
+  height: 97vh;
+  width: 80vw;
+
   max-height: 100%;
-  max-width: 300px;
+  max-width: 100%;
+  flex-direction: column;
+  padding-left: 18px;
+
+  @media screen and (min-width: 700px) {
+    width: 100vw;
+    align-items: center;
+  }
+`
+
+export const Image = styled.img`
+  height: auto;
+  width: 80%;
+
+  @media screen and (min-width: 700px) {
+    padding-top: 130px;
+  }
 `
 
 export const Title = styled.h1`
@@ -26,4 +42,9 @@ export const GoBack = styled(Link)`
   font-size: ${({ theme }) => theme.fontSize.sm};
   font-weight: ${({ theme }) => theme.fontWeight.bold};
   color: ${({ theme }) => theme.colors.text};
+  padding-top: 15px;
+
+  @media screen and (min-width: 700px) {
+    padding-top: 20px;
+  }
 `
