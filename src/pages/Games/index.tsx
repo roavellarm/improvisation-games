@@ -39,7 +39,9 @@ export default function Games() {
         {/* <ReactAudioPlayer src={audio} controls /> */}
       </S.BodyContainer>
 
-      <Stepper />
+      <S.StepperContainer>
+        <Stepper />
+      </S.StepperContainer>
     </S.Container>
   )
 }

@@ -62,6 +62,18 @@ export const GoBack = styled(Link)`
     padding-top: 20px;
   }
 `
+
+export const StepperContainer = styled.div`
+  display: flex;
+  height: 97vh;
+  width: 70vw;
+  max-height: 100%;
+  max-width: 100%;
+  flex-direction: row;
+  padding-left: 52px;
+  align-items: center;
+`
+
 export const BodyContainer = styled.div`
   width: 80%;
   height: 110vh;
