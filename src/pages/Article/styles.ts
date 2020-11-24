@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom'
 export const Container = styled.div`
   display: flex;
   height: 97vh;
-  width: 80vw;
+  width: 79vw;
 
   max-height: 100%;
-  max-width: 100%;
+  max-width: 96%;
   flex-direction: column;
   padding-left: 18px;
 

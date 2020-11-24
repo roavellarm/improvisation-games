@@ -14,7 +14,8 @@ const StyledParagraph = styled.p<ParagraphProps>`
   width: 125%;
   margin-left: 10px;
   padding-bottom: 15px;
-  margin-top: 50px;
+  margin-top: 10px;
+  line-height: 150%
 
   font-size: ${({ theme }) => theme.fontSize.xs};
 

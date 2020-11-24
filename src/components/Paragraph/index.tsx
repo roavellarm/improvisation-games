@@ -14,6 +14,7 @@ const StyledParagraph = styled.p<ParagraphProps>`
   width: 115%;
   margin-left: 10px;
   padding-bottom: 15px;
+  line-height: 150%
 
   font-size: ${({ theme }) => theme.fontSize.xs};
 
@@ -25,7 +26,6 @@ const StyledParagraph = styled.p<ParagraphProps>`
     padding-bottom: 100px;
   }
 `
-
 interface Props {
   children: string
   bold?: boolean
