@@ -13,8 +13,10 @@ const StyledTitle1 = styled.p`
 
   @media screen and (min-width: 700px) {
     font-size: ${({ theme }) => theme.fontSize.md};
-    width: 280%;
+    width: 80%;
     justify-content: center;
+    padding-bottom: 42px;
+    padding-top: 25px;
   }
 `
 export default function Title1({ children }: { children: string }) {

@@ -13,6 +13,7 @@ const StyledTitle3 = styled.p`
 
   @media screen and (min-width: 700px) {
     font-size: ${({ theme }) => theme.fontSize.sm};
+    padding-bottom: 50px;
   }
 `
 

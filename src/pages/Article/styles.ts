@@ -1,23 +1,19 @@
 import styled from 'styled-components'
+import { Link } from 'react-router-dom'
 
 export const Container = styled.div`
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 1.5rem;
-  padding-top: 0px;
-  /* background: blue; */
-  height: calc(100vh - 4.2rem);
+  height: 97vh;
+  width: 80vw;
+
   max-height: 100%;
-  max-width: 500px;
-  text-align: center;
+  max-width: 100%;
+  flex-direction: column;
+  padding-left: 18px;
 
   @media screen and (min-width: 700px) {
-    display: flex;
-    flex-direction: column;
+    width: 100vw;
     align-items: center;
-    width: 300px;
-    justify-content: space-between;
   }
 `
 
@@ -43,20 +39,18 @@ export const SpaceContainer = styled.div`
   } */
 `
 
-// export const ImageContainer = styled.div`
-//   position: absolute;
-//   margin-top: 2.5rem;
-//   margin-left: -1.5rem;
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-//   z-index: -999;
-//   opacity: 0.3;
-// `
-
 export const Image = styled.img`
   height: auto;
   width: 80%;
+
+  @media screen and (min-width: 700px) {
+    padding-top: 130px;
+  }
+`
+export const MyLink = styled(Link)`
+  @media screen and (min-width: 700px) {
+    padding-top: 10px;
+  }
 `
 
 export const Header = styled.div`
@@ -79,4 +73,8 @@ export const Title = styled.h1`
   font-weight: ${({ theme }) => theme.fontWeight.bold};
   text-align: center;
   line-height: 3rem;
+
+  @media screen and (min-width: 700px) {
+    padding-bottom: 20px;
+  }
 `

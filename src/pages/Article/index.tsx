@@ -1,8 +1,7 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import styled from 'styled-components'
+import * as S from './styles'
+// import styled from 'styled-components'
 import arrowLeft from '../../assets/images/arrow-left.svg'
-// import { SpaceContainer } from './styles'
 
 // import articleJS from '../../assets/article'
 import Title1 from '../../components/Title1'
@@ -11,17 +10,6 @@ import Title3 from '../../components/Title3'
 import Paragraph from '../../components/Paragraph'
 import ItemList from '../../components/ItemList'
 
-const Container = styled.div`
-  display: flex;
-  flex-direction: column;
-  /* justify-content: center; */
-  padding: 1.5rem;
-  padding-top: 20px;
-  height: calc(100vh - 4.2rem);
-  max-height: 100%;
-  max-width: 300px;
-  /* text-align: center; */
-`
 export default function Article() {
   // const [article] = useState<Array<Props[]>>(articleJS)
   // const [pages, setPages] = useState([])
@@ -29,14 +17,15 @@ export default function Article() {
   // useEffect(() => {}, [])
 
   return (
-    <Container>
-      <Link to="/">
+    <S.Container>
+      <S.MyLink to="/">
         <img
           style={{ padding: '10px 5px' }}
           src={arrowLeft}
           alt="imageArrowLeft"
         />
-      </Link>
+      </S.MyLink>
+
       <Title1>
         JOGOS DE IMPROVISAÇÃO EM MÚSICA CONTEMPORÂNEA: POSSIBILIDADES PARA A
         INICIAÇÃO COLETIVA AO VIOLONCELO
@@ -59,6 +48,6 @@ export default function Article() {
         Fonte: Elaborado pela autora, com base nas propostas de Claudia
         Freixedas
       </ItemList>
-    </Container>
+    </S.Container>
   )
 }
