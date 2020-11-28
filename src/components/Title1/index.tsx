@@ -6,17 +6,11 @@ const StyledTitle1 = styled.p`
   font-size: ${({ theme }) => theme.fontSize.sm};
   font-weight: bold;
   color: ${({ theme }) => theme.colors.text};
-  width: 123%;
-  margin-left: 10px;
-  padding-top: 3px;
-  padding-bottom: 20px;
+  padding: 10px 0px;
 
   @media screen and (min-width: 700px) {
     font-size: ${({ theme }) => theme.fontSize.md};
-    width: 80%;
-    justify-content: center;
-    padding-bottom: 42px;
-    padding-top: 25px;
+    padding: 25px 0px;
   }
 `
 export default function Title1({ children }: { children: string }) {

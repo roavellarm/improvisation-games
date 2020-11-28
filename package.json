@@ -11,8 +11,6 @@
   "dependencies": {
     "@types/node": "^14.14.6",
     "@types/react-dom": "^16.9.8",
-    "axios": "^0.21.0",
-    "flatlist-react": "^1.4.3",
     "react": "^17.0.1",
     "react-audio-player": "^0.14.0",
     "react-dom": "^17.0.1",

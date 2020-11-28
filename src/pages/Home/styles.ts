@@ -10,6 +10,7 @@ export const Container = styled.div`
 
   @media screen and (min-width: 700px) {
     width: 100vw;
+    display: flex;
     align-items: center;
   }
 `

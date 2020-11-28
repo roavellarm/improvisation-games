@@ -15,16 +15,8 @@ export default createGlobalStyle`
 
   body {
     background: ${({ theme }) => theme.colors.background};
-    font-size: ${({ theme }) => theme.fontSize.sm};
+    font-size: ${({ theme }) => theme.fontSize.md};
     color: ${({ theme }) => theme.colors.text};
     font-family: ${({ theme }) => theme.fontFamily};
-    max-height:100vh;
-    font-size: 14px;
-    color: ${(props) => props.theme.colors.text};
-    /* background: ${(props) => props.theme.colors.background}; */
-    /* background:  #212728; */
-    font-family: sans-serif;
-    display: flex;
-    align-items: center;
   }
 `

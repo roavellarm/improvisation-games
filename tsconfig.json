@@ -21,7 +21,7 @@
     "./src",
     "src",
     "src/styles/styled.d.ts",
-    "./src/styles/styled.d.ts", "page-Article/indexArticle-copy.tsx"
+    "./src/styles/styled.d.ts"
   ],
   "files": ["./src/styles/styled.d.ts", "src/styles/styled.d.ts"]
 }

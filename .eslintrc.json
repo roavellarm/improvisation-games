@@ -24,6 +24,7 @@
     "no-use-before-define": "off",
     "@typescript-eslint/no-use-before-define": ["error"],
     "import/prefer-default-export": "off",
+    "react/require-default-props": "off",
     "react/jsx-filename-extension": [
       "off",
       { "extensions": [".js", ".jsx", ".ts", ".tsx"] }
