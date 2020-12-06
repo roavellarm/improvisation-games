@@ -18,6 +18,7 @@ interface TextProps {
 export default function Games() {
   return (
     <S.Container>
+      <S.Space />
       <S.GoBack to="/">
         <img src={arrowLeft} alt="imageArrowLeft" />
       </S.GoBack>

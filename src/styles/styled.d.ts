@@ -12,6 +12,7 @@ declare module 'styled-components' {
       black: number
     }
     fontSize: {
+      small: string
       xs: string
       sm: string
       md: string

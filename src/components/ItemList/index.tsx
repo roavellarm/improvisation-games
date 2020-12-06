@@ -5,6 +5,11 @@ const Italic = styled.p`
   font-style: italic;
   margin-left: 10px;
   padding-bottom: 15px;
+  font-size: ${({ theme }) => theme.fontSize.small};
+
+  @media screen and (min-width: 700px) {
+    font-size: ${({ theme }) => theme.fontSize.sm};
+  }
 `
 // const Li = styled.li`
 //   list-style-type: none;
