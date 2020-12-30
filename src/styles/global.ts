@@ -17,6 +17,6 @@ export default createGlobalStyle`
     background: ${({ theme }) => theme.colors.white};
     font-size: ${({ theme }) => theme.fontSize.text};
     color: ${({ theme }) => theme.colors.text};
-    font-family: ${({ theme }) => theme.fontFamily.lato};
+    font-family: ${({ theme }) => theme.fontFamily.caveat};
   }
 `

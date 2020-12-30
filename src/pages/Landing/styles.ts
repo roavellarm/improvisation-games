@@ -74,6 +74,11 @@ export const Column = styled.div`
   margin-top: 1rem;
   margin-bottom: 10rem;
 
+  @media screen and (max-width: 1500px) {
+    margin-right: 10px;
+    margin-bottom: 3rem;
+  }
+
   @media screen and (max-width: 1325px) {
     margin-right: 10px;
     margin-bottom: 3rem;

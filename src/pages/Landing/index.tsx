@@ -1,9 +1,10 @@
 import React from 'react'
 import Button from '../../components/Button'
-// import image from '../../assets/cello-image.png'
 import * as S from './styles'
 
 export default function Landing() {
+  // eslint-disable-next-line no-alert
+  const msg = () => alert('You clicked me!')
   return (
     <S.Wrapper>
       <S.Container>
@@ -15,18 +16,18 @@ export default function Landing() {
 
           <S.ButtonsContainer>
             <S.Column>
-              <Button title="Jogo 1" />
-              <Button title="Jogo 2" />
-              <Button title="Jogo 3" />
-              <Button title="Jogo 4" />
-              <Button title="Jogo 5" />
+              <Button title="Jogo 1" onClick={msg} />
+              <Button title="Jogo 2" onClick={msg} />
+              <Button title="Jogo 3" onClick={msg} />
+              <Button title="Jogo 4" onClick={msg} />
+              <Button title="Jogo 5" onClick={msg} />
             </S.Column>
             <S.Column>
-              <Button title="Jogo 6" />
-              <Button title="Jogo 7" />
-              <Button title="Jogo 8" />
-              <Button title="Jogo 9" />
-              <Button title="Jogo 10" />
+              <Button title="Jogo 6" onClick={msg} />
+              <Button title="Jogo 7" onClick={msg} />
+              <Button title="Jogo 8" onClick={msg} />
+              <Button title="Jogo 9" onClick={msg} />
+              <Button title="Jogo 10" onClick={msg} />
             </S.Column>
           </S.ButtonsContainer>
         </S.LeftSide>
@@ -35,8 +36,8 @@ export default function Landing() {
           <S.Image />
 
           <S.Links>
-            <S.Link>Saiba mais</S.Link>
-            <S.Link>Caderno de atividades</S.Link>
+            <S.Link onClick={msg}>Saiba mais</S.Link>
+            <S.Link onClick={msg}>Caderno de atividades</S.Link>
           </S.Links>
         </S.RightSide>
       </S.Container>
