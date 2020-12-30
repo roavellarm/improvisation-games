@@ -12,14 +12,22 @@ export const Container = styled.div`
   display: flex;
   width: 100%;
   justify-content: center;
-`
 
+  @media screen and (max-width: 700px) {
+    flex-direction: row;
+  }
+`
 export const LeftSide = styled.div`
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   width: 50%;
+
+  @media screen and (max-width: 700px) {
+    display: flex;
+    flex-direction: column;
+  }
 `
 
 export const TitlesContainer = styled.div`
@@ -66,6 +74,8 @@ export const ButtonsContainer = styled.div`
 
   @media screen and (max-width: 1110px) {
     margin-right: 0px;
+    display: flex;
+    flex-direction: column;
   }
 `
 
@@ -77,6 +87,12 @@ export const Column = styled.div`
   @media screen and (max-width: 1500px) {
     margin-right: 10px;
     margin-bottom: 3rem;
+
+    @media screen and (max-width: 1110px) {
+      margin-right: 0px;
+      display: flex;
+      flex-direction: column;
+    }
   }
 
   @media screen and (max-width: 1325px) {
