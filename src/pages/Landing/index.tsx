@@ -1,6 +1,6 @@
 import React from 'react'
 import Button from '../../components/Button'
-import image from '../../assets/cello-image.png'
+// import image from '../../assets/cello-image.png'
 import * as S from './styles'
 
 export default function Landing() {
@@ -10,7 +10,6 @@ export default function Landing() {
         <S.LeftSide>
           <S.TitlesContainer>
             <S.Title>Jogos de improvisação</S.Title>
-            <br />
             <S.SubTitle>para violoncelistas iniciantes</S.SubTitle>
           </S.TitlesContainer>
 
@@ -33,7 +32,7 @@ export default function Landing() {
         </S.LeftSide>
 
         <S.RightSide>
-          <S.Image src={image} />
+          <S.Image />
 
           <S.Links>
             <S.Link>Saiba mais</S.Link>

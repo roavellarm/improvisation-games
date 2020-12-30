@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import image from '../../assets/cello-image.png'
 
 export const Wrapper = styled.div`
   display: flex;
@@ -9,13 +10,9 @@ export const Wrapper = styled.div`
 
 export const Container = styled.div`
   display: flex;
-  /* min-width: 1138px; */
-  /* width: 100%; */
+  width: 100%;
   justify-content: center;
-  padding-top: 2rem;
-
-  /* background: red; */
-  /* opacity: 0.5; */
+  /* background: lightgray; */
 `
 
 export const LeftSide = styled.div`
@@ -23,88 +20,70 @@ export const LeftSide = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  /* width: 100%; */
+  width: 50%;
   /* background: purple; */
 `
 
 export const TitlesContainer = styled.div`
-  margin-left: 3rem;
-  min-width: 552px;
-  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  /* background: pink; */
 `
 
-export const Title = styled.text`
+export const Title = styled.p`
   font-family: ${({ theme }) => theme.fontFamily.caveat};
   font-size: ${({ theme }) => theme.fontSize.title1};
   color: ${({ theme }) => theme.colors.black};
+  min-width: 613px;
+  margin-bottom: 1.5rem;
 `
 
-export const SubTitle = styled.text`
+export const SubTitle = styled.p`
   font-family: ${({ theme }) => theme.fontFamily.caveat};
   font-size: ${({ theme }) => theme.fontSize.title2};
   color: ${({ theme }) => theme.colors.greenDark};
 `
 
 export const ButtonsContainer = styled.div`
-  /* background: yellow; */
   display: flex;
-  margin-right: 2rem;
-  /* flex: 1; */
-  /* justify-content: flex-end;
-  align-items: flex-end; */
+  margin-right: 4.5rem;
 `
 
 export const Column = styled.div`
-  /* background: orange; */
   margin-right: 30px;
-`
-
-export const Button = styled.div`
-  /* background: lightblue; */
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
-  margin: 10px;
-  min-width: 162px;
-`
-
-export const ButtonText = styled.text`
-  font-family: ${({ theme }) => theme.fontFamily.caveat};
-  font-size: ${({ theme }) => theme.fontSize.buttonText};
-  color: ${({ theme }) => theme.colors.greenDark};
+  margin-top: 1rem;
+  margin-bottom: 6rem;
 `
 
 export const RightSide = styled.div`
   display: flex;
+  width: 50%;
   flex-direction: column;
   align-items: flex-start;
-  /* padding-right: 3rem; */
-  /* background: grey; */
 `
 
 export const Links = styled.div`
+  position: relative;
   display: flex;
   width: 100%;
-  padding: 1rem 0px;
-  justify-content: flex-end;
-  /* background: pink; */
+  justify-content: flex-start;
 `
 
-export const Link = styled.text`
-  /* background: chartreuse; */
-  text-align: right;
-  padding: 1rem 2.5rem;
+export const Link = styled.p`
+  margin-left: 5rem;
   font-family: ${({ theme }) => theme.fontFamily.caveat};
   font-size: ${({ theme }) => theme.fontSize.link};
   color: ${({ theme }) => theme.colors.greenDark};
-  min-width: 299px;
 `
 
-export const Image = styled.img`
-  /* background: green; */
-  height: auto;
+export const Image = styled.div`
+  display: flex;
+  flex: 1;
   width: 100%;
-  max-height: 550px;
-  min-width: 460px;
+  height: 100%;
+  background: url(${image});
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
 `
