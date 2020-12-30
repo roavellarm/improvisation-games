@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import btnImage from '../../assets/button-image.svg'
+import btnImage from '../../assets/button-image.png'
 
 const StyledButton = styled.div`
   /* background: lightblue; */

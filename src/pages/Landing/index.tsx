@@ -1,6 +1,6 @@
 import React from 'react'
 import Button from '../../components/Button'
-import image from '../../assets/cello-image.svg'
+import image from '../../assets/cello-image.png'
 import * as S from './styles'
 
 export default function Landing() {
