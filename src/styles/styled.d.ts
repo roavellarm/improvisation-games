@@ -4,24 +4,27 @@ declare module '*.png'
 
 declare module 'styled-components' {
   export interface DefaultTheme {
-    fontFamily: string
-    fontWeight: {
-      light: number
-      regular: number
-      bold: number
-      black: number
-    }
-    fontSize: {
-      xs: string
-      sm: string
-      md: string
-      lg: string
-      xl: string
-      xxl: string
-    }
     colors: {
+      black: string
+      white: string
       text: string
-      background: string
+      greenDark: string
+      greenLight: string
+      orange: string
+    }
+
+    fontFamily: {
+      caveat: string
+      lato: string
+    }
+
+    fontSize: {
+      title1: string
+      title2: string
+      title3: string
+      text: string
+      link: string
+      buttonText: string
     }
   }
 }

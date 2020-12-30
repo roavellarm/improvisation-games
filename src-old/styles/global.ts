@@ -14,9 +14,9 @@ export default createGlobalStyle`
   }
 
   body {
-    background: ${({ theme }) => theme.colors.white};
-    font-size: ${({ theme }) => theme.fontSize.text};
+    background: ${({ theme }) => theme.colors.background};
+    font-size: ${({ theme }) => theme.fontSize.md};
     color: ${({ theme }) => theme.colors.text};
-    font-family: ${({ theme }) => theme.fontFamily.lato};
+    font-family: ${({ theme }) => theme.fontFamily};
   }
 `

@@ -1,21 +1,24 @@
 export default {
   colors: {
-    text: 'black',
-    background: '#93B79D',
+    black: '#100B08',
+    white: '#FEFEFE',
+    text: '#292929',
+    greenDark: '#4B5F52',
+    greenLight: '#5B7C6B',
+    orange: '#DB9813',
   },
-  fontFamily: 'Inter',
-  fontWeight: {
-    light: 200,
-    regular: 400,
-    bold: 700,
-    black: 900,
+
+  fontFamily: {
+    caveat: 'Caveat Brush',
+    lato: 'Lato',
   },
+
   fontSize: {
-    xs: '0.9rem',
-    sm: '1rem',
-    md: '1.5rem',
-    lg: '1.8rem',
-    xl: '2rem',
-    xxl: '2.5rem',
+    title1: '4.5rem', // 72px
+    title2: '3rem', // 48px
+    title3: '2.25rem', // 36px
+    text: '1.3125rem', // 21px
+    link: '2.125rem', // 34px
+    buttonText: '2.25rem', // 36px
   },
 }
