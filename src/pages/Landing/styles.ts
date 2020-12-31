@@ -13,7 +13,11 @@ export const Wrapper = styled.div`
     justify-content: flex-start;
     align-items: center;
     height: auto;
-    padding: 1rem;
+    /* padding: 0.4rem; */
+  }
+
+  @media screen and (max-width: 320px) {
+    padding: 0px;
   }
 `
 
@@ -21,7 +25,6 @@ export const Container = styled.div`
   display: flex;
   width: 100%;
   justify-content: center;
-  /* background: lightgray; */
 
   @media screen and (max-width: 800px) {
     flex-direction: column;
@@ -65,6 +68,7 @@ export const Title = styled.p`
     font-size: 2.5rem;
     text-align: center;
     margin-bottom: 1rem;
+    min-width: 320px;
   }
 `
 
@@ -138,7 +142,6 @@ export const Links = styled.div`
     padding: 1rem;
     justify-content: center;
     align-items: center;
-    margin-bottom: 1rem;
   }
 `
 
