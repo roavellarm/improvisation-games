@@ -1,17 +1,33 @@
 import styled from 'styled-components'
 import image from '../../assets/cello-image.png'
+import imageMobile from '../../assets/cello-mobile.png'
 
 export const Wrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+
+  @media screen and (max-width: 800px) {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: auto;
+    padding: 1rem;
+  }
 `
 
 export const Container = styled.div`
   display: flex;
   width: 100%;
   justify-content: center;
+  /* background: lightgray; */
+
+  @media screen and (max-width: 800px) {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
 `
 
 export const LeftSide = styled.div`
@@ -44,6 +60,12 @@ export const Title = styled.p`
     font-size: 3rem;
     min-width: 369px;
   }
+
+  @media screen and (max-width: 800px) {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
 `
 
 export const SubTitle = styled.p`
@@ -57,6 +79,11 @@ export const SubTitle = styled.p`
 
   @media screen and (max-width: 1110px) {
     font-size: 2rem;
+  }
+
+  @media screen and (max-width: 800px) {
+    font-size: 1.625rem;
+    margin-bottom: 1rem;
   }
 `
 
@@ -105,6 +132,14 @@ export const Links = styled.div`
     padding-top: 0px;
     margin-bottom: 0px;
   }
+
+  @media screen and (max-width: 800px) {
+    margin: 0px;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
 `
 
 export const Link = styled.p`
@@ -125,6 +160,12 @@ export const Link = styled.p`
   @media screen and (max-width: 1325px) {
     font-size: 1.7rem;
   }
+
+  @media screen and (max-width: 800px) {
+    font-size: 1.3rem;
+    margin: 0px;
+    padding: 0px 0.837rem;
+  }
 `
 
 export const Image = styled.div`
@@ -136,4 +177,13 @@ export const Image = styled.div`
   background-position: left;
   background-repeat: no-repeat;
   background-size: contain;
+
+  @media screen and (max-width: 800px) {
+    background: url(${imageMobile});
+    background-position: center;
+    background-size: contain;
+    flex: none;
+    height: 283px;
+    width: 295px;
+  }
 `
