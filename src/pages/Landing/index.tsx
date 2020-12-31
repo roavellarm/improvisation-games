@@ -4,11 +4,13 @@ import Carousel from '../../components/Carousel'
 import * as S from './styles'
 
 export default function Landing() {
-  const [windowWith, setWindowWidth] = useState(0)
+  const [windowWidth, setWindowWidth] = useState(648)
 
   useEffect(() => {
     const handleResize = () => setWindowWidth(window.innerWidth)
+
     window.addEventListener('resize', handleResize)
+    console.log(windowWidth)
   }, [])
 
   // eslint-disable-next-line no-alert
@@ -16,7 +18,7 @@ export default function Landing() {
 
   return (
     <S.Wrapper>
-      {windowWith <= 800 ? (
+      {windowWidth <= 800 ? (
         <S.Container>
           <S.Title>Jogos de improvisação</S.Title>
           <S.SubTitle>para violoncelistas iniciantes</S.SubTitle>
