@@ -4,7 +4,7 @@ import Carousel from '../../components/Carousel'
 import * as S from './styles'
 
 export default function Landing() {
-  const [windowWith, setWindowWidth] = useState(0)
+  const [windowWith, setWindowWidth] = useState(window.innerWidth)
 
   useEffect(() => {
     const handleResize = () => setWindowWidth(window.innerWidth)
