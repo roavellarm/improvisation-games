@@ -10,7 +10,7 @@ export default function Landing() {
     const handleResize = () => setWindowWidth(window.innerWidth)
 
     window.addEventListener('resize', handleResize)
-    console.log(windowWidth)
+    console.log(windowWith)
   }, [])
 
   // eslint-disable-next-line no-alert
@@ -18,7 +18,7 @@ export default function Landing() {
 
   return (
     <S.Wrapper>
-      {windowWidth <= 800 ? (
+      {windowWith <= 800 ? (
         <S.Container>
           <S.Title>Jogos de improvisação</S.Title>
           <S.SubTitle>para violoncelistas iniciantes</S.SubTitle>
