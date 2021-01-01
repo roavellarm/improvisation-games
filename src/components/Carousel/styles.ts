@@ -2,9 +2,10 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   display: flex;
-  width: calc(100% + 2rem);
+  width: 100%;
   justify-content: space-evenly;
   align-items: center;
+  padding: 1rem 0px;
 `
 
 export const Card = styled.div`
