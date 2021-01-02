@@ -13,7 +13,8 @@ export const Card = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0.7rem;
+  width: 75px;
+  height: 75px;
   border: 0.5px solid #e0e0e0;
   border-radius: 0.8rem;
 `
