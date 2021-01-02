@@ -6,7 +6,7 @@ import * as S from './styles'
 export default function Caroussel() {
   return (
     <S.Container>
-      <Carousel itemsToShow={4}>
+      <Carousel itemsToShow={3}>
         <S.Card>
           <S.Title>Jogo 1</S.Title>
           <S.Image src={leaf} />

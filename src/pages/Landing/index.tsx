@@ -10,7 +10,6 @@ export default function Landing() {
     const handleResize = () => setWindowWidth(window.innerWidth)
 
     window.addEventListener('resize', handleResize)
-    console.log()
   }, [])
 
   // eslint-disable-next-line no-alert
