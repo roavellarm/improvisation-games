@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled, { DefaultTheme } from 'styled-components'
 
 export const Container = styled.div`
   display: flex;
@@ -17,6 +17,10 @@ export const Card = styled.div`
   height: 75px;
   border: 0.5px solid #e0e0e0;
   border-radius: 0.8rem;
+
+  :focus {
+    outline: none;
+  }
 `
 
 export const Title = styled.p`
@@ -35,5 +39,22 @@ export const Arrow = styled.p`
   font-family: ${({ theme }) => theme.fontFamily.caveat};
   font-size: 3.5rem;
   color: ${({ theme }) => theme.colors.greenDark};
-  opacity: 0.7;
+  opacity: ${({ isEdge }: { isEdge: boolean }) => (isEdge ? '0.3' : '0.7')};
+  padding: 0px 0.6rem;
+`
+
+export const Stepper = styled.button`
+  height: 20px;
+  width: 20px;
+  border: 0.5px solid ${({ theme }) => theme.colors.greenLight};
+  border-radius: 50%;
+  margin: 15px 4px;
+  outline: none;
+  background: ${({
+    isActive,
+    theme,
+  }: {
+    isActive: boolean
+    theme: DefaultTheme
+  }) => (isActive ? `${theme.colors.greenDark}` : 'transparent')};
 `

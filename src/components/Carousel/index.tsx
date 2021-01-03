@@ -1,60 +1,57 @@
 import React from 'react'
 import Carousel from 'react-elastic-carousel'
-import leaf from '../../assets/button-image.png'
+import leaf from '../../assets/images/button-image.png'
 import * as S from './styles'
-import './styles.css'
 
-export default function Caroussel() {
+const customArrow = ({ type, onClick, isEdge }: any) => {
+  const pointer = type === 'PREV' ? '<' : '>'
+  return (
+    <S.Arrow onClick={onClick} isEdge={isEdge}>
+      {pointer}
+    </S.Arrow>
+  )
+}
+
+const customPagination = ({ pages, activePage, onClick }: any) => {
+  return (
+    <div style={{ display: 'flex', flexDirection: 'row' }}>
+      {pages.map((page: any) => {
+        const isActivePage = activePage === page
+
+        return (
+          <S.Stepper
+            key={page}
+            onClick={() => onClick(page)}
+            isActive={isActivePage}
+          />
+        )
+      })}
+    </div>
+  )
+}
+
+interface CarouselProps {
+  gameList: string[]
+  // eslint-disable-next-line no-unused-vars
+  handleClick(game: string): void
+}
+
+export default function Caroussel({ gameList, handleClick }: CarouselProps) {
   return (
     <S.Container>
-      {/* <div className="styles" style={{ display: 'flex', width: '100%' }}> */}
-      <Carousel itemsToShow={3}>
-        <S.Card>
-          <S.Title>Jogo 1</S.Title>
-          <S.Image src={leaf} />
-        </S.Card>
-        <S.Card>
-          <S.Title>Jogo 2</S.Title>
-          <S.Image src={leaf} />
-        </S.Card>
-        <S.Card>
-          <S.Title>Jogo 3</S.Title>
-          <S.Image src={leaf} />
-        </S.Card>
-
-        <S.Card>
-          <S.Title>Jogo 4</S.Title>
-          <S.Image src={leaf} />
-        </S.Card>
-
-        <S.Card>
-          <S.Title>Jogo 5</S.Title>
-          <S.Image src={leaf} />
-        </S.Card>
-
-        <S.Card>
-          <S.Title>Jogo 6</S.Title>
-          <S.Image src={leaf} />
-        </S.Card>
-
-        <S.Card>
-          <S.Title>Jogo 7</S.Title>
-          <S.Image src={leaf} />
-        </S.Card>
-        <S.Card>
-          <S.Title>Jogo 8</S.Title>
-          <S.Image src={leaf} />
-        </S.Card>
-        <S.Card>
-          <S.Title>Jogo 9</S.Title>
-          <S.Image src={leaf} />
-        </S.Card>
-        <S.Card>
-          <S.Title>Jogo 10</S.Title>
-          <S.Image src={leaf} />
-        </S.Card>
+      <Carousel
+        itemsToShow={3}
+        itemsToScroll={3}
+        renderArrow={customArrow}
+        renderPagination={customPagination}
+      >
+        {gameList.map((game: string) => (
+          <S.Card key={game} onClick={() => handleClick(game)}>
+            <S.Title>{game}</S.Title>
+            <S.Image src={leaf} />
+          </S.Card>
+        ))}
       </Carousel>
-      {/* </div> */}
     </S.Container>
   )
 }
