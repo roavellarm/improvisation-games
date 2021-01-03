@@ -34,7 +34,7 @@ export const Title = styled.p`
 
 export const SubTitle = styled.h4`
   font-family: ${({ theme }) => theme.fontFamily.lato};
-  color: ${({ theme }) => theme.colors.text};
+  color: ${({ theme }) => theme.colors.greenDark};
   margin: 2rem 0px;
   padding-top: 1.5rem;
 `
