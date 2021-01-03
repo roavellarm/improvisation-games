@@ -1,18 +1,20 @@
-interface Game {
+export interface GameContent {
   text: string
   flags: Array<string>
   titleStrong?: string | undefined
   rest?: string | undefined
 }
 
-interface GameList {
+export interface Game {
   id: string
-  content: Array<Game>
+  gameTitle: string
+  content: GameContent[]
 }
 
-const gameList: Array<GameList> = [
+const gameList: Game[] = [
   {
     id: '1',
+    gameTitle: 'Jogo 1',
     content: [
       {
         text: 'Jogo 1: Pergunta e Resposta com cordas soltas em ​ pizzicato',
@@ -99,6 +101,7 @@ const gameList: Array<GameList> = [
   },
   {
     id: '2',
+    gameTitle: 'Jogo 2',
     content: [
       {
         text: 'Jogo 2: Sinal Verde X Sinal Vermelho',
@@ -189,6 +192,7 @@ const gameList: Array<GameList> = [
   // TODO
   {
     id: '3',
+    gameTitle: 'Jogo 3',
     content: [
       {
         text: 'Title 1',
@@ -216,6 +220,7 @@ const gameList: Array<GameList> = [
   },
   {
     id: '4',
+    gameTitle: 'Jogo 4',
     content: [
       {
         text: 'Title 1',
@@ -243,6 +248,7 @@ const gameList: Array<GameList> = [
   },
   {
     id: '5',
+    gameTitle: 'Jogo 5',
     content: [
       {
         text: 'Title 1',
@@ -270,6 +276,7 @@ const gameList: Array<GameList> = [
   },
   {
     id: '6',
+    gameTitle: 'Jogo 6',
     content: [
       {
         text: 'Title 1',
@@ -297,6 +304,7 @@ const gameList: Array<GameList> = [
   },
   {
     id: '7',
+    gameTitle: 'Jogo 7',
     content: [
       {
         text: 'Title 1',
@@ -324,6 +332,7 @@ const gameList: Array<GameList> = [
   },
   {
     id: '8',
+    gameTitle: 'Jogo 8',
     content: [
       {
         text: 'Title 1',
@@ -351,6 +360,7 @@ const gameList: Array<GameList> = [
   },
   {
     id: '9',
+    gameTitle: 'Jogo 9',
     content: [
       {
         text: 'Title 1',
@@ -378,6 +388,7 @@ const gameList: Array<GameList> = [
   },
   {
     id: '10',
+    gameTitle: 'Jogo 10',
     content: [
       {
         text: 'Title 1',
