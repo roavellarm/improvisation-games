@@ -11,6 +11,10 @@ export interface Game {
   content: GameContent[]
 }
 
+const itemList = 'Morbi scelerisque dui et metus eleifend pharetra.'
+const paragraph =
+  'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi scelerisque dui et metus eleifend pharetra. Duis sit amet sapien ornare, euismod risus at, vehicula ante. Etiam facilisis, erat vitae posuere porttitor, dui elit accumsan mi, ac lobortis ante dui ac elit. Sed tempus et quam nec vulputate. Vivamus id turpis et turpis consequat suscipit sit amet quis nisl. Nullam eu placerat magna. Morbi malesuada sed augue at vehicula. Sed quis libero vel erat aliquet luctus vel non urna. Pellentesque nec sem dictum, aliquet odio cursus, facilisis dolor. Fusce at consectetur mauris.'
+
 const gameList: Game[] = [
   {
     id: '1',
@@ -199,8 +203,7 @@ const gameList: Game[] = [
         flags: ['title1'],
       },
       {
-        text:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi scelerisque dui et metus eleifend pharetra. Duis sit amet sapien ornare, euismod risus at, vehicula ante. Etiam facilisis, erat vitae posuere porttitor, dui elit accumsan mi, ac lobortis ante dui ac elit. Sed tempus et quam nec vulputate. Vivamus id turpis et turpis consequat suscipit sit amet quis nisl. Nullam eu placerat magna. Morbi malesuada sed augue at vehicula. Sed quis libero vel erat aliquet luctus vel non urna. Pellentesque nec sem dictum, aliquet odio cursus, facilisis dolor. Fusce at consectetur mauris.',
+        text: paragraph,
         flags: ['paragraph'],
       },
       {
@@ -208,12 +211,27 @@ const gameList: Game[] = [
         flags: ['title2'],
       },
       {
-        text:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi scelerisque dui et metus eleifend pharetra. Duis sit amet sapien ornare, euismod risus at, vehicula ante. Etiam facilisis, erat vitae posuere porttitor, dui elit accumsan mi, ac lobortis ante dui ac elit. Sed tempus et quam nec vulputate. Vivamus id turpis et turpis consequat suscipit sit amet quis nisl. Nullam eu placerat magna. Morbi malesuada sed augue at vehicula. Sed quis libero vel erat aliquet luctus vel non urna. Pellentesque nec sem dictum, aliquet odio cursus, facilisis dolor. Fusce at consectetur mauris.',
-        flags: ['paragraph'],
+        text: itemList,
+        flags: ['itemList'],
       },
       {
-        text: 'Morbi scelerisque dui et metus eleifend pharetra. ',
+        text: itemList,
+        flags: ['itemList'],
+      },
+      {
+        text: itemList,
+        flags: ['itemList'],
+      },
+      {
+        text: itemList,
+        flags: ['itemList'],
+      },
+      {
+        text: itemList,
+        flags: ['itemList'],
+      },
+      {
+        text: itemList,
         flags: ['itemList'],
       },
     ],
@@ -227,8 +245,7 @@ const gameList: Game[] = [
         flags: ['title1'],
       },
       {
-        text:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi scelerisque dui et metus eleifend pharetra. Duis sit amet sapien ornare, euismod risus at, vehicula ante. Etiam facilisis, erat vitae posuere porttitor, dui elit accumsan mi, ac lobortis ante dui ac elit. Sed tempus et quam nec vulputate. Vivamus id turpis et turpis consequat suscipit sit amet quis nisl. Nullam eu placerat magna. Morbi malesuada sed augue at vehicula. Sed quis libero vel erat aliquet luctus vel non urna. Pellentesque nec sem dictum, aliquet odio cursus, facilisis dolor. Fusce at consectetur mauris.',
+        text: paragraph,
         flags: ['paragraph'],
       },
       {
@@ -236,12 +253,27 @@ const gameList: Game[] = [
         flags: ['title2'],
       },
       {
-        text:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi scelerisque dui et metus eleifend pharetra. Duis sit amet sapien ornare, euismod risus at, vehicula ante. Etiam facilisis, erat vitae posuere porttitor, dui elit accumsan mi, ac lobortis ante dui ac elit. Sed tempus et quam nec vulputate. Vivamus id turpis et turpis consequat suscipit sit amet quis nisl. Nullam eu placerat magna. Morbi malesuada sed augue at vehicula. Sed quis libero vel erat aliquet luctus vel non urna. Pellentesque nec sem dictum, aliquet odio cursus, facilisis dolor. Fusce at consectetur mauris.',
-        flags: ['paragraph'],
+        text: itemList,
+        flags: ['itemList'],
       },
       {
-        text: 'Morbi scelerisque dui et metus eleifend pharetra. ',
+        text: itemList,
+        flags: ['itemList'],
+      },
+      {
+        text: itemList,
+        flags: ['itemList'],
+      },
+      {
+        text: itemList,
+        flags: ['itemList'],
+      },
+      {
+        text: itemList,
+        flags: ['itemList'],
+      },
+      {
+        text: itemList,
         flags: ['itemList'],
       },
     ],
@@ -255,8 +287,7 @@ const gameList: Game[] = [
         flags: ['title1'],
       },
       {
-        text:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi scelerisque dui et metus eleifend pharetra. Duis sit amet sapien ornare, euismod risus at, vehicula ante. Etiam facilisis, erat vitae posuere porttitor, dui elit accumsan mi, ac lobortis ante dui ac elit. Sed tempus et quam nec vulputate. Vivamus id turpis et turpis consequat suscipit sit amet quis nisl. Nullam eu placerat magna. Morbi malesuada sed augue at vehicula. Sed quis libero vel erat aliquet luctus vel non urna. Pellentesque nec sem dictum, aliquet odio cursus, facilisis dolor. Fusce at consectetur mauris.',
+        text: paragraph,
         flags: ['paragraph'],
       },
       {
@@ -264,12 +295,27 @@ const gameList: Game[] = [
         flags: ['title2'],
       },
       {
-        text:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi scelerisque dui et metus eleifend pharetra. Duis sit amet sapien ornare, euismod risus at, vehicula ante. Etiam facilisis, erat vitae posuere porttitor, dui elit accumsan mi, ac lobortis ante dui ac elit. Sed tempus et quam nec vulputate. Vivamus id turpis et turpis consequat suscipit sit amet quis nisl. Nullam eu placerat magna. Morbi malesuada sed augue at vehicula. Sed quis libero vel erat aliquet luctus vel non urna. Pellentesque nec sem dictum, aliquet odio cursus, facilisis dolor. Fusce at consectetur mauris.',
-        flags: ['paragraph'],
+        text: itemList,
+        flags: ['itemList'],
       },
       {
-        text: 'Morbi scelerisque dui et metus eleifend pharetra. ',
+        text: itemList,
+        flags: ['itemList'],
+      },
+      {
+        text: itemList,
+        flags: ['itemList'],
+      },
+      {
+        text: itemList,
+        flags: ['itemList'],
+      },
+      {
+        text: itemList,
+        flags: ['itemList'],
+      },
+      {
+        text: itemList,
         flags: ['itemList'],
       },
     ],
@@ -283,8 +329,7 @@ const gameList: Game[] = [
         flags: ['title1'],
       },
       {
-        text:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi scelerisque dui et metus eleifend pharetra. Duis sit amet sapien ornare, euismod risus at, vehicula ante. Etiam facilisis, erat vitae posuere porttitor, dui elit accumsan mi, ac lobortis ante dui ac elit. Sed tempus et quam nec vulputate. Vivamus id turpis et turpis consequat suscipit sit amet quis nisl. Nullam eu placerat magna. Morbi malesuada sed augue at vehicula. Sed quis libero vel erat aliquet luctus vel non urna. Pellentesque nec sem dictum, aliquet odio cursus, facilisis dolor. Fusce at consectetur mauris.',
+        text: paragraph,
         flags: ['paragraph'],
       },
       {
@@ -292,12 +337,27 @@ const gameList: Game[] = [
         flags: ['title2'],
       },
       {
-        text:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi scelerisque dui et metus eleifend pharetra. Duis sit amet sapien ornare, euismod risus at, vehicula ante. Etiam facilisis, erat vitae posuere porttitor, dui elit accumsan mi, ac lobortis ante dui ac elit. Sed tempus et quam nec vulputate. Vivamus id turpis et turpis consequat suscipit sit amet quis nisl. Nullam eu placerat magna. Morbi malesuada sed augue at vehicula. Sed quis libero vel erat aliquet luctus vel non urna. Pellentesque nec sem dictum, aliquet odio cursus, facilisis dolor. Fusce at consectetur mauris.',
-        flags: ['paragraph'],
+        text: itemList,
+        flags: ['itemList'],
       },
       {
-        text: 'Morbi scelerisque dui et metus eleifend pharetra. ',
+        text: itemList,
+        flags: ['itemList'],
+      },
+      {
+        text: itemList,
+        flags: ['itemList'],
+      },
+      {
+        text: itemList,
+        flags: ['itemList'],
+      },
+      {
+        text: itemList,
+        flags: ['itemList'],
+      },
+      {
+        text: itemList,
         flags: ['itemList'],
       },
     ],
@@ -311,8 +371,7 @@ const gameList: Game[] = [
         flags: ['title1'],
       },
       {
-        text:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi scelerisque dui et metus eleifend pharetra. Duis sit amet sapien ornare, euismod risus at, vehicula ante. Etiam facilisis, erat vitae posuere porttitor, dui elit accumsan mi, ac lobortis ante dui ac elit. Sed tempus et quam nec vulputate. Vivamus id turpis et turpis consequat suscipit sit amet quis nisl. Nullam eu placerat magna. Morbi malesuada sed augue at vehicula. Sed quis libero vel erat aliquet luctus vel non urna. Pellentesque nec sem dictum, aliquet odio cursus, facilisis dolor. Fusce at consectetur mauris.',
+        text: paragraph,
         flags: ['paragraph'],
       },
       {
@@ -320,12 +379,27 @@ const gameList: Game[] = [
         flags: ['title2'],
       },
       {
-        text:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi scelerisque dui et metus eleifend pharetra. Duis sit amet sapien ornare, euismod risus at, vehicula ante. Etiam facilisis, erat vitae posuere porttitor, dui elit accumsan mi, ac lobortis ante dui ac elit. Sed tempus et quam nec vulputate. Vivamus id turpis et turpis consequat suscipit sit amet quis nisl. Nullam eu placerat magna. Morbi malesuada sed augue at vehicula. Sed quis libero vel erat aliquet luctus vel non urna. Pellentesque nec sem dictum, aliquet odio cursus, facilisis dolor. Fusce at consectetur mauris.',
-        flags: ['paragraph'],
+        text: itemList,
+        flags: ['itemList'],
       },
       {
-        text: 'Morbi scelerisque dui et metus eleifend pharetra. ',
+        text: itemList,
+        flags: ['itemList'],
+      },
+      {
+        text: itemList,
+        flags: ['itemList'],
+      },
+      {
+        text: itemList,
+        flags: ['itemList'],
+      },
+      {
+        text: itemList,
+        flags: ['itemList'],
+      },
+      {
+        text: itemList,
         flags: ['itemList'],
       },
     ],
@@ -339,8 +413,7 @@ const gameList: Game[] = [
         flags: ['title1'],
       },
       {
-        text:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi scelerisque dui et metus eleifend pharetra. Duis sit amet sapien ornare, euismod risus at, vehicula ante. Etiam facilisis, erat vitae posuere porttitor, dui elit accumsan mi, ac lobortis ante dui ac elit. Sed tempus et quam nec vulputate. Vivamus id turpis et turpis consequat suscipit sit amet quis nisl. Nullam eu placerat magna. Morbi malesuada sed augue at vehicula. Sed quis libero vel erat aliquet luctus vel non urna. Pellentesque nec sem dictum, aliquet odio cursus, facilisis dolor. Fusce at consectetur mauris.',
+        text: paragraph,
         flags: ['paragraph'],
       },
       {
@@ -348,12 +421,27 @@ const gameList: Game[] = [
         flags: ['title2'],
       },
       {
-        text:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi scelerisque dui et metus eleifend pharetra. Duis sit amet sapien ornare, euismod risus at, vehicula ante. Etiam facilisis, erat vitae posuere porttitor, dui elit accumsan mi, ac lobortis ante dui ac elit. Sed tempus et quam nec vulputate. Vivamus id turpis et turpis consequat suscipit sit amet quis nisl. Nullam eu placerat magna. Morbi malesuada sed augue at vehicula. Sed quis libero vel erat aliquet luctus vel non urna. Pellentesque nec sem dictum, aliquet odio cursus, facilisis dolor. Fusce at consectetur mauris.',
-        flags: ['paragraph'],
+        text: itemList,
+        flags: ['itemList'],
       },
       {
-        text: 'Morbi scelerisque dui et metus eleifend pharetra. ',
+        text: itemList,
+        flags: ['itemList'],
+      },
+      {
+        text: itemList,
+        flags: ['itemList'],
+      },
+      {
+        text: itemList,
+        flags: ['itemList'],
+      },
+      {
+        text: itemList,
+        flags: ['itemList'],
+      },
+      {
+        text: itemList,
         flags: ['itemList'],
       },
     ],
@@ -367,8 +455,7 @@ const gameList: Game[] = [
         flags: ['title1'],
       },
       {
-        text:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi scelerisque dui et metus eleifend pharetra. Duis sit amet sapien ornare, euismod risus at, vehicula ante. Etiam facilisis, erat vitae posuere porttitor, dui elit accumsan mi, ac lobortis ante dui ac elit. Sed tempus et quam nec vulputate. Vivamus id turpis et turpis consequat suscipit sit amet quis nisl. Nullam eu placerat magna. Morbi malesuada sed augue at vehicula. Sed quis libero vel erat aliquet luctus vel non urna. Pellentesque nec sem dictum, aliquet odio cursus, facilisis dolor. Fusce at consectetur mauris.',
+        text: paragraph,
         flags: ['paragraph'],
       },
       {
@@ -376,12 +463,27 @@ const gameList: Game[] = [
         flags: ['title2'],
       },
       {
-        text:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi scelerisque dui et metus eleifend pharetra. Duis sit amet sapien ornare, euismod risus at, vehicula ante. Etiam facilisis, erat vitae posuere porttitor, dui elit accumsan mi, ac lobortis ante dui ac elit. Sed tempus et quam nec vulputate. Vivamus id turpis et turpis consequat suscipit sit amet quis nisl. Nullam eu placerat magna. Morbi malesuada sed augue at vehicula. Sed quis libero vel erat aliquet luctus vel non urna. Pellentesque nec sem dictum, aliquet odio cursus, facilisis dolor. Fusce at consectetur mauris.',
-        flags: ['paragraph'],
+        text: itemList,
+        flags: ['itemList'],
       },
       {
-        text: 'Morbi scelerisque dui et metus eleifend pharetra. ',
+        text: itemList,
+        flags: ['itemList'],
+      },
+      {
+        text: itemList,
+        flags: ['itemList'],
+      },
+      {
+        text: itemList,
+        flags: ['itemList'],
+      },
+      {
+        text: itemList,
+        flags: ['itemList'],
+      },
+      {
+        text: itemList,
         flags: ['itemList'],
       },
     ],
@@ -395,8 +497,7 @@ const gameList: Game[] = [
         flags: ['title1'],
       },
       {
-        text:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi scelerisque dui et metus eleifend pharetra. Duis sit amet sapien ornare, euismod risus at, vehicula ante. Etiam facilisis, erat vitae posuere porttitor, dui elit accumsan mi, ac lobortis ante dui ac elit. Sed tempus et quam nec vulputate. Vivamus id turpis et turpis consequat suscipit sit amet quis nisl. Nullam eu placerat magna. Morbi malesuada sed augue at vehicula. Sed quis libero vel erat aliquet luctus vel non urna. Pellentesque nec sem dictum, aliquet odio cursus, facilisis dolor. Fusce at consectetur mauris.',
+        text: paragraph,
         flags: ['paragraph'],
       },
       {
@@ -404,12 +505,27 @@ const gameList: Game[] = [
         flags: ['title2'],
       },
       {
-        text:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi scelerisque dui et metus eleifend pharetra. Duis sit amet sapien ornare, euismod risus at, vehicula ante. Etiam facilisis, erat vitae posuere porttitor, dui elit accumsan mi, ac lobortis ante dui ac elit. Sed tempus et quam nec vulputate. Vivamus id turpis et turpis consequat suscipit sit amet quis nisl. Nullam eu placerat magna. Morbi malesuada sed augue at vehicula. Sed quis libero vel erat aliquet luctus vel non urna. Pellentesque nec sem dictum, aliquet odio cursus, facilisis dolor. Fusce at consectetur mauris.',
-        flags: ['paragraph'],
+        text: itemList,
+        flags: ['itemList'],
       },
       {
-        text: 'Morbi scelerisque dui et metus eleifend pharetra. ',
+        text: itemList,
+        flags: ['itemList'],
+      },
+      {
+        text: itemList,
+        flags: ['itemList'],
+      },
+      {
+        text: itemList,
+        flags: ['itemList'],
+      },
+      {
+        text: itemList,
+        flags: ['itemList'],
+      },
+      {
+        text: itemList,
         flags: ['itemList'],
       },
     ],
