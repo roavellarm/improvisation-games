@@ -8,7 +8,8 @@ export const Navbar = styled.div`
   width: 100%;
 
   @media screen and (max-width: 1000px) {
-    box-shadow: 0px 0px 0.6px ${({ theme }) => theme.colors.black};
+    box-shadow: 0px 0px 1px ${({ theme }) => theme.colors.black};
+    height: 40px;
   }
 `
 
@@ -55,6 +56,7 @@ export const SideArea = styled.p`
   @media screen and (max-width: 1000px) {
     margin-right: 8px;
     min-width: 120px;
+    font-size: 1.75rem;
   }
 `
 

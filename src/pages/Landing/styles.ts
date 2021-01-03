@@ -197,6 +197,7 @@ export const Image = styled.div`
   @media screen and (max-width: 800px) {
     background: url(${imageMobile});
     background-position: center;
+    background-repeat: no-repeat;
     background-size: contain;
     flex: none;
     height: 283px;
