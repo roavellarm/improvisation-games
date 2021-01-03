@@ -1,5 +1,13 @@
 import React from 'react'
+import Navbar from '../../components/Navbar'
 
 export default function Article() {
-  return <h1>Caderno de atividades</h1>
+  return (
+    <>
+      <Navbar />
+      <br />
+      <br />
+      <h1 style={{ textAlign: 'center' }}>Caderno de atividades</h1>
+    </>
+  )
 }
