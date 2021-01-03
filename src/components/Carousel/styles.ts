@@ -3,6 +3,7 @@ import styled, { DefaultTheme } from 'styled-components'
 export const Container = styled.div`
   display: flex;
   width: 100%;
+  max-width: 450px;
   justify-content: space-evenly;
   align-items: center;
   padding: 1rem 0px;
