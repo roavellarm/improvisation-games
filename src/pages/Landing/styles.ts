@@ -1,6 +1,6 @@
 import styled from 'styled-components'
-import image from '../../assets/cello-image.png'
-import imageMobile from '../../assets/cello-mobile.png'
+import image from '../../assets/images/cello-image.png'
+import imageMobile from '../../assets/images/cello-mobile.png'
 
 export const Wrapper = styled.div`
   display: flex;
@@ -13,7 +13,6 @@ export const Wrapper = styled.div`
     justify-content: flex-start;
     align-items: center;
     height: auto;
-    /* padding: 0.4rem; */
   }
 
   @media screen and (max-width: 320px) {
@@ -116,6 +115,11 @@ export const Column = styled.div`
     margin-right: 10px;
     margin-bottom: 3rem;
   }
+
+  @media screen and (max-width: 1110px) {
+    margin-right: 10px;
+    margin-bottom: 3rem;
+  }
 `
 
 export const RightSide = styled.div`
@@ -145,6 +149,10 @@ export const Links = styled.div`
     justify-content: center;
     align-items: center;
   }
+
+  @media screen and (max-width: 360px) {
+    padding: 1rem 0px;
+  }
 `
 
 export const Link = styled.p`
@@ -164,6 +172,11 @@ export const Link = styled.p`
 
   @media screen and (max-width: 1325px) {
     font-size: 1.7rem;
+  }
+
+  @media screen and (max-width: 960px) {
+    font-size: 1.6rem;
+    margin-left: 3rem;
   }
 
   @media screen and (max-width: 800px) {
