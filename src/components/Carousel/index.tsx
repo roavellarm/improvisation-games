@@ -1,6 +1,7 @@
 import React from 'react'
 import Carousel from 'react-elastic-carousel'
 import leaf from '../../assets/images/button-image.png'
+import { Game } from '../../assets/texts/games'
 import * as S from './styles'
 
 const customArrow = ({ type, onClick, isEdge }: any) => {
@@ -31,7 +32,7 @@ const customPagination = ({ pages, activePage, onClick }: any) => {
 }
 
 interface CarouselProps {
-  gameList: string[]
+  gameList: Game[]
   // eslint-disable-next-line no-unused-vars
   handleClick(game: string): void
 }
@@ -45,9 +46,9 @@ export default function Caroussel({ gameList, handleClick }: CarouselProps) {
         renderArrow={customArrow}
         renderPagination={customPagination}
       >
-        {gameList.map((game: string) => (
-          <S.Card key={game} onClick={() => handleClick(game)}>
-            <S.Title>{game}</S.Title>
+        {gameList.map((game) => (
+          <S.Card key={game.id} onClick={() => handleClick(game.id)}>
+            <S.Title>{game.gameTitle}</S.Title>
             <S.Image src={leaf} />
           </S.Card>
         ))}
