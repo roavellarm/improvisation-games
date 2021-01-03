@@ -19,4 +19,21 @@ export default createGlobalStyle`
     color: ${({ theme }) => theme.colors.text};
     font-family: ${({ theme }) => theme.fontFamily.caveat};
   }
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: ${({ theme }) => theme.colors.white};
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(91, 124, 107, 0.4);
+  border-radius: 100px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(91, 124, 107, 1);
+}
 `
