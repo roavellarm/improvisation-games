@@ -23,8 +23,9 @@ export default function Landing() {
 
   const handleClick = (game: string) => push(`game/${game}`)
 
+  const handleResize = () => setWindowWidth(window.innerWidth)
+
   useEffect(() => {
-    const handleResize = () => setWindowWidth(window.innerWidth)
     window.addEventListener('resize', handleResize)
   }, [])
 

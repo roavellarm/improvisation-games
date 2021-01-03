@@ -1,6 +1,6 @@
 import styled from 'styled-components'
-import image from '../../assets/cello-image.png'
-import imageMobile from '../../assets/cello-mobile.png'
+import image from '../../assets/images/cello-image.png'
+import imageMobile from '../../assets/images/cello-mobile.png'
 
 export const Wrapper = styled.div`
   display: flex;
