@@ -1,18 +1,31 @@
 import React, { useEffect, useState } from 'react'
+import { useHistory } from 'react-router-dom'
 import Button from '../../components/Button'
 import Carousel from '../../components/Carousel'
 import * as S from './styles'
 
+const gameList = [
+  'Jogo 1',
+  'Jogo 2',
+  'Jogo 3',
+  'Jogo 4',
+  'Jogo 5',
+  'Jogo 6',
+  'Jogo 7',
+  'Jogo 8',
+  'Jogo 9',
+  'Jogo 10',
+]
+
 export default function Landing() {
+  const { push } = useHistory()
   const [windowWith, setWindowWidth] = useState(window.innerWidth)
 
-  useEffect(() => {
-    const handleResize = () => setWindowWidth(window.innerWidth)
-    window.addEventListener('resize', handleResize)
-  }, [])
+  const handleClick = (game: string) => push(`game/${game}`)
 
-  // eslint-disable-next-line no-alert
-  const msg = () => alert('You clicked me!')
+  useEffect(() => {
+    window.addEventListener('resize', () => setWindowWidth(window.innerWidth))
+  }, [])
 
   return (
     <S.Wrapper>
@@ -24,11 +37,13 @@ export default function Landing() {
           <S.Image />
 
           <S.Links>
-            <S.Link onClick={msg}>Saiba mais</S.Link>
-            <S.Link onClick={msg}>Caderno de atividades</S.Link>
+            <S.Link onClick={() => push('about')}>Saiba mais</S.Link>
+            <S.Link onClick={() => push('article')}>
+              Caderno de atividades
+            </S.Link>
           </S.Links>
 
-          <Carousel />
+          <Carousel gameList={gameList} handleClick={handleClick} />
         </S.Container>
       ) : (
         <S.Container>
@@ -40,18 +55,21 @@ export default function Landing() {
 
             <S.ButtonsContainer>
               <S.Column>
-                <Button title="Jogo 1" onClick={msg} />
-                <Button title="Jogo 2" onClick={msg} />
-                <Button title="Jogo 3" onClick={msg} />
-                <Button title="Jogo 4" onClick={msg} />
-                <Button title="Jogo 5" onClick={msg} />
+                <Button title="Jogo 1" onClick={() => handleClick('Jogo 1')} />
+                <Button title="Jogo 2" onClick={() => handleClick('Jogo 2')} />
+                <Button title="Jogo 3" onClick={() => handleClick('Jogo 3')} />
+                <Button title="Jogo 4" onClick={() => handleClick('Jogo 4')} />
+                <Button title="Jogo 5" onClick={() => handleClick('Jogo 5')} />
               </S.Column>
               <S.Column>
-                <Button title="Jogo 6" onClick={msg} />
-                <Button title="Jogo 7" onClick={msg} />
-                <Button title="Jogo 8" onClick={msg} />
-                <Button title="Jogo 9" onClick={msg} />
-                <Button title="Jogo 10" onClick={msg} />
+                <Button title="Jogo 6" onClick={() => handleClick('Jogo 6')} />
+                <Button title="Jogo 7" onClick={() => handleClick('Jogo 7')} />
+                <Button title="Jogo 8" onClick={() => handleClick('Jogo 8')} />
+                <Button title="Jogo 9" onClick={() => handleClick('Jogo 9')} />
+                <Button
+                  title="Jogo 10"
+                  onClick={() => handleClick('Jogo 10')}
+                />
               </S.Column>
             </S.ButtonsContainer>
           </S.LeftSide>
@@ -60,8 +78,10 @@ export default function Landing() {
             <S.Image />
 
             <S.Links>
-              <S.Link onClick={msg}>Saiba mais</S.Link>
-              <S.Link onClick={msg}>Caderno de atividades</S.Link>
+              <S.Link onClick={() => push('about')}>Saiba mais</S.Link>
+              <S.Link onClick={() => push('article')}>
+                Caderno de atividades
+              </S.Link>
             </S.Links>
           </S.RightSide>
         </S.Container>
@@ -69,16 +89,3 @@ export default function Landing() {
     </S.Wrapper>
   )
 }
-
-// gameList={[
-//   'Jogo 1',
-//   'Jogo 2',
-//   'Jogo 3',
-//   'Jogo 4',
-//   'Jogo 5',
-//   'Jogo 6',
-//   'Jogo 7',
-//   'Jogo 8',
-//   'Jogo 9',
-//   'Jogo 10',
-// ]}
