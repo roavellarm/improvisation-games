@@ -13,7 +13,6 @@ export const Wrapper = styled.div`
     justify-content: flex-start;
     align-items: center;
     height: auto;
-    /* padding: 0.4rem; */
   }
 
   @media screen and (max-width: 320px) {
@@ -97,8 +96,6 @@ export const ButtonsContainer = styled.div`
 
   @media screen and (max-width: 1110px) {
     margin-right: 0px;
-    display: flex;
-    flex-direction: column;
   }
 `
 
@@ -113,6 +110,11 @@ export const Column = styled.div`
   }
 
   @media screen and (max-width: 1325px) {
+    margin-right: 10px;
+    margin-bottom: 3rem;
+  }
+
+  @media screen and (max-width: 1110px) {
     margin-right: 10px;
     margin-bottom: 3rem;
   }
@@ -145,6 +147,10 @@ export const Links = styled.div`
     justify-content: center;
     align-items: center;
   }
+
+  @media screen and (max-width: 360px) {
+    padding: 1rem 0px;
+  }
 `
 
 export const Link = styled.p`
@@ -164,6 +170,11 @@ export const Link = styled.p`
 
   @media screen and (max-width: 1325px) {
     font-size: 1.7rem;
+  }
+
+  @media screen and (max-width: 960px) {
+    font-size: 1.6rem;
+    margin-left: 3rem;
   }
 
   @media screen and (max-width: 800px) {
