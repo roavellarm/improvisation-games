@@ -1,6 +1,7 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
 import Navbar from '../../components/Navbar'
+import ScrollToTopButton from '../../components/ScrollToTopButton'
 import gameList, { Game as GameProps } from '../../assets/texts/games'
 import * as S from './styles'
 
@@ -18,6 +19,7 @@ export default function Game() {
       <Navbar />
       <S.Container>
         <S.SideArea />
+
         <S.Content>
           <S.HeaderTitle>{game.gameTitle}</S.HeaderTitle>
           {game.content.map((item, index) => {
@@ -36,8 +38,10 @@ export default function Game() {
             return null
           })}
         </S.Content>
+
         <S.SideArea>
           <S.Image />
+          <ScrollToTopButton />
         </S.SideArea>
       </S.Container>
     </>
