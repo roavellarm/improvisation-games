@@ -17,7 +17,7 @@ const gameList: Game[] = [
     gameTitle: 'Jogo 1',
     content: [
       {
-        text: 'Jogo 1: Pergunta e Resposta com cordas soltas em ​ pizzicato',
+        text: 'Pergunta e Resposta com cordas soltas em ​ pizzicato',
         flags: ['title1'],
       },
       {
@@ -104,7 +104,7 @@ const gameList: Game[] = [
     gameTitle: 'Jogo 2',
     content: [
       {
-        text: 'Jogo 2: Sinal Verde X Sinal Vermelho',
+        text: 'Sinal Verde X Sinal Vermelho',
         flags: ['title1'],
       },
       {
