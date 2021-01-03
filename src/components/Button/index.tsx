@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import * as S from './styles'
-import btnImage from '../../assets/button-image.png'
+import btnImage from '../../assets/images/button-image.png'
 
 interface ButtonProps {
   title: string
