@@ -9,16 +9,7 @@ export default function Landing() {
   const { push } = useHistory()
   const [windowWith, setWindowWidth] = useState(window.innerWidth)
 
-<<<<<<< HEAD
-  useEffect(() => {
-    const handleResize = () => setWindowWidth(window.innerWidth)
-
-    window.addEventListener('resize', handleResize)
-    console.log(windowWith)
-  }, [])
-=======
   const handleClick = (game: string) => push(`game/${game}`)
->>>>>>> c3fd3c5bb66a6c7a95e9f22e3ebd14e96dfa6c35
 
   const renderButton = (g: Game) => (
     <Button key={g.id} title={g.gameTitle} onClick={() => handleClick(g.id)} />
