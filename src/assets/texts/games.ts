@@ -199,39 +199,38 @@ const gameList: Game[] = [
     gameTitle: 'Jogo 3',
     content: [
       {
-        text: 'Title 1',
+        text: 'A noite no castelo',
         flags: ['title1'],
       },
       {
-        text: paragraph,
+        text: 'Autor: Claudia Freixedas',
         flags: ['paragraph'],
       },
       {
-        text: 'Title 2',
+        text: 'Objetivos',
         flags: ['title2'],
       },
       {
-        text: itemList,
+        text:
+          '​ Estabelecer uma relação entre o imaginado e o sonoro; reforçar a confiança entre pares; desenvolver o poder de escolha dentro da criação musical.',
         flags: ['itemList'],
       },
       {
-        text: itemList,
+        text: 'Metodologia',
+        flags: ['title2'],
+      },
+      {
+        text:
+          'Contar uma história aos alunos, sobre um viajante que chega à um castelo mal-assombrado em meio a uma noite de tempestade Inventariar sons que poderiam compor esta paisagem: trovões, rajadas de vento, som da chuva, morcegos, fantasmas, etc... Distribuir os alunos em diferentes pontos da sala, com uma certa distância entre eles. Escolher um dos alunos para representar o viajante. Este aluno fará uma caminhada pelo castelo, evitando bater nos “objetos”, sendo guiado por sua audição. Quando o viajante se  aproximar de um objeto do castelo, o aluno que representa este objeto executará o seu som específico. À medida que o viajante se afastar do objeto, o som diminui de  intensidade, e o aluno que agora estiver mais próximo do viajante começará a executar o   som correspondente ao seu objeto, e assim sucessivamente, compondo uma narrativa musical.',
         flags: ['itemList'],
       },
       {
-        text: itemList,
-        flags: ['itemList'],
+        text: 'Observações:',
+        flags: ['title2'],
       },
       {
-        text: itemList,
-        flags: ['itemList'],
-      },
-      {
-        text: itemList,
-        flags: ['itemList'],
-      },
-      {
-        text: itemList,
+        text:
+          'A fim de estimular os alunos a intensificarem seu poder de escuta, podemos propor que o viajante permaneça mais tempo na frente do objeto que quer ouvir, ou que volte à um determinado objeto que deseja ouvir novamente, exercendo papel ativo na composição da narrativa.',
         flags: ['itemList'],
       },
     ],
@@ -241,39 +240,29 @@ const gameList: Game[] = [
     gameTitle: 'Jogo 4',
     content: [
       {
-        text: 'Title 1',
+        text: 'Assinatura Musical',
         flags: ['title1'],
       },
       {
-        text: paragraph,
+        text: 'Autor: Wanderson Cruz',
         flags: ['paragraph'],
       },
       {
-        text: 'Title 2',
+        text: 'Metodologia:',
         flags: ['title2'],
       },
       {
-        text: itemList,
+        text:
+          'Organizar os alunos em um semicírculo. Perguntar aos alunos o que é uma assinatura e relacionar as respostas com o que poderia ser uma assinatura musical. Dar um exemplo utilizando para isso sons provenientes das técnicas tradicionais e das técnicas estendidas. Propor que os alunos individualmente criem suas assinaturas musicais, utilizando os sons que desejarem, e as apresentem para os demais colegas da turma. Propor que os alunos executem suas assinaturas mais de uma vez, a fim de que possamos verificar se ele se mantém a mesma nas duas execuções. Escolher um dos alunos da turma para ser o “maestro”, que deverá compor uma música utilizando apenas as assinaturas musicais elaboradas pelos alunos. O “maestro” deve criar sinais que indiquem quando um aluno deve começar a tocar sua  assinatura, quando deve parar, com qual intensidade, velocidade e outras variáveis, quantos alunos devem tocar simultaneamente, criando diálogos, interação e diferentes combinações entre as assinaturas.',
         flags: ['itemList'],
       },
       {
-        text: itemList,
-        flags: ['itemList'],
+        text: 'Observações:',
+        flags: ['title2'],
       },
       {
-        text: itemList,
-        flags: ['itemList'],
-      },
-      {
-        text: itemList,
-        flags: ['itemList'],
-      },
-      {
-        text: itemList,
-        flags: ['itemList'],
-      },
-      {
-        text: itemList,
+        text:
+          'Devemos estimular os alunos a trabalharem sua escuta e sua escolha artística frente ao  material apresentado pelos colegas. Dessa forma, evitamos novamente que o jogo se  torne mecânico e proporcionamos a construção de uma ideia musical consistente. ● É interessante, em todos os jogos, que o professor seja o maestro na primeira vez que o jogo está sendo executado, mas que em seguida sejam escolhidos diferentes alunos para assumirem essa função, possibilitando que todos os alunos do grupo possam, em algum  momento, participar como maestros de algum dos jogos de improvisação.',
         flags: ['itemList'],
       },
     ],
@@ -283,39 +272,38 @@ const gameList: Game[] = [
     gameTitle: 'Jogo 5',
     content: [
       {
-        text: 'Title 1',
+        text: 'Igual X Parecido X Diferente',
         flags: ['title1'],
       },
       {
-        text: paragraph,
+        text: 'Autor: Violeta Gainza',
         flags: ['paragraph'],
       },
       {
-        text: 'Title 2',
+        text: 'Objetivos: ',
         flags: ['title2'],
       },
       {
-        text: itemList,
+        text:
+          '​ Trabalhar as ideias de similaridade e diferença em música; proporcionar a criação a partir de um elemento dado previamente; trabalhar a ideia de frases ou narrativas musicais.',
         flags: ['itemList'],
       },
       {
-        text: itemList,
+        text: 'Metodologia: ',
+        flags: ['title2'],
+      },
+      {
+        text:
+          'Organizar os alunos em um semicírculo. Apresentar três pequenos cartazes. Em um cartaz deverá estar representado o sinal matemático de igual, em outro o sinal de diferente e em outro o sinal de parecido. O primeiro aluno deve criar livremente uma frase musical, utilizando para isso os sons que desejar. O professor escolhe um dos cartazes e mostra ao segundo aluno, que deve seguir as instruções contidas no cartaz, executando, assim, uma frase igual, parecida ou diferente da frase criada pelo primeiro aluno. Oferecer um dos cartazes ao terceiro aluno, que deverá executar sua frase seguindo as instruções do cartaz, fazendo referência a frase executada pelo segundo aluno e assim por diante, até que todos os alunos tenham participado algumas rodadas do jogo. Escolher um dos alunos para ser o “maestro” e mostrar os cartazes aos demais colegas. Podemos acrescentar mais complexidade nesta rodada do jogo, propondo que o “maestro”, além de escolher os cartazes, escolha também qual aluno executará a nova frase, sendo que para isso, o “maestro” deve utilizar sinais de linguagem não-verbais.',
         flags: ['itemList'],
       },
       {
-        text: itemList,
-        flags: ['itemList'],
+        text: 'Observações:',
+        flags: ['title2'],
       },
       {
-        text: itemList,
-        flags: ['itemList'],
-      },
-      {
-        text: itemList,
-        flags: ['itemList'],
-      },
-      {
-        text: itemList,
+        text:
+          'Ao acrescentarmos mais complexidade na variação do jogo propiciaremos que os alunos  desenvolvam mais atenção na escuta.',
         flags: ['itemList'],
       },
     ],
