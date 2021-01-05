@@ -11,10 +11,6 @@ export interface Game {
   content: GameContent[]
 }
 
-const itemList = 'Morbi scelerisque dui et metus eleifend pharetra.'
-const paragraph =
-  'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi scelerisque dui et metus eleifend pharetra. Duis sit amet sapien ornare, euismod risus at, vehicula ante. Etiam facilisis, erat vitae posuere porttitor, dui elit accumsan mi, ac lobortis ante dui ac elit. Sed tempus et quam nec vulputate. Vivamus id turpis et turpis consequat suscipit sit amet quis nisl. Nullam eu placerat magna. Morbi malesuada sed augue at vehicula. Sed quis libero vel erat aliquet luctus vel non urna. Pellentesque nec sem dictum, aliquet odio cursus, facilisis dolor. Fusce at consectetur mauris.'
-
 const gameList: Game[] = [
   {
     id: '1',
@@ -248,6 +244,15 @@ const gameList: Game[] = [
         flags: ['paragraph'],
       },
       {
+        text: 'Objetivos::',
+        flags: ['title2'],
+      },
+      {
+        text:
+          '​ Possibilitar a experiência de criação a partir de células musicais pré-estabelecidas;  proporcionar diferenças entre as polifonias e homofonias; incentivar o poder de escolha dentro da criação musical.',
+        flags: ['itemList'],
+      },
+      {
         text: 'Metodologia:',
         flags: ['title2'],
       },
@@ -313,39 +318,38 @@ const gameList: Game[] = [
     gameTitle: 'Jogo 6',
     content: [
       {
-        text: 'Title 1',
+        text: 'Composição com gravuras e escrita com notação própria',
         flags: ['title1'],
       },
       {
-        text: paragraph,
+        text: 'Autor: Diversos autores/Marta Brietzke',
         flags: ['paragraph'],
       },
       {
-        text: 'Title 2',
+        text: 'Objetivos:',
         flags: ['title2'],
       },
       {
-        text: itemList,
+        text:
+          '​Aproximar os alunos da ideia de composição; desenvolver uma simbologia própria que represente suas ideias musicais, fazer contato com diferentes maneiras de escrita e representação musical; atentar para as limitações existentes em qualquer tipo de escrita musical; aproximar compositores e intérpretes.',
         flags: ['itemList'],
       },
       {
-        text: itemList,
+        text: 'Metodologia:',
+        flags: ['title2'],
+      },
+      {
+        text:
+          'Solicitar que na aula anterior os alunos tragam gravuras, imagens ou fotos para realizar  uma criação coletiva. Dividir a turma em grupos de cinco ou seis alunos. Cada grupo deve examinar as gravuras e imagens e criar uma história, que pode ser decorrente de quantas imagens o grupo escolher para isso, sendo que este número pode variar entre os diferentes grupos. Propor aos alunos que criem uma história que apresente um enredo, contendo início, meio e final. Propor aos alunos que escolham diferentes sons e suas combinações para que a história criada por eles possa ser representada apenas através da música. Após a criação da música, distribuir para cada grupo uma cartolina, uma caixa de lápis de cor e alguns outros materiais, como por exemplo, fitas coloridas, palitos de dente, pedrinhas, etc. Cada grupo deverá “escrever” a sua música, utilizando para isso os sinais que desejar, desenhos, palavras, símbolos, etc. Após a escrita da música cada grupo deverá ensaiar algumas veze sua composição, utilizando ou não o apoio da partitura. Propor que cada grupo apresente aos colegas a sua música.',
         flags: ['itemList'],
       },
       {
-        text: itemList,
-        flags: ['itemList'],
+        text: 'Observações:',
+        flags: ['title2'],
       },
       {
-        text: itemList,
-        flags: ['itemList'],
-      },
-      {
-        text: itemList,
-        flags: ['itemList'],
-      },
-      {
-        text: itemList,
+        text:
+          'Durante o processo de criação da história e da música devemos dar aos alunos autonomia  para que eles mesmos se organizem e estabeleçam relações entre eles, estimulando que todos os alunos devem participar deste processo. De igual maneira devemos dar autonomia aos alunos durante seus ensaios e durante a apresentação, sendo que os grupos podem escolher como fará esta apresentação, contando ou não a história criada, apresentando ou não a partitura.  Devemos estimular apenas que durante a apresentação da música a comunicação entre os alunos seja estabelecida de forma não-verbal.',
         flags: ['itemList'],
       },
     ],
@@ -355,39 +359,38 @@ const gameList: Game[] = [
     gameTitle: 'Jogo 7',
     content: [
       {
-        text: 'Title 1',
+        text: 'Improvisação com ostinato',
         flags: ['title1'],
       },
       {
-        text: paragraph,
+        text: 'Autor: Diversos autores/Marta Brietzke',
         flags: ['paragraph'],
       },
       {
-        text: 'Title 2',
+        text: 'Objetivos:',
         flags: ['title2'],
       },
       {
-        text: itemList,
+        text:
+          '​ Trabalhar a noção de ​ solo e ​ tutti; ​ trabalhar a ideia de ostinato; trabalhar o conceito de forma musical.',
         flags: ['itemList'],
       },
       {
-        text: itemList,
+        text: 'Metodologia:',
+        flags: ['title2'],
+      },
+      {
+        text:
+          'Organizar os alunos em um semicírculo. Explicar aos alunos o que é um ostinato. Propor um ostinato ritmico simples, a ser executado, por exemplo, com uma corda solta.  Dividir o grupo em orquestra e solista. O grupo que representa a orquestra deve executar o ostinato, enquanto o aluno solista executa diferentes frases ou ideias musicais, utilizando os sons que desejar. Combinar com os alunos qual será a indicação que determinará o final do solo. Após a execução do solo por um aluno, o aluno seguinte passa a ser o solista, e assim sucessivamente, até que todos os alunos tenham participado no papel de solistas.',
         flags: ['itemList'],
       },
       {
-        text: itemList,
-        flags: ['itemList'],
+        text: 'Observações:',
+        flags: ['title2'],
       },
       {
-        text: itemList,
-        flags: ['itemList'],
-      },
-      {
-        text: itemList,
-        flags: ['itemList'],
-      },
-      {
-        text: itemList,
+        text:
+          'Durante os solos não é necessário que pensemos em harmonia ou condução vocal, pois a improvisação não necessita obedecer aos padrões do tonalismo. O objetivo desta improvisação é que os alunos possam organizar livremente suas ideias, utilizando os conteúdos já absorvidos por eles. A improvisação pode ser organizada de diferentes maneiras, por exemplo, estabelecer que após o final de cada solo se executará um número determinado de vezes os ostinato, ou propor uma forma rondó, onde a parte A será um número fixo de vezes que a orquestra executará o ostinato, ou um tema criado em conjunto pelos alunos. Podemos organizar e acrescentar complexidades no decorrer das jogadas, intercalando-as com audições coletivas das improvisações criadas pelos alunos.',
         flags: ['itemList'],
       },
     ],
@@ -397,39 +400,37 @@ const gameList: Game[] = [
     gameTitle: 'Jogo 8',
     content: [
       {
-        text: 'Title 1',
+        text: 'A floresta encantada',
         flags: ['title1'],
       },
       {
-        text: paragraph,
+        text: 'Autor: Claudia Freixedas',
         flags: ['paragraph'],
       },
       {
-        text: 'Title 2',
+        text: 'Objetivos:​',
         flags: ['title2'],
       },
       {
-        text: itemList,
+        text: 'Trabalhar o diálogo musical; trabalhar a ideia de polifonia.',
         flags: ['itemList'],
       },
       {
-        text: itemList,
+        text: 'Metodologia:',
+        flags: ['title2'],
+      },
+      {
+        text:
+          'Este jogo é uma variação do jogo 3, A noite no castelo, porém, sendo acrescentadas  algumas complexidades. Posicionar os alunos em diferentes pontos da sala, com alguma distância entre eles. Contar uma história sobre dois exploradores que chegam a uma floresta encantada. Cada árvore da floresta emitirá um som escolhido pelo alunos que a representará. Os exploradores podem estar com os olhos abertos ou vendados. Ao se aproximarem das árvores, essas emitem o som escolhido pelo aluno que a representa. Ao se afastarem, a intensidade do som vai diminuindo e o aluno que estiver mais próximo começa a emitir o seu som escolhido',
         flags: ['itemList'],
       },
       {
-        text: itemList,
-        flags: ['itemList'],
+        text: 'Observações:',
+        flags: ['title2'],
       },
       {
-        text: itemList,
-        flags: ['itemList'],
-      },
-      {
-        text: itemList,
-        flags: ['itemList'],
-      },
-      {
-        text: itemList,
+        text:
+          'Devemos acrescentar algumas diferenças e complexidades neste jogo em relação ao jogo  3, A noite no castelo. Uma das complexidades a serem acrescentadas é a participação de dois “maestros”, o que resultará em interações e diálogos musicais entre eles.',
         flags: ['itemList'],
       },
     ],
@@ -439,39 +440,38 @@ const gameList: Game[] = [
     gameTitle: 'Jogo 9',
     content: [
       {
-        text: 'Title 1',
+        text: 'Passeio no zoológico',
         flags: ['title1'],
       },
       {
-        text: paragraph,
+        text: 'Autor: Violeta Gainza',
         flags: ['paragraph'],
       },
       {
-        text: 'Title 2',
+        text: 'Objetivos:',
         flags: ['title2'],
       },
       {
-        text: itemList,
+        text:
+          'Trabalhar diferentes opções musicais de uma mesma sonoridade, trabalhar a ideia de  narrativa musical.',
         flags: ['itemList'],
       },
       {
-        text: itemList,
+        text: 'Metodologia:',
+        flags: ['title2'],
+      },
+      {
+        text:
+          'Organizar os alunos em semicírculo.  Contar aos alunos uma história de um visitante que chega a um zoológico e observa os diferentes animais. Cada aluno escolhe um animal para ser representado por ele, escolhendo sons que o caracterizem. O visitante realiza um passeio pelo zoológico, se posicionando frente aos diferentes animais, e nesse momento, os animais reproduzem o som escolhido pelos alunos.',
         flags: ['itemList'],
       },
       {
-        text: itemList,
-        flags: ['itemList'],
+        text: 'Observações:',
+        flags: ['title2'],
       },
       {
-        text: itemList,
-        flags: ['itemList'],
-      },
-      {
-        text: itemList,
-        flags: ['itemList'],
-      },
-      {
-        text: itemList,
+        text:
+          'Podemos propor que os animais emitam os seus sons de acordo com as indicações corporais do visitante, executando diferentes níveis de dinâmica, intensidade e caráter musical. ● Assim como nos jogos anteriores podemos gravar as improvisações, possibilitando que nas próximas rodadas dos jogos as interações sejam cada vez mais provenientes das escolhas musicais dos alunos.',
         flags: ['itemList'],
       },
     ],
@@ -481,39 +481,38 @@ const gameList: Game[] = [
     gameTitle: 'Jogo 10',
     content: [
       {
-        text: 'Title 1',
+        text: 'Os pássaros e o caçador',
         flags: ['title1'],
       },
       {
-        text: paragraph,
+        text: 'Autor: Cláudia Freixedas/Marta Brietzke',
         flags: ['paragraph'],
       },
       {
-        text: 'Title 2',
+        text: 'Objetivos:',
         flags: ['title2'],
       },
       {
-        text: itemList,
+        text:
+          'Trabalhar a liberdade e as diferentes opções para o início, o desenvolvimento e o final da “peça” musical, trabalhar questões ligadas à ecologia e à ecologia acústica; trabalhar os diálogos, as polifonias e a noção de forma musical.',
         flags: ['itemList'],
       },
       {
-        text: itemList,
+        text: 'Metodologia:',
+        flags: ['title2'],
+      },
+      {
+        text:
+          'Organizar os alunos em um semicírculo. Perguntar aos alunos quais sons de pássaros eles conhecem. Inventariar junto aos alunos alguns desses sons. Propor que os alunos criem nos seus violoncelos sons que representem os inventariados previamente. Criar em conjunto com os alunos um som que represente o caçador. Cada aluno atuará representando o som de um dos pássaros, e um aluno representará o caçador. Os pássaros devem dialogar entre si, criando um contexto musical. Quando desejar, o aluno que representa o caçador pode intervir na mata. Quando o caçador intervir, todos os pássaros se calam. Pouco a pouco, os pássaros voltam a cantar e a dialogar entre si. O caçador pode intervir na mata o número de vezes que desejar.',
         flags: ['itemList'],
       },
       {
-        text: itemList,
-        flags: ['itemList'],
+        text: 'Observações:',
+        flags: ['title2'],
       },
       {
-        text: itemList,
-        flags: ['itemList'],
-      },
-      {
-        text: itemList,
-        flags: ['itemList'],
-      },
-      {
-        text: itemList,
+        text:
+          'Devemos proporcionar autonomia aos alunos, deixando a seu critério quando será o início e o final da improvisação, bem como, depois de quanto tempo após a intervenção do caçador, os pássaros voltarão a cantar.',
         flags: ['itemList'],
       },
     ],
