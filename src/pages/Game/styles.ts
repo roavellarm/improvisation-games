@@ -12,11 +12,6 @@ export const Content = styled.div`
   max-width: 680px;
   font-size: ${({ theme }) => theme.fontSize.text};
   padding-bottom: 3rem;
-
-  @media screen and (max-width: 850px) {
-    width: 80%;
-    margin-left: -20px;
-  } ;
 `
 
 export const SideArea = styled.div`
