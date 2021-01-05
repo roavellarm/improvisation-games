@@ -8,7 +8,6 @@ export const Navbar = styled.div`
   width: 100%;
 
   @media screen and (max-width: 1000px) {
-    box-shadow: 0px 0px 1px ${({ theme }) => theme.colors.black};
     height: 40px;
   }
 `
@@ -41,7 +40,6 @@ export const SideArea = styled.p`
   display: flex;
   flex: 1;
   justify-content: center;
-  /* margin-right: 3rem; */
   font-size: ${({ theme }) => theme.fontSize.link};
   color: ${({ theme }) => theme.colors.greenDark};
 
@@ -50,7 +48,6 @@ export const SideArea = styled.p`
     opacity: 1;
     text-shadow: 1px 1px 15px ${({ theme }) => theme.colors.orange};
     transform: scale(1.1, 1.1);
-    /* margin-right: 6rem; */
   }
 
   @media screen and (max-width: 1000px) {

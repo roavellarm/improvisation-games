@@ -1,12 +1,16 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
-import Navbar from '../../components/Navbar'
-import ScrollToTopButton from '../../components/ScrollToTopButton'
 import gameList, { Game as GameProps } from '../../assets/texts/games'
+import * as C from '../../components'
 import * as S from './styles'
 
 export default function Game() {
   const { id } = useParams() as { id: string }
+  const [windowWith, setWindowWidth] = useState(window.innerWidth)
+
+  useEffect(() => {
+    window.addEventListener('resize', () => setWindowWidth(window.innerWidth))
+  }, [])
 
   const getSelectedGame = (gameID: string) => {
     return gameList.filter((game) => game.id === gameID)[0]
@@ -16,33 +20,40 @@ export default function Game() {
 
   return (
     <>
-      <Navbar />
+      <C.Navbar />
       <S.Container>
-        <S.SideArea />
+        {windowWith > 900 && <S.SideArea />}
 
         <S.Content>
-          <S.HeaderTitle>{game.gameTitle}</S.HeaderTitle>
+          <C.HeaderTitle content={game.gameTitle} />
           {game.content.map((item, index) => {
             if (item.flags.includes('title1'))
-              return <S.Title key={index}>{item.text}</S.Title>
+              return <C.Title key={index} content={item.text} />
 
             if (item.flags.includes('title2'))
-              return <S.SubTitle key={index}>{item.text}</S.SubTitle>
+              return <C.SubTitle key={index} content={item.text} />
 
             if (item.flags.includes('paragraph'))
-              return <S.Paragraph key={index}>{item.text}</S.Paragraph>
+              return <C.Paragraph key={index} content={item.text} />
 
             if (item.flags.includes('itemList'))
-              return <S.Item key={index}>{item.text}</S.Item>
+              return <C.ItemList key={index} content={item.text} />
 
             return null
           })}
         </S.Content>
 
-        <S.SideArea>
-          <S.Image />
-          <ScrollToTopButton />
-        </S.SideArea>
+        {windowWith > 900 ? (
+          <S.SideArea>
+            <S.Image />
+            <C.ScrollToTopButton />
+          </S.SideArea>
+        ) : (
+          <>
+            <S.Image />
+            <C.ScrollToTopButton />
+          </>
+        )}
       </S.Container>
     </>
   )
