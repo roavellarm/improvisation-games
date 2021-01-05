@@ -27,6 +27,13 @@ export const StyledButton = styled.div`
     text-shadow: 1px 1px 15px ${({ theme }) => theme.colors.orange};
     transform: rotate(90deg) scale(1.1, 1.1);
   }
+
+  @media screen and (max-width: 800px) {
+    font-size: ${({ theme }) => theme.fontSize.title2};
+    padding-bottom: 8px;
+    height: 40px;
+    width: 40px;
+  }
 `
 
 export default function ScrollToTopButton() {
