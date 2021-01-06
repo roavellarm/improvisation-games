@@ -1,9 +1,15 @@
 import React from 'react'
-import styled from 'styled-components'
+import styled, { DefaultTheme } from 'styled-components'
+
+interface StyledProps {
+  theme: DefaultTheme
+  isAboutPage: boolean
+}
 
 export const StyledHeaderTitle = styled.p`
   font-size: ${({ theme }) => theme.fontSize.title1};
-  color: ${({ theme }) => theme.colors.black};
+  color: ${({ theme, isAboutPage }: StyledProps) =>
+    isAboutPage ? theme.colors.greenDark : theme.colors.black};
   margin-bottom: 3rem;
 
   @media screen and (max-width: 1000px) {
@@ -12,7 +18,15 @@ export const StyledHeaderTitle = styled.p`
     margin-bottom: 2rem;
   }
 `
+interface Props {
+  children: string
+  isAboutPage?: boolean
+}
 
-export default function title({ content }: { content: string }) {
-  return <StyledHeaderTitle>{content}</StyledHeaderTitle>
+export default function title({ children, isAboutPage }: Props) {
+  return (
+    <StyledHeaderTitle isAboutPage={isAboutPage || false}>
+      {children}
+    </StyledHeaderTitle>
+  )
 }

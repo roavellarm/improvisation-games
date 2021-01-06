@@ -1,8 +1,10 @@
+import audioGame3 from '../sounds/a-noite-no-castelo.mp3'
+import audioGame6 from '../sounds/composicao-com-gravuras.mp3'
+
 export interface GameContent {
-  text: string
+  text?: string
   flags: Array<string>
-  titleStrong?: string | undefined
-  rest?: string | undefined
+  audio?: string
 }
 
 export interface Game {
@@ -243,6 +245,10 @@ const gameList: Game[] = [
           'A fim de estimular os alunos a intensificarem seu poder de escuta, podemos propor que o viajante permaneça mais tempo na frente do objeto que quer ouvir, ou que volte à um determinado objeto que deseja ouvir novamente, exercendo papel ativo na composição da narrativa.',
         flags: ['itemList'],
       },
+      {
+        flags: ['audio'],
+        audio: audioGame3,
+      },
     ],
   },
   {
@@ -471,6 +477,10 @@ const gameList: Game[] = [
         text:
           'Devemos estimular apenas que durante a apresentação da música a comunicação entre os alunos seja estabelecida de forma não-verbal.',
         flags: ['itemList'],
+      },
+      {
+        audio: audioGame6,
+        flags: ['audio'],
       },
     ],
   },
