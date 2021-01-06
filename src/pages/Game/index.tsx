@@ -27,19 +27,19 @@ export default function Game() {
         {windowWith > 900 && <S.SideArea />}
 
         <S.Content>
-          <C.HeaderTitle content={game.gameTitle} />
+          <C.HeaderTitle>{game.gameTitle}</C.HeaderTitle>
           {game.content.map((item, index) => {
             if (item.flags.includes('title1'))
-              return <C.Title key={index} content={item.text} />
+              return <C.Title key={index}>{item.text}</C.Title>
 
             if (item.flags.includes('title2'))
-              return <C.SubTitle key={index} content={item.text} />
+              return <C.SubTitle key={index}>{item.text}</C.SubTitle>
 
             if (item.flags.includes('paragraph'))
-              return <C.Paragraph key={index} content={item.text} />
+              return <C.Paragraph key={index}>{item.text}</C.Paragraph>
 
             if (item.flags.includes('itemList'))
-              return <C.ItemList key={index} content={item.text} />
+              return <C.ItemList key={index}>{item.text}</C.ItemList>
 
             return null
           })}
