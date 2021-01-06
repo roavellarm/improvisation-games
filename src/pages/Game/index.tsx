@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import ReactAudioPlayer from 'react-audio-player'
 import { useParams } from 'react-router-dom'
 import gameList, { Game as GameProps } from '../../assets/texts/games'
 import * as C from '../../components'
@@ -41,12 +42,15 @@ export default function Game() {
             if (item.flags.includes('itemList'))
               return <C.ItemList key={index}>{item.text}</C.ItemList>
 
+            // eslint-disable-next-line no-console
             if (item.flags.includes('audio'))
               return (
                 <div key={index}>
-                  Renderizar aqui um componente de player de áudio com o áudio
-                  deste jogo
-                  {item.audio}
+                  <ReactAudioPlayer
+                    style={{ width: '100%' }}
+                    controls
+                    src={item.audio}
+                  />
                 </div>
               )
 
