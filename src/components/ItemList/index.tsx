@@ -35,6 +35,6 @@ export const Item = styled.li`
   }
 `
 
-export default function ItemList({ content }: { content: string }) {
-  return <Item>{content}</Item>
+export default function ItemList({ children }: { children: string }) {
+  return <Item>{children}</Item>
 }

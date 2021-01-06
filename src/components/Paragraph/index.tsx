@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { ReactNode } from 'react'
 import styled from 'styled-components'
 
 export const StyledParagraph = styled.p`
@@ -14,6 +14,6 @@ export const StyledParagraph = styled.p`
   }
 `
 
-export default function Paragraph({ content }: { content: string }) {
-  return <StyledParagraph>{content}</StyledParagraph>
+export default function Paragraph({ children }: { children: ReactNode }) {
+  return <StyledParagraph>{children}</StyledParagraph>
 }

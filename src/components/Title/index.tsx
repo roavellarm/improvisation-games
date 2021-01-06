@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { ReactNode } from 'react'
 import styled from 'styled-components'
 
 export const Styledtitle = styled.p`
@@ -12,6 +12,6 @@ export const Styledtitle = styled.p`
   }
 `
 
-export default function title({ content }: { content: string }) {
-  return <Styledtitle>{content}</Styledtitle>
+export default function title({ children }: { children: ReactNode }) {
+  return <Styledtitle>{children}</Styledtitle>
 }

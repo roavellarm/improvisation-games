@@ -15,6 +15,6 @@ export const StyledSubTitle = styled.h4`
   }
 `
 
-export default function SubTitle({ content }: { content: string }) {
-  return <StyledSubTitle>{content}</StyledSubTitle>
+export default function SubTitle({ children }: { children: string }) {
+  return <StyledSubTitle>{children}</StyledSubTitle>
 }
