@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { ReactNode } from 'react'
 import styled from 'styled-components'
 
 export const StyledSubTitle = styled.h4`
@@ -15,6 +15,6 @@ export const StyledSubTitle = styled.h4`
   }
 `
 
-export default function SubTitle({ children }: { children: string }) {
+export default function SubTitle({ children }: { children: ReactNode }) {
   return <StyledSubTitle>{children}</StyledSubTitle>
 }

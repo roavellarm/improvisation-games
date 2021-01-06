@@ -41,6 +41,15 @@ export default function Game() {
             if (item.flags.includes('itemList'))
               return <C.ItemList key={index}>{item.text}</C.ItemList>
 
+            if (item.flags.includes('audio'))
+              return (
+                <div key={index}>
+                  Renderizar aqui um componente de player de áudio com o áudio
+                  deste jogo
+                  {item.audio}
+                </div>
+              )
+
             return null
           })}
         </S.Content>

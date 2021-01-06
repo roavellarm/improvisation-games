@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { ReactNode } from 'react'
 import styled from 'styled-components'
 import dot from '../../assets/images/dot.png'
 
@@ -35,6 +35,6 @@ export const Item = styled.li`
   }
 `
 
-export default function ItemList({ children }: { children: string }) {
+export default function ItemList({ children }: { children: ReactNode }) {
   return <Item>{children}</Item>
 }
