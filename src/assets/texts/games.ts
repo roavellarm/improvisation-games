@@ -32,7 +32,7 @@ const gameList: Game[] = [
       },
       {
         text:
-          'Propiciar aos alunos a consciência da sua individualidade e seu papel dentro do coletivo, estabelecer as ideias de narrativa musical, de perguntas e respostas, enfatizando o uso das quatro cordas do violoncelo, do ​ pizzicato, ​ de diferentes ritmos, métricas, timbres e dinâmicas.',
+          'Propiciar aos alunos a consciência da sua individualidade e seu papel dentro do coletivo; estabelecer as ideias de narrativa musical, de perguntas e respostas, enfatizando o uso das quatro cordas do violoncelo, do ​ pizzicato, ​ de diferentes ritmos, métricas, timbres e dinâmicas.',
         flags: ['paragraph'],
       },
       {
@@ -186,7 +186,7 @@ const gameList: Game[] = [
       },
       {
         text:
-          'Devemos estar atentos e estimular o poder de escuta dos alunos, ressaltando que as diferentes combinações de sons e silêncios estabelecidas entre os “maestros” proporcionaa criação de uma narrativa musical.',
+          'Devemos estar atentos e estimular o poder de escuta dos alunos, ressaltando que as diferentes combinações de sons e silêncios estabelecidas entre os “maestros” proporcionam a criação de uma narrativa musical.',
         flags: ['itemList'],
       },
     ],
@@ -223,7 +223,7 @@ const gameList: Game[] = [
       },
       {
         text:
-          'Inventariar sons que poderiam compor esta paisagem: trovões, rajadas de vento, som da chuva, morcegos, fantasmas, etc...',
+          'Inventariar sons que poderiam compor esta paisagem: trovões, rajadas de vento, som da chuva, morcegos, fantasmas, assim como objetos que estariam dentro do castelo, como quadros, vasos, móveis antigos, etc...',
         flags: ['itemList'],
       },
       {
@@ -292,12 +292,12 @@ const gameList: Game[] = [
       },
       {
         text:
-          'Propor que os alunos individualmente criem suas assinaturas musicais, utilizando os sons que desejarem, e as apresentem para os demais colegas da turma.',
+          'Propor que os alunos, individualmente, criem suas assinaturas musicais, utilizando os sons que desejarem, e as apresentem para os demais colegas da turma.',
         flags: ['itemList'],
       },
       {
         text:
-          'Propor que os alunos executem suas assinaturas mais de uma vez, a fim de que possamos verificar se ele se mantém a mesma nas duas execuções.',
+          'Propor que os alunos executem suas assinaturas mais de uma vez, a fim de que possamos verificar se elas se mantém as mesmas nas duas execuções.',
         flags: ['itemList'],
       },
       {
@@ -321,7 +321,7 @@ const gameList: Game[] = [
       },
       {
         text:
-          'É interessante, em todos os jogos, que o professor seja o maestro na primeira vez que o jogo está sendo executado, mas que em seguida sejam escolhidos diferentes alunos para assumirem essa função, possibilitando que todos os alunos do grupo possam, em algum  momento, participar como maestros de algum dos jogos de improvisação.',
+          'É interessante, em todos os jogos, que o professor seja o "maestro" na primeira vez que o jogo está sendo executado, mas que em seguida sejam escolhidos diferentes alunos para assumirem essa função, possibilitando que todos os alunos do grupo possam, em algum  momento, participar como "maestros" de algum dos jogos de improvisação.',
         flags: ['itemList'],
       },
     ],
@@ -409,7 +409,7 @@ const gameList: Game[] = [
       },
       {
         text:
-          '​Aproximar os alunos da ideia de composição; desenvolver uma simbologia própria que represente suas ideias musicais, fazer contato com diferentes maneiras de escrita e representação musical; atentar para as limitações existentes em qualquer tipo de escrita musical; aproximar compositores e intérpretes.',
+          '​Aproximar os alunos da ideia de composição; desenvolver uma simbologia própria que represente suas ideias musicais; fazer contato com diferentes maneiras de escrita e representação musical; atentar para as limitações existentes em qualquer tipo de escrita musical; aproximar compositores e intérpretes.',
         flags: ['paragraph'],
       },
       {
@@ -452,7 +452,7 @@ const gameList: Game[] = [
       },
       {
         text:
-          'Após a escrita da música cada grupo deverá ensaiar algumas veze sua composição, utilizando ou não o apoio da partitura.',
+          'Após a escrita da música cada grupo deverá ensaiar algumas vezes sua composição, utilizando ou não o apoio da partitura.',
         flags: ['itemList'],
       },
       {
@@ -470,12 +470,12 @@ const gameList: Game[] = [
       },
       {
         text:
-          'De igual maneira devemos dar autonomia aos alunos durante seus ensaios e durante a apresentação, sendo que os grupos podem escolher como fará esta apresentação, contando ou não a história criada, apresentando ou não a partitura.',
+          'De igual maneira devemos dar autonomia aos alunos durante seus ensaios e durante a apresentação, sendo que os grupos podem escolher como farão esta apresentação, contando ou não a história criada, apresentando ou não a partitura.',
         flags: ['itemList'],
       },
       {
         text:
-          'Devemos estimular apenas que durante a apresentação da música a comunicação entre os alunos seja estabelecida de forma não-verbal.',
+          'Devemos estimular que a comunicação entre os alunos seja estabelecida de forma não-verbal durante a apresentação da música.',
         flags: ['itemList'],
       },
       {
@@ -654,7 +654,7 @@ const gameList: Game[] = [
       },
       {
         text:
-          'Trabalhar diferentes opções musicais de uma mesma sonoridade, trabalhar a ideia de  narrativa musical.',
+          'Trabalhar diferentes opções musicais de uma mesma sonoridade; trabalhar a ideia de narrativa musical.',
         flags: ['paragraph'],
       },
       {
@@ -691,7 +691,7 @@ const gameList: Game[] = [
       },
       {
         text:
-          'Assim como nos jogos anteriores podemos gravar as improvisações, possibilitando que nas próximas rodadas dos jogos as interações sejam cada vez mais provenientes das escolhas musicais dos alunos.',
+          'Assim como nos jogos anteriores, podemos gravar as improvisações possibilitando que, nas próximas rodadas dos jogos, as interações sejam cada vez mais provenientes das escolhas musicais dos alunos.',
         flags: ['itemList'],
       },
     ],
@@ -714,7 +714,7 @@ const gameList: Game[] = [
       },
       {
         text:
-          'Trabalhar a liberdade e as diferentes opções para o início, o desenvolvimento e o final da “peça” musical, trabalhar questões ligadas à ecologia e à ecologia acústica; trabalhar os diálogos, as polifonias e a noção de forma musical.',
+          'Trabalhar a liberdade e as diferentes opções para o início, o desenvolvimento e o final da “peça” musical; trabalhar questões ligadas à ecologia e à ecologia acústica; trabalhar os diálogos, as polifonias e a noção de forma musical.',
         flags: ['paragraph'],
       },
       {
@@ -773,7 +773,7 @@ const gameList: Game[] = [
       },
       {
         text:
-          'Devemos proporcionar autonomia aos alunos, deixando a seu critério quando será o início e o final da improvisação, bem como, depois de quanto tempo após a intervenção do caçador, os pássaros voltarão a cantar.',
+          'Devemos proporcionar autonomia aos alunos, deixando a seu critério quando será o início e o final da improvisação, bem como, depois de quanto tempo após a intervenção do caçador os pássaros voltarão a cantar.',
         flags: ['itemList'],
       },
     ],
