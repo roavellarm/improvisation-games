@@ -42,16 +42,15 @@ export default function Game() {
             if (item.flags.includes('itemList'))
               return <C.ItemList key={index}>{item.text}</C.ItemList>
 
-            // eslint-disable-next-line no-console
             if (item.flags.includes('audio'))
               return (
-                <div key={index}>
-                  <ReactAudioPlayer
-                    style={{ width: '100%' }}
-                    controls
-                    src={item.audio}
-                  />
-                </div>
+                <ReactAudioPlayer
+                  key={index}
+                  style={{ width: '100%', marginTop: '1rem', outline: 'none' }}
+                  controls
+                  title={`Exemplo ${game.gameTitle}`}
+                  src={item.audio}
+                />
               )
 
             return null
