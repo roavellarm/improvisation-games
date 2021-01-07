@@ -13,7 +13,7 @@ O público alvo são professores de violoncelo de alunos iniciantes de desenvolv
 O projeto trata-se de jogos de improvisação musical coletiva, apresentados como planejamento de aulas e guias para as atividades sujeridas pelo professor aos alunos.
 As propostas contidas nos jogos podem ser utilizadas para outros instrumentos além do violoncelo, e também para outros níveis de aprendizagem, cabendo a cada professor fazer as adaptações que julgar necessárias e efetivas para suas demandas. Além disso, cabem muitos desdobramentos das propostas iniciais, que podem suscitar outras ideias e perspectivas de trabalho.
 
-Link para o projeto **<a target="_blank" href="https://www.samantafloor.com.br/">aqui</a>**
+Link para o projeto **<a target="_blank" href="https://martabrietzke.netlify.app/">aqui</a>**
 
 <br />
 
