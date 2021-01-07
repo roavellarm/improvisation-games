@@ -54,15 +54,14 @@ export default function About() {
             {` está disponível `}
             <S.Link
               target="_blank"
-              href="https://teses.usp.br/teses/disponiveis/27/27158/tde-11032019-113124/pt-br.php"
+              href="https://teses.usp.br/teses/disponiveis/27/27158/tde-11032019-113124/publico/MartaMacedoBrietzkeVC.pdf"
             >
               aqui
             </S.Link>
             .
           </C.Paragraph>
           <C.Title>
-            Entre em contato
-            {`  `}
+            {`Entre em contato `}
             <S.Link target="_blank" href="mailto:martabrietzke@gmail.com">
               aqui
             </S.Link>
