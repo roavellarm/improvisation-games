@@ -9,7 +9,7 @@ export default function Landing() {
   const { push } = useHistory()
   const [windowWith, setWindowWidth] = useState(window.innerWidth)
 
-  const handleClick = (game: string) => push(`game/${game}`)
+  const handleClick = (game: string) => push(`/game/${game}`)
 
   const renderButton = (g: Game) => (
     <Button key={g.id} title={g.gameTitle} onClick={() => handleClick(g.id)} />
@@ -43,7 +43,7 @@ export default function Landing() {
           <>
             {renderTitle()}
             {renderImageWithLinks()}
-            <Carousel gameList={gameList} handleClick={handleClick} />
+            <Carousel gameList={gameList} />
           </>
         ) : (
           <>

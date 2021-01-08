@@ -23,7 +23,7 @@ export default function Game() {
 
   return (
     <>
-      <C.Navbar />
+      <C.Navbar isGamePage />
       <S.Container>
         {windowWith > 900 && <S.SideArea />}
 
