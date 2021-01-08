@@ -27,7 +27,7 @@ export const Card = styled.div`
 export const Title = styled.p`
   font-family: ${({ theme }) => theme.fontFamily.caveat};
   font-size: 1.5rem;
-  color: ${({ theme }) => theme.colors.greenDark};
+  color: ${({ theme }) => theme.colors.greenLight};
   margin-bottom: 5px;
 `
 

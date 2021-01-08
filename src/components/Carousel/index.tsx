@@ -1,5 +1,6 @@
 import React from 'react'
 import Carousel from 'react-elastic-carousel'
+import { useHistory } from 'react-router-dom'
 import leaf from '../../assets/images/button-image.png'
 import { Game } from '../../assets/texts/games'
 import * as S from './styles'
@@ -31,13 +32,10 @@ const customPagination = ({ pages, activePage, onClick }: any) => {
   )
 }
 
-interface CarouselProps {
-  gameList: Game[]
-  // eslint-disable-next-line no-unused-vars
-  handleClick(game: string): void
-}
+export default function Caroussel({ gameList }: { gameList: Game[] }) {
+  const { push } = useHistory()
+  const handleClick = (game: string) => push(`/game/${game}`)
 
-export default function Caroussel({ gameList, handleClick }: CarouselProps) {
   return (
     <S.Container>
       <Carousel
