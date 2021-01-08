@@ -47,7 +47,7 @@ export const Arrow = styled.p`
 export const Stepper = styled.button`
   height: 20px;
   width: 20px;
-  border: 0.5px solid ${({ theme }) => theme.colors.greenLight};
+  border: 0.5px solid ${({ theme }) => theme.colors.greenDark};
   border-radius: 50%;
   margin: 15px 4px;
   outline: none;
