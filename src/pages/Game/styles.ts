@@ -11,10 +11,12 @@ export const Container = styled.div`
 export const Content = styled.div`
   max-width: 680px;
   font-size: ${({ theme }) => theme.fontSize.text};
+  margin-top: 2rem;
   padding-bottom: 3rem;
 
   @media screen and (max-width: 800px) {
     padding: 0px 0.9rem 2rem 0.9rem;
+    margin-top: 0px;
   }
 `
 
