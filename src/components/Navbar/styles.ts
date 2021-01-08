@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled, { DefaultTheme } from 'styled-components'
 
 export const Navbar = styled.div`
   position: fixed;
@@ -19,17 +19,22 @@ export const Line = styled.div`
   background: ${({ theme }) => theme.colors.greenLight};
 `
 
+interface ContainerProps {
+  isGamePage: boolean
+  theme: DefaultTheme
+}
+
 export const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 100%;
-  background: linear-gradient(
-    to bottom,
-    rgba(254, 254, 254, 1),
-    rgba(254, 254, 254, 0)
-  );
+  background: ${({ theme, isGamePage }: ContainerProps) =>
+    isGamePage
+      ? theme.colors.white
+      : `linear-gradient(to bottom, rgba(254, 254, 254, 1),
+          rgba(254, 254, 254, 0))`};
 
   @media screen and (max-width: 1000px) {
     background: ${({ theme }) => theme.colors.white};
@@ -46,7 +51,7 @@ export const SideArea = styled.p`
   &:hover {
     cursor: pointer;
     opacity: 1;
-    text-shadow: 1px 1px 15px ${({ theme }) => theme.colors.orange};
+    text-shadow: 1px 1px 15px rgba(219, 152, 19, 0.5);
     transform: scale(1.1, 1.1);
   }
 
@@ -58,5 +63,10 @@ export const SideArea = styled.p`
 `
 
 export const Spacer = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 680px;
+  height: 100%;
+  /* background: lightgrey; */
 `
