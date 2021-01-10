@@ -25,7 +25,7 @@ interface Props {
 
 export default function title({ children, isAboutPage }: Props) {
   return (
-    <StyledHeaderTitle isAboutPage={isAboutPage || false}>
+    <StyledHeaderTitle id={`${children}`} isAboutPage={isAboutPage || false}>
       {children}
     </StyledHeaderTitle>
   )

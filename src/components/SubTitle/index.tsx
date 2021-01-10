@@ -1,20 +1,19 @@
 import React, { ReactNode } from 'react'
-import styled from 'styled-components'
+import * as S from './styles'
 
-export const StyledSubTitle = styled.h4`
-  font-family: ${({ theme }) => theme.fontFamily.lato};
-  font-size: ${({ theme }) => theme.fontSize.text};
-  color: ${({ theme }) => theme.colors.greenDark};
-  margin: 2rem 0px;
-  padding-top: 1.5rem;
+interface SubTitleProps {
+  children: ReactNode
+  size?: number | undefined
+}
 
-  @media screen and (max-width: 1000px) {
-    font-size: 1.125rem;
-    margin: 1rem 0px;
-    padding-top: 0.5rem;
-  }
-`
+export default function SubTitle({ children, size }: SubTitleProps) {
+  return (
+    <S.SubTitle id={`${children}`} size={size || undefined}>
+      {children}
+    </S.SubTitle>
+  )
+}
 
-export default function SubTitle({ children }: { children: ReactNode }) {
-  return <StyledSubTitle>{children}</StyledSubTitle>
+SubTitle.defaultProps = {
+  size: undefined,
 }

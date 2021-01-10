@@ -44,7 +44,6 @@ export const ImgTopRight = styled.div`
   background-position: top right;
 
   position: fixed;
-  z-index: 999;
   margin-top: -56px;
   right: 0px;
 
@@ -67,7 +66,6 @@ export const ImgTopRight = styled.div`
 
 export const ImgBottomRight = styled.div`
   position: fixed;
-  z-index: 999;
   bottom: 0px;
   right: 0px;
 
@@ -92,7 +90,6 @@ export const ImgBottomRight = styled.div`
 
 export const ImgBottomLeft = styled.div`
   position: fixed;
-  z-index: 999;
   left: 0px;
   bottom: 0px;
 

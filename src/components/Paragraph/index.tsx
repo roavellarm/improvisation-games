@@ -1,19 +1,37 @@
 import React, { ReactNode } from 'react'
-import styled from 'styled-components'
+import * as S from './styles'
 
-export const StyledParagraph = styled.p`
-  font-family: ${({ theme }) => theme.fontFamily.lato};
-  font-size: ${({ theme }) => theme.fontSize.text};
-  color: ${({ theme }) => theme.colors.text};
-  line-height: 158%;
-  margin: 2rem 0px;
+interface ParagraphProps {
+  children: ReactNode
+  italic?: boolean
+  margin?: boolean
+  bold?: boolean
+  citation?: boolean
+}
 
-  @media screen and (max-width: 1000px) {
-    font-size: 1.125rem;
-    margin: 1rem 0px;
-  }
-`
+export default function Paragraph({
+  children,
+  italic = false,
+  margin = false,
+  bold = false,
+  citation = false,
+}: ParagraphProps) {
+  return (
+    <S.Paragraph
+      id={`${children}`}
+      italic={italic}
+      margin={margin}
+      bold={bold}
+      citation={citation}
+    >
+      {children}
+    </S.Paragraph>
+  )
+}
 
-export default function Paragraph({ children }: { children: ReactNode }) {
-  return <StyledParagraph>{children}</StyledParagraph>
+Paragraph.defaultProps = {
+  italic: false,
+  margin: false,
+  bold: false,
+  citation: false,
 }
