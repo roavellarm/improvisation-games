@@ -15,7 +15,10 @@ const customArrow = ({ type, onClick, isEdge }: any) => {
 
 export default function CarousselNavBar({ gameList }: { gameList: Game[] }) {
   const { push } = useHistory()
-  const handleClick = (game: string) => push(`/game/${game}`)
+  const handleClick = (game: string) => {
+    window.scrollTo({ top: 0 })
+    push(`/game/${game}`)
+  }
 
   return (
     <S.Container>
