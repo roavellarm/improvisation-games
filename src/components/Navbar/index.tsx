@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useHistory } from 'react-router-dom'
 import gameList from '../../assets/texts/games'
-import CarousselNavBar from '../CarouselNavBar'
+import CarousselNavbar from '../CarouselNavbar'
 import * as S from './styles'
 
 interface Props {
@@ -13,8 +13,6 @@ export default function Navbar({ isGamePage = false }: Props) {
   const [windowWith, setWindowWidth] = useState(window.innerWidth)
 
   useEffect(() => {
-    document.body.scrollTop = 0
-    document.documentElement.scrollTop = 0
     window.addEventListener('resize', () => setWindowWidth(window.innerWidth))
   }, [])
 
@@ -25,7 +23,7 @@ export default function Navbar({ isGamePage = false }: Props) {
         <S.SideArea onClick={() => push('/')}>{`<- Voltar`}</S.SideArea>
         <S.Spacer>
           {isGamePage && windowWith > 700 && (
-            <CarousselNavBar gameList={gameList} />
+            <CarousselNavbar gameList={gameList} />
           )}
         </S.Spacer>
         <S.SideArea />
