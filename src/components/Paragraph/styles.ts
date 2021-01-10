@@ -12,13 +12,11 @@ export const Paragraph = styled.p<ParagraphProps>`
   font-family: ${({ theme }) => theme.fontFamily.lato};
   font-size: ${({ theme }) => theme.fontSize.text};
   font-style: ${({ italic }) => italic && 'italic'};
-  color: ${({ theme }) => theme.colors.text};
+  color: rgba(41, 41, 41, 0.8);
   font-weight: ${({ bold }) => bold && 'bold'};
   line-height: 158%;
   margin: ${({ margin }) => (margin ? '0px' : '2rem 0px')};
-  opacity: ${({ citation }) => citation && '0.9'};
   background: ${({ citation }) => citation && `rgba(91, 124, 107, 0.2)`};
-  /* margin-left: ${({ citation }) => citation && '3rem'}; */
   padding: ${({ citation }) => citation && '1rem 2rem'};
   border-radius: ${({ citation }) => citation && '3rem'};
 

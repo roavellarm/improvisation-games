@@ -57,4 +57,8 @@ export const Stepper = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  @media screen and (max-width: 860px) {
+    padding-right: 1rem;
+  }
 `
