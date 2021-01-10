@@ -21,7 +21,8 @@ export const Content = styled.div`
 export const SideArea = styled.div`
   display: flex;
   flex: 1;
-  justify-content: flex-start;
+  justify-content: ${({ stepper = false }: { stepper?: boolean }) =>
+    stepper ? 'flex-end' : 'flex-start'};
 `
 
 export const Image = styled.div`
@@ -46,4 +47,14 @@ export const Image = styled.div`
     max-width: 50px;
     margin-top: 10px;
   }
+`
+
+export const Stepper = styled.div`
+  position: fixed;
+  height: 100%;
+  padding-right: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 `
