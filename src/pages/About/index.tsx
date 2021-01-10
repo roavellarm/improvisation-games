@@ -16,7 +16,7 @@ export default function About() {
     <>
       <Navbar />
       <S.Container>
-        <S.SideAreaL>{windowWith > 800 && <S.ImgBottomLeft />}</S.SideAreaL>
+        <S.SideArea>{windowWith > 800 && <S.ImgBottomLeft />}</S.SideArea>
 
         <S.Content>
           <C.HeaderTitle isAboutPage>Saiba mais</C.HeaderTitle>
@@ -77,10 +77,10 @@ export default function About() {
           </C.Title>
         </S.Content>
 
-        <S.SideAreaR>
+        <S.SideArea>
           <S.ImgTopRight />
           {windowWith > 800 && <S.ImgBottomRight />}
-        </S.SideAreaR>
+        </S.SideArea>
       </S.Container>
     </>
   )
