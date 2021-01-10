@@ -10,8 +10,7 @@ export default function Game() {
   const [windowWith, setWindowWidth] = useState(window.innerWidth)
 
   useEffect(() => {
-    document.body.scrollTop = 0
-    document.documentElement.scrollTop = 0
+    window.scrollTo({ top: 0 })
     window.addEventListener('resize', () => setWindowWidth(window.innerWidth))
   }, [])
 
