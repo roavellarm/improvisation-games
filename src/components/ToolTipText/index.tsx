@@ -10,7 +10,8 @@ const Text = styled.span`
   visibility: ${({ isOn }: { isOn: boolean }) => (isOn ? 'visible' : 'hidden')};
   opacity: ${({ isOn }: { isOn: boolean }) => (isOn ? '1' : '0')};
   width: 350px;
-  background-color: rgba(41, 41, 41, 0.9);
+  background-color: ${({ theme }) => theme.colors.orange};
+
   color: ${({ theme }) => theme.colors.white};
   text-align: center;
   border-radius: 30px;
