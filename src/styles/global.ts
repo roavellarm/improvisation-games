@@ -18,6 +18,8 @@ export default createGlobalStyle`
     font-size: ${({ theme }) => theme.fontSize.text};
     color: ${({ theme }) => theme.colors.text};
     font-family: ${({ theme }) => theme.fontFamily.caveat};
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 
 ::-webkit-scrollbar {
