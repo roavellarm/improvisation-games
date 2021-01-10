@@ -15,16 +15,16 @@ const article: ArticleItem[] = [
     flags: ['title1'],
   },
   {
-    text: 'Marta Macedo Brietzke(martabrietzke@gmail.com)',
-    flags: ['italic'],
+    text: 'Autora: Marta Macedo Brietzke',
+    flags: ['paragraph', 'margin'],
   },
   {
     text: 'Orientador: Prof. Dr. Fabio Soren Presgrave',
-    flags: ['paragraph'],
+    flags: ['paragraph', 'margin'],
   },
   {
     text: 'Coorientador: Prof. Dr. Mário André Wanderley Oliveira',
-    flags: ['paragraph'],
+    flags: ['paragraph', 'margin'],
   },
   {
     text: '',
@@ -33,7 +33,7 @@ const article: ArticleItem[] = [
   {
     text:
       'Este trabalho faz parte de Dissertação de Mestrado de Marta Macedo Brietzke, intitulada “Música contemporânea na iniciação coletiva ao violoncelo:uma pesquisa - ação com jogos de improvisação em três instituições de ensino no estado de São Paulo”, defendida em 12 de dezembro de 2018, pela Universidade de São Paulo, com orientação do Prof. Dr. Fabio Soren Presgrave e coorientação do Prof. Dr. Mário André Wanderley Oliveira.',
-    flags: ['title3Italic'],
+    flags: ['italic'],
   },
 
   {
@@ -142,24 +142,28 @@ const article: ArticleItem[] = [
     flags: ['paragraph'],
   },
   {
+    text: '',
+    flags: ['line'],
+  },
+  {
     text: 'Jogos de improvisação coletiva:',
     flags: ['title1'],
   },
   {
     text: 'Descrição do Jogo 1',
-    flags: ['paragraph', 'strong'],
+    flags: ['bold'],
   },
   {
-    text: '**_Pergunta e Resposta com cordas soltas em pizzicato_**',
+    text: 'Pergunta e Resposta com cordas soltas em pizzicato',
     flags: ['title2'],
   },
   {
     text: 'Autor: Marta Brietzke',
-    flags: ['paragraph', 'italic'],
+    flags: ['italic'],
   },
   {
     text: 'Objetivos:',
-    flags: ['title3'],
+    flags: ['bold'],
   },
   {
     text:
@@ -168,7 +172,7 @@ const article: ArticleItem[] = [
   },
   {
     text: 'Metodologia e aplicação:',
-    flags: ['title3'],
+    flags: ['bold'],
   },
   {
     text:
@@ -195,20 +199,24 @@ const article: ArticleItem[] = [
     flags: ['citation'],
   },
   {
-    text: 'Descrição do Jogo 2',
-    flags: ['paragraph', 'strong'],
+    text: '',
+    flags: ['line'],
   },
   {
-    text: '**_Sinal Verde X Sinal Vermelho_**',
+    text: 'Descrição do Jogo 2',
+    flags: ['bold'],
+  },
+  {
+    text: 'Sinal Verde X Sinal Vermelho',
     flags: ['title2'],
   },
   {
     text: 'Autor: Maria Teresa Alencar de Brito/Murray Schafer',
-    flags: ['paragraph', 'italic'],
+    flags: ['italic'],
   },
   {
     text: 'Objetivos:',
-    flags: ['title3'],
+    flags: ['bold'],
   },
   {
     text:
@@ -217,7 +225,7 @@ const article: ArticleItem[] = [
   },
   {
     text: 'Metodologia e aplicação:',
-    flags: ['title3'],
+    flags: ['bold'],
   },
   {
     text:
@@ -255,20 +263,24 @@ const article: ArticleItem[] = [
     flags: ['citation'],
   },
   {
-    text: 'Descrição do Jogo 3',
-    flags: ['paragraph', 'strong'],
+    text: '',
+    flags: ['line'],
   },
   {
-    text: '**_A noite no Castelo_**',
+    text: 'Descrição do Jogo 3',
+    flags: ['bold'],
+  },
+  {
+    text: 'A noite no Castelo',
     flags: ['title2'],
   },
   {
     text: 'Autor: Claudia Freixedas',
-    flags: ['paragraph', 'italic'],
+    flags: ['italic'],
   },
   {
     text: 'Objetivos:',
-    flags: ['title3'],
+    flags: ['bold'],
   },
   {
     text:
@@ -277,7 +289,7 @@ const article: ArticleItem[] = [
   },
   {
     text: 'Metodologia e aplicação:',
-    flags: ['title3'],
+    flags: ['bold'],
   },
   {
     text:
@@ -310,20 +322,24 @@ const article: ArticleItem[] = [
     flags: ['citation'],
   },
   {
-    text: 'Descrição do Jogo 4',
-    flags: ['paragraph', 'strong'],
+    text: '',
+    flags: ['line'],
   },
   {
-    text: '**_Assinatura Musical_**',
+    text: 'Descrição do Jogo 4',
+    flags: ['bold'],
+  },
+  {
+    text: 'Assinatura Musical',
     flags: ['title2'],
   },
   {
     text: 'Autor: Wanderson Cruz',
-    flags: ['paragraph', 'italic'],
+    flags: ['italic'],
   },
   {
     text: 'Objetivos:',
-    flags: ['title3'],
+    flags: ['bold'],
   },
   {
     text:
@@ -332,7 +348,7 @@ const article: ArticleItem[] = [
   },
   {
     text: 'Metodologia e aplicação:',
-    flags: ['title3'],
+    flags: ['bold'],
   },
   {
     text:
@@ -365,20 +381,24 @@ const article: ArticleItem[] = [
     flags: ['citation'],
   },
   {
-    text: 'Descrição do Jogo 5',
-    flags: ['paragraph', 'strong'],
+    text: '',
+    flags: ['line'],
   },
   {
-    text: '**_Igual X Parecido X Diferente_**',
+    text: 'Descrição do Jogo 5',
+    flags: ['bold'],
+  },
+  {
+    text: 'Igual X Parecido X Diferente',
     flags: ['title2'],
   },
   {
     text: 'Autor: Violeta Gainza',
-    flags: ['paragraph', 'italic'],
+    flags: ['italic'],
   },
   {
     text: 'Objetivos:',
-    flags: ['title3'],
+    flags: ['bold'],
   },
   {
     text:
@@ -387,7 +407,7 @@ const article: ArticleItem[] = [
   },
   {
     text: 'Metodologia e aplicação:',
-    flags: ['title3'],
+    flags: ['bold'],
   },
   {
     text:
@@ -405,20 +425,24 @@ const article: ArticleItem[] = [
     flags: ['citation'],
   },
   {
-    text: 'Descrição do Jogo 6',
-    flags: ['paragraph', 'strong'],
+    text: '',
+    flags: ['line'],
   },
   {
-    text: '**_Composição com gravuras e escrita com notação própria_**',
+    text: 'Descrição do Jogo 6',
+    flags: ['bold'],
+  },
+  {
+    text: 'Composição com gravuras e escrita com notação própria',
     flags: ['title2'],
   },
   {
     text: 'Autor: Diversos autores/Marta Brietzke',
-    flags: ['paragraph', 'italic'],
+    flags: ['italic'],
   },
   {
     text: 'Objetivos:',
-    flags: ['title3'],
+    flags: ['bold'],
   },
   {
     text:
@@ -427,7 +451,7 @@ const article: ArticleItem[] = [
   },
   {
     text: 'Metodologia e aplicação:',
-    flags: ['title3'],
+    flags: ['bold'],
   },
   {
     text:
@@ -464,20 +488,24 @@ const article: ArticleItem[] = [
     flags: ['citation'],
   },
   {
-    text: 'Descrição do Jogo 7',
-    flags: ['paragraph', 'strong'],
+    text: '',
+    flags: ['line'],
   },
   {
-    text: '**_Improvisação com ostinato_**',
+    text: 'Descrição do Jogo 7',
+    flags: ['bold'],
+  },
+  {
+    text: 'Improvisação com ostinato',
     flags: ['title2'],
   },
   {
     text: 'Autor: Vários autores/Marta Brietzke',
-    flags: ['paragraph', 'italic'],
+    flags: ['italic'],
   },
   {
     text: 'Objetivos:',
-    flags: ['title3'],
+    flags: ['bold'],
   },
   {
     text:
@@ -486,7 +514,7 @@ const article: ArticleItem[] = [
   },
   {
     text: 'Metodologia e aplicação:',
-    flags: ['title3'],
+    flags: ['bold'],
   },
   {
     text:
@@ -509,23 +537,23 @@ const article: ArticleItem[] = [
   },
   {
     text: '',
-    flags: ['space'],
+    flags: ['line'],
   },
   {
     text: 'Descrição do Jogo 8',
-    flags: ['paragraph', 'strong'],
+    flags: ['bold'],
   },
   {
-    text: '**_A floresta encantada_**',
+    text: 'A floresta encantada',
     flags: ['title2'],
   },
   {
     text: 'Autor: Claudia Freixedas',
-    flags: ['paragraph', 'italic'],
+    flags: ['italic'],
   },
   {
     text: 'Objetivos:',
-    flags: ['title3'],
+    flags: ['bold'],
   },
   {
     text: 'Trabalhar o diálogo musical; trabalhar a ideia de polifonia.',
@@ -533,7 +561,7 @@ const article: ArticleItem[] = [
   },
   {
     text: 'Metodologia e aplicação:',
-    flags: ['title3'],
+    flags: ['bold'],
   },
   {
     text:
@@ -551,20 +579,24 @@ const article: ArticleItem[] = [
     flags: ['citation'],
   },
   {
-    text: 'Descrição do Jogo 9',
-    flags: ['paragraph', 'strong'],
+    text: '',
+    flags: ['line'],
   },
   {
-    text: '**_Passeio no zoológico_**',
+    text: 'Descrição do Jogo 9',
+    flags: ['bold'],
+  },
+  {
+    text: 'Passeio no zoológico',
     flags: ['title2'],
   },
   {
     text: 'Autor: Violeta Gainza',
-    flags: ['paragraph', 'italic'],
+    flags: ['italic'],
   },
   {
     text: 'Objetivos:',
-    flags: ['title3'],
+    flags: ['bold'],
   },
   {
     text:
@@ -573,7 +605,7 @@ const article: ArticleItem[] = [
   },
   {
     text: 'Metodologia e aplicação:',
-    flags: ['title3'],
+    flags: ['bold'],
   },
   {
     text:
@@ -596,20 +628,24 @@ const article: ArticleItem[] = [
     flags: ['citation'],
   },
   {
-    text: 'Descrição do Jogo 10',
-    flags: ['paragraph', 'strong'],
+    text: '',
+    flags: ['line'],
   },
   {
-    text: '**_Os pássaros e o caçador_**',
+    text: 'Descrição do Jogo 10',
+    flags: ['bold'],
+  },
+  {
+    text: 'Os pássaros e o caçador',
     flags: ['title2'],
   },
   {
     text: 'Autores: Claudia Freixedas/Marta Brietzke',
-    flags: ['paragraph', 'italic'],
+    flags: ['italic'],
   },
   {
     text: 'Objetivos:',
-    flags: ['title3'],
+    flags: ['bold'],
   },
   {
     text:
@@ -618,7 +654,7 @@ const article: ArticleItem[] = [
   },
   {
     text: 'Metodologia e aplicação:',
-    flags: ['title3'],
+    flags: ['bold'],
   },
   {
     text:
@@ -660,7 +696,7 @@ const article: ArticleItem[] = [
   },
   {
     text: 'Relação de peças do repertório contemporâneo para violoncelo',
-    flags: ['title3'],
+    flags: ['bold'],
   },
   {
     text: 'Lachenmann, Helmut - Pression para violoncelo solo',
@@ -763,15 +799,15 @@ const article: ArticleItem[] = [
   },
   {
     text: '',
-    flags: ['space'],
+    flags: ['line'],
   },
   {
-    text: '**Para saber mais:**',
+    text: 'Para saber mais:',
     flags: ['title2'],
   },
   {
     text: 'Relação de livros e publicações sobre os temas tratados',
-    flags: ['title3'],
+    flags: ['bold'],
   },
   {
     text:
@@ -823,7 +859,7 @@ const article: ArticleItem[] = [
   {
     text: 'BRIETZKE, Marta Macedo. ',
     titleStrong:
-      'A música contemporânea na iniciação coletiva ao violoncelo: uma pesquisa-ação com jogos de improvisação em três instituições de ensino no estado de São Paulo.',
+      'A música contemporânea na iniciação coletiva ao violoncelo: uma pesquisa-ação com jogos de improvisação em três instituições de ensino no estado de São Paulo. ',
     rest:
       '2018. 159 f. Dissertação (Mestrado) - Escola de Comunicações e Artes - USP, São Paulo, 2018.',
     flags: ['bibliography'],
