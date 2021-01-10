@@ -24,8 +24,13 @@ export const Card = styled.div`
   border: 0.5px solid #e0e0e0;
   border-radius: 0.8rem;
   padding: 2px 10px;
-  background: ${({ theme }) => theme.colors.white};
+  background: ${({ theme }) => `linear-gradient(
+    to bottom,
+    ${theme.colors.white} 50%,
+    rgba(91, 124, 107, 0.8) 50%)`};
+  background-size: 100% 200%;
   color: ${({ theme }) => theme.colors.greenLight};
+  transition: background-position 0.2s;
 
   :focus {
     outline: none;
@@ -34,8 +39,7 @@ export const Card = styled.div`
   &:hover {
     cursor: pointer;
     color: ${({ theme }) => theme.colors.white};
-    background: rgba(91, 124, 107, 0.8);
-    transition: 0.2s;
+    background-position: 0 100%;
     transform: scale(1.15, 1);
   }
 
