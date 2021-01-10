@@ -38,12 +38,7 @@ export const StyledButton = styled.div`
 
 export default function ScrollToTopButton() {
   return (
-    <StyledButton
-      onClick={() => {
-        document.body.scrollTop = 0
-        document.documentElement.scrollTop = 0
-      }}
-    >
+    <StyledButton onClick={() => window.scrollTo({ top: 0 })}>
       {`<`}
     </StyledButton>
   )
