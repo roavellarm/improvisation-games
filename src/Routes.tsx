@@ -4,6 +4,7 @@ import Home from './pages/Landing'
 import Game from './pages/Game'
 import About from './pages/About'
 import Article from './pages/Article'
+import NotFound from './pages/NotFound'
 
 export default function Routes() {
   return (
@@ -13,6 +14,7 @@ export default function Routes() {
         <Route path="/game/:id" component={Game} />
         <Route path="/about" component={About} />
         <Route path="/article" component={Article} />
+        <Route path="*" component={NotFound} />
       </Switch>
     </BrowserRouter>
   )
