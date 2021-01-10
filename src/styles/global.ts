@@ -25,7 +25,7 @@ export default createGlobalStyle`
 }
 
 ::-webkit-scrollbar-track {
-  background: ${({ theme }) => theme.colors.white};
+  background: rgba(91, 124, 107, 0.3);
 }
 
 ::-webkit-scrollbar-thumb {
