@@ -1,24 +1,32 @@
 import React, { useEffect, useState } from 'react'
 import ReactAudioPlayer from 'react-audio-player'
-import { useParams } from 'react-router-dom'
+import { useParams, useHistory } from 'react-router-dom'
 import gameList, { Game as GameProps } from '../../assets/texts/games'
 import * as C from '../../components'
 import * as S from './styles'
 
 export default function Game() {
   const { id } = useParams() as { id: string }
+  const { push } = useHistory()
   const [windowWith, setWindowWidth] = useState(window.innerWidth)
-
-  useEffect(() => {
-    window.scrollTo({ top: 0 })
-    window.addEventListener('resize', () => setWindowWidth(window.innerWidth))
-  }, [])
+  const [game, setGame] = useState<GameProps>({
+    id: '',
+    gameTitle: '',
+    content: [],
+  })
 
   const getSelectedGame = (gameID: string) => {
-    return gameList.filter((game) => game.id === gameID)[0]
+    return gameList.filter((currentGame) => currentGame.id === gameID)[0]
   }
 
-  const game = getSelectedGame(id) as GameProps
+  useEffect(() => {
+    const currentGame = getSelectedGame(id) as GameProps
+
+    if (currentGame === undefined) push('/*')
+    setGame(currentGame)
+    window.scrollTo({ top: 0 })
+    window.addEventListener('resize', () => setWindowWidth(window.innerWidth))
+  }, [id])
 
   return (
     <>
