@@ -1,14 +1,23 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Navbar from '../../components/Navbar'
 import * as C from '../../components'
 import * as S from './styles'
 
 export default function About() {
+  const [windowWith, setWindowWidth] = useState(window.innerWidth)
+
+  useEffect(() => {
+    document.body.scrollTop = 0
+    document.documentElement.scrollTop = 0
+    window.addEventListener('resize', () => setWindowWidth(window.innerWidth))
+  }, [])
+
   return (
     <>
       <Navbar />
       <S.Container>
-        <S.SideArea />
+        <S.SideAreaL>{windowWith > 800 && <S.ImgBottomLeft />}</S.SideAreaL>
+
         <S.Content>
           <C.HeaderTitle isAboutPage>Saiba mais</C.HeaderTitle>
           <C.Paragraph>
@@ -67,7 +76,11 @@ export default function About() {
             </S.Link>
           </C.Title>
         </S.Content>
-        <S.SideArea />
+
+        <S.SideAreaR>
+          <S.ImgTopRight />
+          {windowWith > 800 && <S.ImgBottomRight />}
+        </S.SideAreaR>
       </S.Container>
     </>
   )
