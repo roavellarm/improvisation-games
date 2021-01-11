@@ -11,7 +11,7 @@ export const Container = styled.div`
 export const Content = styled.div`
   max-width: 680px;
   font-size: ${({ theme }) => theme.fontSize.text};
-  padding-bottom: 3rem;
+  padding: 0px 0.8rem 3rem 0.8rem;
 
   @media screen and (max-width: 800px) {
     padding: 0px 0.9rem 2rem 0.9rem;
@@ -64,12 +64,22 @@ export const Image = styled.div`
 
 export const Stepper = styled.div`
   position: fixed;
-  height: calc(100% - 60px);
-  padding-right: 3rem;
+  height: calc(100vh - 60px);
+  padding-bottom: 60px;
+
+  padding-right: 8rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  @media screen and (max-width: 1135px) {
+    padding-right: 6rem;
+  }
+
+  @media screen and (max-width: 1010px) {
+    padding-right: 2.5rem;
+  }
 
   @media screen and (max-width: 860px) {
     padding-right: 1rem;

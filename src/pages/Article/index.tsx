@@ -5,10 +5,14 @@ import * as S from './styles'
 import { anchors } from './anchors'
 
 export default function Article() {
-  const [windowWith, setWindowWidth] = useState(window.innerWidth)
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth)
+  const [windowHeight, setWindowHeight] = useState(window.innerHeight)
 
   useEffect(() => {
-    window.addEventListener('resize', () => setWindowWidth(window.innerWidth))
+    window.addEventListener('resize', () => {
+      setWindowWidth(window.innerWidth)
+      setWindowHeight(window.innerHeight)
+    })
   }, [])
 
   return (
@@ -16,7 +20,7 @@ export default function Article() {
       <C.Navbar />
       <S.Container>
         <S.SideArea stepper>
-          {windowWith > 800 && (
+          {windowWidth > 800 && windowHeight > 645 && (
             <S.Stepper>
               {anchors.map((anchor: string) => (
                 <a href={`#${anchor}`} style={{ textDecoration: 'none' }}>
