@@ -7,7 +7,7 @@ import * as S from './styles'
 
 export default function Landing() {
   const { push } = useHistory()
-  const [windowWith, setWindowWidth] = useState(window.innerWidth)
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth)
 
   const handleClick = (game: string) => push(`/game/${game}`)
 
@@ -39,7 +39,7 @@ export default function Landing() {
   return (
     <S.Wrapper>
       <S.Container>
-        {windowWith <= 800 ? (
+        {windowWidth <= 800 ? (
           <>
             {renderTitle()}
             {renderImageWithLinks()}
@@ -64,6 +64,20 @@ export default function Landing() {
           </>
         )}
       </S.Container>
+      {/* <div className="area">
+        <ul className="circles">
+          <li />
+          <li />
+          <li />
+          <li />
+          <li />
+          <li />
+          <li />
+          <li />
+          <li />
+          <li />
+        </ul>
+      </div> */}
     </S.Wrapper>
   )
 }
