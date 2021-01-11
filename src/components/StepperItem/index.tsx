@@ -6,9 +6,9 @@ export const StyledStepperItem = styled.div`
   position: relative;
   width: 20px;
   height: 20px;
-  background: ${({ theme }) => theme.colors.white};
+  background: rgba(91, 124, 107, 0.04);
   margin: 5px;
-  border: 2px solid ${({ theme }) => theme.colors.greenDark};
+  box-shadow: -1px 1px 4px rgba(91, 124, 107, 0.6);
   border-radius: 100px;
   text-decoration: none;
 
@@ -25,7 +25,6 @@ export default function StepperItem({ children }: { children: string }) {
 
   return (
     <StyledStepperItem
-      // href={`#${children}`}
       onMouseEnter={() => setIsOn(true)}
       onMouseLeave={() => setIsOn(false)}
     >
