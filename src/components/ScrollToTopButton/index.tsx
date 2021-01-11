@@ -1,6 +1,43 @@
 import React from 'react'
 import styled from 'styled-components'
 
+export const Wrapper = styled.div`
+  position: fixed;
+  display: flex;
+  cursor: pointer;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
+  right: 10px;
+  bottom: 10px;
+  height: 80px;
+  width: 50px;
+
+  @media screen and (min-width: 800px) {
+    &:hover {
+      opacity: 1;
+      text-shadow: 1px 1px 15px ${({ theme }) => theme.colors.orange};
+      transform: scale(1.1, 1.1);
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    height: 40px;
+    width: 40px;
+    right: 6px;
+    bottom: 6px;
+  }
+`
+
+export const Text = styled.p`
+  display: flex;
+
+  @media screen and (max-width: 800px) {
+    display: none;
+  }
+`
+
 export const StyledButton = styled.div`
   display: flex;
   cursor: pointer;
@@ -15,17 +52,14 @@ export const StyledButton = styled.div`
   transform: rotate(90deg);
   height: 50px;
   width: 50px;
-  position: fixed;
-  right: 10px;
-  bottom: 10px;
   opacity: 0.5;
-  z-index: 1;
   transition: 0.3s;
 
-  &:hover {
-    opacity: 1;
-    text-shadow: 1px 1px 15px ${({ theme }) => theme.colors.orange};
-    transform: rotate(90deg) scale(1.1, 1.1);
+  @media screen and (min-width: 800px) {
+    &:hover {
+      opacity: 1;
+      transform: rotate(90deg);
+    }
   }
 
   @media screen and (max-width: 800px) {
@@ -38,8 +72,9 @@ export const StyledButton = styled.div`
 
 export default function ScrollToTopButton() {
   return (
-    <StyledButton onClick={() => window.scrollTo({ top: 0 })}>
-      {`<`}
-    </StyledButton>
+    <Wrapper onClick={() => window.scrollTo({ top: 0 })}>
+      <Text>Topo</Text>
+      <StyledButton>{`<`}</StyledButton>
+    </Wrapper>
   )
 }
