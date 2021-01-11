@@ -32,6 +32,7 @@ export const Wrapper = styled.div`
 
 export const Text = styled.p`
   display: flex;
+  color: ${({ theme }) => theme.colors.greenLight};
 
   @media screen and (max-width: 800px) {
     display: none;

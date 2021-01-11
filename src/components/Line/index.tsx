@@ -4,12 +4,12 @@ import styled from 'styled-components'
 const StyledLine = styled.div`
   display: flex;
   flex-direction: row;
-  width: 100%;
-  height: 2px;
+  height: 1px;
   opacity: 0.5;
-  background: ${({ theme }) => theme.colors.greenDark};
+  background: ${({ theme }) => theme.colors.greenLight};
+  box-shadow: 1px 1px 2px ${({ theme }) => theme.colors.greenLight};
   border-radius: 8px;
-  margin: 4rem 0px;
+  margin: 4rem -0.8rem;
 `
 
 export default function Line() {
