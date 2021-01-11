@@ -7,6 +7,10 @@ export default createGlobalStyle`
     box-sizing: border-box;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   :root {
     height: 100vh;
     width: 100vw;
