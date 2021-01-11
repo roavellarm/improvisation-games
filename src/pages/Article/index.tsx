@@ -35,45 +35,33 @@ export default function Article() {
           <C.HeaderTitle>Caderno de atividades</C.HeaderTitle>
           {article.map((item, index) => {
             if (item.flags.includes('title1'))
-              return <C.Title key={index}>{item.text}</C.Title>
+              return (
+                <C.Title key={index} anchor={item.flags.includes('anchor')}>
+                  {item.text}
+                </C.Title>
+              )
 
             if (item.flags.includes('title2'))
               return (
-                <C.SubTitle size={25} key={index}>
+                <C.SubTitle
+                  size={25}
+                  anchor={item.flags.includes('anchor')}
+                  key={index}
+                >
                   {item.text}
                 </C.SubTitle>
               )
 
-            if (
-              item.flags.includes('paragraph') &&
-              item.flags.includes('margin')
-            )
-              return (
-                <C.Paragraph margin key={index}>
-                  {item.text}
-                </C.Paragraph>
-              )
-
             if (item.flags.includes('paragraph'))
-              return <C.Paragraph key={index}>{item.text}</C.Paragraph>
-
-            if (item.flags.includes('bold'))
               return (
-                <C.Paragraph bold key={index}>
-                  {item.text}
-                </C.Paragraph>
-              )
-
-            if (item.flags.includes('italic') && item.flags.includes('margin'))
-              return (
-                <C.Paragraph italic key={index}>
-                  {item.text}
-                </C.Paragraph>
-              )
-
-            if (item.flags.includes('italic'))
-              return (
-                <C.Paragraph italic key={index}>
+                <C.Paragraph
+                  key={index}
+                  anchor={item.flags.includes('anchor')}
+                  italic={item.flags.includes('italic')}
+                  margin={item.flags.includes('margin')}
+                  bold={item.flags.includes('bold')}
+                  citation={item.flags.includes('citation')}
+                >
                   {item.text}
                 </C.Paragraph>
               )
@@ -95,12 +83,7 @@ export default function Article() {
               )
             }
 
-            return (
-              <C.Paragraph citation key={index}>
-                {`> `}
-                {item.text}
-              </C.Paragraph>
-            )
+            return <div>!!!!!!!!!!!!!!!!!!!!!!!!!!</div>
           })}
         </S.Content>
 
