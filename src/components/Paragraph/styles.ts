@@ -12,7 +12,6 @@ export const Paragraph = styled.p<ParagraphProps>`
   font-family: ${({ theme }) => theme.fontFamily.lato};
   font-size: ${({ theme }) => theme.fontSize.text};
   font-style: ${({ italic }) => italic && 'italic'};
-  color: rgba(41, 41, 41, 0.8);
   font-weight: ${({ bold }) => bold && 'bold'};
   line-height: 158%;
   margin: ${({ margin }) => (margin ? '0px' : '2rem 0px')};

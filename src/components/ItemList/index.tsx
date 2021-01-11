@@ -4,7 +4,6 @@ import dot from '../../assets/images/dot.png'
 
 export const Item = styled.li`
   font-family: ${({ theme }) => theme.fontFamily.lato};
-  color: ${({ theme }) => theme.colors.text};
   line-height: 158%;
   margin: 1rem 0px;
   padding-left: 2.3rem;
