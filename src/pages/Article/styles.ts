@@ -31,10 +31,23 @@ export const Image = styled.div`
   height: 30%;
   width: 100%;
   max-width: 300px;
+  margin-top: -30px;
+  margin-left: 3rem;
   background: url(${celloImg});
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: left;
+  background-position: top left;
+
+  @media screen and (max-width: 1300px) {
+    margin-left: 15px;
+    margin-top: -30px;
+  }
+
+  @media screen and (max-width: 1205px) {
+    max-width: 200px;
+    margin-left: 5px;
+    margin-top: -30px;
+  }
 
   @media screen and (max-width: 900px) {
     position: fixed;
@@ -51,7 +64,7 @@ export const Image = styled.div`
 
 export const Stepper = styled.div`
   position: fixed;
-  height: 100%;
+  height: calc(100% - 60px);
   padding-right: 3rem;
   display: flex;
   flex-direction: column;
