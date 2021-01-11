@@ -7,6 +7,7 @@ interface ParagraphProps {
   margin?: boolean
   bold?: boolean
   citation?: boolean
+  anchor?: boolean
 }
 
 export default function Paragraph({
@@ -15,6 +16,7 @@ export default function Paragraph({
   margin = false,
   bold = false,
   citation = false,
+  anchor = false,
 }: ParagraphProps) {
   return (
     <S.Paragraph
@@ -23,6 +25,7 @@ export default function Paragraph({
       margin={margin}
       bold={bold}
       citation={citation}
+      anchor={anchor}
     >
       {children}
     </S.Paragraph>
@@ -34,4 +37,5 @@ Paragraph.defaultProps = {
   margin: false,
   bold: false,
   citation: false,
+  anchor: false,
 }

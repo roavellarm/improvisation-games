@@ -4,11 +4,12 @@ import * as S from './styles'
 interface SubTitleProps {
   children: ReactNode
   size?: number | undefined
+  anchor?: boolean
 }
 
-export default function SubTitle({ children, size }: SubTitleProps) {
+export default function SubTitle({ children, size, anchor }: SubTitleProps) {
   return (
-    <S.SubTitle id={`${children}`} size={size || undefined}>
+    <S.SubTitle id={`${children}`} size={size || undefined} anchor={anchor}>
       {children}
     </S.SubTitle>
   )
@@ -16,4 +17,5 @@ export default function SubTitle({ children, size }: SubTitleProps) {
 
 SubTitle.defaultProps = {
   size: undefined,
+  anchor: false,
 }

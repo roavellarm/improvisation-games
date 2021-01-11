@@ -33,12 +33,12 @@ const article: ArticleItem[] = [
   {
     text:
       'Este trabalho faz parte de Dissertação de Mestrado de Marta Macedo Brietzke, intitulada “Música contemporânea na iniciação coletiva ao violoncelo:uma pesquisa - ação com jogos de improvisação em três instituições de ensino no estado de São Paulo”, defendida em 12 de dezembro de 2018, pela Universidade de São Paulo, com orientação do Prof. Dr. Fabio Soren Presgrave e coorientação do Prof. Dr. Mário André Wanderley Oliveira.',
-    flags: ['italic'],
+    flags: ['paragraph', 'italic'],
   },
 
   {
     text: 'A música contemporânea:',
-    flags: ['title2'],
+    flags: ['title2', 'anchor'],
   },
   {
     text:
@@ -67,7 +67,7 @@ const article: ArticleItem[] = [
   },
   {
     text: 'A improvisação:',
-    flags: ['title2'],
+    flags: ['title2', 'anchor'],
   },
   {
     text:
@@ -91,7 +91,7 @@ const article: ArticleItem[] = [
   },
   {
     text: 'Os jogos na aprendizagem:',
-    flags: ['title2'],
+    flags: ['title2', 'anchor'],
   },
   {
     text:
@@ -105,7 +105,7 @@ const article: ArticleItem[] = [
   },
   {
     text: 'O ensino coletivo do violoncelo:',
-    flags: ['title2'],
+    flags: ['title2', 'anchor'],
   },
   {
     text:
@@ -124,7 +124,7 @@ const article: ArticleItem[] = [
   },
   {
     text: 'Atividades práticas:',
-    flags: ['title2'],
+    flags: ['title2', 'anchor'],
   },
   {
     text:
@@ -151,7 +151,7 @@ const article: ArticleItem[] = [
   },
   {
     text: 'Descrição do Jogo 1',
-    flags: ['bold'],
+    flags: ['paragraph', 'bold', 'anchor'],
   },
   {
     text: 'Pergunta e Resposta com cordas soltas em pizzicato',
@@ -159,11 +159,11 @@ const article: ArticleItem[] = [
   },
   {
     text: 'Autor: Marta Brietzke',
-    flags: ['italic'],
+    flags: ['paragraph', 'italic'],
   },
   {
     text: 'Objetivos:',
-    flags: ['bold'],
+    flags: ['paragraph', 'bold'],
   },
   {
     text:
@@ -172,7 +172,7 @@ const article: ArticleItem[] = [
   },
   {
     text: 'Metodologia e aplicação:',
-    flags: ['bold'],
+    flags: ['paragraph', 'bold'],
   },
   {
     text:
@@ -196,7 +196,7 @@ const article: ArticleItem[] = [
   },
   {
     text: 'Fonte: elaborado pela autora.',
-    flags: ['citation'],
+    flags: ['paragraph', 'citation'],
   },
   {
     text: '',
@@ -204,7 +204,7 @@ const article: ArticleItem[] = [
   },
   {
     text: 'Descrição do Jogo 2',
-    flags: ['bold'],
+    flags: ['paragraph', 'bold', 'anchor'],
   },
   {
     text: 'Sinal Verde X Sinal Vermelho',
@@ -212,11 +212,11 @@ const article: ArticleItem[] = [
   },
   {
     text: 'Autor: Maria Teresa Alencar de Brito/Murray Schafer',
-    flags: ['italic'],
+    flags: ['paragraph', 'italic'],
   },
   {
     text: 'Objetivos:',
-    flags: ['bold'],
+    flags: ['paragraph', 'bold'],
   },
   {
     text:
@@ -225,7 +225,7 @@ const article: ArticleItem[] = [
   },
   {
     text: 'Metodologia e aplicação:',
-    flags: ['bold'],
+    flags: ['paragraph', 'bold'],
   },
   {
     text:
@@ -260,7 +260,7 @@ const article: ArticleItem[] = [
   {
     text:
       'Fonte: Elaborado pela autora, com base nas propostas de Maria Teresa Alencar de Brito e Murray Schafer.',
-    flags: ['citation'],
+    flags: ['paragraph', 'citation'],
   },
   {
     text: '',
@@ -268,7 +268,7 @@ const article: ArticleItem[] = [
   },
   {
     text: 'Descrição do Jogo 3',
-    flags: ['bold'],
+    flags: ['paragraph', 'bold', 'anchor'],
   },
   {
     text: 'A noite no Castelo',
@@ -276,11 +276,11 @@ const article: ArticleItem[] = [
   },
   {
     text: 'Autor: Claudia Freixedas',
-    flags: ['italic'],
+    flags: ['paragraph', 'italic'],
   },
   {
     text: 'Objetivos:',
-    flags: ['bold'],
+    flags: ['paragraph', 'bold'],
   },
   {
     text:
@@ -289,7 +289,7 @@ const article: ArticleItem[] = [
   },
   {
     text: 'Metodologia e aplicação:',
-    flags: ['bold'],
+    flags: ['paragraph', 'bold'],
   },
   {
     text:
@@ -319,7 +319,7 @@ const article: ArticleItem[] = [
   {
     text:
       'Fonte: Elaborado pela autora, com base nas propostas de Claudia Freixedas.',
-    flags: ['citation'],
+    flags: ['paragraph', 'citation'],
   },
   {
     text: '',
@@ -327,7 +327,7 @@ const article: ArticleItem[] = [
   },
   {
     text: 'Descrição do Jogo 4',
-    flags: ['bold'],
+    flags: ['paragraph', 'bold', 'anchor'],
   },
   {
     text: 'Assinatura Musical',
@@ -335,11 +335,11 @@ const article: ArticleItem[] = [
   },
   {
     text: 'Autor: Wanderson Cruz',
-    flags: ['italic'],
+    flags: ['paragraph', 'italic'],
   },
   {
     text: 'Objetivos:',
-    flags: ['bold'],
+    flags: ['paragraph', 'bold'],
   },
   {
     text:
@@ -348,7 +348,7 @@ const article: ArticleItem[] = [
   },
   {
     text: 'Metodologia e aplicação:',
-    flags: ['bold'],
+    flags: ['paragraph', 'bold'],
   },
   {
     text:
@@ -378,7 +378,7 @@ const article: ArticleItem[] = [
   {
     text:
       'Fonte: Elaborado pela autora, com base nas propostas de Wanderson Cruz.',
-    flags: ['citation'],
+    flags: ['paragraph', 'citation'],
   },
   {
     text: '',
@@ -386,7 +386,7 @@ const article: ArticleItem[] = [
   },
   {
     text: 'Descrição do Jogo 5',
-    flags: ['bold'],
+    flags: ['paragraph', 'bold', 'anchor'],
   },
   {
     text: 'Igual X Parecido X Diferente',
@@ -394,11 +394,11 @@ const article: ArticleItem[] = [
   },
   {
     text: 'Autor: Violeta Gainza',
-    flags: ['italic'],
+    flags: ['paragraph', 'italic'],
   },
   {
     text: 'Objetivos:',
-    flags: ['bold'],
+    flags: ['paragraph', 'bold'],
   },
   {
     text:
@@ -407,7 +407,7 @@ const article: ArticleItem[] = [
   },
   {
     text: 'Metodologia e aplicação:',
-    flags: ['bold'],
+    flags: ['paragraph', 'bold'],
   },
   {
     text:
@@ -422,7 +422,7 @@ const article: ArticleItem[] = [
   {
     text:
       'Fonte: Elaborado pela autora, com base nas propostas de Violeta Gainza.',
-    flags: ['citation'],
+    flags: ['paragraph', 'citation'],
   },
   {
     text: '',
@@ -430,7 +430,7 @@ const article: ArticleItem[] = [
   },
   {
     text: 'Descrição do Jogo 6',
-    flags: ['bold'],
+    flags: ['paragraph', 'bold', 'anchor'],
   },
   {
     text: 'Composição com gravuras e escrita com notação própria',
@@ -438,11 +438,11 @@ const article: ArticleItem[] = [
   },
   {
     text: 'Autor: Diversos autores/Marta Brietzke',
-    flags: ['italic'],
+    flags: ['paragraph', 'italic'],
   },
   {
     text: 'Objetivos:',
-    flags: ['bold'],
+    flags: ['paragraph', 'bold'],
   },
   {
     text:
@@ -451,7 +451,7 @@ const article: ArticleItem[] = [
   },
   {
     text: 'Metodologia e aplicação:',
-    flags: ['bold'],
+    flags: ['paragraph', 'bold'],
   },
   {
     text:
@@ -485,7 +485,7 @@ const article: ArticleItem[] = [
   },
   {
     text: 'Fonte: Elaborado pela autora.',
-    flags: ['citation'],
+    flags: ['paragraph', 'citation'],
   },
   {
     text: '',
@@ -493,7 +493,7 @@ const article: ArticleItem[] = [
   },
   {
     text: 'Descrição do Jogo 7',
-    flags: ['bold'],
+    flags: ['paragraph', 'bold', 'anchor'],
   },
   {
     text: 'Improvisação com ostinato',
@@ -501,11 +501,11 @@ const article: ArticleItem[] = [
   },
   {
     text: 'Autor: Vários autores/Marta Brietzke',
-    flags: ['italic'],
+    flags: ['paragraph', 'italic'],
   },
   {
     text: 'Objetivos:',
-    flags: ['bold'],
+    flags: ['paragraph', 'bold'],
   },
   {
     text:
@@ -514,7 +514,7 @@ const article: ArticleItem[] = [
   },
   {
     text: 'Metodologia e aplicação:',
-    flags: ['bold'],
+    flags: ['paragraph', 'bold'],
   },
   {
     text:
@@ -533,7 +533,7 @@ const article: ArticleItem[] = [
   },
   {
     text: 'Fonte: Elaborado pela autora.',
-    flags: ['citation'],
+    flags: ['paragraph', 'citation'],
   },
   {
     text: '',
@@ -541,7 +541,7 @@ const article: ArticleItem[] = [
   },
   {
     text: 'Descrição do Jogo 8',
-    flags: ['bold'],
+    flags: ['paragraph', 'bold', 'anchor'],
   },
   {
     text: 'A floresta encantada',
@@ -549,11 +549,11 @@ const article: ArticleItem[] = [
   },
   {
     text: 'Autor: Claudia Freixedas',
-    flags: ['italic'],
+    flags: ['paragraph', 'italic'],
   },
   {
     text: 'Objetivos:',
-    flags: ['bold'],
+    flags: ['paragraph', 'bold'],
   },
   {
     text: 'Trabalhar o diálogo musical; trabalhar a ideia de polifonia.',
@@ -561,7 +561,7 @@ const article: ArticleItem[] = [
   },
   {
     text: 'Metodologia e aplicação:',
-    flags: ['bold'],
+    flags: ['paragraph', 'bold'],
   },
   {
     text:
@@ -576,7 +576,7 @@ const article: ArticleItem[] = [
   {
     text:
       'Fonte: Elaborado pela autora, com base nas propostas de Claudia Freixedas.',
-    flags: ['citation'],
+    flags: ['paragraph', 'citation'],
   },
   {
     text: '',
@@ -584,7 +584,7 @@ const article: ArticleItem[] = [
   },
   {
     text: 'Descrição do Jogo 9',
-    flags: ['bold'],
+    flags: ['paragraph', 'bold', 'anchor'],
   },
   {
     text: 'Passeio no zoológico',
@@ -592,11 +592,11 @@ const article: ArticleItem[] = [
   },
   {
     text: 'Autor: Violeta Gainza',
-    flags: ['italic'],
+    flags: ['paragraph', 'italic'],
   },
   {
     text: 'Objetivos:',
-    flags: ['bold'],
+    flags: ['paragraph', 'bold'],
   },
   {
     text:
@@ -605,7 +605,7 @@ const article: ArticleItem[] = [
   },
   {
     text: 'Metodologia e aplicação:',
-    flags: ['bold'],
+    flags: ['paragraph', 'bold'],
   },
   {
     text:
@@ -625,7 +625,7 @@ const article: ArticleItem[] = [
   {
     text:
       'Fonte: Elaborado pela autora, com base nas propostas de Violeta Gainza.',
-    flags: ['citation'],
+    flags: ['paragraph', 'citation'],
   },
   {
     text: '',
@@ -633,7 +633,7 @@ const article: ArticleItem[] = [
   },
   {
     text: 'Descrição do Jogo 10',
-    flags: ['bold'],
+    flags: ['paragraph', 'bold', 'anchor'],
   },
   {
     text: 'Os pássaros e o caçador',
@@ -641,11 +641,11 @@ const article: ArticleItem[] = [
   },
   {
     text: 'Autores: Claudia Freixedas/Marta Brietzke',
-    flags: ['italic'],
+    flags: ['paragraph', 'italic'],
   },
   {
     text: 'Objetivos:',
-    flags: ['bold'],
+    flags: ['paragraph', 'bold'],
   },
   {
     text:
@@ -654,7 +654,7 @@ const article: ArticleItem[] = [
   },
   {
     text: 'Metodologia e aplicação:',
-    flags: ['bold'],
+    flags: ['paragraph', 'bold'],
   },
   {
     text:
@@ -679,7 +679,7 @@ const article: ArticleItem[] = [
   {
     text:
       'Fonte: Elaborado pela autora, com base nas propostas de Claudia Freixedas.',
-    flags: ['citation'],
+    flags: ['paragraph', 'citation'],
   },
   {
     text: '',
@@ -687,7 +687,7 @@ const article: ArticleItem[] = [
   },
   {
     text: 'Sugestão de repertório:',
-    flags: ['title1'],
+    flags: ['title1', 'anchor'],
   },
   {
     text:
@@ -696,7 +696,7 @@ const article: ArticleItem[] = [
   },
   {
     text: 'Relação de peças do repertório contemporâneo para violoncelo',
-    flags: ['bold'],
+    flags: ['paragraph', 'bold'],
   },
   {
     text: 'Lachenmann, Helmut - Pression para violoncelo solo',
@@ -795,7 +795,7 @@ const article: ArticleItem[] = [
   },
   {
     text: 'Fonte: Elaborado pela autora.',
-    flags: ['citation'],
+    flags: ['paragraph', 'citation'],
   },
   {
     text: '',
@@ -803,11 +803,11 @@ const article: ArticleItem[] = [
   },
   {
     text: 'Para saber mais:',
-    flags: ['title2'],
+    flags: ['title2', 'anchor'],
   },
   {
     text: 'Relação de livros e publicações sobre os temas tratados',
-    flags: ['bold'],
+    flags: ['paragraph', 'bold'],
   },
   {
     text:
@@ -846,7 +846,7 @@ const article: ArticleItem[] = [
   },
   {
     text: 'Fonte: Elaborado pela autora.',
-    flags: ['citation'],
+    flags: ['paragraph', 'citation'],
   },
   {
     text: '',

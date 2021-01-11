@@ -6,6 +6,7 @@ interface ParagraphProps {
   margin?: boolean
   bold?: boolean
   citation?: boolean
+  anchor?: boolean
 }
 
 export const Paragraph = styled.p<ParagraphProps>`
@@ -18,6 +19,8 @@ export const Paragraph = styled.p<ParagraphProps>`
   background: ${({ citation }) => citation && `rgba(91, 124, 107, 0.2)`};
   padding: ${({ citation }) => citation && '1rem 2rem'};
   border-radius: ${({ citation }) => citation && '3rem'};
+  padding-top: ${({ anchor }) => anchor && '70px'};
+  margin-top: ${({ anchor }) => anchor && '-70px'};
 
   @media screen and (max-width: 1000px) {
     font-size: 1.125rem;

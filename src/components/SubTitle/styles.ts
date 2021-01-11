@@ -3,6 +3,7 @@ import styled, { DefaultTheme } from 'styled-components'
 interface Props {
   theme: DefaultTheme
   size?: number | undefined
+  anchor?: boolean
 }
 
 export const SubTitle = styled.h4<Props>`
@@ -10,7 +11,8 @@ export const SubTitle = styled.h4<Props>`
   font-size: ${({ theme, size }) => `${size}px` || theme.fontSize.text};
   color: ${({ theme }) => theme.colors.greenDark};
   margin: 2rem 0px;
-  padding-top: 1.5rem;
+  padding-top: ${({ anchor }) => (anchor ? '70px' : '1.5rem')};
+  margin-top: ${({ anchor }) => (anchor ? '-70px' : '2rem')};
 
   @media screen and (max-width: 1000px) {
     font-size: 1.125rem;
