@@ -32,10 +32,23 @@ export const Image = styled.div`
   height: 30%;
   width: 100%;
   max-width: 300px;
+  margin-top: -30px;
+  margin-left: 3rem;
   background: url(${celloImg});
   background-size: contain;
   background-repeat: no-repeat;
   background-position: left;
+
+  @media screen and (max-width: 1300px) {
+    margin-left: 15px;
+    margin-top: -30px;
+  }
+
+  @media screen and (max-width: 1205px) {
+    max-width: 200px;
+    margin-left: 5px;
+    margin-top: -30px;
+  }
 
   @media screen and (max-width: 900px) {
     position: fixed;
