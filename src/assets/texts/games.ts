@@ -223,7 +223,7 @@ const gameList: Game[] = [
       },
       {
         text:
-          'Inventariar sons que poderiam compor esta paisagem: trovões, rajadas de vento, som da chuva, morcegos, fantasmas, assim como objetos que estariam dentro do castelo, como quadros, vasos, móveis antigos, etc...',
+          'Inventariar sons que poderiam compor esta paisagem, como, trovões, rajadas de vento, som da chuva, morcegos, fantasmas, assim como objetos que estariam dentro do castelo, como quadros, vasos, móveis antigos, etc.',
         flags: ['itemList'],
       },
       {
@@ -269,7 +269,7 @@ const gameList: Game[] = [
       },
       {
         text:
-          'Possibilitar a experiência de criação a partir de células musicais pré-estabelecidas; proporcionar diferenças entre as polifonias e homofonias; incentivar o poder de escolha dentro da criação musical.',
+          'Possibilitar a experiência de criação a partir de células musicais pré-estabelecidas; estabelecer as diferenças entre polifonias e homofonias; incentivar o poder de escolha dentro da criação musical.',
         flags: ['paragraph'],
       },
       {
@@ -307,7 +307,7 @@ const gameList: Game[] = [
       },
       {
         text:
-          'O “maestro” deve criar sinais que indiquem quando um aluno deve começar a tocar sua assinatura, quando deve parar, com qual intensidade, velocidade e outras variáveis, quantos alunos devem tocar simultaneamente, criando diálogos, interação e diferentes combinações entre as assinaturas.',
+          'O “maestro” deve criar sinais que indiquem quando um aluno deve começar a tocar sua assinatura, quando deve parar, com qual intensidade, velocidade e outras variáveis, quantos alunos devem tocar simultaneamente, criando diálogos, interações e diferentes combinações entre as assinaturas.',
         flags: ['itemList'],
       },
       {
@@ -372,12 +372,12 @@ const gameList: Game[] = [
       },
       {
         text:
-          'Oferecer um dos cartazes ao terceiro aluno, que deverá executar sua frase seguindo as instruções do cartaz, fazendo referência a frase executada pelo segundo aluno e assim por diante, até que todos os alunos tenham participado algumas rodadas do jogo.',
+          'Oferecer um dos cartazes ao terceiro aluno, que deverá executar sua frase seguindo as instruções do cartaz, fazendo referência à frase executada pelo segundo aluno e assim por diante, até que todos os alunos tenham participado algumas de rodadas do jogo.',
         flags: ['itemList'],
       },
       {
         text:
-          'Escolher um dos alunos para ser o “maestro” e mostrar os cartazes aos demais colegas. Podemos acrescentar mais complexidade nesta rodada do jogo, propondo que o “maestro”, além de escolher os cartazes, escolha também qual aluno executará a nova frase, sendo que para isso, o “maestro” deve utilizar sinais de linguagem não-verbais.',
+          'Escolher um dos alunos para ser o “maestro” e mostrar os cartazes aos demais colegas. Podemos acrescentar mais complexidade nesta rodada do jogo, propondo que o “maestro”, além de escolher os cartazes, escolha também qual aluno executará a nova frase, sendo que para isso, o “maestro” deve utilizar sinais de linguagem não-verbal.',
         flags: ['itemList'],
       },
       {
@@ -409,7 +409,7 @@ const gameList: Game[] = [
       },
       {
         text:
-          '​Aproximar os alunos da ideia de composição; desenvolver uma simbologia própria que represente suas ideias musicais; fazer contato com diferentes maneiras de escrita e representação musical; atentar para as limitações existentes em qualquer tipo de escrita musical; aproximar compositores e intérpretes.',
+          '​Aproximar os alunos da ideia de composição; desenvolver uma simbologia própria que represente suas ideias musicais; fazer contato com diferentes maneiras de escrita e representação musical; chamar a atenção para as limitações existentes em qualquer tipo de escrita musical; aproximar compositores e intérpretes.',
         flags: ['paragraph'],
       },
       {
@@ -557,7 +557,7 @@ const gameList: Game[] = [
       },
       {
         text:
-          'A improvisação pode ser organizada de diferentes maneiras, por exemplo, estabelecer que após o final de cada solo se executará um número determinado de vezes os ostinato, ou propor uma forma rondó, onde a parte A será um número fixo de vezes que a orquestra executará o ostinato, ou um tema criado em conjunto pelos alunos.',
+          'A improvisação pode ser organizada de diferentes maneiras, por exemplo, estabelecer que após o final de cada solo se executará um número determinado de vezes o ostinato, ou propor uma forma rondó, onde a parte A será um número fixo de vezes que a orquestra executará o ostinato, ou um tema criado em conjunto pelos alunos.',
         flags: ['itemList'],
       },
       {
@@ -617,7 +617,7 @@ const gameList: Game[] = [
       },
       {
         text:
-          'Ao se aproximarem das árvores, essas emitem o som escolhido pelo aluno que a representa. Ao se afastarem, a intensidade do som vai diminuindo e o aluno que estiver mais próximo começa a emitir o seu som escolhido',
+          'Ao se aproximarem das árvores, essas emitem o som escolhido pelo aluno que a representa. Ao se afastarem, a intensidade do som vai diminuindo e o aluno que estiver mais próximo começa a emitir o seu som escolhido.',
         flags: ['itemList'],
       },
       {
