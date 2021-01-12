@@ -32,8 +32,16 @@ export default function Landing() {
     </>
   )
 
+  const handleWindowResize = () => {
+    return window.addEventListener('resize', () =>
+      setWindowWidth(window.innerWidth)
+    )
+  }
+
   useEffect(() => {
-    window.addEventListener('resize', () => setWindowWidth(window.innerWidth))
+    handleWindowResize()
+
+    return () => handleWindowResize()
   }, [])
 
   return (
