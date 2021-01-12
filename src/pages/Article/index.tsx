@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useState } from 'react'
+import React, { useCallback, useEffect, useMemo, useState } from 'react'
 import * as C from '../../components'
 import article from '../../assets/texts/article'
 import * as S from './styles'
@@ -9,38 +9,38 @@ export default function Article() {
   const [windowHeight, setWindowHeight] = useState(window.innerHeight)
   const [selectedStep, setSelectedStep] = useState(0)
 
-  function getVerticalScrollPercentage(elm: any) {
+  const needToShowStepper = useMemo(() => {
+    return windowWidth > 800 && windowHeight > 645
+  }, [windowHeight, windowWidth])
+
+  const getVerticalScrollPercentage = (elm: any) => {
     const p = elm.parentNode
     const result =
       ((elm.scrollTop || p.scrollTop) / (p.scrollHeight - p.clientHeight)) * 100
     return Math.round(result)
   }
 
+  const handleScrollPosition = useCallback(() => {
+    const scrollPosition = getVerticalScrollPercentage(document.body)
+    const selectedStepper = checkStepperPosition(scrollPosition)
+    setSelectedStep(selectedStepper)
+  }, [])
+
+  const handleWindowResize = useCallback(() => {
+    setWindowWidth(window.innerWidth)
+    setWindowHeight(window.innerHeight)
+  }, [])
+
   useEffect(() => {
-    const handleScrollPosition = () => {
-      const scrollPosition = getVerticalScrollPercentage(document.body)
-      const selectedStepper = checkStepperPosition(scrollPosition)
-      setSelectedStep(selectedStepper)
-    }
     window.addEventListener('scroll', handleScrollPosition)
 
     return () => window.removeEventListener('scroll', handleScrollPosition)
-  }, [])
+  }, [handleScrollPosition])
 
   useEffect(() => {
-    const handleWindowResize = () => {
-      setWindowWidth(window.innerWidth)
-      setWindowHeight(window.innerHeight)
-    }
-
     window.addEventListener('resize', handleWindowResize)
     return () => window.removeEventListener('scroll', handleWindowResize)
-  }, [])
-
-  const needToShowStepper = useMemo(
-    () => windowWidth > 800 && windowHeight > 645,
-    [windowHeight, windowWidth]
-  )
+  }, [handleWindowResize])
 
   return (
     <>
