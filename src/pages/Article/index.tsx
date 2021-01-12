@@ -1,22 +1,13 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useMemo, useState } from 'react'
 import * as C from '../../components'
 import article from '../../assets/texts/article'
 import * as S from './styles'
-import { anchors } from './anchors'
-import { checkStepperPosition } from './checkStepperPosition'
-
-interface StateProps {
-  windowWidth: number
-  windowHeight: number
-  isSelected: { index: number }
-}
+import { anchors, checkStepperPosition } from '../../helpers/article'
 
 export default function Article() {
-  const [state, setState] = useState<StateProps>({
-    windowWidth: window.innerWidth,
-    windowHeight: window.innerHeight,
-    isSelected: { index: 0 },
-  })
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth)
+  const [windowHeight, setWindowHeight] = useState(window.innerHeight)
+  const [selectedStep, setSelectedStep] = useState(0)
 
   function getVerticalScrollPercentage(elm: any) {
     const p = elm.parentNode
@@ -25,59 +16,39 @@ export default function Article() {
     return Math.round(result)
   }
 
-  const handleWindowResize = () =>
-    window.addEventListener('resize', () => {
-      setState({
-        ...state,
-        windowWidth: window.innerWidth,
-        windowHeight: window.innerHeight,
-      })
-    })
-
-  const handleScrollPosition = () =>
-    window.addEventListener('scroll', () => {
+  useEffect(() => {
+    const handleScrollPosition = () => {
       const scrollPosition = getVerticalScrollPercentage(document.body)
       const selectedStepper = checkStepperPosition(scrollPosition)
-      setState({ ...state, isSelected: selectedStepper })
-    })
+      setSelectedStep(selectedStepper)
+    }
+    window.addEventListener('scroll', handleScrollPosition)
+
+    return () => window.removeEventListener('scroll', handleScrollPosition)
+  }, [])
 
   useEffect(() => {
-    handleScrollPosition()
-    return () => {
-      handleScrollPosition()
+    const handleWindowResize = () => {
+      setWindowWidth(window.innerWidth)
+      setWindowHeight(window.innerHeight)
     }
-  }, [window.scrollY])
 
-  useEffect(() => {
-    handleWindowResize()
-    return () => {
-      handleWindowResize()
-    }
-  }, [window.scrollY])
+    window.addEventListener('resize', handleWindowResize)
+    return () => window.removeEventListener('scroll', handleWindowResize)
+  }, [])
+
+  const needToShowStepper = useMemo(
+    () => windowWidth > 800 && windowHeight > 645,
+    [windowHeight, windowWidth]
+  )
 
   return (
     <>
       <C.Navbar />
       <S.Container>
         <S.SideArea stepper>
-          {state.windowWidth > 800 && state.windowHeight > 645 && (
-            <S.Stepper>
-              {anchors.map((anchor: string, index: number) => {
-                return (
-                  <a
-                    key={index}
-                    href={`#${anchor}`}
-                    style={{ textDecoration: 'none' }}
-                  >
-                    <C.StepperItem
-                      isSelected={state.isSelected.index === index}
-                    >
-                      {anchor}
-                    </C.StepperItem>
-                  </a>
-                )
-              })}
-            </S.Stepper>
+          {needToShowStepper && (
+            <C.Stepper anchors={anchors} selectedStep={selectedStep} />
           )}
         </S.SideArea>
 
