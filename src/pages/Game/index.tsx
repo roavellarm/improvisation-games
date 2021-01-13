@@ -19,26 +19,18 @@ export default function Game() {
     return gameList.filter((currentGame) => currentGame.id === gameID)[0]
   }
 
-  const handleWindowResize = () => {
-    window.addEventListener('resize', () => setWindowWidth(window.innerWidth))
-  }
-
-  const handleUseEffect = () => {
+  useEffect(() => {
     const currentGame = getSelectedGame(id) as GameProps
-
     if (currentGame === undefined) return push('/*')
-
     setGame(currentGame)
     window.scrollTo({ top: 0 })
+    window.addEventListener('resize', () => setWindowWidth(window.innerWidth))
 
-    return handleWindowResize()
-  }
-
-  useEffect(() => {
-    handleUseEffect()
-
-    return () => handleUseEffect()
-  }, [id])
+    return () =>
+      window.removeEventListener('resize', () =>
+        setWindowWidth(window.innerWidth)
+      )
+  }, [id, push])
 
   return (
     <>
