@@ -2,6 +2,7 @@ import React, { useCallback, useEffect, useMemo, useState } from 'react'
 import { HeaderTitle, Paragraph, Title } from '../../components'
 import Navbar from '../../components/Navbar'
 import * as S from './styles'
+import dissertation from '../../assets/texts/DissertacaoMartaMacedoBrietzke.pdf'
 
 export default function About() {
   const [windowWith, setWindowWidth] = useState(window.innerWidth)
@@ -69,7 +70,8 @@ export default function About() {
             {` está disponível `}
             <S.Link
               target="_blank"
-              href="https://teses.usp.br/teses/disponiveis/27/27158/tde-11032019-113124/publico/MartaMacedoBrietzkeVpdf"
+              rel="noopener noreferrer"
+              href={dissertation}
             >
               aqui
             </S.Link>
