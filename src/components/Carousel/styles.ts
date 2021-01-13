@@ -44,7 +44,7 @@ export const Arrow = styled.p`
   padding: 0px 0.6rem;
 `
 
-export const Stepper = styled.button`
+export const GamesStepper = styled.button`
   height: 20px;
   width: 20px;
   border: 0.5px solid ${({ theme }) => theme.colors.greenDark};

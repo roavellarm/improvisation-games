@@ -14,8 +14,7 @@ export default {
   },
 
   fontSize: {
-    // title1: '4.5rem', // 72px
-    title1: '5rem', // 72px
+    title1: '5rem', // +- 72px
     title2: '3rem', // 48px
     title3: '2.25rem', // 36px
     text: '1.3125rem', // 21px

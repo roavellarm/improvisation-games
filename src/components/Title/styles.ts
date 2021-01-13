@@ -1,10 +1,7 @@
 import styled from 'styled-components'
+import { TitleProps } from './index'
 
-interface Props {
-  anchor?: boolean
-}
-
-export const Title = styled.p<Props>`
+export const Title = styled.p<TitleProps>`
   font-size: ${({ theme }) => theme.fontSize.title3};
   color: ${({ theme }) => theme.colors.greenDark};
   margin: 3rem 0px;

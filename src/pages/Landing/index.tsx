@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useCallback, useEffect, useMemo, useState } from 'react'
 import { useHistory } from 'react-router-dom'
 import Button from '../../components/Button'
 import Carousel from '../../components/Carousel'
@@ -8,6 +8,8 @@ import * as S from './styles'
 export default function Landing() {
   const { push } = useHistory()
   const [windowWidth, setWindowWidth] = useState(window.innerWidth)
+
+  const isMobileScreen = useMemo(() => windowWidth <= 800, [windowWidth])
 
   const handleClick = (game: string) => push(`/game/${game}`)
 
@@ -32,22 +34,19 @@ export default function Landing() {
     </>
   )
 
-  const handleWindowResize = () => {
-    return window.addEventListener('resize', () =>
-      setWindowWidth(window.innerWidth)
-    )
-  }
+  const updateWindowWidth = useCallback(() => {
+    setWindowWidth(window.innerWidth)
+  }, [])
 
   useEffect(() => {
-    handleWindowResize()
-
-    return () => handleWindowResize()
-  }, [])
+    window.addEventListener('resize', updateWindowWidth)
+    return () => window.removeEventListener('resize', updateWindowWidth)
+  }, [updateWindowWidth])
 
   return (
     <S.Wrapper>
       <S.Container>
-        {windowWidth <= 800 ? (
+        {isMobileScreen ? (
           <>
             {renderTitle()}
             {renderImageWithLinks()}
@@ -72,20 +71,6 @@ export default function Landing() {
           </>
         )}
       </S.Container>
-      {/* <div className="area">
-        <ul className="circles">
-          <li />
-          <li />
-          <li />
-          <li />
-          <li />
-          <li />
-          <li />
-          <li />
-          <li />
-          <li />
-        </ul>
-      </div> */}
     </S.Wrapper>
   )
 }
