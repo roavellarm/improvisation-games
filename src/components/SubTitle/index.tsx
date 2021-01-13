@@ -1,7 +1,7 @@
 import React, { ReactNode } from 'react'
 import * as S from './styles'
 
-interface SubTitleProps {
+export type SubTitleProps = {
   children: ReactNode
   size?: number | undefined
   anchor?: boolean

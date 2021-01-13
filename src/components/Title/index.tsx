@@ -1,12 +1,12 @@
 import React, { ReactNode } from 'react'
 import * as S from './styles'
 
-interface Props {
+export type TitleProps = {
   children: ReactNode | string
   anchor?: boolean
 }
 
-export default function Title({ children, anchor }: Props) {
+export default function Title({ children, anchor }: TitleProps) {
   return (
     <S.Title id={`${children}`} anchor={anchor}>
       {children}

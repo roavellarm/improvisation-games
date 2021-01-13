@@ -1,7 +1,7 @@
-import React from 'react'
 import styled from 'styled-components'
+import { ToolTipProps } from './index'
 
-const Text = styled.span`
+export const StyledTooltip = styled.span<ToolTipProps>`
   position: relative;
   display: flex;
   justify-content: center;
@@ -9,8 +9,8 @@ const Text = styled.span`
   font-family: ${({ theme }) => theme.fontFamily.lato};
   font-weight: bold;
   font-style: oblique;
-  visibility: ${({ isOn }: { isOn: boolean }) => (isOn ? 'visible' : 'hidden')};
-  opacity: ${({ isOn }: { isOn: boolean }) => (isOn ? '1' : '0')};
+  visibility: ${({ isMouseOver }) => (isMouseOver ? 'visible' : 'hidden')};
+  opacity: ${({ isMouseOver }) => (isMouseOver ? '1' : '0')};
   width: 325px;
   height: 42px;
   background-color: ${({ theme }) => theme.colors.orange};
@@ -37,12 +37,3 @@ const Text = styled.span`
       `transparent ${theme.colors.orange} transparent transparent`};
   }
 `
-
-interface Props {
-  isOn: boolean
-  children: string
-}
-
-export default function ToopTipText({ isOn, children }: Props) {
-  return <Text isOn={isOn}>{children}</Text>
-}

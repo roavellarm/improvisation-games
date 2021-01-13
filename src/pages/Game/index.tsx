@@ -1,9 +1,17 @@
-import React, { useEffect, useState } from 'react'
+import React, { useCallback, useEffect, useMemo, useState } from 'react'
 import ReactAudioPlayer from 'react-audio-player'
 import { useParams, useHistory } from 'react-router-dom'
 import gameList, { Game as GameProps } from '../../assets/texts/games'
-import * as C from '../../components'
 import * as S from './styles'
+import {
+  HeaderTitle,
+  ItemList,
+  Navbar,
+  Paragraph,
+  ScrollToTopButton,
+  SubTitle,
+  Title,
+} from '../../components'
 
 export default function Game() {
   const { id } = useParams() as { id: string }
@@ -15,41 +23,50 @@ export default function Game() {
     content: [],
   })
 
+  const showSideArea = useMemo(() => windowWith > 900, [windowWith])
+
   const getSelectedGame = (gameID: string) => {
     return gameList.filter((currentGame) => currentGame.id === gameID)[0]
   }
 
+  const updateWindowWidth = useCallback(() => {
+    setWindowWidth(window.innerWidth)
+  }, [])
+
   useEffect(() => {
     const currentGame = getSelectedGame(id) as GameProps
-
     if (currentGame === undefined) push('/*')
     setGame(currentGame)
     window.scrollTo({ top: 0 })
-    window.addEventListener('resize', () => setWindowWidth(window.innerWidth))
-  }, [id])
+  }, [id, push])
+
+  useEffect(() => {
+    window.addEventListener('resize', updateWindowWidth)
+    return () => window.removeEventListener('resize', updateWindowWidth)
+  }, [updateWindowWidth])
 
   return (
     <>
-      <C.Navbar isGamePage />
+      <Navbar isGamePage />
       <S.Container>
-        {windowWith > 900 && <S.SideArea />}
+        {showSideArea && <S.SideArea />}
 
         <S.Content>
-          <C.HeaderTitle>{game.gameTitle}</C.HeaderTitle>
+          <HeaderTitle>{game.gameTitle}</HeaderTitle>
           {game.content.map((item, index) => {
-            if (item.flags.includes('title1'))
-              return <C.Title key={index}>{item.text}</C.Title>
+            if (item.style.includes('title1'))
+              return <Title key={index}>{item.text}</Title>
 
-            if (item.flags.includes('title2'))
-              return <C.SubTitle key={index}>{item.text}</C.SubTitle>
+            if (item.style.includes('title2'))
+              return <SubTitle key={index}>{item.text}</SubTitle>
 
-            if (item.flags.includes('paragraph'))
-              return <C.Paragraph key={index}>{item.text}</C.Paragraph>
+            if (item.style.includes('paragraph'))
+              return <Paragraph key={index}>{item.text}</Paragraph>
 
-            if (item.flags.includes('itemList'))
-              return <C.ItemList key={index}>{item.text}</C.ItemList>
+            if (item.style.includes('itemList'))
+              return <ItemList key={index}>{item.text}</ItemList>
 
-            if (item.flags.includes('audio'))
+            if (item.style.includes('audio'))
               return (
                 <ReactAudioPlayer
                   key={index}
@@ -64,15 +81,15 @@ export default function Game() {
           })}
         </S.Content>
 
-        {windowWith > 900 ? (
+        {showSideArea ? (
           <S.SideArea>
             <S.Image />
-            <C.ScrollToTopButton />
+            <ScrollToTopButton />
           </S.SideArea>
         ) : (
           <>
             <S.Image />
-            <C.ScrollToTopButton />
+            <ScrollToTopButton />
           </>
         )}
       </S.Container>

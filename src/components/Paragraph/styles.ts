@@ -1,13 +1,5 @@
-import styled, { DefaultTheme } from 'styled-components'
-
-interface ParagraphProps {
-  theme: DefaultTheme
-  italic?: boolean
-  margin?: boolean
-  bold?: boolean
-  citation?: boolean
-  anchor?: boolean
-}
+import styled from 'styled-components'
+import { ParagraphProps } from './index'
 
 export const Paragraph = styled.p<ParagraphProps>`
   font-family: ${({ theme }) => theme.fontFamily.lato};

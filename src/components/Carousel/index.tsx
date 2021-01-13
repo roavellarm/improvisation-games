@@ -21,7 +21,7 @@ const customPagination = ({ pages, activePage, onClick }: any) => {
         const isActivePage = activePage === page
 
         return (
-          <S.Stepper
+          <S.GamesStepper
             key={page}
             onClick={() => onClick(page)}
             isActive={isActivePage}

@@ -1,12 +1,7 @@
-import styled, { DefaultTheme } from 'styled-components'
+import styled from 'styled-components'
+import { SubTitleProps } from './index'
 
-interface Props {
-  theme: DefaultTheme
-  size?: number | undefined
-  anchor?: boolean
-}
-
-export const SubTitle = styled.h4<Props>`
+export const SubTitle = styled.h4<SubTitleProps>`
   font-family: ${({ theme }) => theme.fontFamily.lato};
   font-size: ${({ theme, size }) => `${size}px` || theme.fontSize.text};
   color: ${({ theme }) => theme.colors.greenDark};

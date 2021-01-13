@@ -7,6 +7,17 @@ export const Wrapper = styled.div`
   justify-content: center;
   align-items: center;
   height: 100vh;
+  transform: translateX(100%);
+  animation: slideLeft 0.2s ease-in-out forwards 0.2s;
+
+  @keyframes slideLeft {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
 
   @media screen and (max-width: 800px) {
     flex-direction: column;

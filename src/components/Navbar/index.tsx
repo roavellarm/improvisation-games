@@ -1,34 +1,41 @@
-import React, { useEffect, useState } from 'react'
+import React, { useCallback, useEffect, useMemo, useState } from 'react'
 import { useHistory } from 'react-router-dom'
 import gameList from '../../assets/texts/games'
 import CarousselNavbar from '../CarouselNavbar'
 import * as S from './styles'
 
-interface Props {
+export type NavbarProps = {
   isGamePage?: boolean
 }
 
-export default function Navbar({ isGamePage = false }: Props) {
+export default function Navbar({ isGamePage }: NavbarProps) {
   const { push } = useHistory()
   const [windowWith, setWindowWidth] = useState(window.innerWidth)
 
-  useEffect(() => {
-    window.addEventListener('resize', () => setWindowWidth(window.innerWidth))
+  const handleGamePage = useMemo(() => {
+    return isGamePage && windowWith > 700
+  }, [isGamePage, windowWith])
+
+  const updateWindowWidth = useCallback(() => {
+    setWindowWidth(window.innerWidth)
   }, [])
 
+  useEffect(() => {
+    window.addEventListener('resize', updateWindowWidth)
+    return () => window.removeEventListener('resize', updateWindowWidth)
+  }, [updateWindowWidth])
+
   return (
-    <S.Navbar>
+    <S.StyledNavbar>
       <S.Line />
       <S.Container isGamePage={isGamePage}>
         <S.SideArea onClick={() => push('/')}>{`<- Voltar`}</S.SideArea>
         <S.Spacer>
-          {isGamePage && windowWith > 700 && (
-            <CarousselNavbar gameList={gameList} />
-          )}
+          {handleGamePage && <CarousselNavbar gameList={gameList} />}
         </S.Spacer>
         <S.SideArea />
       </S.Container>
-    </S.Navbar>
+    </S.StyledNavbar>
   )
 }
 

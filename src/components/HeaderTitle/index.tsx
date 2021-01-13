@@ -1,32 +1,19 @@
 import React from 'react'
-import styled, { DefaultTheme } from 'styled-components'
+import { StyledHeaderTitle } from './styles'
 
-interface StyledProps {
-  theme: DefaultTheme
-  isAboutPage: boolean
-}
-
-export const StyledHeaderTitle = styled.p`
-  font-size: ${({ theme }) => theme.fontSize.title1};
-  color: ${({ theme, isAboutPage }: StyledProps) =>
-    isAboutPage ? theme.colors.greenDark : theme.colors.black};
-  margin-bottom: 3rem;
-
-  @media screen and (max-width: 1000px) {
-    font-size: 2.625rem;
-    text-align: center;
-    margin-bottom: 2rem;
-  }
-`
-interface Props {
+export type Props = {
   children: string
   isAboutPage?: boolean
 }
 
-export default function title({ children, isAboutPage }: Props) {
+export default function HeaderTitle({ children, isAboutPage }: Props) {
   return (
-    <StyledHeaderTitle id={`${children}`} isAboutPage={isAboutPage || false}>
+    <StyledHeaderTitle id={`${children}`} isAboutPage={isAboutPage}>
       {children}
     </StyledHeaderTitle>
   )
+}
+
+HeaderTitle.defaultProps = {
+  isAboutPage: false,
 }

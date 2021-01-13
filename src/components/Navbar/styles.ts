@@ -1,6 +1,7 @@
-import styled, { DefaultTheme } from 'styled-components'
+import styled from 'styled-components'
+import { NavbarProps } from './index'
 
-export const Navbar = styled.div`
+export const StyledNavbar = styled.div`
   position: fixed;
   display: flex;
   flex-direction: column;
@@ -19,22 +20,18 @@ export const Line = styled.div`
   background: ${({ theme }) => theme.colors.greenLight};
 `
 
-interface ContainerProps {
-  isGamePage: boolean
-  theme: DefaultTheme
-}
-
-export const Container = styled.div`
+export const Container = styled.div<NavbarProps>`
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 100%;
-  background: ${({ theme, isGamePage }: ContainerProps) =>
-    isGamePage
+  background: ${({ theme, isGamePage }) => {
+    return isGamePage
       ? theme.colors.white
       : `linear-gradient(to bottom, rgba(254, 254, 254, 1),
-          rgba(254, 254, 254, 0))`};
+          rgba(254, 254, 254, 0))`
+  }};
 
   @media screen and (max-width: 1000px) {
     background: ${({ theme }) => theme.colors.white};
@@ -68,5 +65,4 @@ export const Spacer = styled.div`
   align-items: center;
   width: 680px;
   height: 100%;
-  /* background: lightgrey; */
 `

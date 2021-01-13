@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import * as S from './styles'
 import btnImage from '../../assets/images/button-image.png'
 
-interface ButtonProps {
+type ButtonProps = {
   title: string
   onClick(): void
 }
