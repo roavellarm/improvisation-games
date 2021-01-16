@@ -17,5 +17,7 @@ export const Paragraph = styled.p<ParagraphProps>`
   @media screen and (max-width: 1000px) {
     font-size: 1.125rem;
     margin: 1rem 0px;
+    padding-top: ${({ anchor }) => anchor && '55px'};
+    margin-top: ${({ anchor }) => anchor && '-55px'};
   }
 `

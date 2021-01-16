@@ -11,5 +11,7 @@ export const Title = styled.p<TitleProps>`
   @media screen and (max-width: 1000px) {
     font-size: 1.875rem;
     margin: 2rem 0px;
+    padding-top: ${({ anchor }) => anchor && '55px'};
+    margin-top: ${({ anchor }) => anchor && '-55px'};
   }
 `

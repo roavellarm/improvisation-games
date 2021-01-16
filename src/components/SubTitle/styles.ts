@@ -12,6 +12,7 @@ export const SubTitle = styled.h4<SubTitleProps>`
   @media screen and (max-width: 1000px) {
     font-size: 1.125rem;
     margin: 1rem 0px;
-    padding-top: 0.5rem;
+    padding-top: ${({ anchor }) => (anchor ? '55px' : '0.5rem')};
+    margin-top: ${({ anchor }) => (anchor ? '-55px' : '1rem')};
   }
 `
