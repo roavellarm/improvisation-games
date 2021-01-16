@@ -53,7 +53,7 @@ export default function Article() {
 
   return (
     <>
-      <Navbar />
+      <Navbar isArticlePage />
       <S.Container>
         <S.SideArea stepper>
           {isDesktopScreen && (

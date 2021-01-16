@@ -8,7 +8,6 @@ export const Wrapper = styled.div`
   align-items: center;
   justify-content: space-between;
   z-index: 1;
-  right: 10px;
   bottom: 10px;
   height: 80px;
   width: 50px;
@@ -19,6 +18,10 @@ export const Wrapper = styled.div`
       text-shadow: 1px 1px 15px ${({ theme }) => theme.colors.orange};
       transform: scale(1.1, 1.1);
     }
+  }
+
+  @media screen and (max-width: 900px) {
+    right: 10px;
   }
 
   @media screen and (max-width: 800px) {
