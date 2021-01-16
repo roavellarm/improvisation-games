@@ -8,4 +8,8 @@ export const StyledLine = styled.div`
   box-shadow: 1px 1px 2px ${({ theme }) => theme.colors.greenLight};
   border-radius: 8px;
   margin: 4rem -0.8rem;
+
+  @media screen and (max-width: 1000px) {
+    margin: 1rem -0.8rem;
+  }
 `
