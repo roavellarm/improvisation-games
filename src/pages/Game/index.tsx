@@ -38,6 +38,8 @@ export default function Game() {
     if (currentGame === undefined) push('/*')
     setGame(currentGame)
     window.scrollTo({ top: 0 })
+    document.body.scrollTop = 0
+    document.documentElement.scrollTop = 0
   }, [id, push])
 
   useEffect(() => {

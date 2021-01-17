@@ -95,12 +95,12 @@ const article: ArticleItem[] = [
   },
   {
     text:
-      'Educadores e pensadores de diversas áreas vêm desenvolvendo ao longo da tempo, ideias a respeito da aprendizagem por meio dos jogos, poré, os pesquisadores atuais consideram que essas ideias ainda não estão claras para todas as pessoas que trabalham diretamente com a educação. Um dos motivos dessa confusão diz respeito à característica polissêmica da palavra jogo, que pode ser usada para referenciar atividades com significados diversos. O jogo vem sendo estudado como uma parte natural e essencial do ser humano, parte essencial da aprendizagem e da transmissão de conhecimentos e da própria cultura.',
+      'Educadores e pensadores de diversas áreas vêm desenvolvendo ao longo da tempo, ideias a respeito da aprendizagem por meio dos jogos, porém, os pesquisadores atuais consideram que essas ideias ainda não estão claras para todas as pessoas que trabalham diretamente com a educação. Um dos motivos dessa confusão diz respeito à característica polissêmica da palavra jogo, que pode ser usada para referenciar atividades com significados diversos. O jogo vem sendo estudado como uma parte natural e essencial do ser humano, parte essencial da aprendizagem e da transmissão de conhecimentos e da própria cultura.',
     style: ['paragraph'],
   },
   {
     text:
-      'Para os pesquisadores que lidam com a aprendizagem através dos jogos, esses não possuem um “objetivo educacional” determinado, mas consideram que tudo o que aprendemos, aprendemos por intermédio do jogo. Os jogos de improvisação propostos por esse trabalho acompanham essa ideia, não possuem como objetivo o desenvolvimento de conteúdos específicos, e sim, são destinados a trabalharem a natureza lúdica inata das crianças e adolescentes.',
+      'Para os pesquisadores que lidam com a aprendizagem através dos jogos, esses não possuem um “objetivo educacional” determinado, mas consideram que tudo o que aprendemos, aprendemos por intermédio do jogo. Os jogos de improvisação propostos por este trabalho acompanham essa ideia, não possuem como objetivo o desenvolvimento de conteúdos específicos, e sim, são destinados a trabalharem a natureza lúdica inata das crianças e adolescentes.',
     style: ['paragraph'],
   },
   {

@@ -15,6 +15,8 @@ export default function About() {
 
   useEffect(() => {
     window.scrollTo({ top: 0 })
+    document.body.scrollTop = 0
+    document.documentElement.scrollTop = 0
     window.addEventListener('resize', updateWindowWidth)
     return () => window.removeEventListener('resize', updateWindowWidth)
   }, [updateWindowWidth])

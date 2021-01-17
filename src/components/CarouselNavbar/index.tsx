@@ -17,6 +17,8 @@ export default function CarousselNavbar({ gameList }: { gameList: Game[] }) {
   const { push } = useHistory()
   const handleClick = (game: string) => {
     window.scrollTo({ top: 0 })
+    document.body.scrollTop = 0
+    document.documentElement.scrollTop = 0
     push(`/game/${game}`)
   }
 
