@@ -7,6 +7,7 @@ export const StyledNavbar = styled.div`
   flex-direction: column;
   height: 60px;
   width: 100%;
+  z-index: 2 !important;
 
   @media screen and (max-width: 1000px) {
     height: 40px;

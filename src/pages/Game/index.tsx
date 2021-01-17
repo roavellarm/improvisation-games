@@ -1,5 +1,4 @@
 import React, { useCallback, useEffect, useMemo, useState } from 'react'
-import ReactAudioPlayer from 'react-audio-player'
 import { useParams, useHistory } from 'react-router-dom'
 import gameList, { Game as GameProps } from '../../assets/texts/games'
 import * as S from './styles'
@@ -11,6 +10,7 @@ import {
   ScrollToTopButton,
   SubTitle,
   Title,
+  AudioPlayer,
 } from '../../components'
 
 export default function Game() {
@@ -68,11 +68,9 @@ export default function Game() {
 
             if (item.style.includes('audio'))
               return (
-                <ReactAudioPlayer
+                <AudioPlayer
                   key={index}
-                  style={{ width: '100%', marginTop: '1rem', outline: 'none' }}
-                  controls
-                  title={`Exemplo ${game.gameTitle}`}
+                  title={game.gameTitle}
                   src={item.audio}
                 />
               )

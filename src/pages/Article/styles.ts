@@ -37,6 +37,7 @@ export const Image = styled.div`
   background-size: contain;
   background-repeat: no-repeat;
   background-position: top left;
+  z-index: 2 !important;
 
   @media screen and (max-width: 1300px) {
     margin-left: 15px;

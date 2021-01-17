@@ -42,6 +42,7 @@ export const ImgTopRight = styled.div`
   background-repeat: no-repeat;
   background-size: contain;
   background-position: top right;
+  z-index: 2 !important;
 
   position: fixed;
   margin-top: -56px;
