@@ -35,8 +35,8 @@ export const DropdownContent = styled.div<Props>`
   height: 490px;
   margin-left: ${({ isArticlePage }) => isArticlePage && '-120px'};
   margin-top: 5px;
-  max-height: 80vh;
-  z-index: 99999999 !important;
+  max-height: 90vh;
+  z-index: 999 !important;
 `
 
 type OptionsProps = {
