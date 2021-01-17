@@ -6,24 +6,12 @@ export const Wrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  // transform: translateX(100%);
-  // animation: slideLeft 0.2s ease-in-out forwards 0.2s;
-
-  //   @keyframes slideLeft {
-  //     0% {
-  //       transform: translateX(100%);
-  //     }
-  //     100% {
-  //       transform: translateX(0);
-  //     }
-  //   }
+  min-height: 100vh;
 
   @media screen and (max-width: 800px) {
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
-    height: auto;
   }
 
   @media screen and (max-width: 320px) {
@@ -38,8 +26,15 @@ export const Container = styled.div`
 
   @media screen and (max-width: 800px) {
     flex-direction: column;
-    justify-content: flex-start;
+    flex: 1;
+    justify-content: space-around;
     align-items: center;
+  }
+
+  @media screen and (max-height: 600px) {
+    display: flex;
+    flex: none;
+    justify-content: flex-start;
   }
 `
 
@@ -55,6 +50,13 @@ export const TitlesContainer = styled.div`
   display: flex;
   flex-direction: column;
   margin-bottom: 2rem;
+
+  @media screen and (max-width: 800px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
+  }
 `
 
 export const Title = styled.p`
@@ -97,6 +99,7 @@ export const SubTitle = styled.p`
 
   @media screen and (max-width: 800px) {
     font-size: 1.625rem;
+    text-align: center;
     margin-bottom: 1rem;
   }
 `
@@ -210,6 +213,12 @@ export const Image = styled.div`
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
+    flex: none;
+    height: 339.6px;
+    width: 354px;
+  }
+
+  @media screen and (max-width: 400px) {
     flex: none;
     height: 283px;
     width: 295px;

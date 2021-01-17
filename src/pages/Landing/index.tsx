@@ -48,7 +48,7 @@ export default function Landing() {
       <S.Container>
         {isMobileScreen ? (
           <>
-            {renderTitle()}
+            <S.TitlesContainer>{renderTitle()}</S.TitlesContainer>
             {renderImageWithLinks()}
             <Carousel gameList={gameList} />
           </>
