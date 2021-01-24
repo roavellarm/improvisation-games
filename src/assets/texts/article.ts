@@ -841,7 +841,7 @@ const article: ArticleItem[] = [
   },
   {
     text:
-      'TOURINHO, Cristina, TOURINHO, Cristina. Ensino coletivo de instrumentos musicais: crenças, mitos, princípios e um pouco de história. In: XVI Encontro Nacional da ABEM, 2007. Mato Grosso do Sul. Anais...2007.',
+      'TOURINHO, Cristina, TOURINHO, Cristina. Ensino coletivo de instrumentos musicais: crenças, mitos, princípios e um pouco de história. In: XVI Encontro Nacional da ABEM, 2007. Mato Grosso do Sul.',
     style: ['itemList'],
   },
   {
