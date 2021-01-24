@@ -10,6 +10,6 @@ export const StyledLine = styled.div`
   margin: 4rem -0.8rem;
 
   @media screen and (max-width: 1000px) {
-    margin: 1rem -0.8rem;
+    margin: 3rem -0.8rem;
   }
 `
