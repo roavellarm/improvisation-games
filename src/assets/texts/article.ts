@@ -32,7 +32,7 @@ const article: ArticleItem[] = [
   },
   {
     text:
-      'Este trabalho faz parte de Dissertação de Mestrado de Marta Macedo Brietzke, intitulada “Música contemporânea na iniciação coletiva ao violoncelo:uma pesquisa - ação com jogos de improvisação em três instituições de ensino no estado de São Paulo”, defendida em 12 de dezembro de 2018, pela Universidade de São Paulo, com orientação do Prof. Dr. Fabio Soren Presgrave e coorientação do Prof. Dr. Mário André Wanderley Oliveira.',
+      'Este trabalho faz parte da Dissertação de Mestrado de Marta Macedo Brietzke, intitulada “Música contemporânea na iniciação coletiva ao violoncelo:uma pesquisa - ação com jogos de improvisação em três instituições de ensino no estado de São Paulo”, defendida em 12 de dezembro de 2018, pela Universidade de São Paulo, com orientação do Prof. Dr. Fabio Soren Presgrave e coorientação do Prof. Dr. Mário André Wanderley Oliveira.',
     style: ['paragraph', 'italic'],
   },
 
