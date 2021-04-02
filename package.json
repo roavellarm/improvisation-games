@@ -8,6 +8,7 @@
     "eject": "react-scripts eject",
     "test": "react-scripts test --no-cache --silent",
     "testDev": "react-scripts test --no-cache",
+    "coverage": "yarn test --coverage --watchAll=false",
     "lint": "./node_modules/.bin/eslint './**/*.{js,ts,tsx}' --quiet"
   },
   "dependencies": {
