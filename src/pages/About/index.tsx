@@ -81,7 +81,10 @@ export default function About() {
           </Paragraph>
           <Title>
             {`Entre em contato `}
-            <S.Link target="_blank" href="mailto:martabrietzke@gmail.com">
+            <S.Link
+              target="_blank"
+              href="mailto:martabrietzke@gmail.com?subject=Testing out mailto!&body=This is only a test!"
+            >
               aqui
             </S.Link>
           </Title>
