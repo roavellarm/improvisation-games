@@ -13,7 +13,7 @@ jest.mock('react-router-dom', () => ({
   }),
 }))
 
-describe('when the navbar is in the game page', () => {
+describe('when the navbar is render in the game page', () => {
   it('should render correctly', () => {
     const { queryByText } = render(
       withTheme(<Navbar isGamePage isArticlePage={false} />)
@@ -32,7 +32,7 @@ describe('when the navbar is in the game page', () => {
   })
 })
 
-describe('when the navbar is in the article page', () => {
+describe('when the navbar is render in the article page', () => {
   it('should render correctly', () => {
     global.innerWidth = 500
     const { queryByText } = render(
@@ -45,7 +45,7 @@ describe('when the navbar is in the article page', () => {
   })
 })
 
-describe('when the Voltar link is clicked', () => {
+describe('when the "Voltar" link is clicked', () => {
   it('should navigate to the homepage', () => {
     const { queryByText } = render(
       withTheme(<Navbar isGamePage isArticlePage={false} />)
