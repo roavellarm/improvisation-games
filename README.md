@@ -22,4 +22,4 @@ Link para o projeto **<a target="_blank" href="https://martabrietzke.netlify.app
 **Autora do projeto:** Marta Brietzke <br/>
 **Arte:** <a target="__blank" href="https://www.samantafloor.com.br/">Samanta Flôor</a> <br/>
 **Design:** Rodrigo Avellar <br/>
-**Desenvolvedores:** Rodrigo Avellar e Gustavo Sohne <br/>
+**Desenvolvedores:** Rodrigo Avellar e Gustavo Sohne<br/>
