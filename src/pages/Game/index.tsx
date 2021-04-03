@@ -1,17 +1,18 @@
 import React, { useCallback, useEffect, useMemo, useState } from 'react'
 import { useParams, useHistory } from 'react-router-dom'
+import loadable from 'loadable-components'
+
 import gameList, { Game as GameProps } from 'assets/texts/games'
-import {
-  HeaderTitle,
-  ItemList,
-  Navbar,
-  Paragraph,
-  ScrollToTopButton,
-  SubTitle,
-  Title,
-  AudioPlayer,
-} from 'components'
 import * as S from './styles'
+
+const HeaderTitle = loadable(() => import('components/HeaderTitle'))
+const ItemList = loadable(() => import('components/ItemList'))
+const Navbar = loadable(() => import('components/Navbar'))
+const Paragraph = loadable(() => import('components/Paragraph'))
+const ScrollToTopButton = loadable(() => import('components/ScrollToTopButton'))
+const SubTitle = loadable(() => import('components/SubTitle'))
+const Title = loadable(() => import('components/Title'))
+const AudioPlayer = loadable(() => import('components/AudioPlayer'))
 
 export default function Game() {
   const { id } = useParams() as { id: string }

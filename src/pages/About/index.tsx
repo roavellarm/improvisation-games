@@ -1,8 +1,12 @@
 import React, { useCallback, useEffect, useMemo, useState } from 'react'
-
-import { Navbar, HeaderTitle, Paragraph, Title } from 'components'
+import loadable from 'loadable-components'
 import dissertation from 'assets/texts/DissertacaoMartaMacedoBrietzke.pdf'
 import * as S from './styles'
+
+const Navbar = loadable(() => import('components/Navbar'))
+const HeaderTitle = loadable(() => import('components/HeaderTitle'))
+const Paragraph = loadable(() => import('components/Paragraph'))
+const Title = loadable(() => import('components/Title'))
 
 export default function About() {
   const [windowWith, setWindowWidth] = useState(window.innerWidth)
