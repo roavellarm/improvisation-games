@@ -1,14 +1,12 @@
-import loadable from 'loadable-components'
-
-export const Button = loadable(() => import('./Button'))
-export const Carousel = loadable(() => import('./Carousel'))
-export const HeaderTitle = loadable(() => import('./HeaderTitle'))
-export const ItemList = loadable(() => import('./ItemList'))
-export const Navbar = loadable(() => import('./Navbar'))
-export const Paragraph = loadable(() => import('./Paragraph'))
-export const ScrollToTopButton = loadable(() => import('./ScrollToTopButton'))
-export const SubTitle = loadable(() => import('./SubTitle'))
-export const Title = loadable(() => import('./Title'))
-export const Line = loadable(() => import('./Line'))
-export const Stepper = loadable(() => import('./Stepper'))
-export const AudioPlayer = loadable(() => import('./AudioPlayer'))
+export { default as Button } from './Button'
+export { default as Carousel } from './Carousel'
+export { default as HeaderTitle } from './HeaderTitle'
+export { default as ItemList } from './ItemList'
+export { default as Navbar } from './Navbar'
+export { default as Paragraph } from './Paragraph'
+export { default as ScrollToTopButton } from './ScrollToTopButton'
+export { default as SubTitle } from './SubTitle'
+export { default as Title } from './Title'
+export { default as Line } from './Line'
+export { default as Stepper } from './Stepper'
+export { default as AudioPlayer } from './AudioPlayer'
