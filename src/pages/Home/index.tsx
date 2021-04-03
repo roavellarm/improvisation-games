@@ -5,7 +5,7 @@ import { Carousel, Button } from 'components'
 import gameList, { Game } from 'assets/texts/games'
 import * as S from './styles'
 
-export default function Landing() {
+export default function Home() {
   const { push } = useHistory()
   const [windowWidth, setWindowWidth] = useState(window.innerWidth)
 
