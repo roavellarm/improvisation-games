@@ -1,10 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
-import Home from './pages/Home'
-import Game from './pages/Game'
-import About from './pages/About'
-import Article from './pages/Article'
-import NotFound from './pages/NotFound'
+import { Home, Game, About, Article, NotFound } from './pages'
 
 export default function Routes() {
   return (
