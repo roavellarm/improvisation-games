@@ -43,7 +43,7 @@ export default function Article() {
   }, [])
 
   useEffect(() => {
-    window.addEventListener('scroll', handleScrollPosition)
+    window.addEventListener('scroll', handleScrollPosition, { passive: true })
     return () => window.removeEventListener('scroll', handleScrollPosition)
   }, [handleScrollPosition])
 
