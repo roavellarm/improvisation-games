@@ -1,8 +1,8 @@
 import React, { useCallback, useEffect, useMemo, useState } from 'react'
-import { HeaderTitle, Paragraph, Title } from '../../components'
-import Navbar from '../../components/Navbar'
+
+import { Navbar, HeaderTitle, Paragraph, Title } from 'components'
+import dissertation from 'assets/texts/DissertacaoMartaMacedoBrietzke.pdf'
 import * as S from './styles'
-import dissertation from '../../assets/texts/DissertacaoMartaMacedoBrietzke.pdf'
 
 export default function About() {
   const [windowWith, setWindowWidth] = useState(window.innerWidth)

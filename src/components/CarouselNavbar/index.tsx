@@ -1,7 +1,8 @@
 import React from 'react'
 import Carousel from 'react-elastic-carousel'
 import { useHistory } from 'react-router-dom'
-import { Game } from '../../assets/texts/games'
+
+import { Game } from 'assets/texts/games'
 import * as S from './styles'
 
 const customArrow = ({ type, onClick, isEdge }: any) => {

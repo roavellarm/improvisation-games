@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
+
+import btnImage from 'assets/images/button-image.png'
 import * as S from './styles'
-import btnImage from '../../assets/images/button-image.png'
 
 type ButtonProps = {
   title: string

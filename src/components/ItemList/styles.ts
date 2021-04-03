@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import dot from '../../assets/images/dot.png'
+import dot from 'assets/images/dot.png'
 
 export const Item = styled.li`
   font-family: ${({ theme }) => theme.fontFamily.lato};

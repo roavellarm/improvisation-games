@@ -2,8 +2,8 @@ import React from 'react'
 import { render, fireEvent } from '@testing-library/react'
 import '@testing-library/jest-dom/extend-expect'
 
+import { withTheme } from 'config/testSetup'
 import Navbar from '..'
-import { setTestComponent } from '../../../config/testSetup'
 
 const mockPush = jest.fn()
 
@@ -16,7 +16,7 @@ jest.mock('react-router-dom', () => ({
 describe('when the navbar is in the game page', () => {
   it('should render correctly', () => {
     const { queryByText } = render(
-      setTestComponent(<Navbar isGamePage isArticlePage={false} />)
+      withTheme(<Navbar isGamePage isArticlePage={false} />)
     )
     expect(queryByText('<- Voltar')).toBeInTheDocument()
     expect(queryByText('Jogo 1')).toBeInTheDocument()
@@ -36,7 +36,7 @@ describe('when the navbar is in the article page', () => {
   it('should render correctly', () => {
     global.innerWidth = 500
     const { queryByText } = render(
-      setTestComponent(<Navbar isGamePage={false} isArticlePage />)
+      withTheme(<Navbar isGamePage={false} isArticlePage />)
     )
     expect(queryByText('<- Voltar')).toBeInTheDocument()
     expect(queryByText('Tópicos')).toBeInTheDocument()
@@ -48,7 +48,7 @@ describe('when the navbar is in the article page', () => {
 describe('when the Voltar link is clicked', () => {
   it('should navigate to the homepage', () => {
     const { queryByText } = render(
-      setTestComponent(<Navbar isGamePage isArticlePage={false} />)
+      withTheme(<Navbar isGamePage isArticlePage={false} />)
     )
     const element = queryByText('<- Voltar') as Element
     fireEvent.click(element)

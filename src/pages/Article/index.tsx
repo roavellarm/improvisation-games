@@ -1,7 +1,6 @@
 import React, { useCallback, useEffect, useMemo, useState } from 'react'
-import article from '../../assets/texts/article'
-import * as S from './styles'
-import { anchors, checkStepperPosition } from '../../helpers/article'
+import { anchors, checkStepperPosition } from 'helpers/article'
+import article from 'assets/texts/article'
 import {
   HeaderTitle,
   ItemList,
@@ -12,7 +11,8 @@ import {
   SubTitle,
   Title,
   Stepper,
-} from '../../components'
+} from 'components'
+import * as S from './styles'
 
 export default function Article() {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth)

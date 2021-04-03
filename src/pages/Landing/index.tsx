@@ -1,8 +1,8 @@
 import React, { useCallback, useEffect, useMemo, useState } from 'react'
 import { useHistory } from 'react-router-dom'
-import Button from '../../components/Button'
-import Carousel from '../../components/Carousel'
-import gameList, { Game } from '../../assets/texts/games'
+
+import { Carousel, Button } from 'components'
+import gameList, { Game } from 'assets/texts/games'
 import * as S from './styles'
 
 export default function Landing() {

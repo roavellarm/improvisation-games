@@ -1,7 +1,6 @@
 import React, { useCallback, useEffect, useMemo, useState } from 'react'
 import { useParams, useHistory } from 'react-router-dom'
-import gameList, { Game as GameProps } from '../../assets/texts/games'
-import * as S from './styles'
+import gameList, { Game as GameProps } from 'assets/texts/games'
 import {
   HeaderTitle,
   ItemList,
@@ -11,7 +10,8 @@ import {
   SubTitle,
   Title,
   AudioPlayer,
-} from '../../components'
+} from 'components'
+import * as S from './styles'
 
 export default function Game() {
   const { id } = useParams() as { id: string }
