@@ -2,9 +2,9 @@ import React from 'react'
 import { render } from '@testing-library/react'
 import '@testing-library/jest-dom/extend-expect'
 import 'jest-styled-components'
-import SubTitle from '../index'
 
 import { withTheme } from 'config/testSetup'
+import SubTitle from '../index'
 
 describe('when subTitle is mount', () => {
   it('should render correctly', () => {

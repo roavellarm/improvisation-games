@@ -2,7 +2,7 @@ import React, { useCallback, useEffect, useMemo, useState } from 'react'
 import loadable from 'loadable-components'
 
 import { anchors, checkStepperPosition } from 'helpers/article'
-import article from 'assets/texts/article'
+import article, { ArticleItem } from 'assets/texts/article'
 import * as S from './styles'
 
 const HeaderTitle = loadable(() => import('components/HeaderTitle'))
@@ -64,7 +64,7 @@ export default function Article() {
 
         <S.Content>
           <HeaderTitle>Caderno de atividades</HeaderTitle>
-          {article.map((item, index) => {
+          {article.map((item: ArticleItem, index) => {
             if (item.style.includes('title1'))
               return (
                 <Title key={index} anchor={item.style.includes('anchor')}>

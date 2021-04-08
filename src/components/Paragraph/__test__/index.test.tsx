@@ -1,9 +1,9 @@
 import React from 'react'
-import Paragrah from '../index'
-import { render, fireEvent } from '@testing-library/react'
+import { render } from '@testing-library/react'
 import '@testing-library/jest-dom/extend-expect'
 
 import { withTheme } from 'config/testSetup'
+import Paragrah from '../index'
 
 describe('when HeaderTitle is mount', () => {
   it('should render correctly', () => {
