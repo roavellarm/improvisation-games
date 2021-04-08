@@ -1,8 +1,9 @@
 import React, { useCallback, useEffect, useState } from 'react'
 import { useHistory } from 'react-router-dom'
-import gameList from '../../assets/texts/games'
-import { gameOptions } from '../../helpers/game'
-import { anchors } from '../../helpers/article'
+
+import gameList from 'assets/texts/games'
+import { gameOptions } from 'helpers/game'
+import { anchors } from 'helpers/article'
 import CarousselNavbar from '../CarouselNavbar'
 import Dropdown from '../Drodown'
 import * as S from './styles'

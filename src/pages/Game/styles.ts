@@ -1,6 +1,6 @@
 import styled from 'styled-components'
-import celloImg from '../../assets/images/cello-game-page.png'
-import birdImg from '../../assets/images/bird-mobile.png'
+import celloImg from 'assets/images/cello-game-page.png'
+import birdImg from 'assets/images/bird-mobile.png'
 
 export const Container = styled.div`
   display: flex;

@@ -1,11 +1,14 @@
 import React, { useCallback, useEffect, useMemo, useState } from 'react'
 import { useHistory } from 'react-router-dom'
-import Button from '../../components/Button'
-import Carousel from '../../components/Carousel'
-import gameList, { Game } from '../../assets/texts/games'
+import loadable from 'loadable-components'
+
+import gameList, { Game } from 'assets/texts/games'
 import * as S from './styles'
 
-export default function Landing() {
+const Button = loadable(() => import('components/Button'))
+const Carousel = loadable(() => import('components/Carousel'))
+
+export default function Home() {
   const { push } = useHistory()
   const [windowWidth, setWindowWidth] = useState(window.innerWidth)
 

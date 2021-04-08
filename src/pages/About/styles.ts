@@ -1,7 +1,7 @@
 import styled from 'styled-components'
-import imgTopRight from '../../assets/images/aboutTopRight.png'
-import imgBottomRight from '../../assets/images/aboutBottomRight.png'
-import imgBottomLeft from '../../assets/images/aboutBottomLeft.png'
+import imgTopRight from 'assets/images/aboutTopRight.png'
+import imgBottomRight from 'assets/images/aboutBottomRight.png'
+import imgBottomLeft from 'assets/images/aboutBottomLeft.png'
 
 export const Container = styled.div`
   display: flex;

@@ -1,18 +1,19 @@
 import React, { useCallback, useEffect, useMemo, useState } from 'react'
-import article from '../../assets/texts/article'
+import loadable from 'loadable-components'
+
+import { anchors, checkStepperPosition } from 'helpers/article'
+import article, { ArticleItem } from 'assets/texts/article'
 import * as S from './styles'
-import { anchors, checkStepperPosition } from '../../helpers/article'
-import {
-  HeaderTitle,
-  ItemList,
-  Line,
-  Navbar,
-  Paragraph,
-  ScrollToTopButton,
-  SubTitle,
-  Title,
-  Stepper,
-} from '../../components'
+
+const HeaderTitle = loadable(() => import('components/HeaderTitle'))
+const ItemList = loadable(() => import('components/ItemList'))
+const Navbar = loadable(() => import('components/Navbar'))
+const Paragraph = loadable(() => import('components/Paragraph'))
+const ScrollToTopButton = loadable(() => import('components/ScrollToTopButton'))
+const SubTitle = loadable(() => import('components/SubTitle'))
+const Title = loadable(() => import('components/Title'))
+const Line = loadable(() => import('components/Line'))
+const Stepper = loadable(() => import('components/Stepper'))
 
 export default function Article() {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth)
@@ -63,7 +64,7 @@ export default function Article() {
 
         <S.Content>
           <HeaderTitle>Caderno de atividades</HeaderTitle>
-          {article.map((item, index) => {
+          {article.map((item: ArticleItem, index) => {
             if (item.style.includes('title1'))
               return (
                 <Title key={index} anchor={item.style.includes('anchor')}>

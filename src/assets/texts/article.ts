@@ -1,11 +1,11 @@
-type ArticleItem = {
+export interface ArticleItem {
   text: string
   style: Array<string>
   titleStrong?: string | undefined
   rest?: string | undefined
 }
 
-const article: ArticleItem[] = [
+const article: Array<ArticleItem> = [
   {
     text: 'JOGOS DE IMPROVISAÇÃO EM MÚSICA CONTEMPORÂNEA:',
     style: ['title1'],

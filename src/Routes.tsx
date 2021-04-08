@@ -1,10 +1,12 @@
 import React from 'react'
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
-import Home from './pages/Landing'
-import Game from './pages/Game'
-import About from './pages/About'
-import Article from './pages/Article'
-import NotFound from './pages/NotFound'
+import loadable from 'loadable-components'
+
+const About = loadable(() => import('pages/About'))
+const Article = loadable(() => import('pages/Article'))
+const Game = loadable(() => import('pages/Game'))
+const Home = loadable(() => import('pages/Home'))
+const NotFound = loadable(() => import('pages/NotFound'))
 
 export default function Routes() {
   return (

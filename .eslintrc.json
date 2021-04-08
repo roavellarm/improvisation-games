@@ -1,7 +1,8 @@
 {
   "env": {
     "browser": true,
-    "es2021": true
+    "es2021": true,
+    "jest": true
   },
   "extends": ["plugin:react/recommended", "airbnb", "prettier"],
   "parser": "@typescript-eslint/parser",
@@ -27,11 +28,20 @@
     "no-use-before-define": "off",
     "@typescript-eslint/no-use-before-define": ["error"],
     "import/prefer-default-export": "off",
+    "import/no-extraneous-dependencies": "error",
     "react/jsx-filename-extension": [
       "off",
       { "extensions": [".js", ".jsx", ".ts", ".tsx"] }
     ]
   },
+  "overrides": [
+    {
+      "files": ["*.test.ts", "*.test.tsx"],
+      "rules": {
+        "import/no-extraneous-dependencies": "off"
+      }
+    }
+  ],
   "settings": {
     "react": { "version": "detect" },
     "import/resolver": { "typescript": {} }

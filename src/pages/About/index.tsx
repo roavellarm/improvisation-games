@@ -1,8 +1,12 @@
 import React, { useCallback, useEffect, useMemo, useState } from 'react'
-import { HeaderTitle, Paragraph, Title } from '../../components'
-import Navbar from '../../components/Navbar'
+import loadable from 'loadable-components'
+import dissertation from 'assets/texts/DissertacaoMartaMacedoBrietzke.pdf'
 import * as S from './styles'
-import dissertation from '../../assets/texts/DissertacaoMartaMacedoBrietzke.pdf'
+
+const Navbar = loadable(() => import('components/Navbar'))
+const HeaderTitle = loadable(() => import('components/HeaderTitle'))
+const Paragraph = loadable(() => import('components/Paragraph'))
+const Title = loadable(() => import('components/Title'))
 
 export default function About() {
   const [windowWith, setWindowWidth] = useState(window.innerWidth)
@@ -81,7 +85,10 @@ export default function About() {
           </Paragraph>
           <Title>
             {`Entre em contato `}
-            <S.Link target="_blank" href="mailto:martabrietzke@gmail.com">
+            <S.Link
+              target="_blank"
+              href="mailto:martabrietzke@gmail.com?subject=Testing out mailto!&body=This is only a test!"
+            >
               aqui
             </S.Link>
           </Title>
