@@ -6,20 +6,34 @@
 
 ## :information_source: **Sobre o projeto**
 
-Website desenvolvido _(em desenvolvimento)_ como produto de uma pesquisa de mestrado em educação musical realizada pela autora do projeto, **Marta Brietzke**, na [Universidade de São Paulo](https://www5.usp.br/) nos anos de 2017 e 2018.
+Site desenvolvido como produto de pesquisa de mestrado em educação musical de **Marta Brietzke**, realizado na [Universidade de São Paulo](https://www5.usp.br/) nos anos de 2017 e 2018.
 
-O público alvo são professores de violoncelo de alunos iniciantes de desenvolvimento instrumental, que utilizem abordagens de ensino coletivo.
+Feito para professores de violoncelo de alunos iniciantes de desenvolvimento instrumental, que utilizem abordagens de ensino coletivo.
 
-O projeto trata-se de jogos de improvisação musical coletiva, apresentados como planejamento de aulas e guias para as atividades sujeridas pelo professor aos alunos.
-As propostas contidas nos jogos podem ser utilizadas para outros instrumentos além do violoncelo, e também para outros níveis de aprendizagem, cabendo a cada professor fazer as adaptações que julgar necessárias e efetivas para suas demandas. Além disso, cabem muitos desdobramentos das propostas iniciais, que podem suscitar outras ideias e perspectivas de trabalho.
+São jogos de improvisação musical coletiva, apresentados como planejamento de aulas e guias para as atividades sujeridas pelo professor aos alunos.
 
-Link para o projeto **<a target="_blank" href="https://martabrietzke.netlify.app/">aqui</a>**
+As propostas nos jogos podem ser utilizadas para outros instrumentos além do violoncelo, e também para outros níveis de aprendizagem, cabendo a cada professor fazer as adaptações que julgar necessárias e efetivas para suas demandas.
+
+Além disso, cabem muitos desdobramentos das propostas iniciais, que podem suscitar outras ideias e perspectivas de trabalho.
+
+Link para o site **<a target="_blank" href="https://jogoscello.com/">aqui</a>**
 
 <br />
 
-### :page_facing_up: Créditos
+### :page_facing_up: Colaboradores
 
 **Autora do projeto:** Marta Brietzke <br/>
-**Arte:** <a target="__blank" href="https://www.samantafloor.com.br/">Samanta Flôor</a> <br/>
+**Arte do desenho:** <a target="__blank" href="https://www.samantafloor.com.br/">Samanta Flôor</a> <br/>
 **Design:** Rodrigo Avellar <br/>
-**Desenvolvedores:** Rodrigo Avellar e Gustavo Sohne <br/>
+**Desenvolvimento:** Rodrigo Avellar e Gustavo Sohne <br/>
+
+<br />
+
+### :phone: Contatos
+
+- Desenvolvimento de sites e apps: <a target="_blank" href="mailto:ramprofissional@gmail.com?subject=Contato jogos.com&body=Olá Rodrigo! Eu sou <diga seu nome> e gostaria...">
+  Rodrigo Avellar</a> e/ou <a target="_blank" href="mailto:gustavosohne38@gmail.com?subject=Contato jogos.com&body=Olá Gustavo! Eu sou <diga seu nome> e gostaria...">
+  Gustavo Sohne</a>.
+
+- Sobre o projeto: <a target="_blank" href="mailto:martabrietzke@gmail.com?subject=Contato jogos.com&body=Olá Marta! Eu sou <diga seu nome> e gostaria...">
+  Marta Brietzke</a>.
