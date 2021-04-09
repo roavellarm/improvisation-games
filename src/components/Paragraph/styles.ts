@@ -6,7 +6,7 @@ export const Paragraph = styled.p<ParagraphProps>`
   font-size: ${({ theme }) => theme.fontSize.text};
   font-style: ${({ italic }) => italic && 'italic'};
   font-weight: ${({ bold }) => bold && 'bold'};
-  line-height: 158%;
+  line-height: 160%;
   margin: ${({ margin }) => (margin ? '0px' : '2rem 0px')};
   background: ${({ citation }) => citation && `rgba(91, 124, 107, 0.2)`};
   padding: ${({ citation }) => citation && '1rem 2rem'};
