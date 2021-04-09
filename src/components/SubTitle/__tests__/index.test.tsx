@@ -13,9 +13,9 @@ describe('when subTitle is mount', () => {
     expect(element).toBeInTheDocument()
   })
 
-  it('should have black color', () => {
+  it('should have dark green color', () => {
     const { queryByText } = render(withTheme(<SubTitle>Foo bar</SubTitle>))
     const element = queryByText('Foo bar')
-    expect(element).toHaveStyleRule('color', '#100B08')
+    expect(element).toHaveStyleRule('color', '#4B5F52')
   })
 })
