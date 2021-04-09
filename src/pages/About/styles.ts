@@ -20,6 +20,57 @@ export const Content = styled.div`
   }
 `
 
+export const CitationContainer = styled.div`
+  position: relative;
+  display: flex;
+  width: 100%;
+`
+
+export const Citation = styled.div`
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+`
+
+export const CloseQuoteContainer = styled.div`
+  display: flex;
+  align-items: flex-end;
+`
+
+interface QuoteImageProps {
+  isOpenQuote?: boolean
+}
+
+export const QuoteImage = styled.img<QuoteImageProps>`
+  width: 50px;
+  height: 50px;
+  margin-left: ${({ isOpenQuote }) =>
+    isOpenQuote ? 'calc(-50px - 1rem)' : '1rem'};
+  margin-right: ${({ isOpenQuote }) =>
+    isOpenQuote ? '1rem' : 'calc(-50px - 1rem)'};
+
+  @media screen and (max-width: 1150px) {
+    width: 25px;
+    height: 25px;
+    margin-right: ${({ isOpenQuote }) => (isOpenQuote ? '0px' : '-0.9rem')};
+    margin-left: ${({ isOpenQuote }) => (isOpenQuote ? '-0.9rem' : '0px')};
+  }
+`
+
+export const Signature = styled.p`
+  width: 100%;
+  text-align: right;
+  padding-right: 1.5rem;
+  padding-bottom: 2rem;
+  font-size: ${({ theme }) => theme.fontSize.title3};
+  color: ${({ theme }) => theme.colors.greenDark};
+
+  @media screen and (max-width: 1150px) {
+    font-size: 1.875rem;
+  }
+`
+
 export const Link = styled.a`
   color: ${({ theme }) => theme.colors.greenDark};
   font-weight: bold;
