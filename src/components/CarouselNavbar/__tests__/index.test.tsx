@@ -68,6 +68,7 @@ describe('when the CarouselNavbar is render', () => {
 
 describe('when a game option is clicked', () => {
   it('should navigate to the page of the chosen game', () => {
+    global.window.scrollTo = jest.fn()
     const { queryByText } = render(
       withTheme(<CarouselNavbar gameList={gameList} />)
     )
