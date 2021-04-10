@@ -10,7 +10,7 @@ export const StyledHeaderTitle = styled.p<Props>`
 
   @media screen and (max-width: 1000px) {
     font-size: 2.625rem;
-    text-align: ${({ isAboutPage }) => (isAboutPage ? 'left' : 'left')};
+    text-align: ${({ isAboutPage }) => (isAboutPage ? 'left' : 'center')};
 
     margin-bottom: 2rem;
   }
