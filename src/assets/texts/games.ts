@@ -63,8 +63,7 @@ const gameList: Game[] = [
         style: ['itemList'],
       },
       {
-        text:
-          'Organizar os alunos em duplas, dispostos em diferentes pontos da sala.',
+        text: 'Organizar os alunos em duplas, dispostos em diferentes pontos da sala.',
         style: ['itemList'],
       },
       {
@@ -532,8 +531,7 @@ const gameList: Game[] = [
         style: ['itemList'],
       },
       {
-        text:
-          'Combinar com os alunos qual será a indicação que determinará o final do solo.',
+        text: 'Combinar com os alunos qual será a indicação que determinará o final do solo.',
         style: ['itemList'],
       },
       {
@@ -597,18 +595,15 @@ const gameList: Game[] = [
         style: ['itemList'],
       },
       {
-        text:
-          'Posicionar os alunos em diferentes pontos da sala, com alguma distância entre eles.',
+        text: 'Posicionar os alunos em diferentes pontos da sala, com alguma distância entre eles.',
         style: ['itemList'],
       },
       {
-        text:
-          'Contar uma história sobre dois exploradores que chegam a uma floresta encantada.',
+        text: 'Contar uma história sobre dois exploradores que chegam a uma floresta encantada.',
         style: ['itemList'],
       },
       {
-        text:
-          'Cada árvore da floresta emitirá um som escolhido pelo alunos que a representará.',
+        text: 'Cada árvore da floresta emitirá um som escolhido pelo alunos que a representará.',
         style: ['itemList'],
       },
       {
@@ -739,8 +734,7 @@ const gameList: Game[] = [
         style: ['itemList'],
       },
       {
-        text:
-          'Criar em conjunto com os alunos um som que represente o caçador.',
+        text: 'Criar em conjunto com os alunos um som que represente o caçador.',
         style: ['itemList'],
       },
       {
@@ -749,8 +743,7 @@ const gameList: Game[] = [
         style: ['itemList'],
       },
       {
-        text:
-          'Os pássaros devem dialogar entre si, criando um contexto musical.',
+        text: 'Os pássaros devem dialogar entre si, criando um contexto musical.',
         style: ['itemList'],
       },
       {
@@ -759,8 +752,7 @@ const gameList: Game[] = [
         style: ['itemList'],
       },
       {
-        text:
-          'Pouco a pouco, os pássaros voltam a cantar e a dialogar entre si.',
+        text: 'Pouco a pouco, os pássaros voltam a cantar e a dialogar entre si.',
         style: ['itemList'],
       },
       {

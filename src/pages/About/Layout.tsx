@@ -1,19 +1,6 @@
-import React, {
-  ReactNode,
-  useCallback,
-  useEffect,
-  useMemo,
-  useState,
-} from 'react'
+import React, { ReactNode, useCallback, useEffect, useMemo, useState } from 'react'
 import loadable from 'loadable-components'
-import {
-  Container,
-  SideArea,
-  Content,
-  ImgTopRight,
-  ImgBottomLeft,
-  ImgBottomRight,
-} from './styles'
+import { Container, SideArea, Content, ImgTopRight, ImgBottomLeft, ImgBottomRight } from './styles'
 
 const Navbar = loadable(() => import('components/Navbar'))
 

@@ -317,8 +317,7 @@ const article: Array<ArticleItem> = [
     style: ['paragraph'],
   },
   {
-    text:
-      'Fonte: Elaborado pela autora, com base nas propostas de Claudia Freixedas.',
+    text: 'Fonte: Elaborado pela autora, com base nas propostas de Claudia Freixedas.',
     style: ['paragraph', 'citation'],
   },
   {
@@ -376,8 +375,7 @@ const article: Array<ArticleItem> = [
     style: ['paragraph'],
   },
   {
-    text:
-      'Fonte: Elaborado pela autora, com base nas propostas de Wanderson Cruz.',
+    text: 'Fonte: Elaborado pela autora, com base nas propostas de Wanderson Cruz.',
     style: ['paragraph', 'citation'],
   },
   {
@@ -420,8 +418,7 @@ const article: Array<ArticleItem> = [
     style: ['paragraph'],
   },
   {
-    text:
-      'Fonte: Elaborado pela autora, com base nas propostas de Violeta Gainza.',
+    text: 'Fonte: Elaborado pela autora, com base nas propostas de Violeta Gainza.',
     style: ['paragraph', 'citation'],
   },
   {
@@ -574,8 +571,7 @@ const article: Array<ArticleItem> = [
     style: ['paragraph'],
   },
   {
-    text:
-      'Fonte: Elaborado pela autora, com base nas propostas de Claudia Freixedas.',
+    text: 'Fonte: Elaborado pela autora, com base nas propostas de Claudia Freixedas.',
     style: ['paragraph', 'citation'],
   },
   {
@@ -623,8 +619,7 @@ const article: Array<ArticleItem> = [
     style: ['paragraph'],
   },
   {
-    text:
-      'Fonte: Elaborado pela autora, com base nas propostas de Violeta Gainza.',
+    text: 'Fonte: Elaborado pela autora, com base nas propostas de Violeta Gainza.',
     style: ['paragraph', 'citation'],
   },
   {
@@ -677,8 +672,7 @@ const article: Array<ArticleItem> = [
     style: ['paragraph'],
   },
   {
-    text:
-      'Fonte: Elaborado pela autora, com base nas propostas de Claudia Freixedas.',
+    text: 'Fonte: Elaborado pela autora, com base nas propostas de Claudia Freixedas.',
     style: ['paragraph', 'citation'],
   },
   {
@@ -707,8 +701,7 @@ const article: Array<ArticleItem> = [
     style: ['itemList'],
   },
   {
-    text:
-      'Penderecki, Kristof - Capriccio per Siegfried Palm, para violoncelo solo',
+    text: 'Penderecki, Kristof - Capriccio per Siegfried Palm, para violoncelo solo',
     style: ['itemList'],
   },
   {
@@ -716,8 +709,7 @@ const article: Array<ArticleItem> = [
     style: ['itemList'],
   },
   {
-    text:
-      'Boulez, Piérre - Messagesquisse, para violoncelo solo e seis violoncelos',
+    text: 'Boulez, Piérre - Messagesquisse, para violoncelo solo e seis violoncelos',
     style: ['itemList'],
   },
   {
@@ -729,8 +721,7 @@ const article: Array<ArticleItem> = [
     style: ['itemList'],
   },
   {
-    text:
-      'Romitelli, Fausto - Professor Bad Trip- lesson II- cadência para violoncelo',
+    text: 'Romitelli, Fausto - Professor Bad Trip- lesson II- cadência para violoncelo',
     style: ['itemList'],
   },
   {

@@ -45,9 +45,7 @@ export default function Navbar({ isGamePage, isArticlePage }: NavbarProps) {
       <S.Container isGamePage={isGamePage}>
         <S.SideArea onClick={() => push('/')}>{`<- Voltar`}</S.SideArea>
         <S.Spacer>
-          {isGamePage
-            ? renderGamesOptions()
-            : isArticlePage && renderArticleOptions()}
+          {isGamePage ? renderGamesOptions() : isArticlePage && renderArticleOptions()}
         </S.Spacer>
         <S.SideArea />
       </S.Container>

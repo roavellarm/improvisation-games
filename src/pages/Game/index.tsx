@@ -57,26 +57,17 @@ export default function Game() {
         <S.Content>
           <HeaderTitle>{game.gameTitle}</HeaderTitle>
           {game.content.map((item, index) => {
-            if (item.style.includes('title1'))
-              return <Title key={index}>{item.text}</Title>
+            if (item.style.includes('title1')) return <Title key={index}>{item.text}</Title>
 
-            if (item.style.includes('title2'))
-              return <SubTitle key={index}>{item.text}</SubTitle>
+            if (item.style.includes('title2')) return <SubTitle key={index}>{item.text}</SubTitle>
 
             if (item.style.includes('paragraph'))
               return <Paragraph key={index}>{item.text}</Paragraph>
 
-            if (item.style.includes('itemList'))
-              return <ItemList key={index}>{item.text}</ItemList>
+            if (item.style.includes('itemList')) return <ItemList key={index}>{item.text}</ItemList>
 
             if (item.style.includes('audio'))
-              return (
-                <AudioPlayer
-                  key={index}
-                  title={game.gameTitle}
-                  src={item.audio}
-                />
-              )
+              return <AudioPlayer key={index} title={game.gameTitle} src={item.audio} />
 
             return null
           })}
