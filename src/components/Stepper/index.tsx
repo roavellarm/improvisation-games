@@ -13,9 +13,7 @@ function Stepper({ anchors, selectedStep }: StepperProps) {
       {anchors.map((anchor: string, index: number) => {
         return (
           <a key={index} href={`#${anchor}`} style={{ textDecoration: 'none' }}>
-            <StepperItem isSelected={selectedStep === index}>
-              {anchor}
-            </StepperItem>
+            <StepperItem isSelected={selectedStep === index}>{anchor}</StepperItem>
           </a>
         )
       })}

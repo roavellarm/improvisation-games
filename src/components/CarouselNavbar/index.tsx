@@ -25,12 +25,7 @@ export default function CarousselNavbar({ gameList }: { gameList: Game[] }) {
 
   return (
     <S.Container>
-      <Carousel
-        itemsToShow={4}
-        itemsToScroll={4}
-        renderArrow={customArrow}
-        pagination={false}
-      >
+      <Carousel itemsToShow={4} itemsToScroll={4} renderArrow={customArrow} pagination={false}>
         {gameList.map((game) => (
           <S.Card key={game.id} onClick={() => handleClick(game.id)}>
             <S.Title>{game.gameTitle}</S.Title>

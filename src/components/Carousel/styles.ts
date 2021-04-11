@@ -51,11 +51,6 @@ export const GamesStepper = styled.button`
   border-radius: 50%;
   margin: 15px 4px;
   outline: none;
-  background: ${({
-    isActive,
-    theme,
-  }: {
-    isActive: boolean
-    theme: DefaultTheme
-  }) => (isActive ? `${theme.colors.greenDark}` : 'transparent')};
+  background: ${({ isActive, theme }: { isActive: boolean; theme: DefaultTheme }) =>
+    isActive ? `${theme.colors.greenDark}` : 'transparent'};
 `

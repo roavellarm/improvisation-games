@@ -45,10 +45,8 @@ interface QuoteImageProps {
 export const QuoteImage = styled.img<QuoteImageProps>`
   width: 50px;
   height: 50px;
-  margin-left: ${({ isOpenQuote }) =>
-    isOpenQuote ? 'calc(-50px - 1rem)' : '1rem'};
-  margin-right: ${({ isOpenQuote }) =>
-    isOpenQuote ? '1rem' : 'calc(-50px - 1rem)'};
+  margin-left: ${({ isOpenQuote }) => (isOpenQuote ? 'calc(-50px - 1rem)' : '1rem')};
+  margin-right: ${({ isOpenQuote }) => (isOpenQuote ? '1rem' : 'calc(-50px - 1rem)')};
 
   @media screen and (max-width: 1150px) {
     width: 25px;

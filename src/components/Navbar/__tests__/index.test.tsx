@@ -15,9 +15,7 @@ jest.mock('react-router-dom', () => ({
 
 describe('when the navbar is render in the game page', () => {
   it('should render correctly', () => {
-    const { queryByText } = render(
-      withTheme(<Navbar isGamePage isArticlePage={false} />)
-    )
+    const { queryByText } = render(withTheme(<Navbar isGamePage isArticlePage={false} />))
     expect(queryByText('<- Voltar')).toBeInTheDocument()
     expect(queryByText('Jogo 1')).toBeInTheDocument()
     expect(queryByText('Jogo 2')).toBeInTheDocument()
@@ -35,9 +33,7 @@ describe('when the navbar is render in the game page', () => {
 describe('when the navbar is render in the article page', () => {
   it('should render correctly', () => {
     global.innerWidth = 500
-    const { queryByText } = render(
-      withTheme(<Navbar isGamePage={false} isArticlePage />)
-    )
+    const { queryByText } = render(withTheme(<Navbar isGamePage={false} isArticlePage />))
     expect(queryByText('<- Voltar')).toBeInTheDocument()
     expect(queryByText('Tópicos')).toBeInTheDocument()
     expect(queryByText('A música contemporânea:')).toBeInTheDocument()
@@ -47,9 +43,7 @@ describe('when the navbar is render in the article page', () => {
 
 describe('when the "Voltar" link is clicked', () => {
   it('should navigate to the homepage', () => {
-    const { queryByText } = render(
-      withTheme(<Navbar isGamePage isArticlePage={false} />)
-    )
+    const { queryByText } = render(withTheme(<Navbar isGamePage isArticlePage={false} />))
     const element = queryByText('<- Voltar') as Element
     fireEvent.click(element)
 

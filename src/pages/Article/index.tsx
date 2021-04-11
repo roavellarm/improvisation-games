@@ -26,8 +26,7 @@ export default function Article() {
 
   const getVerticalScrollPercentage = (elm: any) => {
     const p = elm.parentNode
-    const result =
-      ((elm.scrollTop || p.scrollTop) / (p.scrollHeight - p.clientHeight)) * 100
+    const result = ((elm.scrollTop || p.scrollTop) / (p.scrollHeight - p.clientHeight)) * 100
     return Math.round(result)
   }
 
@@ -57,9 +56,7 @@ export default function Article() {
       <Navbar isArticlePage />
       <S.Container>
         <S.SideArea stepper>
-          {isDesktopScreen && (
-            <Stepper anchors={anchors} selectedStep={selectedStep} />
-          )}
+          {isDesktopScreen && <Stepper anchors={anchors} selectedStep={selectedStep} />}
         </S.SideArea>
 
         <S.Content>
@@ -74,11 +71,7 @@ export default function Article() {
 
             if (item.style.includes('title2'))
               return (
-                <SubTitle
-                  size={25}
-                  anchor={item.style.includes('anchor')}
-                  key={index}
-                >
+                <SubTitle size={25} anchor={item.style.includes('anchor')} key={index}>
                   {item.text}
                 </SubTitle>
               )
@@ -97,8 +90,7 @@ export default function Article() {
                 </Paragraph>
               )
 
-            if (item.style.includes('itemList'))
-              return <ItemList key={index}>{item.text}</ItemList>
+            if (item.style.includes('itemList')) return <ItemList key={index}>{item.text}</ItemList>
 
             if (item.style.includes('line')) return <Line key={index} />
 

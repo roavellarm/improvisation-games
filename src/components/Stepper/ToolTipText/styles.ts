@@ -33,7 +33,6 @@ export const StyledTooltip = styled.span<ToolTipProps>`
     margin-left: 0px;
     border-width: 16px;
     border-style: solid;
-    border-color: ${({ theme }) =>
-      `transparent ${theme.colors.orange} transparent transparent`};
+    border-color: ${({ theme }) => `transparent ${theme.colors.orange} transparent transparent`};
   }
 `

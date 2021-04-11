@@ -7,9 +7,7 @@ import AudioPlayer from '..'
 
 describe('Audio Player', () => {
   it('should render correctly', () => {
-    const tree = render(
-      withTheme(<AudioPlayer title="Foo bar" src="audioSource" />)
-    )
+    const tree = render(withTheme(<AudioPlayer title="Foo bar" src="audioSource" />))
     expect(tree).toMatchSnapshot()
   })
 })
