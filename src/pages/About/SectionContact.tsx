@@ -28,6 +28,16 @@ export default function SectionContact() {
           aqui
         </Link>
       </Title>
+
+      <Title>
+        {`Colaboradores `}
+        <Link
+          target="_blank"
+          href="https://github.com/roavellarm/improvisation-games#readme"
+        >
+          aqui
+        </Link>
+      </Title>
     </>
   )
 }
