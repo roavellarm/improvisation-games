@@ -61,12 +61,8 @@ export default function Home() {
               <S.TitlesContainer>{renderTitle()}</S.TitlesContainer>
 
               <S.ButtonsContainer>
-                <S.Column>
-                  {gameList.slice(0, 5).map((g: Game) => renderButton(g))}
-                </S.Column>
-                <S.Column>
-                  {gameList.slice(5, 10).map((g: Game) => renderButton(g))}
-                </S.Column>
+                <S.Column>{gameList.slice(0, 5).map((g: Game) => renderButton(g))}</S.Column>
+                <S.Column>{gameList.slice(5, 10).map((g: Game) => renderButton(g))}</S.Column>
               </S.ButtonsContainer>
             </S.LeftSide>
 

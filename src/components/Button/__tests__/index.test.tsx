@@ -8,9 +8,7 @@ import Button from '..'
 
 describe('Button', () => {
   it('should render correctly', () => {
-    const { queryByText } = render(
-      withTheme(<Button title="Foo bar" onClick={jest.fn()} />)
-    )
+    const { queryByText } = render(withTheme(<Button title="Foo bar" onClick={jest.fn()} />))
     expect(queryByText('Foo bar')).toBeInTheDocument()
   })
 })

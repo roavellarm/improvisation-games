@@ -21,13 +21,7 @@ const customPagination = ({ pages, activePage, onClick }: any) => {
       {pages.map((page: any) => {
         const isActivePage = activePage === page
 
-        return (
-          <S.GamesStepper
-            key={page}
-            onClick={() => onClick(page)}
-            isActive={isActivePage}
-          />
-        )
+        return <S.GamesStepper key={page} onClick={() => onClick(page)} isActive={isActivePage} />
       })}
     </div>
   )

@@ -24,11 +24,7 @@ export default function Dropdown(props: DropDownProps) {
               value={option}
               onClick={() => !isArticlePage && push(`/game/${index + 1}`)}
             >
-              {isArticlePage ? (
-                <Anchor href={`#${option}`}>{option}</Anchor>
-              ) : (
-                option
-              )}
+              {isArticlePage ? <Anchor href={`#${option}`}>{option}</Anchor> : option}
             </Options>
           )
         })}
