@@ -23,11 +23,10 @@ export default function Navbar({ isGamePage, isArticlePage }: NavbarProps) {
     return <Dropdown title="Jogos" options={gameOptions} />
   }
 
-  const renderArticleOptions = () => {
-    if (windowWith <= 800 || windowHeight <= 645)
-      return <Dropdown title="Tópicos" isArticlePage options={anchors} />
-    return undefined
-  }
+  const renderArticleOptions = () =>
+    (windowWith <= 800 || windowHeight <= 645) && (
+      <Dropdown title="Tópicos" isArticlePage options={anchors} />
+    )
 
   const updateWindowSize = useCallback(() => {
     setWindowWidth(window.innerWidth)
