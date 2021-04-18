@@ -5,7 +5,6 @@ export const Wrapper = styled.div`
   display: inline-block;
   border-radius: 5px;
   box-shadow: 0px 1px 4px rgba(91, 124, 107, 0.7);
-  /* background: ${({ theme }) => theme.colors.greenLight}; */
 `
 
 export const Button = styled.div`
@@ -18,13 +17,7 @@ export const Button = styled.div`
   width: 100px;
 `
 
-type Props = {
-  isOpen: boolean
-  isArticlePage: boolean
-}
-
-export const DropdownContent = styled.div<Props>`
-  display: ${({ isOpen }) => (isOpen ? 'block' : 'none')};
+export const DropdownContent = styled.div<{ isArticlePage: boolean }>`
   position: absolute;
   text-align: left;
   background-color: ${({ theme }) => theme.colors.white};
@@ -39,11 +32,7 @@ export const DropdownContent = styled.div<Props>`
   z-index: 999 !important;
 `
 
-type OptionsProps = {
-  value: string
-}
-
-export const Options = styled.div<OptionsProps>`
+export const Options = styled.div<{ value: string }>`
   color: ${({ theme }) => theme.colors.greenLight};
   padding: 11px 16px;
   border-bottom: 1px solid rgba(91, 124, 107, 0.3);
