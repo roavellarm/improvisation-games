@@ -11,12 +11,25 @@ import * as S from './styles'
 export type NavbarProps = {
   isGamePage?: boolean
   isArticlePage?: boolean
+  initialState?: {
+    windowWidth: number
+    windowHeight: number
+  }
 }
 
-export default function Navbar({ isGamePage, isArticlePage }: NavbarProps) {
+const INITIAL_STATE = {
+  windowWidth: window.innerWidth,
+  windowHeight: window.innerHeight,
+}
+
+export default function Navbar({
+  isGamePage,
+  isArticlePage,
+  initialState = INITIAL_STATE,
+}: NavbarProps) {
   const { push } = useHistory()
-  const [windowWith, setWindowWidth] = useState(window.innerWidth)
-  const [windowHeight, setWindowHeight] = useState(window.innerHeight)
+  const [windowWith, setWindowWidth] = useState(initialState.windowWidth)
+  const [windowHeight, setWindowHeight] = useState(initialState.windowHeight)
 
   const renderGamesOptions = () => {
     if (windowWith > 700) return <CarousselNavbar gameList={gameList} />

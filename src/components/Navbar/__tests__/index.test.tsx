@@ -1,5 +1,5 @@
 import React from 'react'
-import { render, fireEvent } from '@testing-library/react'
+import { render, fireEvent, act } from '@testing-library/react'
 import '@testing-library/jest-dom/extend-expect'
 
 import { withTheme } from 'config/testSetup'
@@ -13,9 +13,23 @@ jest.mock('react-router-dom', () => ({
   }),
 }))
 
-describe('when the navbar is render in the game page', () => {
+const desktopSize = {
+  windowWidth: 1920,
+  windowHeight: 1080,
+}
+
+const mobileSize = {
+  windowWidth: 360,
+  windowHeight: 640,
+}
+
+describe('when navbar is render in a game page on desktop device', () => {
+  const props = {
+    isGamePage: true,
+    initialState: desktopSize,
+  }
   it('should render correctly', () => {
-    const { queryByText } = render(withTheme(<Navbar isGamePage />))
+    const { queryByText } = render(withTheme(<Navbar {...props} />))
     expect(queryByText('<- Voltar')).toBeInTheDocument()
     expect(queryByText('Jogo 1')).toBeInTheDocument()
     expect(queryByText('Jogo 2')).toBeInTheDocument()
@@ -30,10 +44,38 @@ describe('when the navbar is render in the game page', () => {
   })
 })
 
-describe('when the navbar is render in the article page', () => {
+describe('when navbar is render in a game page on mobile device', () => {
+  const props = {
+    isGamePage: true,
+    initialState: mobileSize,
+  }
+
   it('should render correctly', () => {
-    global.innerWidth = 500
-    const { queryByText } = render(withTheme(<Navbar isArticlePage />))
+    const { queryByText } = render(withTheme(<Navbar {...props} />))
+    expect(queryByText('<- Voltar')).toBeInTheDocument()
+    expect(queryByText('Jogo 1')).not.toBeInTheDocument()
+  })
+})
+
+describe('when navbar is render in the article page on desktop device', () => {
+  const props = {
+    isArticlePage: true,
+    initialState: desktopSize,
+  }
+  it('should render correctly', () => {
+    const { queryByText } = render(withTheme(<Navbar {...props} />))
+    expect(queryByText('<- Voltar')).toBeInTheDocument()
+    expect(queryByText('Tópicos')).not.toBeInTheDocument()
+  })
+})
+
+describe('when navbar is render in the article page on mobile device', () => {
+  const props = {
+    isArticlePage: true,
+    initialState: mobileSize,
+  }
+  it('should render correctly', () => {
+    const { queryByText } = render(withTheme(<Navbar {...props} />))
     expect(queryByText('<- Voltar')).toBeInTheDocument()
     expect(queryByText('Tópicos')).toBeInTheDocument()
   })
@@ -46,5 +88,25 @@ describe('when the "Voltar" link is clicked', () => {
     fireEvent.click(element)
 
     expect(mockPush).toHaveBeenCalledWith('/')
+  })
+})
+
+describe('when the viewport changes from desktop to mobile', () => {
+  it('it should change the layout', () => {
+    const props = {
+      isArticlePage: true,
+      initialState: desktopSize,
+    }
+    const { queryByText } = render(withTheme(<Navbar {...props} />))
+
+    expect(queryByText('Tópicos')).not.toBeInTheDocument()
+
+    act(() => {
+      global.innerWidth = 360
+      global.innerHeight = 640
+      global.dispatchEvent(new Event('resize'))
+    })
+
+    expect(queryByText('Tópicos')).toBeInTheDocument()
   })
 })
