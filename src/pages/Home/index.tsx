@@ -31,7 +31,7 @@ export default function Home() {
     <>
       <S.Image />
       <S.Links>
-        <S.Link onClick={() => push('quarentine')}>Jogos da Pandemia</S.Link>
+        <S.Link onClick={() => push('quarentine')}>Sons da quarentena</S.Link>
         <S.Link onClick={() => push('about')}>Saiba mais</S.Link>
         <S.Link onClick={() => push('article')}>Caderno de atividades</S.Link>
       </S.Links>

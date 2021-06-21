@@ -1,7 +1,7 @@
 import React, { useCallback, useEffect, useMemo, useState } from 'react'
 import loadable from 'loadable-components'
 
-import { anchors, checkStepperPosition } from 'helpers/article'
+import { anchors, checkStepperPosition } from 'helpers/quarentine'
 import quarentine, { ArticleItem } from 'assets/texts/quarentine'
 import * as S from './styles'
 
@@ -13,7 +13,7 @@ const ScrollToTopButton = loadable(() => import('components/ScrollToTopButton'))
 const SubTitle = loadable(() => import('components/SubTitle'))
 const Title = loadable(() => import('components/Title'))
 const Line = loadable(() => import('components/Line'))
-const Stepper = loadable(() => import('components/Stepper'))
+const Stepper = loadable(() => import('components/StepperQuarentine'))
 
 export default function QuarentineGames() {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth)
