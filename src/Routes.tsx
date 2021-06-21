@@ -6,7 +6,8 @@ const About = loadable(() => import('pages/About'))
 const Article = loadable(() => import('pages/Article'))
 const Game = loadable(() => import('pages/Game'))
 const Home = loadable(() => import('pages/Home'))
-const NotFound = loadable(() => import('pages/NotFound'))
+const QuarentineGames = loadable(() => import('pages/QuarentineGames'))
+// const NotFound = loadable(() => import('pages/NotFound'))
 
 export default function Routes() {
   return (
@@ -16,7 +17,8 @@ export default function Routes() {
         <Route path="/game/:id" component={Game} />
         <Route path="/about" component={About} />
         <Route path="/article" component={Article} />
-        <Route path="*" component={NotFound} />
+        {/* <Route path="*" component={NotFound} /> */}
+        <Route path="/quarentine" component={QuarentineGames} />
       </Switch>
     </BrowserRouter>
   )
