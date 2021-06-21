@@ -13,7 +13,7 @@ const ScrollToTopButton = loadable(() => import('components/ScrollToTopButton'))
 const SubTitle = loadable(() => import('components/SubTitle'))
 const Title = loadable(() => import('components/Title'))
 const Line = loadable(() => import('components/Line'))
-const Stepper = loadable(() => import('components/StepperQuarentine'))
+const Stepper = loadable(() => import('components/StepperQuarentine/index'))
 
 export default function QuarentineGames() {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth)
