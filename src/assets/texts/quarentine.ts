@@ -5,7 +5,7 @@ export interface ArticleItem {
   rest?: string | undefined
 }
 
-const article: Array<ArticleItem> = [
+const quarentine: Array<ArticleItem> = [
   {
     text: 'SONS DA QUARENTENA:',
     style: ['title1'],
@@ -25,7 +25,7 @@ const article: Array<ArticleItem> = [
   },
 
   {
-    text: '1) Detetive sonoro ',
+    text: 'Detetive sonoro ',
     style: ['title2', 'anchor'],
   },
 
@@ -36,7 +36,7 @@ const article: Array<ArticleItem> = [
   },
 
   {
-    text: '2) Que som é esse? ',
+    text: 'Que som é esse? ',
     style: ['title2', 'anchor'],
   },
 
@@ -47,7 +47,7 @@ const article: Array<ArticleItem> = [
   },
 
   {
-    text: '3) Telefone sem fio sonoro virtual ',
+    text: 'Telefone sem fio sonoro virtual ',
     style: ['title2', 'anchor'],
   },
 
@@ -58,7 +58,7 @@ const article: Array<ArticleItem> = [
   },
 
   {
-    text: '4) Lego musical ',
+    text: 'Lego musical ',
     style: ['title2', 'anchor'],
   },
 
@@ -69,7 +69,7 @@ const article: Array<ArticleItem> = [
   },
 
   {
-    text: '5) Histórias da janela ',
+    text: 'Histórias da janela ',
     style: ['title2', 'anchor'],
   },
 
@@ -80,7 +80,7 @@ const article: Array<ArticleItem> = [
   },
 
   {
-    text: '6) Escrevendo a história ',
+    text: 'Escrevendo a história ',
     style: ['title2', 'anchor'],
   },
 
@@ -91,7 +91,7 @@ const article: Array<ArticleItem> = [
   },
 
   {
-    text: '7) Espelho, espelho meu ',
+    text: 'Espelho, espelho meu ',
     style: ['title2', 'anchor'],
   },
 
@@ -102,7 +102,7 @@ const article: Array<ArticleItem> = [
   },
 
   {
-    text: '8) Mapa musical ',
+    text: 'Mapa musical ',
     style: ['title2', 'anchor'],
   },
 
@@ -113,7 +113,7 @@ const article: Array<ArticleItem> = [
   },
 
   {
-    text: '9) Sons da saudade ',
+    text: 'Sons da saudade ',
     style: ['title2', 'anchor'],
   },
 
@@ -124,7 +124,7 @@ const article: Array<ArticleItem> = [
   },
 
   {
-    text: '10) Nossa música da quarentena ',
+    text: 'Nossa música da quarentena ',
     style: ['title2', 'anchor'],
   },
 
@@ -135,4 +135,4 @@ const article: Array<ArticleItem> = [
   },
 ]
 
-export default article
+export default quarentine
