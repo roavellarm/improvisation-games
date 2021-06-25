@@ -1,2 +1,2 @@
-export * from './anchors'
+export { anchors } from './anchors'
 export * from './checkStepperPosition'

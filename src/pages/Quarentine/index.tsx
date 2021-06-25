@@ -1,8 +1,9 @@
 import React, { useCallback, useEffect, useMemo, useState } from 'react'
 import loadable from 'loadable-components'
 
-import { anchors, checkStepperPosition } from 'helpers/quarentine/index'
-import quarentine, { ArticleItem } from 'assets/texts/quarentine'
+// eslint-disable-next-line import/no-unresolved
+import { anchors, checkStepperPosition } from 'helpers/quarentine'
+import article, { ArticleItem } from 'assets/texts/quarentine'
 import * as S from './styles'
 
 const HeaderTitle = loadable(() => import('components/HeaderTitle'))
@@ -13,10 +14,9 @@ const ScrollToTopButton = loadable(() => import('components/ScrollToTopButton'))
 const SubTitle = loadable(() => import('components/SubTitle'))
 const Title = loadable(() => import('components/Title'))
 const Line = loadable(() => import('components/Line'))
-// const Stepper = loadable(() => import('components/StepperQuarentine/index'))
-const Stepper = loadable(() => import('components/StepperQuarentine/index'))
+const Stepper = loadable(() => import('components/StepperQuarentine'))
 
-export default function QuarentineGames() {
+export default function Article() {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth)
   const [windowHeight, setWindowHeight] = useState(window.innerHeight)
   const [selectedStep, setSelectedStep] = useState(0)
@@ -61,8 +61,8 @@ export default function QuarentineGames() {
         </S.SideArea>
 
         <S.Content>
-          <HeaderTitle>Sons da quarentena</HeaderTitle>
-          {quarentine.map((item: ArticleItem, index) => {
+          <HeaderTitle>Sons da Quarentena</HeaderTitle>
+          {article.map((item: ArticleItem, index) => {
             if (item.style.includes('title1'))
               return (
                 <Title key={index} anchor={item.style.includes('anchor')}>

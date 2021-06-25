@@ -5,7 +5,7 @@ export interface ArticleItem {
   rest?: string | undefined
 }
 
-const article: Array<ArticleItem> = [
+const quarentine: Array<ArticleItem> = [
   {
     text: 'SONS DA QUARENTENA:',
     style: ['title1'],
@@ -18,7 +18,6 @@ const article: Array<ArticleItem> = [
     text: '',
     style: ['space'],
   },
-
   {
     text:
       'Os jogos descritos abaixo foram elaborados em 2020, com base nos jogos utilizados por meu trabalho de mestrado. No momento em que foram pensados, o mundo vivia as primeiras duas ondas da pandemia de Covid 19, momento no qual o contato e a presença física se tornaram difíceis, em função das condições sanitárias e epidemiológicas. A intenção dessas atividades é manter alguns dos aspectos possíveis do ensino coletivo de instrumentos musicais, mesmo à distância, com o auxílio das tecnologias digitais. Para sua aplicação, sugiro que cada professor crie com seus alunos um ambiente virtual de trocas, como, por exemplo, um grupo de mensagens, no qual os alunos compartilhem suas criações, experiências e descobertas. Esperamos que o mundo não precise viver novas fases de isolamento e que essas atividades possam ser utilizadas em outros momentos de ensino e aprendizagem.',
@@ -26,7 +25,7 @@ const article: Array<ArticleItem> = [
   },
 
   {
-    text: 'Detetive sonoro',
+    text: 'Detetive sonoro ',
     style: ['title2', 'anchor'],
   },
 
@@ -37,7 +36,7 @@ const article: Array<ArticleItem> = [
   },
 
   {
-    text: 'Que som é esse ?',
+    text: 'Que som é esse? ',
     style: ['title2', 'anchor'],
   },
 
@@ -48,7 +47,7 @@ const article: Array<ArticleItem> = [
   },
 
   {
-    text: 'Telefone sem fio sonoro virtual',
+    text: 'Telefone sem fio sonoro virtual ',
     style: ['title2', 'anchor'],
   },
 
@@ -59,7 +58,7 @@ const article: Array<ArticleItem> = [
   },
 
   {
-    text: 'Lego musical',
+    text: 'Lego musical ',
     style: ['title2', 'anchor'],
   },
 
@@ -70,7 +69,7 @@ const article: Array<ArticleItem> = [
   },
 
   {
-    text: 'Histórias da janela',
+    text: 'Histórias da janela ',
     style: ['title2', 'anchor'],
   },
 
@@ -81,7 +80,7 @@ const article: Array<ArticleItem> = [
   },
 
   {
-    text: 'Escrevendo a história',
+    text: 'Escrevendo a história ',
     style: ['title2', 'anchor'],
   },
 
@@ -92,7 +91,7 @@ const article: Array<ArticleItem> = [
   },
 
   {
-    text: 'Espelho, espelho meu',
+    text: 'Espelho, espelho meu ',
     style: ['title2', 'anchor'],
   },
 
@@ -103,7 +102,7 @@ const article: Array<ArticleItem> = [
   },
 
   {
-    text: 'Mapa musical',
+    text: 'Mapa musical ',
     style: ['title2', 'anchor'],
   },
 
@@ -114,7 +113,7 @@ const article: Array<ArticleItem> = [
   },
 
   {
-    text: 'Sons da saudade',
+    text: 'Sons da saudade ',
     style: ['title2', 'anchor'],
   },
 
@@ -125,7 +124,7 @@ const article: Array<ArticleItem> = [
   },
 
   {
-    text: 'Nossa música da quarentena',
+    text: 'Nossa música da quarentena ',
     style: ['title2', 'anchor'],
   },
 
@@ -136,4 +135,4 @@ const article: Array<ArticleItem> = [
   },
 ]
 
-export default article
+export default quarentine

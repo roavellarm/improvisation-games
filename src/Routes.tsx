@@ -6,7 +6,7 @@ const About = loadable(() => import('pages/About'))
 const Article = loadable(() => import('pages/Article'))
 const Game = loadable(() => import('pages/Game'))
 const Home = loadable(() => import('pages/Home'))
-const QuarentineGames = loadable(() => import('pages/QuarentineGames'))
+const QuarentineGames = loadable(() => import('pages/Quarentine'))
 // const NotFound = loadable(() => import('pages/NotFound'))
 
 export default function Routes() {
