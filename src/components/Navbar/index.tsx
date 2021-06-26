@@ -1,10 +1,11 @@
+/* eslint-disable @typescript-eslint/no-use-before-define */
 /* eslint-disable no-unused-vars */
 import React, { useCallback, useEffect, useState } from 'react'
 import { useHistory } from 'react-router-dom'
 
 import gameList from 'assets/texts/games'
 import { gameOptions } from 'helpers/game'
-// import { anchors } from 'helpers/article'
+import { anchors } from 'helpers/article'
 import { QuarentineAnchors } from 'helpers/quarentine/anchors'
 import CarousselNavbar from '../CarouselNavbar'
 // import Dropdown from '../Drodown'
@@ -39,12 +40,12 @@ export default function Navbar({
 
   const renderGamesOptions = () => {
     if (windowWith > 700) return <CarousselNavbar gameList={gameList} />
-    return <DrodownQuarentine title="Jogos" options={gameOptions} />
+    return <Dropdown title="Jogos" options={gameOptions} />
   }
 
   const renderArticleOptions = () =>
     (windowWith <= 800 || windowHeight <= 645) && (
-      <Dropdown title="Tópicos" isArticlePage options={QuarentineAnchors} />
+      <Dropdown title="Tópicos" isArticlePage options={anchors} />
     )
 
   const renderQuarentineOptions = () =>
@@ -62,15 +63,20 @@ export default function Navbar({
     return () => window.removeEventListener('resize', updateWindowSize)
   }, [updateWindowSize])
 
+  if (isArticlePage) {
+    const Articleoptions = renderArticleOptions()
+  }
+  if (isArticlePage) {
+    const QuarentineOprtions = renderQuarentineOptions()
+  }
+
   return (
     <S.StyledNavbar>
       <S.Line />
       <S.Container isGamePage={isGamePage}>
         <S.SideArea onClick={() => push('/')}>{`<- Voltar`}</S.SideArea>
         <S.Spacer>
-          {isGamePage
-            ? renderGamesOptions()
-            : isArticlePage && renderArticleOptions() && renderQuarentineOptions()}
+          {isGamePage ? renderGamesOptions() : isArticlePage && renderArticleOptions()}
         </S.Spacer>
         <S.SideArea />
       </S.Container>
