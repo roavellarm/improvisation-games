@@ -7,7 +7,7 @@ export interface ArticleItem {
 
 const article: Array<ArticleItem> = [
   {
-    text: 'SONS DA QUARENTENA:',
+    text: '',
     style: ['title1'],
   },
   {
