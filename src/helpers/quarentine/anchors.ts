@@ -1,4 +1,4 @@
-export const anchors = [
+export const QuarentineAnchors = [
   'Detetive sonoro',
   'Que som é esse ?',
   'Telefone sem fio sonoro virtual',

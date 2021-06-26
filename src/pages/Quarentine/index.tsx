@@ -2,7 +2,7 @@ import React, { useCallback, useEffect, useMemo, useState } from 'react'
 import loadable from 'loadable-components'
 
 // eslint-disable-next-line import/no-unresolved
-import { anchors, checkStepperPosition } from 'helpers/quarentine'
+import { QuarentineAnchors, checkStepperPosition } from 'helpers/quarentine'
 import article, { ArticleItem } from 'assets/texts/quarentine'
 import * as S from './styles'
 
@@ -57,7 +57,7 @@ export default function Article() {
       <Navbar isArticlePage />
       <S.Container>
         <S.SideArea stepper>
-          {isDesktopScreen && <Stepper anchors={anchors} selectedStep={selectedStep} />}
+          {isDesktopScreen && <Stepper anchors={QuarentineAnchors} selectedStep={selectedStep} />}
         </S.SideArea>
 
         <S.Content>

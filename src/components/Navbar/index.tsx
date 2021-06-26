@@ -1,13 +1,16 @@
+/* eslint-disable no-unused-vars */
 import React, { useCallback, useEffect, useState } from 'react'
 import { useHistory } from 'react-router-dom'
 
 import gameList from 'assets/texts/games'
 import { gameOptions } from 'helpers/game'
-import { anchors } from 'helpers/article'
+// import { anchors } from 'helpers/article'
+import { QuarentineAnchors } from 'helpers/quarentine/anchors'
 import CarousselNavbar from '../CarouselNavbar'
-import Dropdown from '../Drodown'
-import DrodownQuarentine from '../DrodownQuarentine'
+// import Dropdown from '../Drodown'
+import DrodownQuarentine from '../DropDownQuarentine'
 import * as S from './styles'
+import Dropdown from '../Drodown'
 
 export type NavbarProps = {
   isGamePage?: boolean
@@ -36,17 +39,17 @@ export default function Navbar({
 
   const renderGamesOptions = () => {
     if (windowWith > 700) return <CarousselNavbar gameList={gameList} />
-    return <Dropdown title="Jogos" options={gameOptions} />
+    return <DrodownQuarentine title="Jogos" options={gameOptions} />
   }
 
   const renderArticleOptions = () =>
     (windowWith <= 800 || windowHeight <= 645) && (
-      <Dropdown title="Tópicos" isArticlePage options={anchors} />
+      <Dropdown title="Tópicos" isArticlePage options={QuarentineAnchors} />
     )
 
   const renderQuarentineOptions = () =>
     (windowWith <= 800 || windowHeight <= 645) && (
-      <DrodownQuarentine title="Tópicos" isQuarentinePage options={anchors} />
+      <DrodownQuarentine title="Tópicos" isQuarentinePage options={QuarentineAnchors} />
     )
 
   const updateWindowSize = useCallback(() => {
@@ -67,8 +70,7 @@ export default function Navbar({
         <S.Spacer>
           {isGamePage
             ? renderGamesOptions()
-            : (isArticlePage && renderArticleOptions()) ||
-              (isQuarentinePage && renderQuarentineOptions())}
+            : isArticlePage && renderArticleOptions() && renderQuarentineOptions()}
         </S.Spacer>
         <S.SideArea />
       </S.Container>
