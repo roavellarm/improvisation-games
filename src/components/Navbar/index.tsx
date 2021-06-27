@@ -10,14 +10,11 @@ import { gameOptions } from 'helpers/game'
 import { anchors } from 'helpers/article'
 import { QuarentineAnchors } from 'helpers/quarentine/anchors'
 import CarousselNavbar from '../CarouselNavbar'
-// import Dropdown from '../Drodown'
-import DrodownQuarentine from '../DropDownQuarentine'
 import * as S from './styles'
 import Dropdown from '../Drodown'
 
 export type NavbarProps = {
   isGamePage?: boolean
-  isQuarentinePage?: boolean
   isArticlePage?: boolean
   initialState?: {
     windowWidth: number
@@ -33,7 +30,6 @@ const INITIAL_STATE = {
 export default function Navbar({
   isGamePage,
   isArticlePage,
-  isQuarentinePage,
   initialState = INITIAL_STATE,
 }: NavbarProps) {
   const { push } = useHistory()
