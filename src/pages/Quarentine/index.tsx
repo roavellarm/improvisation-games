@@ -8,7 +8,7 @@ import * as S from './styles'
 
 const HeaderTitle = loadable(() => import('components/HeaderTitle'))
 const ItemList = loadable(() => import('components/ItemList'))
-const Navbar = loadable(() => import('components/Navbar'))
+const Navbar = loadable(() => import('components/NavbarQuarentine'))
 const Paragraph = loadable(() => import('components/Paragraph'))
 const ScrollToTopButton = loadable(() => import('components/ScrollToTopButton'))
 const SubTitle = loadable(() => import('components/SubTitle'))

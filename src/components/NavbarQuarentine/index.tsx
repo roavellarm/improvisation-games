@@ -30,9 +30,8 @@ const INITIAL_STATE = {
   windowHeight: window.innerHeight,
 }
 
-export default function Navbar({
+export default function NavbarQuarentine({
   isGamePage,
-  isArticlePage,
   isQuarentinePage,
   initialState = INITIAL_STATE,
 }: NavbarProps) {
@@ -45,9 +44,9 @@ export default function Navbar({
     return <Dropdown title="Jogos" options={gameOptions} />
   }
 
-  const renderArticleOptions = () =>
+  const renderQuarentineOptions = () =>
     (windowWith <= 800 || windowHeight <= 645) && (
-      <Dropdown title="Tópicos" isArticlePage options={anchors} />
+      <DrodownQuarentine title="Tópicos" isQuarentinePage options={QuarentineAnchors} />
     )
 
   const updateWindowSize = useCallback(() => {
@@ -65,9 +64,7 @@ export default function Navbar({
       <S.Line />
       <S.Container isGamePage={isGamePage}>
         <S.SideArea onClick={() => push('/')}>{`<- Voltar`}</S.SideArea>
-        <S.Spacer>
-          {isGamePage ? renderGamesOptions() : isArticlePage && renderArticleOptions()}
-        </S.Spacer>
+        <S.Spacer>{renderQuarentineOptions()}</S.Spacer>
         <S.SideArea />
       </S.Container>
     </S.StyledNavbar>
