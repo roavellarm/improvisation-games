@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 /* eslint-disable @typescript-eslint/no-use-before-define */
 /* eslint-disable no-unused-vars */
 import React, { useCallback, useEffect, useState } from 'react'
@@ -64,10 +65,10 @@ export default function Navbar({
   }, [updateWindowSize])
 
   function SelectOptions() {
-    if (!isArticlePage) {
-      return renderQuarentineOptions()
-    }
-    return renderArticleOptions()
+    // if (!isArticlePage) {
+    return renderQuarentineOptions()
+    // }
+    // return renderArticleOptions()
   }
 
   return (
