@@ -63,11 +63,11 @@ export default function Navbar({
     return () => window.removeEventListener('resize', updateWindowSize)
   }, [updateWindowSize])
 
-  if (isArticlePage) {
-    const Articleoptions = renderArticleOptions()
-  }
-  if (isArticlePage) {
-    const QuarentineOprtions = renderQuarentineOptions()
+  function SelectOptions() {
+    if (!isArticlePage) {
+      return renderQuarentineOptions()
+    }
+    return renderArticleOptions()
   }
 
   return (
@@ -75,9 +75,7 @@ export default function Navbar({
       <S.Line />
       <S.Container isGamePage={isGamePage}>
         <S.SideArea onClick={() => push('/')}>{`<- Voltar`}</S.SideArea>
-        <S.Spacer>
-          {isGamePage ? renderGamesOptions() : isArticlePage && renderArticleOptions()}
-        </S.Spacer>
+        <S.Spacer>{isGamePage ? renderGamesOptions() : SelectOptions()}</S.Spacer>
         <S.SideArea />
       </S.Container>
     </S.StyledNavbar>
