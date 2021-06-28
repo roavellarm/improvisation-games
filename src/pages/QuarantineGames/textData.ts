@@ -15,7 +15,7 @@ const quarantineGamesTextData: Array<ArticleItem> = [
   },
   {
     text:
-      'Os jogos descritos abaixo foram elaborados em 2020, com base nos jogos utilizados por meu trabalho de mestrado. No momento em que foram pensados, o mundo vivia as primeiras duas ondas da pandemia de Covid 19, momento no qual o contato e a presença física se tornaram difíceis, em função das condições sanitárias e epidemiológicas. A intenção dessas atividades é manter alguns dos aspectos possíveis do ensino coletivo de instrumentos musicais, mesmo à distância, com o auxílio das tecnologias digitais. Para sua aplicação, sugiro que cada professor crie com seus alunos um ambiente virtual de trocas, como, por exemplo, um grupo de mensagens, no qual os alunos compartilhem suas criações, experiências e descobertas. Esperamos que o mundo não precise viver novas fases de isolamento e que essas atividades possam ser utilizadas em outros momentos de ensino e aprendizagem.',
+      'Os jogos descritos abaixo foram elaborados em 2020, com base nos jogos utilizados em meu trabalho de mestrado. No momento em que foram pensados, o mundo vivia as primeiras duas ondas da pandemia de Covid 19, momento no qual o contato e a presença física se tornaram difíceis, em função das condições sanitárias e epidemiológicas. A intenção dessas atividades é manter alguns dos aspectos possíveis do ensino coletivo de instrumentos musicais, mesmo à distância, com o auxílio das tecnologias digitais. Para sua aplicação, sugiro que cada professor crie com seus alunos um ambiente virtual de trocas, como, por exemplo, um grupo de mensagens, no qual os alunos compartilhem suas criações, experiências e descobertas. Esperamos que o mundo não precise viver novas fases de isolamento e que essas atividades possam ser utilizadas em outros momentos de ensino e aprendizagem.',
     style: ['paragraph', 'italic'],
   },
   {
@@ -106,7 +106,7 @@ const quarantineGamesTextData: Array<ArticleItem> = [
   },
   {
     text:
-      'Cada aluno deve escolher três sons gravados com o seu instrumento e enviar para um colega. Esse colega (aluno 2) deve criar uma partitura ou representação gráfica sobre o som recebido na gravação. Em seguida, enviar a partitura criada para um terceiro colega (aluno 3) que deve, com o seu instrumento, interpretar a partitura da sua maneira. Em seguida todos escutam o som gravado pelo aluno 1 e depois a versão do aluno 3. Em conjunto observam e conversam sobre semelhanças e diferenças. Também podem criar, coletivamente, uma nova interpretação ou uma nova partitura.',
+      'Cada aluno deve escolher três sons gravados com o seu instrumento e enviar para um colega. Esse colega (aluno 2) deve criar uma partitura ou representação gráfica para o som recebido na gravação. Em seguida, enviar a partitura criada para um terceiro colega (aluno 3) que deve, com o seu instrumento, interpretar a partitura da sua maneira. Em seguida todos escutam o som gravado pelo aluno 1 e depois a versão do aluno 3. Em conjunto observam e conversam sobre semelhanças e diferenças. Também podem criar, coletivamente, uma nova interpretação ou uma nova partitura.',
     style: ['paragraph'],
   },
   {
@@ -119,7 +119,7 @@ const quarantineGamesTextData: Array<ArticleItem> = [
   },
   {
     text:
-      'A turma deve criar, coletivamente, um mapa virtual de sonoridades. Esse mapa, dependendo de cada turma, pode ser o mapa do país, do estado, da cidade, do bairro ou da rua. Inicialmente, confeccionar através de uma foto, de uma imagem ou desenho, um mapa, conforme escolhido por todos. Colocar esse mapa em uma plataforma digital, na qual possa ser visualizado por toda a turma. Cada pessoa deve gravar com seu instrumento, no mínimo, três pequenos vídeos ou áudios com sonoridades que representem o lugar onde vive. Esses sons podem ser sons da casa ou do entorno. O professor recebe esses vídeos ou áudios, cria um link em alguma mídia social e anexa o link ao mapa, no local onde essa pessoa vive. Disponibilizar o mapa com os vídeos linkados para todas as pessoas da turma. Reservar um ou mais momentos em que a turma possa assistir os vídeos coletivamente, estabelecendo os diálogos que podem surgir dessa experiência.',
+      'A turma deve criar, coletivamente, um mapa virtual de sonoridades. Esse mapa, dependendo de cada turma, pode ser o mapa do país, do estado, da cidade, do bairro ou da rua. Inicialmente, confeccionar através de uma foto, de uma imagem ou desenho, um mapa, conforme escolhido por todos. Colocar esse mapa em uma plataforma digital, na qual possa ser visualizado por toda a turma. Cada pessoa deve gravar com seu instrumento, no mínimo, três pequenos vídeos ou áudios com sonoridades que representem o lugar onde vive. Esses sons podem ser sons da casa ou do entorno. O professor recebe esses vídeos ou áudios, cria um link em alguma mídia social e anexa o link ao mapa, no local onde essa pessoa vive. Disponibilizar o mapa com os vídeos ou áudios linkados para todas as pessoas da turma. Reservar um ou mais momentos em que a turma possa assistir os vídeos coletivamente, estabelecendo os diálogos que podem surgir dessa experiência.',
     style: ['paragraph'],
   },
   {
