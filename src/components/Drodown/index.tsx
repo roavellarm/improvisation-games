@@ -37,5 +37,4 @@ export default function Dropdown(props: DropDownProps) {
 
 Dropdown.defaultProps = {
   isArticleStyle: false,
-  initialState: false,
 }
