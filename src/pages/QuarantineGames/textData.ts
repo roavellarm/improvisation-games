@@ -36,7 +36,7 @@ const quarantineGamesTextData: Array<ArticleItem> = [
     style: ['line'],
   },
   {
-    text: '2. Que som é esse ?',
+    text: '2. Que som é esse?',
     style: ['title2', 'anchor'],
   },
   {
@@ -67,7 +67,7 @@ const quarantineGamesTextData: Array<ArticleItem> = [
   },
   {
     text:
-      'Um aluno (aluno 1) deve gravar um trecho curto de alguma criação sua no seu instrumento. Assim como no jogo anterior, pode ser uma célula rítmica, melódica, sonoridades expandidas, etc. Enviar para um colega (aluno 2). Quem recebeu a gravação deve ouvir quantas vezes desejar e tentar reproduzir o mesmo trecho com seu instrumento. A sua versão, não precisa ser exatamente igual, mas deve ser parecida com a gravação recebida. O aluno 2 deve criar mais um trecho e acrescentar esse trecho à criação de seu colega. Gravar os dois trechos em sequência (trecho 1, trecho 2) e enviar para outro colega (aluno 3). O aluno que recebeu a gravação deve fazer o mesmo processo, continuando a criação e enviar uma gravação dos 3 trechos em sequência (trecho 1, trecho 2, trecho 3) para um outro colega.  A atividade deve continuar sucessivamente até que retorne para o primeiro aluno (aluno 1), que deve reproduzir toda a criação. Todos escutam coletivamente a versão final e conversam sobre o que escutaram, colocando suas percepções, ideias, etc.',
+      'Um aluno (aluno 1) deve gravar um trecho curto de alguma criação sua no seu instrumento. Assim como no jogo anterior, pode ser uma célula rítmica, melódica, sonoridades expandidas, etc. Enviar para um colega (aluno 2). Quem recebeu a gravação deve ouvir quantas vezes desejar e tentar reproduzir o mesmo trecho com seu instrumento. A sua versão, não precisa ser exatamente igual, mas deve ser parecida com a gravação recebida. O aluno 2 deve criar mais um trecho e acrescentar esse trecho à criação de seu colega. Gravar os dois trechos em sequência (trecho 1, trecho 2) e enviar para outro colega (aluno 3). O aluno que recebeu a gravação deve fazer o mesmo processo, continuando a criação e enviar uma gravação dos 3 trechos em sequência (trecho 1, trecho 2, trecho 3) para um outro colega. A atividade deve continuar sucessivamente até que retorne para o primeiro aluno (aluno 1), que deve reproduzir toda a criação. Todos escutam coletivamente a versão final e conversam sobre o que escutaram, colocando suas percepções, ideias, etc.',
     style: ['paragraph'],
   },
   {
@@ -93,7 +93,7 @@ const quarantineGamesTextData: Array<ArticleItem> = [
   },
   {
     text:
-      'Esse jogo é uma continuação do jogo 5. O aluno que recebeu a história gravada por seu colega deve construir, da sua maneira, uma “partitura” ou representação gráfica, na qual conste a sua forma de registrar a história sonora recebida. ',
+      'Esse jogo é uma continuação do jogo 5. O aluno que recebeu a história gravada por seu colega deve construir, da sua maneira, uma “partitura” ou representação gráfica, na qual conste a sua forma de registrar a história sonora recebida.',
     style: ['paragraph'],
   },
   {
@@ -106,7 +106,7 @@ const quarantineGamesTextData: Array<ArticleItem> = [
   },
   {
     text:
-      'Cada aluno deve escolher três sons gravados com o seu instrumento e enviar para um colega. Esse colega (aluno 2) deve criar uma partitura ou representação gráfica sobre o som recebido na gravação. Em seguida, enviar a partitura criada para um terceiro colega (aluno 3) que deve, com o seu instrumento, interpretar a partitura da sua maneira. Em seguida todos escutam o som gravado pelo aluno 1 e depois a versão do aluno 3. Em conjunto observam e conversam sobre semelhanças e diferenças. Também podem criar, coletivamente, uma nova interpretação ou uma nova partitura. ',
+      'Cada aluno deve escolher três sons gravados com o seu instrumento e enviar para um colega. Esse colega (aluno 2) deve criar uma partitura ou representação gráfica sobre o som recebido na gravação. Em seguida, enviar a partitura criada para um terceiro colega (aluno 3) que deve, com o seu instrumento, interpretar a partitura da sua maneira. Em seguida todos escutam o som gravado pelo aluno 1 e depois a versão do aluno 3. Em conjunto observam e conversam sobre semelhanças e diferenças. Também podem criar, coletivamente, uma nova interpretação ou uma nova partitura.',
     style: ['paragraph'],
   },
   {
@@ -119,7 +119,7 @@ const quarantineGamesTextData: Array<ArticleItem> = [
   },
   {
     text:
-      'A turma deve criar, coletivamente, um mapa virtual de sonoridades. Esse mapa, dependendo de cada turma, pode ser o mapa do país, do estado, da cidade, do bairro ou da rua. Inicialmente, confeccionar através de uma foto, de uma imagem ou desenho, um mapa, conforme escolhido por todos. Colocar esse mapa em uma plataforma digital, na qual possa ser visualizado por toda a turma. Cada pessoa deve gravar com seu instrumento, no mínimo, três pequenos vídeos ou áudios com sonoridades que representem o lugar onde vive. Esses sons podem ser sons da casa ou do entorno. O professor recebe esses vídeos ou áudios, cria um link em alguma mídia social e anexa o link ao mapa, no local onde essa pessoa vive. Disponibilizar o mapa com os vídeos linkados para todas as pessoas da turma. Reservar um ou mais momentos em que a turma possa assistir os vídeos coletivamente, estabelecendo os diálogos que podem surgir dessa experiência. ',
+      'A turma deve criar, coletivamente, um mapa virtual de sonoridades. Esse mapa, dependendo de cada turma, pode ser o mapa do país, do estado, da cidade, do bairro ou da rua. Inicialmente, confeccionar através de uma foto, de uma imagem ou desenho, um mapa, conforme escolhido por todos. Colocar esse mapa em uma plataforma digital, na qual possa ser visualizado por toda a turma. Cada pessoa deve gravar com seu instrumento, no mínimo, três pequenos vídeos ou áudios com sonoridades que representem o lugar onde vive. Esses sons podem ser sons da casa ou do entorno. O professor recebe esses vídeos ou áudios, cria um link em alguma mídia social e anexa o link ao mapa, no local onde essa pessoa vive. Disponibilizar o mapa com os vídeos linkados para todas as pessoas da turma. Reservar um ou mais momentos em que a turma possa assistir os vídeos coletivamente, estabelecendo os diálogos que podem surgir dessa experiência.',
     style: ['paragraph'],
   },
   {
@@ -145,7 +145,7 @@ const quarantineGamesTextData: Array<ArticleItem> = [
   },
   {
     text:
-      'Coletivamente, a turma deve criar uma música que englobe todas as sonoridades escolhidas na atividade 9. A turma deve decidir se contará alguma história coletiva com essas sonoridades ou se a música não será descritiva, como os sons serão organizados, se vão soar simultaneamente ou em sequência. Além das escolhas musicais deve ser levada em conta, também, a destreza e as possibilidades tecnológicas ao alcance de cada turma. Cada aluno deve gravar no seu instrumento um pequeno vídeo executando a sonoridade escolhida por ele. Uma ou mais pessoas montam um vídeo ou áudio com a música criada conforme as orientações da turma e a apresentam, posteriormente, para que todos a escutem coletivamente. Esse processo pode levar quantas aulas forem necessárias, pois as combinações realizadas podem ser avaliadas e, consequentemente, alteradas, até que a turma chegue a um consenso sobre a proposta final. Posteriormente, a turma pode escrever coletivamente uma partitura ou representação gráfica da música criada. ',
+      'Coletivamente, a turma deve criar uma música que englobe todas as sonoridades escolhidas na atividade 9. A turma deve decidir se contará alguma história coletiva com essas sonoridades ou se a música não será descritiva, como os sons serão organizados, se vão soar simultaneamente ou em sequência. Além das escolhas musicais deve ser levada em conta, também, a destreza e as possibilidades tecnológicas ao alcance de cada turma. Cada aluno deve gravar no seu instrumento um pequeno vídeo executando a sonoridade escolhida por ele. Uma ou mais pessoas montam um vídeo ou áudio com a música criada conforme as orientações da turma e a apresentam, posteriormente, para que todos a escutem coletivamente. Esse processo pode levar quantas aulas forem necessárias, pois as combinações realizadas podem ser avaliadas e, consequentemente, alteradas, até que a turma chegue a um consenso sobre a proposta final. Posteriormente, a turma pode escrever coletivamente uma partitura ou representação gráfica da música criada.',
     style: ['paragraph'],
   },
 ]
