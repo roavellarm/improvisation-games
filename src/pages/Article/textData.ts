@@ -1,11 +1,6 @@
-export interface ArticleItem {
-  text: string
-  style: Array<string>
-  titleStrong?: string | undefined
-  rest?: string | undefined
-}
+import { ArticleItem } from 'types'
 
-const article: Array<ArticleItem> = [
+const textData: Array<ArticleItem> = [
   {
     text: 'JOGOS DE IMPROVISAÇÃO EM MÚSICA CONTEMPORÂNEA:',
     style: ['title1'],
@@ -857,4 +852,4 @@ const article: Array<ArticleItem> = [
   },
 ]
 
-export default article
+export default textData
