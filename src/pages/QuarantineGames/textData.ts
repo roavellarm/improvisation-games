@@ -36,7 +36,7 @@ const quarantineGamesTextData: Array<ArticleItem> = [
     style: ['line'],
   },
   {
-    text: '2. Que som é esse?',
+    text: '2. Que som é esse ?',
     style: ['title2', 'anchor'],
   },
   {
