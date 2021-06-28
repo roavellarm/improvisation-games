@@ -6,13 +6,12 @@ type DropDownProps = {
   isArticleStyle?: boolean
   title: string
   options: string[]
-  initialState?: boolean
 }
 
 export default function Dropdown(props: DropDownProps) {
-  const { initialState = false, title, options, isArticleStyle = false } = props
+  const { title, options, isArticleStyle = false } = props
   const { push } = useHistory()
-  const [isOpen, setIsOpen] = useState<boolean>(initialState)
+  const [isOpen, setIsOpen] = useState<boolean>(false)
 
   return (
     <Wrapper onClick={() => setIsOpen(!isOpen)}>
