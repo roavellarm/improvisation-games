@@ -1,8 +1,8 @@
 export const checkStepperPosition = (scrollPosition: number) => {
   if (scrollPosition >= 0 && scrollPosition < 22) return 0
-  if (scrollPosition >= 22 && scrollPosition < 32) return 1
-  if (scrollPosition >= 32 && scrollPosition < 45) return 2
-  if (scrollPosition >= 45 && scrollPosition < 51) return 3
+  if (scrollPosition >= 22 && scrollPosition < 30) return 1
+  if (scrollPosition >= 30 && scrollPosition < 42) return 2
+  if (scrollPosition >= 42 && scrollPosition < 51) return 3
   if (scrollPosition >= 51 && scrollPosition < 60) return 4
   if (scrollPosition >= 60 && scrollPosition < 73) return 5
   if (scrollPosition >= 73 && scrollPosition < 80) return 6
