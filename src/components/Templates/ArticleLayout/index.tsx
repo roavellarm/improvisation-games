@@ -19,8 +19,7 @@ interface ArticleProps {
   headerTitle: string
   textData: ArticleItem[]
   anchors: string[]
-  // eslint-disable-next-line no-unused-vars
-  checkStepperPosition(number: number): number
+  checkStepperPosition(number: number): number // eslint-disable-line
 }
 
 const ArticleLayout = ({
