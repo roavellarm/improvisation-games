@@ -4,7 +4,7 @@ import quarantineGamesTextData from './textData'
 import { quarentineAnchors } from './anchors'
 import { checkStepperPosition } from './checkStepperPosition'
 
-export default function Article() {
+export default function QuarantineGames() {
   return (
     <ArticleLayout
       currentPage="quarantineGamesPage"
