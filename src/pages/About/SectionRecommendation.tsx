@@ -1,10 +1,9 @@
 import React from 'react'
-import loadable from 'loadable-components'
+
+import Paragraph from 'components/Paragraph'
 import openQuote from 'assets/images/openQuote.png'
 import closeQuote from 'assets/images/closeQuote.png'
 import { CitationContainer, QuoteImage, Citation, CloseQuoteContainer, Signature } from './styles'
-
-const Paragraph = loadable(() => import('components/Paragraph'))
 
 export default function SectionRecommendation() {
   return (

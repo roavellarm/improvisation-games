@@ -1,10 +1,9 @@
 import React from 'react'
-import loadable from 'loadable-components'
 
-const Layout = loadable(() => import('./Layout'))
-const SectionRecommendation = loadable(() => import('./SectionRecommendation'))
-const SectionKnowledge = loadable(() => import('./SectionKnowledge'))
-const SectionContact = loadable(() => import('./SectionContact'))
+import Layout from './Layout'
+import SectionRecommendation from './SectionRecommendation'
+import SectionKnowledge from './SectionKnowledge'
+import SectionContact from './SectionContact'
 
 export default function About() {
   return (
