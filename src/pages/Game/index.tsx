@@ -2,7 +2,8 @@ import React, { useCallback, useEffect, useMemo, useState } from 'react'
 import { useParams, useHistory } from 'react-router-dom'
 import loadable from 'loadable-components'
 
-import gameList, { Game as GameProps } from 'assets/texts/games'
+import gameList from 'assets/texts/games'
+import { Game as GameProps } from 'types'
 import * as S from './styles'
 
 const HeaderTitle = loadable(() => import('components/HeaderTitle'))
@@ -50,7 +51,7 @@ export default function Game() {
 
   return (
     <>
-      <Navbar isGamePage />
+      <Navbar currentPage="gamePage" />
       <S.Container>
         {showSideArea && <S.SideArea />}
 
