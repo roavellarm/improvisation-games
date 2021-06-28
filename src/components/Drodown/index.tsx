@@ -3,14 +3,14 @@ import { useHistory } from 'react-router-dom'
 import { Wrapper, Button, DropdownContent, Options, Anchor } from './styles'
 
 type DropDownProps = {
-  isArticlePage?: boolean
+  isArticleStyle?: boolean
   title: string
   options: string[]
   initialState?: boolean
 }
 
 export default function Dropdown(props: DropDownProps) {
-  const { initialState = false, title, options, isArticlePage = false } = props
+  const { initialState = false, title, options, isArticleStyle = false } = props
   const { push } = useHistory()
   const [isOpen, setIsOpen] = useState<boolean>(initialState)
 
@@ -18,15 +18,15 @@ export default function Dropdown(props: DropDownProps) {
     <Wrapper onClick={() => setIsOpen(!isOpen)}>
       <Button>{isOpen ? `X` : title}</Button>
       {isOpen && (
-        <DropdownContent isArticlePage={isArticlePage}>
+        <DropdownContent isArticleStyle={isArticleStyle}>
           {options.map((option, index) => {
             return (
               <Options
                 key={index}
                 value={option}
-                onClick={() => !isArticlePage && push(`/game/${index + 1}`)}
+                onClick={() => !isArticleStyle && push(`/game/${index + 1}`)}
               >
-                {isArticlePage ? <Anchor href={`#${option}`}>{option}</Anchor> : option}
+                {isArticleStyle ? <Anchor href={`#${option}`}>{option}</Anchor> : option}
               </Options>
             )
           })}
@@ -37,6 +37,6 @@ export default function Dropdown(props: DropDownProps) {
 }
 
 Dropdown.defaultProps = {
-  isArticlePage: false,
+  isArticleStyle: false,
   initialState: false,
 }
