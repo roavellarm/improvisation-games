@@ -1,13 +1,11 @@
 import React, { useCallback, useEffect, useMemo, useState } from 'react'
 import { useHistory } from 'react-router-dom'
-import loadable from 'loadable-components'
 
-import gameList from 'assets/texts/games'
 import { Game } from 'types'
+import Button from 'components/Button'
+import Carousel from 'components/Carousel'
+import gameList from 'assets/texts/games'
 import * as S from './styles'
-
-const Button = loadable(() => import('components/Button'))
-const Carousel = loadable(() => import('components/Carousel'))
 
 export default function Home() {
   const { push } = useHistory()

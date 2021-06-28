@@ -1,18 +1,16 @@
 import React, { useCallback, useEffect, useMemo, useState } from 'react'
-import loadable from 'loadable-components'
 
 import { ArticleItem } from 'types'
+import HeaderTitle from 'components/HeaderTitle'
+import ItemList from 'components/ItemList'
+import Navbar from 'components/Navbar'
+import Paragraph from 'components/Paragraph'
+import ScrollToTopButton from 'components/ScrollToTopButton'
+import SubTitle from 'components/SubTitle'
+import Title from 'components/Title'
+import Line from 'components/Line'
+import Stepper from 'components/Stepper'
 import * as S from './styles'
-
-const HeaderTitle = loadable(() => import('components/HeaderTitle'))
-const ItemList = loadable(() => import('components/ItemList'))
-const Navbar = loadable(() => import('components/Navbar'))
-const Paragraph = loadable(() => import('components/Paragraph'))
-const ScrollToTopButton = loadable(() => import('components/ScrollToTopButton'))
-const SubTitle = loadable(() => import('components/SubTitle'))
-const Title = loadable(() => import('components/Title'))
-const Line = loadable(() => import('components/Line'))
-const Stepper = loadable(() => import('components/Stepper'))
 
 interface ArticleProps {
   currentPage?: string
