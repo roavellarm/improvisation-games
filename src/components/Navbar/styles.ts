@@ -1,5 +1,4 @@
-import styled from 'styled-components'
-import { NavbarProps } from './index'
+import styled, { DefaultTheme } from 'styled-components'
 
 export const StyledNavbar = styled.div`
   position: fixed;
@@ -21,13 +20,18 @@ export const Line = styled.div`
   background: ${({ theme }) => theme.colors.greenLight};
 `
 
-export const Container = styled.div<NavbarProps>`
+type ContainerProps = {
+  isGamePage: boolean
+  theme: DefaultTheme
+}
+
+export const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 100%;
-  background: ${({ theme, isGamePage }) => {
+  background: ${({ theme, isGamePage }: ContainerProps) => {
     return isGamePage
       ? theme.colors.white
       : `linear-gradient(to bottom, rgba(254, 254, 254, 1),
