@@ -6,6 +6,7 @@ export const StyledTooltip = styled.span<ToolTipProps>`
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 1.25rem;
   font-family: ${({ theme }) => theme.fontFamily.lato};
   font-weight: bold;
   font-style: oblique;

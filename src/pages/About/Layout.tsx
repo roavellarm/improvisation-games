@@ -1,8 +1,7 @@
 import React, { ReactNode, useCallback, useEffect, useMemo, useState } from 'react'
-import loadable from 'loadable-components'
-import { Container, SideArea, Content, ImgTopRight, ImgBottomLeft, ImgBottomRight } from './styles'
 
-const Navbar = loadable(() => import('components/Navbar'))
+import Navbar from 'components/Navbar'
+import { Container, SideArea, Content, ImgTopRight, ImgBottomLeft, ImgBottomRight } from './styles'
 
 interface LayoutProps {
   children: ReactNode

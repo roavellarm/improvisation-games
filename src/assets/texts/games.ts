@@ -1,17 +1,6 @@
+import { Game } from 'types'
 import audioGame3 from '../sounds/a-noite-no-castelo.mp3'
 import audioGame6 from '../sounds/composicao-com-gravuras.mp3'
-
-export type GameContent = {
-  text?: string
-  style: Array<string>
-  audio?: string
-}
-
-export type Game = {
-  id: string
-  gameTitle: string
-  content: GameContent[]
-}
 
 const gameList: Game[] = [
   {

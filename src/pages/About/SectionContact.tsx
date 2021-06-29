@@ -1,12 +1,11 @@
 import React from 'react'
-import loadable from 'loadable-components'
 import contacts from 'helpers/contacts'
-import { Link } from './styles'
+import HeaderTitle from 'components/HeaderTitle'
+import Paragraph from 'components/Paragraph'
+import Title from 'components/Title'
+import ItemList from 'components/ItemList'
 
-const HeaderTitle = loadable(() => import('components/HeaderTitle'))
-const Paragraph = loadable(() => import('components/Paragraph'))
-const Title = loadable(() => import('components/Title'))
-const ItemList = loadable(() => import('components/ItemList'))
+import { Link } from './styles'
 
 export default function SectionContact() {
   const { gustavo, marta, rodrigo } = contacts

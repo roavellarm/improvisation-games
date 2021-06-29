@@ -15,8 +15,7 @@ jest.mock('react-router-dom', () => ({
 }))
 
 const props = {
-  initialState: false,
-  isArticle: false,
+  isArticleStyle: false,
   title: 'Foo bar',
   options: [
     'Lorem ipsum',
@@ -39,9 +38,10 @@ describe('when the Dropdown is closed', () => {
 })
 
 describe('when the Dropdown is open', () => {
-  const params = { ...props, initialState: true }
   it('should render correctly', () => {
-    const { queryByText } = render(withTheme(<Dropdown {...params} />))
+    const { queryByText } = render(withTheme(<Dropdown {...props} />))
+
+    fireEvent.click(queryByText('Foo bar') as Element)
 
     expect(queryByText('X')).toBeInTheDocument()
     expect(queryByText('Lorem ipsum')).toBeInTheDocument()
@@ -52,10 +52,9 @@ describe('when the Dropdown is open', () => {
 })
 
 describe('when an option is choosed', () => {
-  const params = { ...props, initialState: true }
   it('should render correctly', () => {
-    const { queryByText } = render(withTheme(<Dropdown {...params} />))
-
+    const { queryByText } = render(withTheme(<Dropdown {...props} />))
+    fireEvent.click(queryByText('Foo bar') as Element)
     fireEvent.click(queryByText('Consectetur adipiscing elit') as Element)
 
     expect(mockPush.push).toHaveBeenCalledWith('/game/3')
@@ -64,14 +63,19 @@ describe('when an option is choosed', () => {
 
 describe('when the Dropdown is in the article page', () => {
   it('should render correctly when is closed', () => {
-    const params = { ...props, isArticlePage: true }
-    const { queryByText } = render(withTheme(<Dropdown {...params} />))
+    const { queryByText } = render(withTheme(<Dropdown {...props} />))
+    fireEvent.click(queryByText('Foo bar') as Element)
+    fireEvent.click(queryByText('X') as Element)
+
     expect(queryByText('Foo bar')).toBeInTheDocument()
   })
 
   it('should render correctly when is open', () => {
-    const params = { ...props, isArticlePage: true, initialState: true }
+    const params = { ...props, isArticleStyle: true }
     const { queryByText } = render(withTheme(<Dropdown {...params} />))
+
+    fireEvent.click(queryByText('Foo bar') as Element)
+
     expect(queryByText('X')).toBeInTheDocument()
     expect(queryByText('Foo bar')).not.toBeInTheDocument()
     expect(queryByText('Lorem ipsum')).toBeInTheDocument()
@@ -81,13 +85,15 @@ describe('when the Dropdown is in the article page', () => {
   })
 })
 
-describe('when an option is choosed', () => {
-  const params = { ...props, isArticlePage: true, initialState: true }
+describe('when an option is choosed in article style', () => {
+  const params = { ...props, isArticleStyle: true }
   it('should render correctly', () => {
-    const { getByText } = render(withTheme(<Dropdown {...params} />))
+    const { queryByText } = render(withTheme(<Dropdown {...params} />))
 
-    const element = getByText('Dolor sit amet').getAttribute('href')
+    fireEvent.click(queryByText('Foo bar') as Element)
 
-    expect(element).toBe('#Dolor sit amet')
+    const element = queryByText('Dolor sit amet') as Element
+
+    expect(element.getAttribute('href')).toBe('#Dolor sit amet')
   })
 })

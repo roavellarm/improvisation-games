@@ -3,7 +3,7 @@ import Carousel from 'react-elastic-carousel'
 import { useHistory } from 'react-router-dom'
 
 import leaf from 'assets/images/button-image.png'
-import { Game } from 'assets/texts/games'
+import { Game } from 'types'
 import * as S from './styles'
 
 const customArrow = ({ type, onClick, isEdge }: any) => {

@@ -25,7 +25,7 @@ const mobileSize = {
 
 describe('when navbar is render in a game page on desktop device', () => {
   const props = {
-    isGamePage: true,
+    currentPage: 'gamePage',
     initialState: desktopSize,
   }
   it('should render correctly', () => {
@@ -69,9 +69,9 @@ describe('when navbar is render in the article page on desktop device', () => {
   })
 })
 
-describe('when navbar is render in the article page on mobile device', () => {
+describe('when navbar is rendered in the article page on mobile device', () => {
   const props = {
-    isArticlePage: true,
+    currentPage: 'articlePage',
     initialState: mobileSize,
   }
   it('should render correctly', () => {
@@ -83,7 +83,7 @@ describe('when navbar is render in the article page on mobile device', () => {
 
 describe('when the "Voltar" link is clicked', () => {
   it('should navigate to the homepage', () => {
-    const { queryByText } = render(withTheme(<Navbar isGamePage />))
+    const { queryByText } = render(withTheme(<Navbar currentPage="gamePage" />))
     const element = queryByText('<- Voltar') as Element
     fireEvent.click(element)
 
@@ -94,7 +94,7 @@ describe('when the "Voltar" link is clicked', () => {
 describe('when the viewport changes from desktop to mobile', () => {
   it('it should change the layout', () => {
     const props = {
-      isArticlePage: true,
+      currentPage: 'articlePage',
       initialState: desktopSize,
     }
     const { queryByText } = render(withTheme(<Navbar {...props} />))

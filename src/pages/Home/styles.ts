@@ -145,7 +145,8 @@ export const Links = styled.div`
   position: relative;
   display: flex;
   width: 100%;
-  justify-content: flex-start;
+  justify-content: space-around;
+  align-items: center;
   padding-top: 2rem;
   margin-bottom: -2rem;
 
@@ -168,12 +169,12 @@ export const Links = styled.div`
 `
 
 export const Link = styled.p`
-  margin-left: 5rem;
   font-family: ${({ theme }) => theme.fontFamily.caveat};
   font-size: ${({ theme }) => theme.fontSize.link};
   color: ${({ theme }) => theme.colors.greenDark};
   opacity: 0.9;
   transition: 0.25s;
+  text-align: center;
 
   &:hover {
     cursor: pointer;
@@ -182,19 +183,26 @@ export const Link = styled.p`
     transform: scale(1.1, 1.1);
   }
 
-  @media screen and (max-width: 1325px) {
+  @media screen and (max-width: 1500px) {
     font-size: 1.7rem;
   }
 
-  @media screen and (max-width: 960px) {
+  @media screen and (max-width: 1325px) {
     font-size: 1.6rem;
-    margin-left: 3rem;
+  }
+
+  @media screen and (max-width: 1110px) {
+    font-size: 1.5rem;
+    width: 120px;
+  }
+
+  @media screen and (max-width: 960px) {
+    font-size: 1.4rem;
   }
 
   @media screen and (max-width: 800px) {
     font-size: 1.3rem;
     margin: 0px;
-    padding: 0px 0.837rem;
   }
 `
 

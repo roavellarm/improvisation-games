@@ -1,18 +1,17 @@
 import React, { useCallback, useEffect, useMemo, useState } from 'react'
 import { useParams, useHistory } from 'react-router-dom'
-import loadable from 'loadable-components'
 
-import gameList, { Game as GameProps } from 'assets/texts/games'
+import { Game as GameProps } from 'types'
+import HeaderTitle from 'components/HeaderTitle'
+import ItemList from 'components/ItemList'
+import Navbar from 'components/Navbar'
+import Paragraph from 'components/Paragraph'
+import ScrollToTopButton from 'components/ScrollToTopButton'
+import SubTitle from 'components/SubTitle'
+import Title from 'components/Title'
+import AudioPlayer from 'components/AudioPlayer'
+import gameList from 'assets/texts/games'
 import * as S from './styles'
-
-const HeaderTitle = loadable(() => import('components/HeaderTitle'))
-const ItemList = loadable(() => import('components/ItemList'))
-const Navbar = loadable(() => import('components/Navbar'))
-const Paragraph = loadable(() => import('components/Paragraph'))
-const ScrollToTopButton = loadable(() => import('components/ScrollToTopButton'))
-const SubTitle = loadable(() => import('components/SubTitle'))
-const Title = loadable(() => import('components/Title'))
-const AudioPlayer = loadable(() => import('components/AudioPlayer'))
 
 export default function Game() {
   const { id } = useParams() as { id: string }
@@ -50,7 +49,7 @@ export default function Game() {
 
   return (
     <>
-      <Navbar isGamePage />
+      <Navbar currentPage="gamePage" />
       <S.Container>
         {showSideArea && <S.SideArea />}
 

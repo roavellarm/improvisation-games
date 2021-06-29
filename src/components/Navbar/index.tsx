@@ -3,14 +3,14 @@ import { useHistory } from 'react-router-dom'
 
 import gameList from 'assets/texts/games'
 import { gameOptions } from 'helpers/game'
-import { anchors } from 'helpers/article'
+import { anchors } from 'pages/Article/anchors'
+import { quarentineAnchors } from 'pages/QuarantineGames/anchors'
 import CarousselNavbar from '../CarouselNavbar'
 import Dropdown from '../Drodown'
 import * as S from './styles'
 
 export type NavbarProps = {
-  isGamePage?: boolean
-  isArticlePage?: boolean
+  currentPage?: string
   initialState?: {
     windowWidth: number
     windowHeight: number
@@ -22,11 +22,7 @@ const INITIAL_STATE = {
   windowHeight: window.innerHeight,
 }
 
-export default function Navbar({
-  isGamePage,
-  isArticlePage,
-  initialState = INITIAL_STATE,
-}: NavbarProps) {
+export default function Navbar({ currentPage = '', initialState = INITIAL_STATE }: NavbarProps) {
   const { push } = useHistory()
   const [windowWith, setWindowWidth] = useState(initialState.windowWidth)
   const [windowHeight, setWindowHeight] = useState(initialState.windowHeight)
@@ -38,8 +34,19 @@ export default function Navbar({
 
   const renderArticleOptions = () =>
     (windowWith <= 800 || windowHeight <= 645) && (
-      <Dropdown title="Tópicos" isArticlePage options={anchors} />
+      <Dropdown title="Tópicos" isArticleStyle options={anchors} />
     )
+
+  const renderQuarantineGamesOptions = () =>
+    (windowWith <= 800 || windowHeight <= 645) && (
+      <Dropdown title="Tópicos" isArticleStyle options={quarentineAnchors} />
+    )
+
+  const pagesMenus: any = {
+    articlePage: renderArticleOptions(),
+    gamePage: renderGamesOptions(),
+    quarantineGamesPage: renderQuarantineGamesOptions(),
+  }
 
   const updateWindowSize = useCallback(() => {
     setWindowWidth(window.innerWidth)
@@ -54,11 +61,9 @@ export default function Navbar({
   return (
     <S.StyledNavbar>
       <S.Line />
-      <S.Container isGamePage={isGamePage}>
+      <S.Container isGamePage={currentPage === 'gamePage' || false}>
         <S.SideArea onClick={() => push('/')}>{`<- Voltar`}</S.SideArea>
-        <S.Spacer>
-          {isGamePage ? renderGamesOptions() : isArticlePage && renderArticleOptions()}
-        </S.Spacer>
+        <S.Spacer>{pagesMenus[`${currentPage}`]}</S.Spacer>
         <S.SideArea />
       </S.Container>
     </S.StyledNavbar>
