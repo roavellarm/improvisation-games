@@ -1,6 +1,6 @@
 export const quarentineAnchors = [
   '1. Detetive sonoro',
-  '2. Que som é esse ?',
+  '2. Que som é esse?',
   '3. Telefone sem fio sonoro virtual',
   '4. Lego musical',
   '5. Histórias da janela',
