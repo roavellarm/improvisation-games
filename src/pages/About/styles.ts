@@ -164,8 +164,8 @@ export const ImgBottomLeft = styled.div`
 `
 
 export const Picture = styled.div`
-  width: 156px;
-  height: 207px;
+  width: ${({ isMobile }: { isMobile: boolean }) => (isMobile ? '124px' : '156px')};
+  height: ${({ isMobile }: { isMobile: boolean }) => (isMobile ? '165px' : '207px')};
   float: right;
   margin: 0.5rem 0px 0px 1rem;
   border-radius: 8px;
