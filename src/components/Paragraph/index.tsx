@@ -1,8 +1,9 @@
-import React, { ReactNode } from 'react'
+import React, { ReactNode, CSSProperties } from 'react'
 import * as S from './styles'
 
 export type ParagraphProps = {
   children: ReactNode
+  style?: CSSProperties
   italic?: boolean
   margin?: boolean
   bold?: boolean
@@ -11,7 +12,7 @@ export type ParagraphProps = {
 }
 
 export default function Paragraph(props: ParagraphProps) {
-  const { children, italic, margin, bold, citation, anchor } = props
+  const { children, italic, margin, bold, citation, anchor, style } = props
 
   return (
     <S.Paragraph
@@ -21,6 +22,7 @@ export default function Paragraph(props: ParagraphProps) {
       bold={bold}
       citation={citation}
       anchor={anchor}
+      style={style}
     >
       {children}
     </S.Paragraph>

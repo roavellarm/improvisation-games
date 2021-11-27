@@ -4,7 +4,7 @@ import HeaderTitle from 'components/HeaderTitle'
 import Paragraph from 'components/Paragraph'
 import Title from 'components/Title'
 
-import { Link } from './styles'
+import { Link, Picture } from './styles'
 
 export default function SectionKnowledge() {
   return (
@@ -26,6 +26,7 @@ export default function SectionKnowledge() {
       <Paragraph>Boa diversão e boas aprendizagens!</Paragraph>
 
       <Title>Sobre a autora</Title>
+      <Picture />
       <Paragraph>
         Meu nome é Marta Macedo Brietzke e sou natural de Porto Alegre, Rio Grande do Sul, Brasil.
         Iniciei meus estudos de música com meu pai e, logo após, no Projeto Prelúdio e na Orquestra
