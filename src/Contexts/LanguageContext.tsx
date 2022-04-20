@@ -2,7 +2,6 @@
 import React, { createContext, useState } from 'react'
 
 interface ContextData {
-  test: String
   state: Object
   setState: Object
   onChangeLanguage: () => void
@@ -21,7 +20,6 @@ export const LanguageContextProvider: React.FC = ({ children }) => {
     fieldTitle: 'Transcrição',
   }
   const [state, setState] = useState(initialState)
-  const test = 'legal'
   // const useLanguage = useContext(LanguageContext)
 
   const onChangeLanguage = () => {
@@ -38,7 +36,7 @@ export const LanguageContextProvider: React.FC = ({ children }) => {
   }
 
   return (
-    <LanguageContext.Provider value={{ test, state, setState, onChangeLanguage }}>
+    <LanguageContext.Provider value={{ state, setState, onChangeLanguage }}>
       {children}
     </LanguageContext.Provider>
   )

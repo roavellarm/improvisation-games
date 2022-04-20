@@ -15,7 +15,7 @@ export default function Home() {
   const Language = useContext(LanguageContext)
 
   // eslint-disable-next-line no-console
-  console.log(Language.test)
+  console.log(Language.state)
 
   const isMobileScreen = useMemo(() => windowWidth <= 800, [windowWidth])
 
