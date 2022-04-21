@@ -21,7 +21,7 @@ const gameList: Game[] = [
       },
       {
         text:
-          'Propiciar aos alunos a consciência da sua individualidade e seu papel dentro do coletivo; estabelecer as ideias de narrativa musical, de perguntas e respostas, enfatizando o uso das quatro cordas do violoncelo, do ​ pizzicato, ​ de diferentes ritmos, métricas, timbres e dinâmicas.',
+          'Propiciar aos estudantes a consciência da sua individualidade e seu papel dentro do coletivo; estabelecer as ideias de narrativa musical, de perguntas e respostas, enfatizando o uso das quatro cordas do violoncelo, do ​ pizzicato, ​ de diferentes ritmos, métricas, timbres e dinâmicas.',
         style: ['paragraph'],
       },
       {
@@ -29,12 +29,12 @@ const gameList: Game[] = [
         style: ['title2'],
       },
       {
-        text: 'Organizar os alunos em um semicírculo.',
+        text: 'Organizar os estudantes em um semicírculo.',
         style: ['itemList'],
       },
       {
         text:
-          'Explicar aos alunos o que pode ser uma pergunta e o que pode ser uma resposta dentro de uma narrativa musical.',
+          'Explicar aos estudantes o que pode ser uma pergunta e o que pode ser uma resposta dentro de uma narrativa musical.',
         style: ['itemList'],
       },
       {
@@ -44,7 +44,7 @@ const gameList: Game[] = [
       },
       {
         text:
-          'Propor uma pergunta ao primeiro aluno, que deve tocar uma resposta. Em seguida fazer o mesmo em relação ao segundo aluno, e assim sucessivamente, abordando à todos os alunos, um a um, individualmente.',
+          'Propor uma pergunta ao primeiro estudante, que deve tocar uma resposta. Em seguida fazer o mesmo em relação ao segundo estudante, e assim sucessivamente, abordando à todos os estudantes, um a um, individualmente.',
         style: ['itemList'],
       },
       {
@@ -52,12 +52,12 @@ const gameList: Game[] = [
         style: ['itemList'],
       },
       {
-        text: 'Organizar os alunos em duplas, dispostos em diferentes pontos da sala.',
+        text: 'Organizar os estudantes em duplas, dispostos em diferentes pontos da sala.',
         style: ['itemList'],
       },
       {
         text:
-          'Um aluno de cada dupla deve fazer as perguntas e o outro aluno deve fazer as respostas durante alguns minutos.',
+          'Um estudante de cada dupla deve fazer as perguntas e o outro estudante deve fazer as respostas durante alguns minutos.',
         style: ['itemList'],
       },
       {
@@ -79,7 +79,7 @@ const gameList: Game[] = [
       },
       {
         text:
-          'Proporcionar aos alunos autonomia de decisão quanto ao número de perguntas e respostas que eles apresentarão aos seus colegas, quanto a distribuição dos papeis e quanto a combinações entre eles que determinem o início e fim da apresentação aos colegas.',
+          'Proporcionar aos estudantes autonomia de decisão quanto ao número de perguntas e respostas que eles apresentarão aos seus colegas, quanto a distribuição dos papeis e quanto a combinações entre eles que determinem o início e fim da apresentação aos colegas.',
         style: ['itemList'],
       },
       {
@@ -115,47 +115,47 @@ const gameList: Game[] = [
         style: ['title2'],
       },
       {
-        text: 'Organizar os alunos em um semicírculo.',
+        text: 'Organizar os estudantes em um semicírculo.',
         style: ['itemList'],
       },
       {
         text:
-          'Propor que os alunos explorem diferentes sonoridades dos seus violoncelos, associadas às técnicas estendidas.',
+          'Propor que os estudantes explorem diferentes sonoridades dos seus violoncelos, associadas às técnicas estendidas.',
         style: ['itemList'],
       },
       {
         text:
-          'Apresentar uma determinada sonoridade e propor que os alunos, em conjunto, a reproduzam.',
+          'Apresentar uma determinada sonoridade e propor que os estudantes, em conjunto, a reproduzam.',
         style: ['itemList'],
       },
       {
         text:
-          'Estimular os alunos a explorarem, individualmente, os seus instrumentos, buscando novas sonoridades.',
+          'Estimular os estudantes a explorarem, individualmente, os seus instrumentos, buscando novas sonoridades.',
         style: ['itemList'],
       },
       {
         text:
-          'Cada aluno deverá apresentar uma sonoridade pesquisada aos demais colegas da turma, que devem, em conjunto, reproduzí-la.',
+          'Cada estudante deverá apresentar uma sonoridade pesquisada aos demais colegas da turma, que devem, em conjunto, reproduzí-la.',
         style: ['itemList'],
       },
       {
         text:
-          'Apresentar dois pequenos cartazes aos alunos, um da cor verde e outro da cor vermelha. Associar os cartazes com as leis de trânsito, sendo que verde significará “tocar” e vermelho significará “não tocar”.',
+          'Apresentar dois pequenos cartazes aos estudantes, um da cor verde e outro da cor vermelha. Associar os cartazes com as leis de trânsito, sendo que verde significará “tocar” e vermelho significará “não tocar”.',
         style: ['itemList'],
       },
       {
         text:
-          'Executar algumas combinações com os cartazes, propondo que os alunos toquem quaisquer sons que desejarem, oriundos das técnicas tradicionais ou das técnicas estendidas.',
+          'Executar algumas combinações com os cartazes, propondo que os estudantes toquem quaisquer sons que desejarem, oriundos das técnicas tradicionais ou das técnicas estendidas.',
         style: ['itemList'],
       },
       {
         text:
-          'Propor algumas variações de dinâmica, dependendo da maneira como os cartazes forem apresentado aos alunos.',
+          'Propor algumas variações de dinâmica, dependendo da maneira como os cartazes forem apresentado aos estudantes.',
         style: ['itemList'],
       },
       {
         text:
-          'Escolher um aluno para ser o “maestro” dos demais, cabendo à ele a função de apresentar os cartazes aos colegas.',
+          'Escolher um estudante para ser o “maestro” dos demais, cabendo à ele a função de apresentar os cartazes aos colegas.',
         style: ['itemList'],
       },
       {
@@ -174,7 +174,7 @@ const gameList: Game[] = [
       },
       {
         text:
-          'Devemos estar atentos e estimular o poder de escuta dos alunos, ressaltando que as diferentes combinações de sons e silêncios estabelecidas entre os “maestros” proporcionam a criação de uma narrativa musical.',
+          'Devemos estar atentos e estimular o poder de escuta dos estudantes, ressaltando que as diferentes combinações de sons e silêncios estabelecidas entre os “maestros” proporcionam a criação de uma narrativa musical.',
         style: ['itemList'],
       },
     ],
@@ -206,7 +206,7 @@ const gameList: Game[] = [
       },
       {
         text:
-          'Contar uma história aos alunos, sobre um viajante que chega à um castelo mal-assombrado em meio a uma noite de tempestade',
+          'Contar uma história aos estudantes, sobre um viajante que chega à um castelo mal-assombrado em meio a uma noite de tempestade',
         style: ['itemList'],
       },
       {
@@ -216,12 +216,12 @@ const gameList: Game[] = [
       },
       {
         text:
-          'Distribuir os alunos em diferentes pontos da sala, com uma certa distância entre eles.',
+          'Distribuir os estudantes em diferentes pontos da sala, com uma certa distância entre eles.',
         style: ['itemList'],
       },
       {
         text:
-          'Escolher um dos alunos para representar o viajante. Este aluno fará uma caminhada pelo castelo, evitando bater nos “objetos”, sendo guiado por sua audição. Quando o viajante se  aproximar de um objeto do castelo, o aluno que representa este objeto executará o seu som específico. À medida que o viajante se afastar do objeto, o som diminui de  intensidade, e o aluno que agora estiver mais próximo do viajante começará a executar o   som correspondente ao seu objeto, e assim sucessivamente, compondo uma narrativa musical.',
+          'Escolher um dos estudantes para representar o viajante. Este estudante fará uma caminhada pelo castelo, evitando bater nos “objetos”, sendo guiado por sua audição. Quando o viajante se  aproximar de um objeto do castelo, o estudante que representa este objeto executará o seu som específico. À medida que o viajante se afastar do objeto, o som diminui de  intensidade, e o estudante que agora estiver mais próximo do viajante começará a executar o   som correspondente ao seu objeto, e assim sucessivamente, compondo uma narrativa musical.',
         style: ['itemList'],
       },
       {
@@ -230,7 +230,7 @@ const gameList: Game[] = [
       },
       {
         text:
-          'A fim de estimular os alunos a intensificarem seu poder de escuta, podemos propor que o viajante permaneça mais tempo na frente do objeto que quer ouvir, ou que volte à um determinado objeto que deseja ouvir novamente, exercendo papel ativo na composição da narrativa.',
+          'A fim de estimular os estudantes a intensificarem seu poder de escuta, podemos propor que o viajante permaneça mais tempo na frente do objeto que quer ouvir, ou que volte à um determinado objeto que deseja ouvir novamente, exercendo papel ativo na composição da narrativa.',
         style: ['itemList'],
       },
       {
@@ -265,12 +265,12 @@ const gameList: Game[] = [
         style: ['title2'],
       },
       {
-        text: 'Organizar os alunos em um semicírculo.',
+        text: 'Organizar os estudantes em um semicírculo.',
         style: ['itemList'],
       },
       {
         text:
-          'Perguntar aos alunos o que é uma assinatura e relacionar as respostas com o que poderia ser uma assinatura musical.',
+          'Perguntar aos estudantes o que é uma assinatura e relacionar as respostas com o que poderia ser uma assinatura musical.',
         style: ['itemList'],
       },
       {
@@ -280,22 +280,22 @@ const gameList: Game[] = [
       },
       {
         text:
-          'Propor que os alunos, individualmente, criem suas assinaturas musicais, utilizando os sons que desejarem, e as apresentem para os demais colegas da turma.',
+          'Propor que os estudantes, individualmente, criem suas assinaturas musicais, utilizando os sons que desejarem, e as apresentem para os demais colegas da turma.',
         style: ['itemList'],
       },
       {
         text:
-          'Propor que os alunos executem suas assinaturas mais de uma vez, a fim de que possamos verificar se elas se mantém as mesmas nas duas execuções.',
+          'Propor que os estudantes executem suas assinaturas mais de uma vez, a fim de que possamos verificar se elas se mantém as mesmas nas duas execuções.',
         style: ['itemList'],
       },
       {
         text:
-          'Escolher um dos alunos da turma para ser o “maestro”, que deverá compor uma música utilizando apenas as assinaturas musicais elaboradas pelos alunos.',
+          'Escolher um dos estudantes da turma para ser o “maestro”, que deverá compor uma música utilizando apenas as assinaturas musicais elaboradas pelos estudantes.',
         style: ['itemList'],
       },
       {
         text:
-          'O “maestro” deve criar sinais que indiquem quando um aluno deve começar a tocar sua assinatura, quando deve parar, com qual intensidade, velocidade e outras variáveis, quantos alunos devem tocar simultaneamente, criando diálogos, interações e diferentes combinações entre as assinaturas.',
+          'O “maestro” deve criar sinais que indiquem quando um estudante deve começar a tocar sua assinatura, quando deve parar, com qual intensidade, velocidade e outras variáveis, quantos estudantes devem tocar simultaneamente, criando diálogos, interações e diferentes combinações entre as assinaturas.',
         style: ['itemList'],
       },
       {
@@ -304,12 +304,12 @@ const gameList: Game[] = [
       },
       {
         text:
-          'Devemos estimular os alunos a trabalharem sua escuta e sua escolha artística frente ao material apresentado pelos colegas. Dessa forma, evitamos novamente que o jogo se torne mecânico e proporcionamos a construção de uma ideia musical consistente.',
+          'Devemos estimular os estudantes a trabalharem sua escuta e sua escolha artística frente ao material apresentado pelos colegas. Dessa forma, evitamos novamente que o jogo se torne mecânico e proporcionamos a construção de uma ideia musical consistente.',
         style: ['itemList'],
       },
       {
         text:
-          'É interessante, em todos os jogos, que o professor seja o "maestro" na primeira vez que o jogo está sendo executado, mas que em seguida sejam escolhidos diferentes alunos para assumirem essa função, possibilitando que todos os alunos do grupo possam, em algum  momento, participar como "maestros" de algum dos jogos de improvisação.',
+          'É interessante, em todos os jogos, que o professor seja o "maestro" na primeira vez que o jogo está sendo executado, mas que em seguida sejam escolhidos diferentes estudantes para assumirem essa função, possibilitando que todos os estudantes do grupo possam, em algum  momento, participar como "maestros" de algum dos jogos de improvisação.',
         style: ['itemList'],
       },
     ],
@@ -340,7 +340,7 @@ const gameList: Game[] = [
         style: ['title2'],
       },
       {
-        text: 'Organizar os alunos em um semicírculo.',
+        text: 'Organizar os estudantes em um semicírculo.',
         style: ['itemList'],
       },
       {
@@ -350,22 +350,22 @@ const gameList: Game[] = [
       },
       {
         text:
-          'O primeiro aluno deve criar livremente uma frase musical, utilizando para isso os sons que desejar.',
+          'O primeiro estudante deve criar livremente uma frase musical, utilizando para isso os sons que desejar.',
         style: ['itemList'],
       },
       {
         text:
-          'O professor escolhe um dos cartazes e mostra ao segundo aluno, que deve seguir as instruções contidas no cartaz, executando, assim, uma frase igual, parecida ou diferente da frase criada pelo primeiro aluno.',
+          'O professor escolhe um dos cartazes e mostra ao segundo estudante, que deve seguir as instruções contidas no cartaz, executando, assim, uma frase igual, parecida ou diferente da frase criada pelo primeiro estudante.',
         style: ['itemList'],
       },
       {
         text:
-          'Oferecer um dos cartazes ao terceiro aluno, que deverá executar sua frase seguindo as instruções do cartaz, fazendo referência à frase executada pelo segundo aluno e assim por diante, até que todos os alunos tenham participado algumas de rodadas do jogo.',
+          'Oferecer um dos cartazes ao terceiro estudante, que deverá executar sua frase seguindo as instruções do cartaz, fazendo referência à frase executada pelo segundo estudante e assim por diante, até que todos os estudantes tenham participado algumas de rodadas do jogo.',
         style: ['itemList'],
       },
       {
         text:
-          'Escolher um dos alunos para ser o “maestro” e mostrar os cartazes aos demais colegas. Podemos acrescentar mais complexidade nesta rodada do jogo, propondo que o “maestro”, além de escolher os cartazes, escolha também qual aluno executará a nova frase, sendo que para isso, o “maestro” deve utilizar sinais de linguagem não-verbal.',
+          'Escolher um dos estudantes para ser o “maestro” e mostrar os cartazes aos demais colegas. Podemos acrescentar mais complexidade nesta rodada do jogo, propondo que o “maestro”, além de escolher os cartazes, escolha também qual estudante executará a nova frase, sendo que para isso, o “maestro” deve utilizar sinais de linguagem não-verbal.',
         style: ['itemList'],
       },
       {
@@ -374,7 +374,7 @@ const gameList: Game[] = [
       },
       {
         text:
-          'Ao acrescentarmos mais complexidade na variação do jogo propiciaremos que os alunos desenvolvam mais atenção na escuta.',
+          'Ao acrescentarmos mais complexidade na variação do jogo propiciaremos que os estudantes desenvolvam mais atenção na escuta.',
         style: ['itemList'],
       },
     ],
@@ -397,7 +397,7 @@ const gameList: Game[] = [
       },
       {
         text:
-          '​Aproximar os alunos da ideia de composição; desenvolver uma simbologia própria que represente suas ideias musicais; fazer contato com diferentes maneiras de escrita e representação musical; chamar a atenção para as limitações existentes em qualquer tipo de escrita musical; aproximar compositores e intérpretes.',
+          '​Aproximar os estudantes da ideia de composição; desenvolver uma simbologia própria que represente suas ideias musicais; fazer contato com diferentes maneiras de escrita e representação musical; chamar a atenção para as limitações existentes em qualquer tipo de escrita musical; aproximar compositores e intérpretes.',
         style: ['paragraph'],
       },
       {
@@ -406,11 +406,11 @@ const gameList: Game[] = [
       },
       {
         text:
-          'Solicitar que na aula anterior os alunos tragam gravuras, imagens ou fotos para realizar uma criação coletiva.',
+          'Solicitar que na aula anterior os estudantes tragam gravuras, imagens ou fotos para realizar uma criação coletiva.',
         style: ['itemList'],
       },
       {
-        text: 'Dividir a turma em grupos de cinco ou seis alunos.',
+        text: 'Dividir a turma em grupos de cinco ou seis estudantes.',
         style: ['itemList'],
       },
       {
@@ -420,12 +420,12 @@ const gameList: Game[] = [
       },
       {
         text:
-          'Propor aos alunos que criem uma história que apresente um enredo, contendo início, meio e final.',
+          'Propor aos estudantes que criem uma história que apresente um enredo, contendo início, meio e final.',
         style: ['itemList'],
       },
       {
         text:
-          'Propor aos alunos que escolham diferentes sons e suas combinações para que a história criada por eles possa ser representada apenas através da música.',
+          'Propor aos estudantes que escolham diferentes sons e suas combinações para que a história criada por eles possa ser representada apenas através da música.',
         style: ['itemList'],
       },
       {
@@ -453,17 +453,17 @@ const gameList: Game[] = [
       },
       {
         text:
-          'Durante o processo de criação da história e da música devemos dar aos alunos autonomia para que eles mesmos se organizem e estabeleçam relações entre eles, estimulando que todos os alunos devem participar deste processo.',
+          'Durante o processo de criação da história e da música devemos dar aos estudantes autonomia para que eles mesmos se organizem e estabeleçam relações entre eles, estimulando que todos os estudantes devem participar deste processo.',
         style: ['itemList'],
       },
       {
         text:
-          'De igual maneira devemos dar autonomia aos alunos durante seus ensaios e durante a apresentação, sendo que os grupos podem escolher como farão esta apresentação, contando ou não a história criada, apresentando ou não a partitura.',
+          'De igual maneira devemos dar autonomia aos estudantes durante seus ensaios e durante a apresentação, sendo que os grupos podem escolher como farão esta apresentação, contando ou não a história criada, apresentando ou não a partitura.',
         style: ['itemList'],
       },
       {
         text:
-          'Devemos estimular que a comunicação entre os alunos seja estabelecida de forma não-verbal durante a apresentação da música.',
+          'Devemos estimular que a comunicação entre os estudantes seja estabelecida de forma não-verbal durante a apresentação da música.',
         style: ['itemList'],
       },
       {
@@ -498,11 +498,11 @@ const gameList: Game[] = [
         style: ['title2'],
       },
       {
-        text: 'Organizar os alunos em um semicírculo.',
+        text: 'Organizar os estudantes em um semicírculo.',
         style: ['itemList'],
       },
       {
-        text: 'Explicar aos alunos o que é um ostinato.',
+        text: 'Explicar aos estudantes o que é um ostinato.',
         style: ['itemList'],
       },
       {
@@ -516,16 +516,16 @@ const gameList: Game[] = [
       },
       {
         text:
-          'O grupo que representa a orquestra deve executar o ostinato, enquanto o aluno solista executa diferentes frases ou ideias musicais, utilizando os sons que desejar.',
+          'O grupo que representa a orquestra deve executar o ostinato, enquanto o estudante solista executa diferentes frases ou ideias musicais, utilizando os sons que desejar.',
         style: ['itemList'],
       },
       {
-        text: 'Combinar com os alunos qual será a indicação que determinará o final do solo.',
+        text: 'Combinar com os estudantes qual será a indicação que determinará o final do solo.',
         style: ['itemList'],
       },
       {
         text:
-          'Após a execução do solo por um aluno, o aluno seguinte passa a ser o solista, e assim sucessivamente, até que todos os alunos tenham participado no papel de solistas.',
+          'Após a execução do solo por um estudante, o estudante seguinte passa a ser o solista, e assim sucessivamente, até que todos os estudantes tenham participado no papel de solistas.',
         style: ['itemList'],
       },
       {
@@ -539,17 +539,17 @@ const gameList: Game[] = [
       },
       {
         text:
-          'O objetivo desta improvisação é que os alunos possam organizar livremente suas ideias, utilizando os conteúdos já absorvidos por eles.',
+          'O objetivo desta improvisação é que os estudantes possam organizar livremente suas ideias, utilizando os conteúdos já absorvidos por eles.',
         style: ['itemList'],
       },
       {
         text:
-          'A improvisação pode ser organizada de diferentes maneiras, por exemplo, estabelecer que após o final de cada solo se executará um número determinado de vezes o ostinato, ou propor uma forma rondó, onde a parte A será um número fixo de vezes que a orquestra executará o ostinato, ou um tema criado em conjunto pelos alunos.',
+          'A improvisação pode ser organizada de diferentes maneiras, por exemplo, estabelecer que após o final de cada solo se executará um número determinado de vezes o ostinato, ou propor uma forma rondó, onde a parte A será um número fixo de vezes que a orquestra executará o ostinato, ou um tema criado em conjunto pelos estudantes.',
         style: ['itemList'],
       },
       {
         text:
-          'Podemos organizar e acrescentar complexidades no decorrer das jogadas, intercalando-as com audições coletivas das improvisações criadas pelos alunos.',
+          'Podemos organizar e acrescentar complexidades no decorrer das jogadas, intercalando-as com audições coletivas das improvisações criadas pelos estudantes.',
         style: ['itemList'],
       },
     ],
@@ -584,7 +584,8 @@ const gameList: Game[] = [
         style: ['itemList'],
       },
       {
-        text: 'Posicionar os alunos em diferentes pontos da sala, com alguma distância entre eles.',
+        text:
+          'Posicionar os estudantes em diferentes pontos da sala, com alguma distância entre eles.',
         style: ['itemList'],
       },
       {
@@ -592,7 +593,8 @@ const gameList: Game[] = [
         style: ['itemList'],
       },
       {
-        text: 'Cada árvore da floresta emitirá um som escolhido pelo alunos que a representará.',
+        text:
+          'Cada árvore da floresta emitirá um som escolhido pelo estudantes que a representará.',
         style: ['itemList'],
       },
       {
@@ -601,7 +603,7 @@ const gameList: Game[] = [
       },
       {
         text:
-          'Ao se aproximarem das árvores, essas emitem o som escolhido pelo aluno que a representa. Ao se afastarem, a intensidade do som vai diminuindo e o aluno que estiver mais próximo começa a emitir o seu som escolhido.',
+          'Ao se aproximarem das árvores, essas emitem o som escolhido pelo estudante que a representa. Ao se afastarem, a intensidade do som vai diminuindo e o estudante que estiver mais próximo começa a emitir o seu som escolhido.',
         style: ['itemList'],
       },
       {
@@ -646,22 +648,22 @@ const gameList: Game[] = [
         style: ['title2'],
       },
       {
-        text: 'Organizar os alunos em semicírculo.',
+        text: 'Organizar os estudantes em semicírculo.',
         style: ['itemList'],
       },
       {
         text:
-          'Contar aos alunos uma história de um visitante que chega a um zoológico e observa os diferentes animais.',
+          'Contar aos estudantes uma história de um visitante que chega a um zoológico e observa os diferentes animais.',
         style: ['itemList'],
       },
       {
         text:
-          'Cada aluno escolhe um animal para ser representado por ele, escolhendo sons que o caracterizem.',
+          'Cada estudante escolhe um animal para ser representado por ele, escolhendo sons que o caracterizem.',
         style: ['itemList'],
       },
       {
         text:
-          'O visitante realiza um passeio pelo zoológico, se posicionando frente aos diferentes animais, e nesse momento, os animais reproduzem o som escolhido pelos alunos.',
+          'O visitante realiza um passeio pelo zoológico, se posicionando frente aos diferentes animais, e nesse momento, os animais reproduzem o som escolhido pelos estudantes.',
         style: ['itemList'],
       },
       {
@@ -675,7 +677,7 @@ const gameList: Game[] = [
       },
       {
         text:
-          'Assim como nos jogos anteriores, podemos gravar as improvisações possibilitando que, nas próximas rodadas dos jogos, as interações sejam cada vez mais provenientes das escolhas musicais dos alunos.',
+          'Assim como nos jogos anteriores, podemos gravar as improvisações possibilitando que, nas próximas rodadas dos jogos, as interações sejam cada vez mais provenientes das escolhas musicais dos estudantes.',
         style: ['itemList'],
       },
     ],
@@ -706,29 +708,29 @@ const gameList: Game[] = [
         style: ['title2'],
       },
       {
-        text: 'Organizar os alunos em um semicírculo.',
+        text: 'Organizar os estudantes em um semicírculo.',
         style: ['itemList'],
       },
       {
-        text: 'Perguntar aos alunos quais sons de pássaros eles conhecem.',
+        text: 'Perguntar aos estudantes quais sons de pássaros eles conhecem.',
         style: ['itemList'],
       },
       {
-        text: 'Inventariar junto aos alunos alguns desses sons.',
-        style: ['itemList'],
-      },
-      {
-        text:
-          'Propor que os alunos criem nos seus violoncelos sons que representem os inventariados previamente.',
-        style: ['itemList'],
-      },
-      {
-        text: 'Criar em conjunto com os alunos um som que represente o caçador.',
+        text: 'Inventariar junto aos estudantes alguns desses sons.',
         style: ['itemList'],
       },
       {
         text:
-          'Cada aluno atuará representando o som de um dos pássaros, e um aluno representará o caçador.',
+          'Propor que os estudantes criem nos seus violoncelos sons que representem os inventariados previamente.',
+        style: ['itemList'],
+      },
+      {
+        text: 'Criar em conjunto com os estudantes um som que represente o caçador.',
+        style: ['itemList'],
+      },
+      {
+        text:
+          'Cada estudante atuará representando o som de um dos pássaros, e um estudante representará o caçador.',
         style: ['itemList'],
       },
       {
@@ -737,7 +739,7 @@ const gameList: Game[] = [
       },
       {
         text:
-          'Quando desejar, o aluno que representa o caçador pode intervir na mata. Quando o caçador intervir, todos os pássaros se calam.',
+          'Quando desejar, o estudante que representa o caçador pode intervir na mata. Quando o caçador intervir, todos os pássaros se calam.',
         style: ['itemList'],
       },
       {
@@ -754,7 +756,7 @@ const gameList: Game[] = [
       },
       {
         text:
-          'Devemos proporcionar autonomia aos alunos, deixando a seu critério quando será o início e o final da improvisação, bem como, depois de quanto tempo após a intervenção do caçador os pássaros voltarão a cantar.',
+          'Devemos proporcionar autonomia aos estudantes, deixando a seu critério quando será o início e o final da improvisação, bem como, depois de quanto tempo após a intervenção do caçador os pássaros voltarão a cantar.',
         style: ['itemList'],
       },
     ],
