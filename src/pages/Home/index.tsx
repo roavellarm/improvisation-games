@@ -1,22 +1,15 @@
-import React, { useCallback, useContext, useEffect, useMemo, useState } from 'react'
+import React, { useCallback, useEffect, useMemo, useState } from 'react'
 import { useHistory } from 'react-router-dom'
 
 import { Game } from 'types'
 import Button from 'components/Button'
 import Carousel from 'components/Carousel'
 import gameList from 'assets/texts/games'
-import Switch from '../../components/Switch/index'
 import * as S from './styles'
-import { LanguageContext } from '../../Contexts/LanguageContext'
 
 export default function Home() {
   const { push } = useHistory()
   const [windowWidth, setWindowWidth] = useState(window.innerWidth)
-
-  const Language = useContext(LanguageContext)
-
-  // eslint-disable-next-line no-console
-  console.log(Language.state)
 
   const isMobileScreen = useMemo(() => windowWidth <= 800, [windowWidth])
 
@@ -55,7 +48,6 @@ export default function Home() {
 
   return (
     <S.Wrapper>
-      <Switch />
       <S.Container>
         {isMobileScreen ? (
           <>

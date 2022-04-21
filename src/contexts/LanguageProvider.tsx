@@ -10,7 +10,7 @@ interface ContextData {
 export const LanguageContext = createContext<ContextData>({} as ContextData)
 // eslint-disable-next-line react-hooks/rules-of-hooks
 
-export const LanguageContextProvider: React.FC = ({ children }) => {
+export const LanguageProvider: React.FC = ({ children }) => {
   const initialState = {
     language: 'pt-BR',
     headerTitle: 'Reconhecimento de voz',
