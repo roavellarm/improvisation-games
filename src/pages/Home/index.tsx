@@ -5,6 +5,7 @@ import { Game } from 'types'
 import Button from 'components/Button'
 import Carousel from 'components/Carousel'
 import gameList from 'assets/texts/games'
+import Switch from '../../components/Switch/index'
 import * as S from './styles'
 import { LanguageContext } from '../../Contexts/LanguageContext'
 
@@ -54,6 +55,7 @@ export default function Home() {
 
   return (
     <S.Wrapper>
+      <Switch />
       <S.Container>
         {isMobileScreen ? (
           <>
