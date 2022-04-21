@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import { ThemeProvider } from 'styled-components'
 
-import { LanguageProvider } from 'contexts/LanguageProvider'
+import { LanguageProvider } from 'contexts/LanguageContext'
 import theme from 'styles/theme'
 import GlobalStyles from 'styles/global'
 import Routes from './Routes'
