@@ -1,20 +1,21 @@
 /* eslint-disable react/prop-types */
-import React, { createContext, useState } from 'react'
+import React, { createContext, useContext, useState } from 'react'
 
 interface ContextData {
   language: String
   setLanguage: Object
+  useLanguage: any
 }
 
 export const LanguageContext = createContext<ContextData>({} as ContextData)
-// eslint-disable-next-line react-hooks/rules-of-hooks
 
 export const LanguageProvider: React.FC = ({ children }) => {
   const [language, setLanguage] = useState('portuguese')
-  // const useLanguage = useContext(LanguageContext)
+
+  const useLanguage = useContext(LanguageContext)
 
   return (
-    <LanguageContext.Provider value={{ language, setLanguage }}>
+    <LanguageContext.Provider value={{ language, useLanguage, setLanguage }}>
       {children}
     </LanguageContext.Provider>
   )
