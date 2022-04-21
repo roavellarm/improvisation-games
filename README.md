@@ -8,9 +8,9 @@
 
 Site desenvolvido como produto de pesquisa de mestrado em educação musical de **Marta Brietzke**, realizado na [Universidade de São Paulo](https://www5.usp.br/) nos anos de 2017 e 2018.
 
-Feito para professores de violoncelo de alunos iniciantes de desenvolvimento instrumental, que utilizem abordagens de ensino coletivo.
+Feito para professores de violoncelo de estudantes iniciantes de desenvolvimento instrumental, que utilizem abordagens de ensino coletivo.
 
-São jogos de improvisação musical coletiva, apresentados como planejamento de aulas e guias para as atividades sujeridas pelo professor aos alunos.
+São jogos de improvisação musical coletiva, apresentados como planejamento de aulas e guias para as atividades sujeridas pelo professor aos estudantes.
 
 As propostas nos jogos podem ser utilizadas para outros instrumentos além do violoncelo, e também para outros níveis de aprendizagem, cabendo a cada professor fazer as adaptações que julgar necessárias e efetivas para suas demandas.
 
