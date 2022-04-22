@@ -1,27 +1,22 @@
-import React, { createContext, ReactNode, useContext, useState } from 'react'
-
-enum LANGUAGE_OPTIONS {
-  'pt',
-  'en',
-  'es',
-}
+import React, { createContext, useContext, useState } from 'react'
 
 interface ContextData {
-  language: LANGUAGE_OPTIONS
-  selectLanguage(language: LANGUAGE_OPTIONS): void
+  language: string
+  selectLanguage(language: string): void // eslint-disable-line
 }
 
-const INITIAL_STATE = {
-  language: LANGUAGE_OPTIONS.pt,
-  selectLanguage: () => undefined,
-}
+const LanguageContext = createContext<ContextData>({} as ContextData)
 
-const LanguageContext = createContext<ContextData>(INITIAL_STATE)
+export const LanguageProvider = ({ children }: { children: React.ReactNode }) => {
+  const LANGUAGE_OPTIONS = {
+    pt: 'pt',
+    en: 'en',
+    es: 'es',
+  }
 
-export const LanguageProvider = ({ children }: { children: ReactNode }) => {
-  const [language, setLanguage] = useState(INITIAL_STATE.language)
+  const [language, setLanguage] = useState(LANGUAGE_OPTIONS.pt)
 
-  const selectLanguage = (language: LANGUAGE_OPTIONS) => setLanguage(language)
+  const selectLanguage = (lang: string) => setLanguage(lang)
 
   return (
     <LanguageContext.Provider value={{ language, selectLanguage }}>
