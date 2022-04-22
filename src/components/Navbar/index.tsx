@@ -1,5 +1,5 @@
-import React, { useCallback, useEffect, useState } from 'react'
-import { useNavigate } from 'react-router-dom'
+import React, { ReactElement, useCallback, useEffect, useState } from 'react'
+import { useHistory } from 'react-router-dom'
 
 import gameList from 'assets/texts/games'
 import { gameOptions } from 'helpers/game'
@@ -11,10 +11,6 @@ import * as S from './styles'
 
 export type NavbarProps = {
   currentPage?: string
-  initialState?: {
-    windowWidth: number
-    windowHeight: number
-  }
 }
 
 const INITIAL_STATE = {
@@ -22,10 +18,10 @@ const INITIAL_STATE = {
   windowHeight: window.innerHeight,
 }
 
-export default function Navbar({ currentPage = '', initialState = INITIAL_STATE }: NavbarProps) {
-  const navigate = useNavigate()
-  const [windowWith, setWindowWidth] = useState(initialState.windowWidth)
-  const [windowHeight, setWindowHeight] = useState(initialState.windowHeight)
+const Navbar = ({ currentPage }: NavbarProps) => {
+  const { push } = useHistory()
+  const [windowWith, setWindowWidth] = useState(INITIAL_STATE.windowWidth)
+  const [windowHeight, setWindowHeight] = useState(INITIAL_STATE.windowHeight)
 
   const renderGamesOptions = () => {
     if (windowWith > 700) return <CarousselNavbar gameList={gameList} />
@@ -33,16 +29,20 @@ export default function Navbar({ currentPage = '', initialState = INITIAL_STATE 
   }
 
   const renderArticleOptions = () =>
-    (windowWith <= 800 || windowHeight <= 645) && (
+    windowWith <= 800 || windowHeight <= 645 ? (
       <Dropdown title="Tópicos" isArticleStyle options={anchors} />
-    )
+    ) : null
 
   const renderQuarantineGamesOptions = () =>
-    (windowWith <= 800 || windowHeight <= 645) && (
+    windowWith <= 800 || windowHeight <= 645 ? (
       <Dropdown title="Tópicos" isArticleStyle options={quarentineAnchors} />
-    )
+    ) : null
 
-  const pagesMenus: any = {
+  type PagesMenus = {
+    [key: string]: ReactElement | null
+  }
+
+  const pagesMenus: PagesMenus = {
     articlePage: renderArticleOptions(),
     gamePage: renderGamesOptions(),
     quarantineGamesPage: renderQuarantineGamesOptions(),
@@ -62,10 +62,16 @@ export default function Navbar({ currentPage = '', initialState = INITIAL_STATE 
     <S.StyledNavbar>
       <S.Line />
       <S.Container isGamePage={currentPage === 'gamePage' || false}>
-        <S.SideArea onClick={() => navigate('/')}>{`<- Voltar`}</S.SideArea>
+        <S.SideArea onClick={() => push('/')}>{`<- Voltar`}</S.SideArea>
         <S.Spacer>{pagesMenus[`${currentPage}`]}</S.Spacer>
         <S.SideArea />
       </S.Container>
     </S.StyledNavbar>
   )
 }
+
+Navbar.defaultProps = {
+  currentPage: '',
+}
+
+export default Navbar
