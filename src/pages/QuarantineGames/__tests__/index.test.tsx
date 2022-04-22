@@ -6,7 +6,7 @@ import { withTheme } from 'config/testSetup'
 import QuarantineGames from '../index'
 
 jest.mock('react-router-dom', () => ({
-  useNavigate: () => jest.fn(),
+  useHistory: () => jest.fn(),
 }))
 
 window.scrollTo = jest.fn()
