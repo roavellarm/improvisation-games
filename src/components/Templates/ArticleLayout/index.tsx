@@ -20,20 +20,21 @@ interface ArticleProps {
   checkStepperPosition(number: number): number // eslint-disable-line
 }
 
-const ArticleLayout = ({
+function ArticleLayout({
   currentPage = 'articlePage',
   textData,
   headerTitle,
   anchors,
   checkStepperPosition,
-}: ArticleProps) => {
+}: ArticleProps) {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth)
   const [windowHeight, setWindowHeight] = useState(window.innerHeight)
   const [selectedStep, setSelectedStep] = useState(0)
 
-  const isDesktopScreen = useMemo(() => {
-    return windowWidth > 800 && windowHeight > 645
-  }, [windowHeight, windowWidth])
+  const isDesktopScreen = useMemo(() => windowWidth > 800 && windowHeight > 645, [
+    windowHeight,
+    windowWidth,
+  ])
 
   const getVerticalScrollPercentage = (elm: any) => {
     const p = elm.parentNode

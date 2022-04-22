@@ -8,9 +8,7 @@ import CarouselNavbar from '..'
 const mockPush = jest.fn()
 
 jest.mock('react-router-dom', () => ({
-  useHistory: () => ({
-    push: mockPush,
-  }),
+  useHistory: () => ({ push: mockPush }),
 }))
 
 export type GameContent = {

@@ -25,9 +25,8 @@ export default function Game() {
 
   const showSideArea = useMemo(() => windowWith > 900, [windowWith])
 
-  const getSelectedGame = (gameID: string) => {
-    return gameList.filter((currentGame) => currentGame.id === gameID)[0]
-  }
+  const getSelectedGame = (gameID: string) =>
+    gameList.filter((currentGame) => currentGame.id === gameID)[0]
 
   const updateWindowWidth = useCallback(() => {
     setWindowWidth(window.innerWidth)

@@ -8,7 +8,7 @@ const gameList: Game[] = [
     gameTitle: 'Jogo 1',
     content: [
       {
-        text: 'Pergunta e Resposta com cordas soltas em ​ pizzicato',
+        text: 'Pergunta e Resposta com cordas soltas em pizzicato',
         style: ['title1'],
       },
       {
@@ -70,7 +70,7 @@ const gameList: Game[] = [
       },
       {
         text:
-          'Cada dupla vem ao centro do semicírculo e realiza algumas séries de perguntas e respostas, apresentando-as para seus colegas de classe​.',
+          'Cada dupla vem ao centro do semicírculo e realiza algumas séries de perguntas e respostas, apresentando-as para seus colegas de classe.',
         style: ['itemList'],
       },
       {
@@ -107,7 +107,7 @@ const gameList: Game[] = [
       },
       {
         text:
-          '​Trabalhar as diferenças entre som e silêncio, bem como sua importância e papel dentro da construção musical; aprofundar a importância da coletividade dentro do processo musical; estabelecer a ideia de diálogo musical.',
+          'Trabalhar as diferenças entre som e silêncio, bem como sua importância e papel dentro da construção musical; aprofundar a importância da coletividade dentro do processo musical; estabelecer a ideia de diálogo musical.',
         style: ['paragraph'],
       },
       {
@@ -197,7 +197,7 @@ const gameList: Game[] = [
       },
       {
         text:
-          '​Estabelecer uma relação entre o imaginado e o sonoro; reforçar a confiança entre pares; desenvolver o poder de escolha dentro da criação musical.',
+          'Estabelecer uma relação entre o imaginado e o sonoro; reforçar a confiança entre pares; desenvolver o poder de escolha dentro da criação musical.',
         style: ['paragraph'],
       },
       {
@@ -221,7 +221,7 @@ const gameList: Game[] = [
       },
       {
         text:
-          'Escolher um dos estudantes para representar o viajante. Este estudante fará uma caminhada pelo castelo, evitando bater nos “objetos”, sendo guiado por sua audição. Quando o viajante se  aproximar de um objeto do castelo, o estudante que representa este objeto executará o seu som específico. À medida que o viajante se afastar do objeto, o som diminui de  intensidade, e o estudante que agora estiver mais próximo do viajante começará a executar o   som correspondente ao seu objeto, e assim sucessivamente, compondo uma narrativa musical.',
+          'Escolher um dos estudantes para representar o viajante. Este estudante fará uma caminhada pelo castelo, evitando bater nos “objetos”, sendo guiado por sua audição. Quando o viajante se aproximar de um objeto do castelo, o estudante que representa este objeto executará o seu som específico. À medida que o viajante se afastar do objeto, o som diminui de intensidade, e o estudante que agora estiver mais próximo do viajante começará a executar o som correspondente ao seu objeto, e assim sucessivamente, compondo uma narrativa musical.',
         style: ['itemList'],
       },
       {
@@ -309,7 +309,7 @@ const gameList: Game[] = [
       },
       {
         text:
-          'É interessante, em todos os jogos, que o professor seja o "maestro" na primeira vez que o jogo está sendo executado, mas que em seguida sejam escolhidos diferentes estudantes para assumirem essa função, possibilitando que todos os estudantes do grupo possam, em algum  momento, participar como "maestros" de algum dos jogos de improvisação.',
+          'É interessante, em todos os jogos, que o professor seja o "maestro" na primeira vez que o jogo está sendo executado, mas que em seguida sejam escolhidos diferentes estudantes para assumirem essa função, possibilitando que todos os estudantes do grupo possam, em algum momento, participar como "maestros" de algum dos jogos de improvisação.',
         style: ['itemList'],
       },
     ],
@@ -332,7 +332,7 @@ const gameList: Game[] = [
       },
       {
         text:
-          '​Trabalhar as ideias de similaridade e diferença em música; proporcionar a criação a partir de um elemento dado previamente; trabalhar a ideia de frases ou narrativas musicais.',
+          'Trabalhar as ideias de similaridade e diferença em música; proporcionar a criação a partir de um elemento dado previamente; trabalhar a ideia de frases ou narrativas musicais.',
         style: ['paragraph'],
       },
       {
@@ -490,7 +490,7 @@ const gameList: Game[] = [
       },
       {
         text:
-          'Trabalhar a noção de ​ solo e ​ tutti; ​ trabalhar a ideia de ostinato; trabalhar o conceito de forma musical.',
+          'Trabalhar a noção de solo e tutti; trabalhar a ideia de ostinato; trabalhar o conceito de forma musical.',
         style: ['paragraph'],
       },
       {
@@ -567,7 +567,7 @@ const gameList: Game[] = [
         style: ['paragraph'],
       },
       {
-        text: 'Objetivos:​',
+        text: 'Objetivos:',
         style: ['title2'],
       },
       {

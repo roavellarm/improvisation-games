@@ -18,17 +18,15 @@ export default function Dropdown(props: DropDownProps) {
       <Button>{isOpen ? `X` : title}</Button>
       {isOpen && (
         <DropdownContent isArticleStyle={isArticleStyle}>
-          {options.map((option, index) => {
-            return (
-              <Options
-                key={index}
-                value={option}
-                onClick={() => !isArticleStyle && push(`/game/${index + 1}`)}
-              >
-                {isArticleStyle ? <Anchor href={`#${option}`}>{option}</Anchor> : option}
-              </Options>
-            )
-          })}
+          {options.map((option, index) => (
+            <Options
+              key={index}
+              value={option}
+              onClick={() => !isArticleStyle && push(`/game/${index + 1}`)}
+            >
+              {isArticleStyle ? <Anchor href={`#${option}`}>{option}</Anchor> : option}
+            </Options>
+          ))}
         </DropdownContent>
       )}
     </Wrapper>
