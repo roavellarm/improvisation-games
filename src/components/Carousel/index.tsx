@@ -1,6 +1,6 @@
 import React from 'react'
 import Carousel from 'react-elastic-carousel'
-import { useHistory } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 
 import leaf from 'assets/images/button-image.png'
 import { Game } from 'types'
@@ -15,24 +15,23 @@ const customArrow = ({ type, onClick, isEdge }: any) => {
   )
 }
 
-const customPagination = ({ pages, activePage, onClick }: any) => {
-  return (
-    <div style={{ display: 'flex', flexDirection: 'row' }}>
-      {pages.map((page: any) => {
-        const isActivePage = activePage === page
+const customPagination = ({ pages, activePage, onClick }: any) => (
+  <div style={{ display: 'flex', flexDirection: 'row' }}>
+    {pages.map((page: any) => {
+      const isActivePage = activePage === page
 
-        return <S.GamesStepper key={page} onClick={() => onClick(page)} isActive={isActivePage} />
-      })}
-    </div>
-  )
-}
+      return <S.GamesStepper key={page} onClick={() => onClick(page)} isActive={isActivePage} />
+    })}
+  </div>
+)
 
 export default function Caroussel({ gameList }: { gameList: Game[] }) {
-  const { push } = useHistory()
-  const handleClick = (game: string) => push(`/game/${game}`)
+  const navigate = useNavigate()
+  const handleClick = (game: string) => navigate(`/game/${game}`)
 
   return (
     <S.Container>
+      {/* @ts-ignore */}
       <Carousel
         itemsToShow={3}
         itemsToScroll={3}

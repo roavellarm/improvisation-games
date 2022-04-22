@@ -1,5 +1,5 @@
 import React, { useCallback, useEffect, useState } from 'react'
-import { useHistory } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 
 import gameList from 'assets/texts/games'
 import { gameOptions } from 'helpers/game'
@@ -23,7 +23,7 @@ const INITIAL_STATE = {
 }
 
 export default function Navbar({ currentPage = '', initialState = INITIAL_STATE }: NavbarProps) {
-  const { push } = useHistory()
+  const navigate = useNavigate()
   const [windowWith, setWindowWidth] = useState(initialState.windowWidth)
   const [windowHeight, setWindowHeight] = useState(initialState.windowHeight)
 
@@ -62,7 +62,7 @@ export default function Navbar({ currentPage = '', initialState = INITIAL_STATE 
     <S.StyledNavbar>
       <S.Line />
       <S.Container isGamePage={currentPage === 'gamePage' || false}>
-        <S.SideArea onClick={() => push('/')}>{`<- Voltar`}</S.SideArea>
+        <S.SideArea onClick={() => navigate('/')}>{`<- Voltar`}</S.SideArea>
         <S.Spacer>{pagesMenus[`${currentPage}`]}</S.Spacer>
         <S.SideArea />
       </S.Container>

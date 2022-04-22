@@ -5,12 +5,10 @@ import '@testing-library/jest-dom/extend-expect'
 import { withTheme } from 'config/testSetup'
 import CarouselNavbar from '..'
 
-const mockPush = jest.fn()
+const mockNavigate = jest.fn()
 
 jest.mock('react-router-dom', () => ({
-  useHistory: () => ({
-    push: mockPush,
-  }),
+  useNavigate: () => mockNavigate,
 }))
 
 export type GameContent = {
@@ -70,7 +68,7 @@ describe('when a game option is clicked', () => {
     const { queryByText } = render(withTheme(<CarouselNavbar gameList={gameList} />))
     const gameOption = queryByText('Bar') as Element
     fireEvent.click(gameOption)
-    expect(mockPush).toHaveBeenCalledWith('/game/2')
-    expect(mockPush).not.toHaveBeenCalledWith('/game/1')
+    expect(mockNavigate).toHaveBeenCalledWith('/game/2')
+    expect(mockNavigate).not.toHaveBeenCalledWith('/game/1')
   })
 })

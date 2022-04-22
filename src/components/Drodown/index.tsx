@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { useHistory } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import { Wrapper, Button, DropdownContent, Options, Anchor } from './styles'
 
 type DropDownProps = {
@@ -10,7 +10,7 @@ type DropDownProps = {
 
 export default function Dropdown(props: DropDownProps) {
   const { title, options, isArticleStyle = false } = props
-  const { push } = useHistory()
+  const navigate = useNavigate()
   const [isOpen, setIsOpen] = useState<boolean>(false)
 
   return (
@@ -18,17 +18,15 @@ export default function Dropdown(props: DropDownProps) {
       <Button>{isOpen ? `X` : title}</Button>
       {isOpen && (
         <DropdownContent isArticleStyle={isArticleStyle}>
-          {options.map((option, index) => {
-            return (
-              <Options
-                key={index}
-                value={option}
-                onClick={() => !isArticleStyle && push(`/game/${index + 1}`)}
-              >
-                {isArticleStyle ? <Anchor href={`#${option}`}>{option}</Anchor> : option}
-              </Options>
-            )
-          })}
+          {options.map((option, index) => (
+            <Options
+              key={index}
+              value={option}
+              onClick={() => !isArticleStyle && navigate(`/game/${index + 1}`)}
+            >
+              {isArticleStyle ? <Anchor href={`#${option}`}>{option}</Anchor> : option}
+            </Options>
+          ))}
         </DropdownContent>
       )}
     </Wrapper>

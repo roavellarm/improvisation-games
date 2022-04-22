@@ -1,6 +1,6 @@
 import React from 'react'
 import Carousel from 'react-elastic-carousel'
-import { useHistory } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 
 import { Game } from 'types'
 import * as S from './styles'
@@ -15,12 +15,12 @@ const customArrow = ({ type, onClick, isEdge }: any) => {
 }
 
 export default function CarousselNavbar({ gameList }: { gameList: Game[] }) {
-  const { push } = useHistory()
+  const navigate = useNavigate()
   const handleClick = (game: string) => {
     window.scrollTo({ top: 0 })
     document.body.scrollTop = 0
     document.documentElement.scrollTop = 0
-    push(`/game/${game}`)
+    navigate(`/game/${game}`)
   }
 
   return (

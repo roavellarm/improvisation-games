@@ -5,12 +5,10 @@ import '@testing-library/jest-dom/extend-expect'
 import { withTheme } from 'config/testSetup'
 import Navbar from '..'
 
-const mockPush = jest.fn()
+const mockNavigate = jest.fn()
 
 jest.mock('react-router-dom', () => ({
-  useHistory: () => ({
-    push: mockPush,
-  }),
+  useNavigate: () => mockNavigate,
 }))
 
 const desktopSize = {
@@ -87,7 +85,7 @@ describe('when the "Voltar" link is clicked', () => {
     const element = queryByText('<- Voltar') as Element
     fireEvent.click(element)
 
-    expect(mockPush).toHaveBeenCalledWith('/')
+    expect(mockNavigate).toHaveBeenCalledWith('/')
   })
 })
 

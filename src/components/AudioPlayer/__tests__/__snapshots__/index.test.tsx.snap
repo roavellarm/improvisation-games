@@ -6,7 +6,7 @@ Object {
   "baseElement": <body>
     <div>
       <audio
-        class="react-audio-player sc-bdfBwQ juLNas"
+        class="react-audio-player sc-bczRLJ cCGxPO"
         controls=""
         id=""
         preload="metadata"
@@ -25,7 +25,7 @@ Object {
   </body>,
   "container": <div>
     <audio
-      class="react-audio-player sc-bdfBwQ juLNas"
+      class="react-audio-player sc-bczRLJ cCGxPO"
       controls=""
       id=""
       preload="metadata"

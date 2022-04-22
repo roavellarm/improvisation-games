@@ -1,5 +1,5 @@
 import React, { useCallback, useEffect, useMemo, useState } from 'react'
-import { useParams, useHistory } from 'react-router-dom'
+import { useParams, useNavigate } from 'react-router-dom'
 
 import { Game as GameProps } from 'types'
 import HeaderTitle from 'components/HeaderTitle'
@@ -15,7 +15,7 @@ import * as S from './styles'
 
 export default function Game() {
   const { id } = useParams() as { id: string }
-  const { push } = useHistory()
+  const navigate = useNavigate()
   const [windowWith, setWindowWidth] = useState(window.innerWidth)
   const [game, setGame] = useState<GameProps>({
     id: '',
@@ -25,9 +25,8 @@ export default function Game() {
 
   const showSideArea = useMemo(() => windowWith > 900, [windowWith])
 
-  const getSelectedGame = (gameID: string) => {
-    return gameList.filter((currentGame) => currentGame.id === gameID)[0]
-  }
+  const getSelectedGame = (gameID: string) =>
+    gameList.filter((currentGame) => currentGame.id === gameID)[0]
 
   const updateWindowWidth = useCallback(() => {
     setWindowWidth(window.innerWidth)
@@ -35,12 +34,12 @@ export default function Game() {
 
   useEffect(() => {
     const currentGame = getSelectedGame(id) as GameProps
-    if (currentGame === undefined) push('/*')
+    if (currentGame === undefined) navigate('/*')
     setGame(currentGame)
     window.scrollTo({ top: 0 })
     document.body.scrollTop = 0
     document.documentElement.scrollTop = 0
-  }, [id, push])
+  }, [id, navigate])
 
   useEffect(() => {
     window.addEventListener('resize', updateWindowWidth)
