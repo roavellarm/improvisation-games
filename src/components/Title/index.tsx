@@ -2,7 +2,7 @@ import React, { ReactNode } from 'react'
 import * as S from './styles'
 
 export type TitleProps = {
-  children: ReactNode | string
+  children: ReactNode
   anchor?: boolean
 }
 

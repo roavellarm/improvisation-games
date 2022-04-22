@@ -31,10 +31,10 @@ function ArticleLayout({
   const [windowHeight, setWindowHeight] = useState(window.innerHeight)
   const [selectedStep, setSelectedStep] = useState(0)
 
-  const isDesktopScreen = useMemo(
-    () => windowWidth > 800 && windowHeight > 645,
-    [windowHeight, windowWidth]
-  )
+  const isDesktopScreen = useMemo(() => windowWidth > 800 && windowHeight > 645, [
+    windowHeight,
+    windowWidth,
+  ])
 
   const getVerticalScrollPercentage = (elm: any) => {
     const p = elm.parentNode
