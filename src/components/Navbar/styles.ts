@@ -31,12 +31,11 @@ export const Container = styled.div`
   align-items: center;
   width: 100%;
   height: 100%;
-  background: ${({ theme, isGamePage }: ContainerProps) => {
-    return isGamePage
+  background: ${({ theme, isGamePage }: ContainerProps) =>
+    isGamePage
       ? theme.colors.white
       : `linear-gradient(to bottom, rgba(254, 254, 254, 1),
-          rgba(254, 254, 254, 0))`
-  }};
+          rgba(254, 254, 254, 0))`};
 
   @media screen and (max-width: 1000px) {
     background: ${({ theme }) => theme.colors.white};

@@ -6,7 +6,13 @@ import leaf from 'assets/images/button-image.png'
 import { Game } from 'types'
 import * as S from './styles'
 
-const customArrow = ({ type, onClick, isEdge }: any) => {
+type CustomArrow = {
+  type: string
+  onClick: () => void
+  isEdge: boolean
+}
+
+const customArrow = ({ type, onClick, isEdge }: CustomArrow) => {
   const pointer = type === 'PREV' ? '<' : '>'
   return (
     <S.Arrow onClick={onClick} isEdge={isEdge}>
@@ -15,17 +21,21 @@ const customArrow = ({ type, onClick, isEdge }: any) => {
   )
 }
 
-const customPagination = ({ pages, activePage, onClick }: any) => {
-  return (
-    <div style={{ display: 'flex', flexDirection: 'row' }}>
-      {pages.map((page: any) => {
-        const isActivePage = activePage === page
-
-        return <S.GamesStepper key={page} onClick={() => onClick(page)} isActive={isActivePage} />
-      })}
-    </div>
-  )
+type CustomPagination = {
+  pages: number[]
+  activePage: number
+  onClick: (i: string) => void // eslint-disable-line
 }
+
+const customPagination = ({ pages, activePage, onClick }: CustomPagination) => (
+  <div style={{ display: 'flex', flexDirection: 'row' }}>
+    {pages.map((page: any) => {
+      const isActivePage = activePage === page
+
+      return <S.GamesStepper key={page} onClick={() => onClick(page)} isActive={isActivePage} />
+    })}
+  </div>
+)
 
 export default function Caroussel({ gameList }: { gameList: Game[] }) {
   const { push } = useHistory()

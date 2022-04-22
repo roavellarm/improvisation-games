@@ -6,12 +6,10 @@ import 'jest-styled-components'
 import { withTheme } from 'config/testSetup'
 import Dropdown from '..'
 
-const mockPush = {
-  push: jest.fn(),
-}
+const mockPush = jest.fn()
 
 jest.mock('react-router-dom', () => ({
-  useHistory: () => mockPush,
+  useHistory: () => ({ push: mockPush }),
 }))
 
 const props = {
@@ -57,7 +55,7 @@ describe('when an option is choosed', () => {
     fireEvent.click(queryByText('Foo bar') as Element)
     fireEvent.click(queryByText('Consectetur adipiscing elit') as Element)
 
-    expect(mockPush.push).toHaveBeenCalledWith('/game/3')
+    expect(mockPush).toHaveBeenCalledWith('/game/3')
   })
 })
 
