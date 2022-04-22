@@ -1,12 +1,18 @@
 import React from 'react'
 import Carousel from 'react-elastic-carousel'
-import { useNavigate } from 'react-router-dom'
+import { useHistory } from 'react-router-dom'
 
 import leaf from 'assets/images/button-image.png'
 import { Game } from 'types'
 import * as S from './styles'
 
-const customArrow = ({ type, onClick, isEdge }: any) => {
+type CustomArrow = {
+  type: string
+  onClick: () => void
+  isEdge: boolean
+}
+
+const customArrow = ({ type, onClick, isEdge }: CustomArrow) => {
   const pointer = type === 'PREV' ? '<' : '>'
   return (
     <S.Arrow onClick={onClick} isEdge={isEdge}>
@@ -15,7 +21,13 @@ const customArrow = ({ type, onClick, isEdge }: any) => {
   )
 }
 
-const customPagination = ({ pages, activePage, onClick }: any) => (
+type CustomPagination = {
+  pages: number[]
+  activePage: number
+  onClick: (i: string) => void // eslint-disable-line
+}
+
+const customPagination = ({ pages, activePage, onClick }: CustomPagination) => (
   <div style={{ display: 'flex', flexDirection: 'row' }}>
     {pages.map((page: any) => {
       const isActivePage = activePage === page
@@ -26,12 +38,11 @@ const customPagination = ({ pages, activePage, onClick }: any) => (
 )
 
 export default function Caroussel({ gameList }: { gameList: Game[] }) {
-  const navigate = useNavigate()
-  const handleClick = (game: string) => navigate(`/game/${game}`)
+  const { push } = useHistory()
+  const handleClick = (game: string) => push(`/game/${game}`)
 
   return (
     <S.Container>
-      {/* @ts-ignore */}
       <Carousel
         itemsToShow={3}
         itemsToScroll={3}
