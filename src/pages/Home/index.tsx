@@ -1,5 +1,5 @@
 import React, { useCallback, useEffect, useMemo, useState } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { useHistory } from 'react-router-dom'
 
 import { Game } from 'types'
 import Button from 'components/Button'
@@ -8,12 +8,12 @@ import gameList from 'assets/texts/games'
 import * as S from './styles'
 
 export default function Home() {
-  const navigate = useNavigate()
+  const { push } = useHistory()
   const [windowWidth, setWindowWidth] = useState(window.innerWidth)
 
   const isMobileScreen = useMemo(() => windowWidth <= 800, [windowWidth])
 
-  const handleClick = (game: string) => navigate(`/game/${game}`)
+  const handleClick = (game: string) => push(`/game/${game}`)
 
   const renderButton = (g: Game) => (
     <Button key={g.id} title={g.gameTitle} onClick={() => handleClick(g.id)} />
@@ -30,9 +30,9 @@ export default function Home() {
     <>
       <S.Image />
       <S.Links>
-        <S.Link onClick={() => navigate('quarantine-games')}>Sons da quarentena</S.Link>
-        <S.Link onClick={() => navigate('about')}>Saiba mais</S.Link>
-        <S.Link onClick={() => navigate('article')}>Caderno de atividades</S.Link>
+        <S.Link onClick={() => push('quarantine-games')}>Sons da quarentena</S.Link>
+        <S.Link onClick={() => push('about')}>Saiba mais</S.Link>
+        <S.Link onClick={() => push('article')}>Caderno de atividades</S.Link>
       </S.Links>
     </>
   )

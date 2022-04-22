@@ -1,5 +1,5 @@
 import React, { useCallback, useEffect, useMemo, useState } from 'react'
-import { useParams, useNavigate } from 'react-router-dom'
+import { useParams, useHistory } from 'react-router-dom'
 
 import { Game as GameProps } from 'types'
 import HeaderTitle from 'components/HeaderTitle'
@@ -15,7 +15,7 @@ import * as S from './styles'
 
 export default function Game() {
   const { id } = useParams() as { id: string }
-  const navigate = useNavigate()
+  const { push } = useHistory()
   const [windowWith, setWindowWidth] = useState(window.innerWidth)
   const [game, setGame] = useState<GameProps>({
     id: '',
@@ -34,12 +34,12 @@ export default function Game() {
 
   useEffect(() => {
     const currentGame = getSelectedGame(id) as GameProps
-    if (currentGame === undefined) navigate('/*')
+    if (currentGame === undefined) push('/*')
     setGame(currentGame)
     window.scrollTo({ top: 0 })
     document.body.scrollTop = 0
     document.documentElement.scrollTop = 0
-  }, [id, navigate])
+  }, [id, push])
 
   useEffect(() => {
     window.addEventListener('resize', updateWindowWidth)
