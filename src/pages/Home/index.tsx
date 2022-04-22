@@ -5,11 +5,20 @@ import { Game } from 'types'
 import Button from 'components/Button'
 import Carousel from 'components/Carousel'
 import gameList from 'assets/texts/games'
+import { useLanguage } from 'contexts/LanguageContext'
+import { english, portuguese } from './text'
 import * as S from './styles'
 
+const TEXTS: any = {
+  pt: portuguese,
+  en: english,
+}
+
 export default function Home() {
-  const { push } = useHistory()
   const [windowWidth, setWindowWidth] = useState(window.innerWidth)
+  const [text, setText] = useState(portuguese)
+  const { push } = useHistory()
+  const { language, selectEnglish, selectPortuguese } = useLanguage()
 
   const isMobileScreen = useMemo(() => windowWidth <= 800, [windowWidth])
 
@@ -21,8 +30,8 @@ export default function Home() {
 
   const renderTitle = () => (
     <>
-      <S.Title>Jogos de improvisação</S.Title>
-      <S.SubTitle>para violoncelistas iniciantes</S.SubTitle>
+      <S.Title>{text.title}</S.Title>
+      <S.SubTitle>{text.subtitle}</S.SubTitle>
     </>
   )
 
@@ -30,9 +39,9 @@ export default function Home() {
     <>
       <S.Image />
       <S.Links>
-        <S.Link onClick={() => push('quarantine-games')}>Sons da quarentena</S.Link>
-        <S.Link onClick={() => push('about')}>Saiba mais</S.Link>
-        <S.Link onClick={() => push('article')}>Caderno de atividades</S.Link>
+        <S.Link onClick={() => push('quarantine-games')}>{text.quarantineLink}</S.Link>
+        <S.Link onClick={() => push('about')}>{text.aboutLink}</S.Link>
+        <S.Link onClick={() => push('article')}>{text.articleLink}</S.Link>
       </S.Links>
     </>
   )
@@ -40,6 +49,12 @@ export default function Home() {
   const updateWindowWidth = useCallback(() => {
     setWindowWidth(window.innerWidth)
   }, [])
+
+  const handleLanguage = useCallback(() => setText(TEXTS[`${language}`]), [language])
+
+  useEffect(() => {
+    handleLanguage()
+  }, [handleLanguage])
 
   useEffect(() => {
     window.addEventListener('resize', updateWindowWidth)
@@ -70,6 +85,20 @@ export default function Home() {
           </>
         )}
       </S.Container>
+      <button
+        style={{ height: '50px', width: '200px' }}
+        type="button"
+        onClick={() => selectPortuguese()}
+      >
+        Portugues
+      </button>
+      <button
+        style={{ height: '50px', width: '200px' }}
+        type="button"
+        onClick={() => selectEnglish()}
+      >
+        English
+      </button>
     </S.Wrapper>
   )
 }
