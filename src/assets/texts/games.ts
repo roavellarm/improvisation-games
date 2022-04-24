@@ -248,7 +248,7 @@ const gameList: Game[] = [
         style: ['title1'],
       },
       {
-        text: 'Autor: Wanderson Cruz',
+        text: 'Autoria: Wanderson Cruz',
         style: ['paragraph'],
       },
       {
@@ -323,7 +323,11 @@ const gameList: Game[] = [
         style: ['title1'],
       },
       {
-        text: 'Autor: Violeta Gainza',
+        text: 'Autoria: Violeta Gainza',
+        style: ['paragraph'],
+      },
+      {
+        text: 'Adaptação: Marta Brietzke',
         style: ['paragraph'],
       },
       {
@@ -332,7 +336,7 @@ const gameList: Game[] = [
       },
       {
         text:
-          'Trabalhar as ideias de similaridade e diferença em música; proporcionar a criação a partir de um elemento dado previamente; trabalhar a ideia de frases ou narrativas musicais.',
+          'Trabalhar as ideias de similaridade e diferença em música; proporcionar a criação a partir de um elemento dado previamente; desenvolver a ideia de frases e de narrativas musicais.',
         style: ['paragraph'],
       },
       {
@@ -355,17 +359,17 @@ const gameList: Game[] = [
       },
       {
         text:
-          'O professor escolhe um dos cartazes e mostra ao segundo estudante, que deve seguir as instruções contidas no cartaz, executando, assim, uma frase igual, parecida ou diferente da frase criada pelo primeiro estudante.',
+          'O professor escolhe um dos cartazes e mostra ao segundo estudante que deve seguir as instruções contidas no cartaz, tocando, assim, uma frase igual, parecida ou diferente da frase criada pelo primeiro estudante.',
         style: ['itemList'],
       },
       {
         text:
-          'Oferecer um dos cartazes ao terceiro estudante, que deverá executar sua frase seguindo as instruções do cartaz, fazendo referência à frase executada pelo segundo estudante e assim por diante, até que todos os estudantes tenham participado algumas de rodadas do jogo.',
+          'Apresentar um dos cartazes ao terceiro estudante que deverá executar sua frase seguindo as instruções do cartaz e fazendo referência à frase executada pelo segundo estudante e assim por diante. O jogo segue essa dinâmica até que todos os estudantes tenham participado de algumas rodadas do jogo.',
         style: ['itemList'],
       },
       {
         text:
-          'Escolher um dos estudantes para ser o “maestro” e mostrar os cartazes aos demais colegas. Podemos acrescentar mais complexidade nesta rodada do jogo, propondo que o “maestro”, além de escolher os cartazes, escolha também qual estudante executará a nova frase, sendo que para isso, o “maestro” deve utilizar sinais de linguagem não-verbal.',
+          'Escolher um dos estudantes para ser o “maestro” e assumir a função de apresentar os cartazes aos demais colegas. Podemos acrescentar mais complexidade nesta rodada do jogo propondo que o “maestro”, além de escolher os cartazes, escolha também qual estudante executará a nova frase. Para isso o “maestro” deve utilizar sinais de linguagem não verbal.',
         style: ['itemList'],
       },
       {
@@ -374,7 +378,7 @@ const gameList: Game[] = [
       },
       {
         text:
-          'Ao acrescentarmos mais complexidade na variação do jogo propiciaremos que os estudantes desenvolvam mais atenção na escuta.',
+          'Ao acrescentarmos mais complexidade na variação do jogo propiciamos que os estudantes desenvolvam mais atenção na escuta.',
         style: ['itemList'],
       },
     ],
