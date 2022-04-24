@@ -561,11 +561,6 @@ const gameList: Game[] = [
           'Durante os solos não é necessário pensar em harmonia ou condução vocal, pois a improvisação não necessita obedecer aos padrões do tonalismo.',
         style: ['itemList'],
       },
-      // {
-      //   text:
-      //     'O objetivo desta improvisação é que os estudantes possam organizar livremente suas ideias, utilizando os conteúdos já absorvidos por eles.',
-      //   style: ['itemList'],
-      // },
       {
         text:
           'A improvisação pode ser organizada de diferentes maneiras, por exemplo, estabelecer que após o final de cada solo se executará um número determinado de vezes o ostinato, ou propor uma forma rondó, onde a parte A será um número fixo de vezes que a orquestra executará o ostinato, ou um tema criado em conjunto pelos estudantes, etc.',
@@ -587,7 +582,7 @@ const gameList: Game[] = [
         style: ['title1'],
       },
       {
-        text: 'Autor: Claudia Freixedas',
+        text: 'Autoria: Claudia Freixedas',
         style: ['paragraph'],
       },
       {
@@ -604,12 +599,12 @@ const gameList: Game[] = [
       },
       {
         text:
-          'Este jogo é uma variação do jogo 3, A noite no castelo, porém, sendo acrescentadas algumas complexidades.',
+          'Este jogo é uma variação do ogo 3 (A noite no castelo) sendo acrescentadas algumas complexidades.',
         style: ['itemList'],
       },
       {
         text:
-          'Posicionar os estudantes em diferentes pontos da sala, com alguma distância entre eles.',
+          'Posicionar os estudantes em diferentes pontos da sala com alguma distância entre eles.',
         style: ['itemList'],
       },
       {
@@ -618,7 +613,7 @@ const gameList: Game[] = [
       },
       {
         text:
-          'Cada árvore da floresta emitirá um som escolhido pelo estudantes que a representará.',
+          'Cada árvore da floresta emitirá um som escolhido pelos estudantes que a representará.',
         style: ['itemList'],
       },
       {
@@ -627,7 +622,7 @@ const gameList: Game[] = [
       },
       {
         text:
-          'Ao se aproximarem das árvores, essas emitem o som escolhido pelo estudante que a representa. Ao se afastarem, a intensidade do som vai diminuindo e o estudante que estiver mais próximo começa a emitir o seu som escolhido.',
+          'Ao se aproximarem das árvores, elas emitem o som escolhido pelo estudante que a representa. Ao se afastarem a intensidade do som vai diminuindo e o estudante que estiver mais próximo começa a emitir o som escolhido por ele.',
         style: ['itemList'],
       },
       {
@@ -636,12 +631,12 @@ const gameList: Game[] = [
       },
       {
         text:
-          'Devemos acrescentar algumas diferenças e complexidades neste jogo em relação ao jogo 3, A noite no castelo.',
+          'Devemos acrescentar algumas diferenças e complexidades neste jogo em relação ao jogo 3.',
         style: ['itemList'],
       },
       {
         text:
-          'Uma das complexidades a serem acrescentadas é a participação de dois “maestros”, o que resultará em interações e diálogos musicais entre eles.',
+          'Uma das complexidades que podem ser acrescentadas é a participação de dois “maestros”, o que resultará em interações e diálogos musicais entre eles.',
         style: ['itemList'],
       },
     ],
