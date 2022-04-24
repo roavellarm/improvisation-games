@@ -501,7 +501,11 @@ const gameList: Game[] = [
         style: ['title1'],
       },
       {
-        text: 'Autor: Diversos autores/Marta Brietzke',
+        text: 'Autoria: Diversos autores/Marta Brietzke',
+        style: ['paragraph'],
+      },
+      {
+        text: 'Adaptação: Marta Brietzke',
         style: ['paragraph'],
       },
       {
@@ -536,7 +540,7 @@ const gameList: Game[] = [
       },
       {
         text:
-          'O grupo que representa a orquestra deve executar o ostinato, enquanto o estudante solista executa diferentes frases ou ideias musicais, utilizando os sons que desejar.',
+          'O grupo que representa a orquestra deve executar o ostinato. O estudante solista executa diferentes frases ou ideias musicais utilizando os sons que desejar.',
         style: ['itemList'],
       },
       {
@@ -545,7 +549,7 @@ const gameList: Game[] = [
       },
       {
         text:
-          'Após a execução do solo por um estudante, o estudante seguinte passa a ser o solista, e assim sucessivamente, até que todos os estudantes tenham participado no papel de solistas.',
+          'Após a execução do solo por um estudante, o estudante seguinte passa a ser o solista, e assim sucessivamente até que todos os estudantes tenham participado no papel de solistas.',
         style: ['itemList'],
       },
       {
@@ -554,22 +558,22 @@ const gameList: Game[] = [
       },
       {
         text:
-          'Durante os solos não é necessário que pensemos em harmonia ou condução vocal, pois a improvisação não necessita obedecer aos padrões do tonalismo.',
+          'Durante os solos não é necessário pensar em harmonia ou condução vocal, pois a improvisação não necessita obedecer aos padrões do tonalismo.',
+        style: ['itemList'],
+      },
+      // {
+      //   text:
+      //     'O objetivo desta improvisação é que os estudantes possam organizar livremente suas ideias, utilizando os conteúdos já absorvidos por eles.',
+      //   style: ['itemList'],
+      // },
+      {
+        text:
+          'A improvisação pode ser organizada de diferentes maneiras, por exemplo, estabelecer que após o final de cada solo se executará um número determinado de vezes o ostinato, ou propor uma forma rondó, onde a parte A será um número fixo de vezes que a orquestra executará o ostinato, ou um tema criado em conjunto pelos estudantes, etc.',
         style: ['itemList'],
       },
       {
         text:
-          'O objetivo desta improvisação é que os estudantes possam organizar livremente suas ideias, utilizando os conteúdos já absorvidos por eles.',
-        style: ['itemList'],
-      },
-      {
-        text:
-          'A improvisação pode ser organizada de diferentes maneiras, por exemplo, estabelecer que após o final de cada solo se executará um número determinado de vezes o ostinato, ou propor uma forma rondó, onde a parte A será um número fixo de vezes que a orquestra executará o ostinato, ou um tema criado em conjunto pelos estudantes.',
-        style: ['itemList'],
-      },
-      {
-        text:
-          'Podemos organizar e acrescentar complexidades no decorrer das jogadas, intercalando-as com audições coletivas das improvisações criadas pelos estudantes.',
+          'Acrescentar complexidades no decorrer das jogadas, intercalando-as com audições coletivas das improvisações criadas pelos estudantes.',
         style: ['itemList'],
       },
     ],
