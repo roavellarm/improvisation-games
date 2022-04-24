@@ -650,7 +650,7 @@ const gameList: Game[] = [
         style: ['title1'],
       },
       {
-        text: 'Autor: Violeta Gainza',
+        text: 'Autoria: Violeta Gainza',
         style: ['paragraph'],
       },
       {
@@ -659,7 +659,7 @@ const gameList: Game[] = [
       },
       {
         text:
-          'Trabalhar diferentes opções musicais de uma mesma sonoridade; trabalhar a ideia de narrativa musical.',
+          'Trabalhar diferentes possibilidades musicais de uma mesma sonoridade; trabalhar a ideia de narrativa musical.',
         style: ['paragraph'],
       },
       {
@@ -682,7 +682,7 @@ const gameList: Game[] = [
       },
       {
         text:
-          'O visitante realiza um passeio pelo zoológico, se posicionando frente aos diferentes animais, e nesse momento, os animais reproduzem o som escolhido pelos estudantes.',
+          'O visitante realiza um passeio pelo zoológico, se posicionando frente aos diferentes animais e, nesse momento, os animais reproduzem o som escolhido pelos estudantes.',
         style: ['itemList'],
       },
       {
@@ -691,12 +691,12 @@ const gameList: Game[] = [
       },
       {
         text:
-          'Podemos propor que os animais emitam os seus sons de acordo com as indicações corporais do visitante, executando diferentes níveis de dinâmica, intensidade e caráter musical.',
+          'Propor que os animais emitam os seus sons de acordo com as indicações corporais do visitante, que deve executar diferentes níveis de dinâmica, intensidade e caráter musical.',
         style: ['itemList'],
       },
       {
         text:
-          'Assim como nos jogos anteriores, podemos gravar as improvisações possibilitando que, nas próximas rodadas dos jogos, as interações sejam cada vez mais provenientes das escolhas musicais dos estudantes.',
+          'Assim como nos jogos anteriores, é interessante gravar as improvisações possibilitando que nas próximas rodadas dos jogos as interações sejam mais conscientes e decorrentes das escolhas musicais dos estudantes.',
         style: ['itemList'],
       },
     ],
