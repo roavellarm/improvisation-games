@@ -393,7 +393,7 @@ const gameList: Game[] = [
         style: ['title1'],
       },
       {
-        text: 'Autoria: Diversos autores/Marta Brietzke',
+        text: 'Autoria: Diversos autores',
         style: ['paragraph'],
       },
       {
@@ -501,7 +501,7 @@ const gameList: Game[] = [
         style: ['title1'],
       },
       {
-        text: 'Autoria: Diversos autores/Marta Brietzke',
+        text: 'Autoria: Diversos autores',
         style: ['paragraph'],
       },
       {
@@ -710,7 +710,11 @@ const gameList: Game[] = [
         style: ['title1'],
       },
       {
-        text: 'Autor: Cláudia Freixedas/Marta Brietzke',
+        text: 'Autoria: Cláudia Freixedas',
+        style: ['paragraph'],
+      },
+      {
+        text: 'Adaptação: Marta Brietzke',
         style: ['paragraph'],
       },
       {
@@ -719,7 +723,7 @@ const gameList: Game[] = [
       },
       {
         text:
-          'Trabalhar a liberdade e as diferentes opções para o início, o desenvolvimento e o final da “peça” musical; trabalhar questões ligadas à ecologia e à ecologia acústica; trabalhar os diálogos, as polifonias e a noção de forma musical.',
+          'Trabalhar a liberdade e as diferentes opções para o início, para o desenvolvimento e para o final da “peça” musical; trabalhar questões ligadas à ecologia e à ecologia acústica; trabalhar os diálogos, as polifonias e a noção de forma musical.',
         style: ['paragraph'],
       },
       {
@@ -749,11 +753,11 @@ const gameList: Game[] = [
       },
       {
         text:
-          'Cada estudante atuará representando o som de um dos pássaros, e um estudante representará o caçador.',
+          'Cada estudante atuará representando o som de um dos pássaros e um estudante representará o caçador.',
         style: ['itemList'],
       },
       {
-        text: 'Os pássaros devem dialogar entre si, criando um contexto musical.',
+        text: 'Os pássaros devem dialogar entre si criando um contexto musical.',
         style: ['itemList'],
       },
       {
@@ -775,7 +779,7 @@ const gameList: Game[] = [
       },
       {
         text:
-          'Devemos proporcionar autonomia aos estudantes, deixando a seu critério quando será o início e o final da improvisação, bem como, depois de quanto tempo após a intervenção do caçador os pássaros voltarão a cantar.',
+          'Proporcionar autonomia aos estudantes, deixando a seu critério quando será o início e o final da improvisação, bem como, depois de quanto tempo após a intervenção do caçador os pássaros voltarão a cantar.',
         style: ['itemList'],
       },
     ],
