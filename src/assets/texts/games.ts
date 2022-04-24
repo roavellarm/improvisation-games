@@ -393,7 +393,11 @@ const gameList: Game[] = [
         style: ['title1'],
       },
       {
-        text: 'Autor: Diversos autores/Marta Brietzke',
+        text: 'Autoria: Diversos autores/Marta Brietzke',
+        style: ['paragraph'],
+      },
+      {
+        text: 'Adaptação: Marta Brietzke',
         style: ['paragraph'],
       },
       {
@@ -420,12 +424,12 @@ const gameList: Game[] = [
       },
       {
         text:
-          'Cada grupo deve examinar as gravuras e imagens e criar uma história, que pode ser decorrente de quantas imagens o grupo escolher para isso, sendo que este número pode variar entre os diferentes grupos.',
+          'Cada grupo deve examinar as gravuras e imagens e criar uma história, que pode ser decorrente de quantas imagens o grupo escolher. Esse número pode variar entre os diferentes grupos.',
         style: ['itemList'],
       },
       {
         text:
-          'Propor aos estudantes que criem uma história que apresente um enredo, contendo início, meio e final.',
+          'Propor aos estudantes que criem uma história que apresente um enredo contendo , contendo início, meio e final.',
         style: ['itemList'],
       },
       {
@@ -458,7 +462,7 @@ const gameList: Game[] = [
       },
       {
         text:
-          'Durante o processo de criação da história e da música devemos dar aos estudantes autonomia para que eles mesmos se organizem e estabeleçam relações entre eles, estimulando que todos os estudantes devem participar deste processo.',
+          'Durante o processo de criação da história e da música dar autonomia aos estudantes para que eles mesmos se organizem e estabeleçam relações entre eles, estimulando que todos participem deste processo. Dar autonomia aos estudantes durante seus ensaios e durante a apresentação. Os grupos podem escolher como farão esta apresentação, contando ou não a história criada, apresentando ou não a partitura. Estimular que a comunicação entre os estudantes seja estabelecida de forma não verbal durante a apresentação da música.',
         style: ['itemList'],
       },
       {
