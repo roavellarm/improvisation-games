@@ -188,7 +188,7 @@ const gameList: Game[] = [
         style: ['title1'],
       },
       {
-        text: 'Autor: Claudia Freixedas',
+        text: 'Autoria: Claudia Freixedas',
         style: ['paragraph'],
       },
       {
@@ -197,7 +197,7 @@ const gameList: Game[] = [
       },
       {
         text:
-          'Estabelecer uma relação entre o imaginado e o sonoro; reforçar a confiança entre pares; desenvolver o poder de escolha dentro da criação musical.',
+          'Estabelecer relações entre o imaginário e o sonoro; reforçar a confiança entre pares; desenvolver o poder de escolha dentro da criação musical.',
         style: ['paragraph'],
       },
       {
@@ -206,12 +206,12 @@ const gameList: Game[] = [
       },
       {
         text:
-          'Contar uma história aos estudantes, sobre um viajante que chega à um castelo mal-assombrado em meio a uma noite de tempestade',
+          'Contar uma história aos estudantes sobre um viajante que chega em um castelo mal-assombrado em meio a uma noite de tempestade',
         style: ['itemList'],
       },
       {
         text:
-          'Inventariar sons que poderiam compor esta paisagem, como, trovões, rajadas de vento, som da chuva, morcegos, fantasmas, assim como objetos que estariam dentro do castelo, como quadros, vasos, móveis antigos, etc.',
+          'Inventariar sons que poderiam compor esta paisagem(trovões, rajadas de vento, som da chuva, morcegos, fantasmas, etc) assim como objetos que estariam dentro do castelo(quadros, vasos, móveis antigos, etc).',
         style: ['itemList'],
       },
       {
@@ -221,7 +221,7 @@ const gameList: Game[] = [
       },
       {
         text:
-          'Escolher um dos estudantes para representar o viajante. Este estudante fará uma caminhada pelo castelo, evitando bater nos “objetos”, sendo guiado por sua audição. Quando o viajante se aproximar de um objeto do castelo, o estudante que representa este objeto executará o seu som específico. À medida que o viajante se afastar do objeto, o som diminui de intensidade, e o estudante que agora estiver mais próximo do viajante começará a executar o som correspondente ao seu objeto, e assim sucessivamente, compondo uma narrativa musical.',
+          'Escolher um dos estudantes para representar o viajante. Este estudante fará uma caminhada pelo castelo evitando bater nos “objetos”, guiado por sua audição. Quando o viajante se aproximar de um objeto do castelo, o estudante que representa este objeto executará o seu som específico. À medida que o viajante se afastar do objeto, o som diminui de intensidade, e o estudante que estiver mais próximo do viajante começará a executar o som correspondente ao seu objeto, e assim sucessivamente, compondo uma narrativa musical.',
         style: ['itemList'],
       },
       {
@@ -230,7 +230,7 @@ const gameList: Game[] = [
       },
       {
         text:
-          'A fim de estimular os estudantes a intensificarem seu poder de escuta, podemos propor que o viajante permaneça mais tempo na frente do objeto que quer ouvir, ou que volte à um determinado objeto que deseja ouvir novamente, exercendo papel ativo na composição da narrativa.',
+          'A fim de estimular os estudantes a intensificarem seu poder de escuta, propor que o viajante permaneça mais tempo na frente do objeto que quer ouvir ou que volte a um determinado objeto que deseja ouvir novamente, exercendo papel ativo na composição da narrativa.',
         style: ['itemList'],
       },
       {
