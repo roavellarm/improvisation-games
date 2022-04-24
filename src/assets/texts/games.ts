@@ -12,7 +12,7 @@ const gameList: Game[] = [
         style: ['title1'],
       },
       {
-        text: 'Autor: Marta Brietzke',
+        text: 'Autoria: Marta Brietzke',
         style: ['paragraph'],
       },
       {
@@ -21,7 +21,7 @@ const gameList: Game[] = [
       },
       {
         text:
-          'Propiciar aos estudantes a consciência da sua individualidade e seu papel dentro do coletivo; estabelecer as ideias de narrativa musical, de perguntas e respostas, enfatizando o uso das quatro cordas do violoncelo, do ​ pizzicato, ​ de diferentes ritmos, métricas, timbres e dinâmicas.',
+          'Propiciar aos estudantes a consciência da sua individualidade e seu papel dentro do coletivo; estabelecer as ideias de narrativa musical e de perguntas e respostas, enfatizando o uso das quatro cordas do violoncelo, do ​ pizzicato, ​ de diferentes ritmos, métricas, timbres e dinâmicas.',
         style: ['paragraph'],
       },
       {
@@ -34,12 +34,12 @@ const gameList: Game[] = [
       },
       {
         text:
-          'Explicar aos estudantes o que pode ser uma pergunta e o que pode ser uma resposta dentro de uma narrativa musical.',
+          'Explicar aos estudantes o que poderia ser uma pergunta e o que poderia ser uma resposta dentro de uma narrativa musical.',
         style: ['itemList'],
       },
       {
         text:
-          'Dar um exemplo utilizando apenas as cordas soltas do violoncelo, contemplando diferentes ritmos, métricas, dinâmicas e variações de caráter.',
+          'Exemplificar utilizando apenas as cordas soltas do violoncelo, contemplando diferentes ritmos, métricas, dinâmicas e variações de caráter.',
         style: ['itemList'],
       },
       {
@@ -84,7 +84,7 @@ const gameList: Game[] = [
       },
       {
         text:
-          'Com frequência se observa um aumento de complexidade na elaboração das perguntas e respostas dos estudantes ao longo das atividades.',
+          'Se observa, com frequência, um aumento de complexidade na elaboração das perguntas e respostas dos estudantes ao longo das atividades.É interessante enfatizar esse fato.',
         style: ['itemList'],
       },
     ],
