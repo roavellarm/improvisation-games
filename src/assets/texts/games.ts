@@ -98,7 +98,7 @@ const gameList: Game[] = [
         style: ['title1'],
       },
       {
-        text: 'Autor: Maria Teresa Alencar de Brito/Murray Schafer',
+        text: 'Autoria: Maria Teresa Alencar de Brito/Murray Schafer',
         style: ['paragraph'],
       },
       {
@@ -120,7 +120,7 @@ const gameList: Game[] = [
       },
       {
         text:
-          'Propor que os estudantes explorem diferentes sonoridades dos seus violoncelos, associadas às técnicas estendidas.',
+          'Propor aos estudantes que explorem diferentes sonoridades dos seus violoncelos, através das técnicas estendidas.',
         style: ['itemList'],
       },
       {
@@ -135,27 +135,27 @@ const gameList: Game[] = [
       },
       {
         text:
-          'Cada estudante deverá apresentar uma sonoridade pesquisada aos demais colegas da turma, que devem, em conjunto, reproduzí-la.',
+          'Cada estudante deverá apresentar uma sonoridade pesquisada aos demais colegas da turma, que devem, em conjunto, reproduzi-la.',
         style: ['itemList'],
       },
       {
         text:
-          'Apresentar dois pequenos cartazes aos estudantes, um da cor verde e outro da cor vermelha. Associar os cartazes com as leis de trânsito, sendo que verde significará “tocar” e vermelho significará “não tocar”.',
+          'Apresentar dois pequenos cartazes aos estudantes, um da cor verde e outro da cor vermelha. Associar os cartazes com as regras de trânsito, sendo que verde significará “tocar” e vermelho significará “não tocar”.',
         style: ['itemList'],
       },
       {
         text:
-          'Executar algumas combinações com os cartazes, propondo que os estudantes toquem quaisquer sons que desejarem, oriundos das técnicas tradicionais ou das técnicas estendidas.',
+          'Executar algumas combinações com os cartazes, propondo que os estudantes toquem quaisquer sons que desejarem.',
         style: ['itemList'],
       },
       {
         text:
-          'Propor algumas variações de dinâmica, dependendo da maneira como os cartazes forem apresentado aos estudantes.',
+          'Propor algumas variações de dinâmica, dependendo da sequência que os cartazes forem apresentados aos estudantes.',
         style: ['itemList'],
       },
       {
         text:
-          'Escolher um estudante para ser o “maestro” dos demais, cabendo à ele a função de apresentar os cartazes aos colegas.',
+          'Escolher um estudante para ser o “maestro” dos demais, cabendo a ele a função de apresentar os cartazes aos colegas.',
         style: ['itemList'],
       },
       {
@@ -165,7 +165,7 @@ const gameList: Game[] = [
       },
       {
         text:
-          'Cada grupo deverá seguir as indicações dos seus respectivos “maestros”, que devem se comunicar, de maneira não-verbal, a fim de proporcionar a interação e o diálogo musical entre os dois grupos.',
+          'Cada grupo deverá seguir as indicações dos seus respectivos “maestros”, que devem se comunicar de maneira não verbal e proporcionar a interação e o diálogo musical entre os dois grupos.',
         style: ['itemList'],
       },
       {
@@ -174,7 +174,7 @@ const gameList: Game[] = [
       },
       {
         text:
-          'Devemos estar atentos e estimular o poder de escuta dos estudantes, ressaltando que as diferentes combinações de sons e silêncios estabelecidas entre os “maestros” proporcionam a criação de uma narrativa musical.',
+          'Devemos estar atentos e estimular o poder de escuta dos estudantes ressaltando que as diferentes combinações de sons e silêncios estabelecidas entre os “maestros” proporcionam a criação de uma narrativa musical.',
         style: ['itemList'],
       },
     ],
