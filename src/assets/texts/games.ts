@@ -383,6 +383,7 @@ const gameList: Game[] = [
       },
     ],
   },
+
   {
     id: '6',
     gameTitle: 'Jogo 6',
