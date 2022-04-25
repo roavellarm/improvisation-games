@@ -25,18 +25,17 @@ export default function SectionKnowledge() {
       <HeaderTitle isAboutPage>Saiba mais</HeaderTitle>
       <Paragraph>
         Este site foi pensado para professores de violoncelo de estudantes iniciantes de
-        desenvolvimento instrumental, que utilizam abordagens de ensino coletivo. É um produto de
-        uma pesquisa de mestrado que se realizou na Universidade de São Paulo, São Paulo, Brasil,
-        nos anos de 2017 e 2018.
+        desenvolvimento instrumental que utilizam abordagens de ensino coletivo. É produto de uma
+        pesquisa de mestrado realizada nos anos de 2017 e 2018 na Universidade de São Paulo, Brasil.
       </Paragraph>
       <Paragraph>
         Apesar do trabalho de pesquisa ter sido direcionado para estudantes de violoncelo, muitas
         das propostas contidas nos jogos podem ser desenvolvidas para outros instrumentos e, também,
         para outros níveis de aprendizagem, cabendo a cada professor fazer as adaptações que julgar
         necessárias e efetivas para suas demandas. Além disso, cabem muitos desdobramentos das
-        propostas iniciais, que podem suscitar outras ideias e perspectivas de trabalho.
+        propostas iniciais que podem suscitar outras ideias e perspectivas de trabalho.
       </Paragraph>
-      <Paragraph>Boa diversão e boas aprendizagens!</Paragraph>
+      {/* <Paragraph>Boa diversão e boas aprendizagens!</Paragraph> */}
 
       <Title>Sobre a autora</Title>
       <Picture isMobile={isMobileScreen} />
