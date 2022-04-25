@@ -10,7 +10,7 @@ import ScrollToTopButton from 'components/ScrollToTopButton'
 import SubTitle from 'components/SubTitle'
 import Title from 'components/Title'
 import AudioPlayer from 'components/AudioPlayer'
-import gameList from 'assets/texts/games'
+import gameList from 'assets/texts/gamesEN'
 import * as S from './styles'
 
 export default function Game() {

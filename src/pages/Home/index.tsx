@@ -4,7 +4,7 @@ import { useHistory } from 'react-router-dom'
 import { Game } from 'types'
 import Button from 'components/Button'
 import Carousel from 'components/Carousel'
-import gameList from 'assets/texts/games'
+import gameList from 'assets/texts/gamesEN'
 import * as S from './styles'
 
 export default function Home() {

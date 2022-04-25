@@ -1,7 +1,7 @@
 import React, { ReactElement, useCallback, useEffect, useState } from 'react'
 import { useHistory } from 'react-router-dom'
 
-import gameList from 'assets/texts/games'
+import gameList from 'assets/texts/gamesEN'
 import { gameOptions } from 'helpers/game'
 import { anchors } from 'pages/Article/anchors'
 import { quarentineAnchors } from 'pages/QuarantineGames/anchors'
