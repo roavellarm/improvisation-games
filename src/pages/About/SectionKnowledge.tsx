@@ -51,7 +51,7 @@ export default function SectionKnowledge() {
         região metropolitana do meu estado. Em conjunto com alguns estudantes de violoncelo,
         fundamos em Porto Alegre um espaço autogestionado de ensino e aprendizagem do violoncelo,
         denominado Filarmônica de Violoncelos-Tchêllistas. Minha área de pesquisa se relaciona ao
-        ensino coletivo de instrumentos musicais, abordando distintas possibilidades e facetas.
+        ensino coletivo de instrumentos musicais abordando distintas possibilidades e facetas.
         Também me dedico à performance de música contemporânea de concerto, fazendo a estreia de
         algumas peças de compositores brasileiros.
       </Paragraph>
