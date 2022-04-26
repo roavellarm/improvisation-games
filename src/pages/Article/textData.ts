@@ -389,9 +389,15 @@ const textData: Array<ArticleItem> = [
     style: ['title2'],
   },
   {
-    text: 'Autor: Violeta Gainza',
+    text: 'Autoria: Violeta Gainza',
     style: ['paragraph', 'italic'],
   },
+
+  {
+    text: ' Adaptação: Marta Brietzke',
+    style: ['paragraph', 'italic'],
+  },
+
   {
     text: 'Objetivos:',
     style: ['paragraph', 'bold'],
@@ -407,7 +413,7 @@ const textData: Array<ArticleItem> = [
   },
   {
     text:
-      'Apresentamos aos estudantes três pequenos cartazes. No primeiro cartaz, apresentamos o sinal matemático utilizado para igual, no segundo o sinal matemático utilizado para diferente e no terceiro cartaz podemos criar algum sinal que represente o parecido. Propomos aos estudantes que eles devem respeitar os sinais que serão oferecidos a eles. O primeiro estudante cria livremente uma frase musical, em seguida o professor apresenta um dos sinais ao segundo estudante, que deve repetir ou variar a frase de acordo com o sinal representado. O professor oferece então um novo sinal ao terceiro estudante, que agora deve repetir ou variar a frase apresentada pelo segundo estudante, e assim sucessivamente, até que todos os estudantes tenham elaborado suas frases. Os sinais podem ser escolhidos aleatoriamente ou selecionados previamente pelo professor.',
+      'Apresentamos aos estudantes três pequenos cartazes. No primeiro cartaz, apresentamos o sinal matemático utilizado para igual, no segundo o sinal matemático utilizado para diferente e no terceiro cartaz podemos criar algum sinal que represente o parecido. Propomos aos estudantes que eles devem respeitar os sinais que serão oferecidos a eles. O primeiro estudante cria livremente uma frase musical. Em seguida o professor apresenta um dos sinais ao segundo estudante, que deve repetir ou variar a frase de acordo com o sinal representado. O professor oferece, então, um novo sinal ao terceiro estudante, que agora deve repetir ou variar a frase apresentada pelo segundo estudante. Assim o jogo segue até que todos os estudantes tenham elaborado suas frases. Os sinais podem ser escolhidos aleatoriamente ou selecionados previamente pelo professor.',
     style: ['paragraph'],
   },
   {
