@@ -206,7 +206,11 @@ const textData: Array<ArticleItem> = [
     style: ['title2'],
   },
   {
-    text: 'Autor: Maria Teresa Alencar de Brito/Murray Schafer',
+    text: 'Autoria: Maria Teresa Alencar de Brito',
+    style: ['paragraph', 'italic'],
+  },
+  {
+    text: 'Adaptação: Marta Brietzke',
     style: ['paragraph', 'italic'],
   },
   {
@@ -229,12 +233,12 @@ const textData: Array<ArticleItem> = [
   },
   {
     text:
-      'Podemos também escolher alguns desses sons e compartilhá-los com os estudantes, se considerarmos que o aprendizado de todos os sons no mesmo dia pode causar alguma dificuldade de assimilação por parte dos estudantes. Posteriormente, nas próximas aulas, podemos introduzir mais alguns desses sons, a fim de aumentar o leque expressivo dos estudantes. Em alguns grupos de estudantes, que ainda não sabem segurar o arco, podemos oferecer esses mesmos sons, propondo que os estudantes segurem o arco “abraçando-o” no talão. Dessa maneira, os estudantes ficarão confortáveis e não vão adquirir vícios posturais. A maioria dos sons podem ser produzidos com a “pegada” do arco dessa maneira, possibilitando que os jogos sejam desenvolvidos em paralelo com a aquisição técnica dos estudantes.',
+      'Podemos também escolher alguns desses sons e compartilhá-los com os estudantes, se considerarmos que o aprendizado de todos os sons no mesmo dia pode causar alguma dificuldade de assimilação. Posteriormente, nas próximas aulas, podemos introduzir mais alguns desses sons, a fim de aumentar o leque expressivo dos estudantes. Em alguns grupos de estudantes, que ainda não sabem segurar o arco, podemos oferecer esses mesmos sons, propondo que os estudantes segurem o arco “abraçando-o” no talão. Dessa maneira, os estudantes ficarão confortáveis e não vão adquirir vícios posturais. A maioria dos sons podem ser produzidos com a “pegada” do arco dessa maneira, possibilitando que os jogos sejam desenvolvidos em paralelo com a aquisição técnica dos estudantes.',
     style: ['paragraph'],
   },
   {
     text:
-      'Após a exploração do instrumento, mostramos aos estudantes dois pequenos cartazes, um verde e um vermelho. Associamos esses cartazes às regras de trânsito, em que o verde significa seguir ou, então, tocar, e o vermelho significa parar ou não tocar. Podemos propor que os estudantes escolham, cada um, um dos sons inventariados anteriormente, ou então que produzam diferentes sons. Ao ser apresentado o sinal verde, os estudantes devem executar um som no seu violoncelo, ao ser apresentado o sinal vermelho, os estudantes devem fazer uma pausa. Dessa maneira, estabelecemos a importância e a função do silêncio na perspectiva musical.',
+      'Após a exploração do instrumento, mostramos aos estudantes dois pequenos cartazes, um verde e um vermelho. Associamos esses cartazes às regras de trânsito, em que o verde significa seguir ou, então, tocar, e o vermelho significa parar ou não tocar. Podemos propor que os estudantes escolham, cada um, um dos sons inventariados anteriormente, ou então que produzam diferentes sons. Ao ser apresentado o sinal verde, os estudantes devem executar um som no seu violoncelo. Ao ser apresentado o sinal vermelho, os estudantes devem fazer uma pausa. Dessa maneira, estabelecemos a importância e a função do silêncio na perspectiva musical.',
     style: ['paragraph'],
   },
   {
@@ -244,17 +248,16 @@ const textData: Array<ArticleItem> = [
   },
   {
     text:
-      'Os maestros devem se comunicar entre si para definir o início e o fim da música, cabendo a nós, estabelecermos que essa comunicação deve ser não verbal. Devemos salientar, nessa fase do jogo, que é importante que, tantos os maestros quanto os executantes escutem as diferentes sonoridades produzidas pelo grupo e se tornem conscientes da “narrativa” musical que está sendo criada. Os maestros devem ser incentivados a criarem, junto com os sinais verde e vermelho, sinais de variação de dinâmicas, de articulação e de caráter. Por exemplo, abaixar o sinal pode indicar tocar mais piano, levantar o sinal pode significar tocar mais forte. Devemos estar atentos e estimular que o poder de escuta dos estudantes vá se aprofundando em cada rodada do jogo, evitando que ele se torne mecânico e repetitivo.',
+      'Os maestros devem se comunicar entre si para definir o início e o fim da música, cabendo a nós, estabelecermos que essa comunicação deve ser não verbal. Devemos salientar nessa fase do jogo que é importante que, tantos os maestros quanto os executantes escutem as diferentes sonoridades produzidas pelo grupo e se tornem conscientes da “narrativa” musical que está sendo criada. Os maestros devem ser incentivados a criarem, junto com os sinais verde e vermelho, sinais de variação de dinâmicas, de articulação e de caráter. Por exemplo, abaixar o sinal pode indicar tocar mais piano, levantar o sinal pode significar tocar mais forte. Devemos estar atentos e estimular que o poder de escuta dos estudantes vá se aprofundando em cada rodada do jogo, evitando que ele se torne mecânico e repetitivo.',
     style: ['paragraph'],
   },
   {
     text:
-      'Também é interessante nesse momento que mostremos a gravação de alguma peça musical que utilize técnicas estendidas, como por exemplo, a peça Pression de Helmut Lachenmann, disponível em várias versões no site youtube. Tal audição aproxima o trabalho realizado pelos estudantes com o trabalho realizado por outras pessoas, o que é importante para que os estudantes valorizem sua própria produção e as dos demais. Outra peça interessante são as improvisações por senhas executadas pelo grupo de violoncelistas argentinos _ARRE!_ Algumas dessas improvisações também estão disponíveis no site youtube e proporcionam ao estudante a escuta de diferentes sonoridades, sendo produzidas por grupo de violoncelos, e assim como em Lachenmann, aproximam o trabalho realizado pelos estudantes com o que vem sendo produzido pelos músicos da atualidade.',
+      'Também é interessante nesse momento que mostremos a gravação de alguma peça musical que utilize técnicas estendidas, como por exemplo, a peça Pression de Helmut Lachenmann, disponível em várias versões no site youtube. Tal audição aproxima o trabalho realizado pelos estudantes com o trabalho realizado por outras pessoas, o que é importante para que os estudantes valorizem sua própria produção e as dos demais. Outra peça interessante são as improvisações por senhas executadas pelo grupo de violoncelistas argentinos _ARRE!_ Algumas dessas improvisações também estão disponíveis no site youtube e proporcionam ao estudante a escuta de diferentes sonoridades, sendo produzidas por grupo de violoncelos e, assim como em Lachenmann, aproximam o trabalho realizado pelos estudantes com o que vem sendo produzido pelos músicos da atualidade.',
     style: ['paragraph'],
   },
   {
-    text:
-      'Fonte: Elaborado pela autora, com base nas propostas de Maria Teresa Alencar de Brito e Murray Schafer.',
+    text: 'Fonte: Elaborado pela autora, com base nas propostas de Maria Teresa Alencar de Brito.',
     style: ['paragraph', 'citation'],
   },
   {
