@@ -331,7 +331,7 @@ const textData: Array<ArticleItem> = [
     style: ['title2'],
   },
   {
-    text: 'Autor: Wanderson Cruz',
+    text: 'Autoria: Wanderson Cruz',
     style: ['paragraph', 'italic'],
   },
   {
@@ -354,7 +354,7 @@ const textData: Array<ArticleItem> = [
   },
   {
     text:
-      'Propomos então aos estudantes que cada um crie sua própria assinatura musical utilizando para isso os sons que desejarem. Damos um tempo para que os estudantes façam essa pesquisa e escolham individualmente sua assinatura. Logo após, propomos que cada estudante execute a sua assinatura para os demais colegas do grupo, a fim de que todos possam conhecer todas as assinaturas. É interessante que peçamos aos estudantes que executem mais de uma vez a sua assinatura, para que possamos verificar se ele está mantendo sempre a mesma assinatura ou se a cada vez executa uma assinatura diferente. Nesse jogo, propomos que as assinaturas de cada estudante sejam sempre as mesmas.',
+      'Propomos, então, aos estudantes que cada um crie sua própria assinatura musical utilizando para isso os sons que desejar. Damos um tempo para que os estudantes façam essa pesquisa e escolham individualmente sua assinatura. Logo após, propomos que cada estudante execute a sua assinatura para os demais colegas do grupo, a fim de que todos possam conhecer todas as assinaturas. É interessante que peçamos aos estudantes que executem mais de uma vez a sua assinatura, para que possamos verificar se ele está mantendo sempre a mesma assinatura ou se a cada vez executa uma assinatura diferente. Nesse jogo, propomos que as assinaturas de cada estudante sejam sempre as mesmas.',
     style: ['paragraph'],
   },
   {
@@ -369,7 +369,7 @@ const textData: Array<ArticleItem> = [
   },
   {
     text:
-      'É interessante, em todos os jogos, que o professor seja o maestro na primeira vez que o jogo está sendo executado, mas que em seguida sejam escolhidos diferentes estudantes para assumirem essa função, possibilitando que todos os estudantes do grupo possam, em algum momento, participar como maestros de algum dos jogos de improvisação.',
+      'É interessante, em todos os jogos, que o professor seja o maestro na primeira vez que o jogo está sendo executado, mas que em seguida, sejam escolhidos diferentes estudantes para assumirem essa função. Assim, possibilitamos que todos os estudantes do grupo possam, em algum momento, participar como maestros de algum dos jogos de improvisação.',
     style: ['paragraph'],
   },
   {
