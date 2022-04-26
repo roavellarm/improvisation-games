@@ -153,7 +153,7 @@ const textData: Array<ArticleItem> = [
     style: ['title2'],
   },
   {
-    text: 'Autor: Marta Brietzke',
+    text: 'Autoria: Marta Brietzke',
     style: ['paragraph', 'italic'],
   },
   {
@@ -181,12 +181,12 @@ const textData: Array<ArticleItem> = [
   },
   {
     text:
-      'Logo após, propomos que os estudantes se distribuam em duplas e que escolham quem vai fazer a pergunta e quem vai fazer a resposta. Cada dupla se dispõe em um local da sala e é importante que os estudantes tenham experiência em ambos os papéis. A ideia é que após esse momento, os estudantes possam “apresentar”, em duplas, para os demais colegas uma série de perguntas e respostas elaboradas por eles.',
+      'Logo após, propomos que os estudantes se distribuam em duplas e que escolham quem vai fazer a pergunta e quem vai fazer a resposta. Cada dupla se dispõe em um local da sala e é importante que os estudantes tenham experiência em ambos os papéis. A ideia é que, após esse momento, os estudantes possam “apresentar”, em duplas, para os demais colegas uma série de perguntas e respostas elaboradas por eles.',
     style: ['paragraph'],
   },
   {
     text:
-      'É importante que possibilitemos uma certa autonomia aos estudantes. É interessante que deixemos a sua escolha definir quantas perguntas e respostas querem apresentar aos colegas, quem inicia perguntando, que sinal vão combinar para o início e o final das sessões de perguntas e respostas. Comfrequência, vamos observar um aumento na complexidade das perguntas e respostas feitas pelos estudantes em relação àquelas elaboradas no início do jogo.',
+      'É importante que possibilitemos uma certa autonomia aos estudantes. É interessante que deixemos a sua escolha definir quantas perguntas e respostas querem apresentar aos colegas, quem inicia perguntando, que sinal vão combinar para o início e o final das sessões de perguntas e respostas. Com frequência, vamos observar um aumento na complexidade das perguntas e respostas feitas pelos estudantes em relação àquelas elaboradas no início do jogo.',
     style: ['paragraph'],
   },
   {
