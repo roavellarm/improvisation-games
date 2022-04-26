@@ -273,7 +273,7 @@ const textData: Array<ArticleItem> = [
     style: ['title2'],
   },
   {
-    text: 'Autor: Claudia Freixedas',
+    text: 'Autoria: Claudia Freixedas',
     style: ['paragraph', 'italic'],
   },
   {
@@ -282,7 +282,7 @@ const textData: Array<ArticleItem> = [
   },
   {
     text:
-      'Estabelecer uma relação entre o imaginado e o sonoro; reforçar a confiança entre pares; desenvolver o poder de escolha dentro da criação musical.',
+      'Estabelecer uma relação entre o imaginário e o sonoro; reforçar a confiança entre pares; desenvolver o poder de escolha dentro da criação musical.',
     style: ['paragraph'],
   },
   {
@@ -291,7 +291,7 @@ const textData: Array<ArticleItem> = [
   },
   {
     text:
-      'Nesse jogo, contamos uma história, imaginando um castelo mal-assombrado em meio a uma noite de tempestade. Estimulamos os estudantes a narrarem quais elementos estariam presentes nesse castelo, como por exemplo, teias de aranha, morcegos, fantasmas, bem como os elementos da natureza, como por exemplo, trovões, rajadas de vento, chuva. Nessa tempestade, um viajante se aproximará do castelo e tomará contato com essas diferentes manifestações.',
+      'Nesse jogo contamos uma história imaginando um castelo mal-assombrado em meio a uma noite de tempestade. Estimulamos os estudantes a narrarem quais elementos estariam presentes nesse castelo, como por exemplo, teias de aranha, morcegos, fantasmas, bem como os elementos da natureza, como por exemplo, trovões, rajadas de vento, chuva. Nessa tempestade, um viajante se aproximará do castelo e tomará contato com essas diferentes manifestações.',
     style: ['paragraph'],
   },
   {
@@ -311,7 +311,7 @@ const textData: Array<ArticleItem> = [
   },
   {
     text:
-      'É interessante que se faça uma gravação em áudio ou vídeo da improvisação que posteriormente se escute essa gravação em conjunto e se discuta sobre o resultado. A audição da peça inteira proporciona a todos os participantes a ideia geral da proposta musical produzida. Algumas vezes, os estudantes envolvidos na execução podem perder a noção do todo musical e essa audição é fundamental para que os estudantes percebam que não estão sendo produzidos apenas ruídos desconexos e sim, um “caminho” musical.',
+      'É interessante que se faça uma gravação em áudio ou vídeo da improvisação e que, posteriormente, se escute essa gravação em conjunto e se discuta sobre o resultado. A audição da peça inteira proporciona a todos os participantes a ideia geral da proposta musical produzida. Algumas vezes, os estudantes envolvidos na execução podem perder a noção do todo musical e essa audição é fundamental para que os estudantes percebam que não estão sendo produzidos apenas ruídos desconexos e sim, um “caminho” musical.',
     style: ['paragraph'],
   },
   {
