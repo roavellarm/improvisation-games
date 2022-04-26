@@ -90,7 +90,7 @@ const textData: Array<ArticleItem> = [
   },
   {
     text:
-      'Educadores e pensadores de diversas áreas vêm desenvolvendo ao longo da tempo, ideias a respeito da aprendizagem por meio dos jogos, porém, os pesquisadores atuais consideram que essas ideias ainda não estão claras para todas as pessoas que trabalham diretamente com a educação. Um dos motivos dessa confusão diz respeito à característica polissêmica da palavra jogo, que pode ser usada para referenciar atividades com significados diversos. O jogo vem sendo estudado como uma parte natural e essencial do ser humano, parte essencial da aprendizagem e da transmissão de conhecimentos e da própria cultura.',
+      'Educadores e pensadores de diversas áreas vêm desenvolvendo ao longo do tempo, ideias a respeito da aprendizagem por meio dos jogos, porém, os pesquisadores atuais consideram que essas ideias ainda não estão claras para todas as pessoas que trabalham diretamente com a educação. Um dos motivos dessa confusão diz respeito à característica polissêmica da palavra jogo, que pode ser usada para referenciar atividades com significados diversos. O jogo vem sendo estudado como uma parte natural e essencial do ser humano, parte essencial da aprendizagem e da transmissão de conhecimentos e da própria cultura.',
     style: ['paragraph'],
   },
   {
@@ -109,7 +109,7 @@ const textData: Array<ArticleItem> = [
   },
   {
     text:
-      'Estima-se que o ensino de instrumento em grupo iniciou ainda no século XIX na Inglaterra e posteriormente nos Estados Unidos. No Brasil, ele começou a ser adotado na década de cinquenta do século XX, sendo que, na década de setenta, um grande movimento surgiu para o ensino coletivo de cordas friccionadas, encabeçado por Alberto Jaffé e Dayse de Luca. A partir da disseminação do ensino coletivo de instrumento, pesquisadores iniciaram a investigação sobre os benefícios de tal modelo de ensino, benefícios que, além de musicais, são de ordem psicológica e social.',
+      'Estima-se que o ensino de instrumento em grupo, como o denominamos hoje, iniciou ainda no século XIX na Inglaterra e posteriormente nos Estados Unidos. No Brasil, ele começou a ser adotado na década de cinquenta do século XX, sendo que, na década de setenta, um grande movimento surgiu para o ensino coletivo de cordas friccionadas, encabeçado por Alberto Jaffé e Dayse de Luca. A partir da disseminação do ensino coletivo de instrumento, pesquisadores iniciaram a investigação sobre os benefícios de tal modelo de ensino, benefícios que, além de musicais, são de ordem psicológica e social.',
     style: ['paragraph'],
   },
   {
