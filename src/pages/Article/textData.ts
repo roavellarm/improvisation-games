@@ -507,7 +507,11 @@ const textData: Array<ArticleItem> = [
     style: ['title2'],
   },
   {
-    text: 'Autor: Vários autores/Marta Brietzke',
+    text: 'Autoria: Vários autores',
+    style: ['paragraph', 'italic'],
+  },
+  {
+    text: 'Adaptação: Marta Brietzke',
     style: ['paragraph', 'italic'],
   },
   {
@@ -530,12 +534,12 @@ const textData: Array<ArticleItem> = [
   },
   {
     text:
-      'Propomos, então, aos estudantes que o grupo se divida em orquestra e solista. O grupo que representará a orquestra executará o ritmo ostinato com corda solta ré, enquanto o estudante escolhido para ser solista executará diferentes frases, englobando os conhecimentos musicais e técnicos já aprendidos por eles. Não é necessário, nesse momento, que se pense em harmonia ou condução vocal, pois a improvisação não necessita obedecer aos padrões estéticos do tonalismo. O objetivo é que os estudantes possam utilizar livremente seus conhecimentos musicais e organizar suas ideias tendo como ponto de partida um ritmo em ostinato.',
+      'Propomos, então, aos estudantes que o grupo se divida em orquestra e solista. O grupo que representará a orquestra executará o ritmo ostinato com corda solta ré, enquanto o estudante escolhido para ser solista executará diferentes frases, englobando os conhecimentos musicais e técnicos já aprendidos por eles. Não é necessário, nesse momento, que se pense em harmonia ou condução vocal, pois a improvisação não necessita obedecer aos padrões estéticos do tonalismo. O objetivo é que os estudantes possam utilizar livremente seus conhecimentos musicais e organizar suas ideias, tendo como ponto de partida um ritmo em ostinato.',
     style: ['paragraph'],
   },
   {
     text:
-      'Podemos organizar a improvisação de diferentes maneiras, como por exemplo, estabelecendo que vamos executar duas vezes o ritmo em ostinato após o término de cada solo, para que o próximo executante identifique a sua hora de entrar como solista na execução. Também podemos organizar a improvisação na forma rondó, propondo que a parte A seja algum número específico de vezes da repetição do ostinato ou algum tema criado em conjunto pelo grupo, a ser executado pelo solista antes da sua livre improvisação. Organizamos e acrescentamos complexidade ao jogo no decorrer das jogadas, que podem ser intercaladas com sessões de audição coletiva da gravação das improvisações.',
+      'Podemos organizar a improvisação de diferentes maneiras, como por exemplo, estabelecendo que vamos executar duas vezes o ritmo em ostinato após o término de cada solo, para que o próximo executante identifique a sua hora de entrar como solista na execução. Também podemos organizar a improvisação na forma rondó, propondo que a parte A seja algum número específico de vezes da repetição do ostinato ou algum tema criado em conjunto pelo grupo, a ser executado pelo solista antes da sua livre improvisação, etc. Organizamos e acrescentamos complexidade ao jogo no decorrer das jogadas, que podem ser intercaladas com sessões de audição coletiva da gravação das improvisações.',
     style: ['paragraph'],
   },
   {
