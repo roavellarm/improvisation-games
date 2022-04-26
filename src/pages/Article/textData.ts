@@ -438,16 +438,22 @@ const textData: Array<ArticleItem> = [
     style: ['title2'],
   },
   {
-    text: 'Autor: Diversos autores/Marta Brietzke',
+    text: 'Autoria: Diversos autores',
     style: ['paragraph', 'italic'],
   },
+
+  {
+    text: '  Adaptação: Marta Brietzke',
+    style: ['paragraph', 'italic'],
+  },
+
   {
     text: 'Objetivos:',
     style: ['paragraph', 'bold'],
   },
   {
     text:
-      'Aproximar os estudantes da ideia de composição; desenvolver uma simbologia própria que represente suas ideias musicais, fazer contato com diferentes maneiras de escrita e representação musical; atentar para as limitações existentes em qualquer tipo de escrita musical; aproximar compositores e intérpretes.',
+      'Aproximar os estudantes da ideia de composição; desenvolver uma simbologia própria que represente suas ideias musicais; fazer contato com diferentes maneiras de escrita e representação musical; chamar a atenção para as limitações existentes em qualquer tipo de escrita musical; aproximar compositores e intérpretes.',
     style: ['paragraph'],
   },
   {
@@ -461,12 +467,12 @@ const textData: Array<ArticleItem> = [
   },
   {
     text:
-      'Começamos o jogo dividindo a turma em grupos. Cada grupo irá apresentar suas gravuras e fotos para os demais colegas e o professor poderá distribuir mais gravuras aos estudantes. Propomos, então, que os estudantes escolham uma ou mais gravuras ou fotos, quantas desejarem, para que contem uma história musical. Podemos dar um exemplo com nosso próprio violoncelo escolhendo uma das gravuras. Devemos ressaltar que a história deve ter um enredo, um início, meio e fim e que os estudantes devem discutir e elaborar em conjunto esse enredo, de acordo com a(s) gravura(s) que escolherem.',
+      'Começamos o jogo dividindo a turma em grupos. Cada grupo irá apresentar suas gravuras e fotos para os demais colegas. O professor poderá distribuir mais gravuras aos estudantes. Propomos, então, que os estudantes escolham uma ou mais gravuras ou fotos, quantas desejarem, para que contem uma história musical. Podemos dar um exemplo com nosso próprio violoncelo escolhendo uma das gravuras. Devemos ressaltar que a história deve ter um enredo, um início, meio e fim e que os estudantes devem discutir e elaborar em conjunto esse enredo, de acordo com a(s) gravura(s) que escolherem.',
     style: ['paragraph'],
   },
   {
     text:
-      'Após a elaboração do enredo, estimulamos que os estudantes produzam com os seus violoncelos conteúdos musicais que representem a história criada por eles, estimulando que a história pode ser contada em partes, ou mesmo simultaneamente, dependendo das escolhas feitas pelos estudantes. A seleção desses conteúdos deve ser feita em conjunto pelos grupos e podemos dar a eles quanto tempo acharmos necessário para que pesquisem e selecionem os sons desejados.',
+      'Após a elaboração do enredo, estimulamos que os estudantes produzam com os seus violoncelos conteúdos musicais que representem a história criada por eles.  A história poderá ser contada em partes, ou mesmo simultaneamente, dependendo das escolhas feitas pelos estudantes. A seleção desses conteúdos deve ser feita em conjunto pelos grupos e podemos dar a eles quanto tempo acharmos necessário para que pesquisem e selecionem os sons desejados.',
     style: ['paragraph'],
   },
   {
