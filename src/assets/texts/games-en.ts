@@ -74,7 +74,7 @@ const gameList: Game[] = [
         style: ['itemList'],
       },
       {
-        text: 'Observations:',
+        text: 'Note:',
         style: ['title2'],
       },
       {
@@ -164,7 +164,7 @@ const gameList: Game[] = [
         style: ['itemList'],
       },
       {
-        text: 'Observations:',
+        text: 'Note:',
         style: ['title2'],
       },
       {
@@ -219,7 +219,7 @@ const gameList: Game[] = [
         style: ['itemList'],
       },
       {
-        text: 'Observations:',
+        text: 'Note:',
         style: ['title2'],
       },
       {
@@ -292,7 +292,7 @@ const gameList: Game[] = [
         style: ['itemList'],
       },
       {
-        text: 'Observations:',
+        text: 'Note:',
         style: ['title2'],
       },
       {
@@ -362,7 +362,7 @@ const gameList: Game[] = [
         style: ['itemList'],
       },
       {
-        text: 'Observations:',
+        text: 'Note:',
         style: ['title2'],
       },
       {
@@ -440,7 +440,7 @@ const gameList: Game[] = [
         style: ['itemList'],
       },
       {
-        text: 'Observations:',
+        text: 'Note:',
         style: ['title2'],
       },
       {
@@ -522,7 +522,7 @@ const gameList: Game[] = [
         style: ['itemList'],
       },
       {
-        text: 'Observations:',
+        text: 'Note:',
         style: ['title2'],
       },
       {
@@ -598,7 +598,7 @@ const gameList: Game[] = [
         style: ['itemList'],
       },
       {
-        text: 'Observations:',
+        text: 'Note:',
         style: ['title2'],
       },
       {
@@ -658,7 +658,7 @@ const gameList: Game[] = [
         style: ['itemList'],
       },
       {
-        text: 'Observations:',
+        text: 'Note:',
         style: ['title2'],
       },
       {
@@ -742,7 +742,7 @@ const gameList: Game[] = [
         style: ['itemList'],
       },
       {
-        text: 'Observations:',
+        text: 'Note:',
         style: ['title2'],
       },
       {
