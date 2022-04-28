@@ -162,7 +162,7 @@ const textData: Array<ArticleItem> = [
   },
   {
     text:
-      'Propiciar aos estudantes a consciência da sua individualidade e seu papel dentro do coletivo, estabelecer as ideias de narrativa musical, de perguntas e respostas, enfatizando o uso das quatro cordas do violoncelo, do pizzicato, de diferentes ritmos, métricas, timbres e dinâmicas.',
+      'Propiciar aos estudantes a consciência da sua individualidade e seu papel dentro do coletivo; estabelecer as ideias de narrativa musical, de perguntas e respostas, enfatizando o uso das quatro cordas do violoncelo, do pizzicato, de diferentes ritmos, métricas, timbres e dinâmicas.',
     style: ['paragraph'],
   },
   {
