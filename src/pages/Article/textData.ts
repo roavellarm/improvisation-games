@@ -369,7 +369,7 @@ const textData: Array<ArticleItem> = [
   },
   {
     text:
-      'É interessante, em todos os jogos, que o professor seja o maestro na primeira vez que o jogo está sendo executado, mas que em seguida, sejam escolhidos diferentes estudantes para assumirem essa função. Assim, possibilitamos que todos os estudantes do grupo possam, em algum momento, participar como maestros de algum dos jogos de improvisação.',
+      'É interessante, em todos os jogos, que o professor seja o maestro na primeira vez que o jogo está sendo executado, mas que, em seguida, sejam escolhidos diferentes estudantes para assumirem essa função. Assim, possibilitamos que todos os estudantes do grupo possam, em algum momento, participar como maestros de algum dos jogos de improvisação.',
     style: ['paragraph'],
   },
   {
