@@ -601,7 +601,7 @@ const textData: Array<ArticleItem> = [
     style: ['title2'],
   },
   {
-    text: 'Autor: Violeta Gainza',
+    text: 'Autoria: Violeta Gainza',
     style: ['paragraph', 'italic'],
   },
   {
@@ -610,7 +610,7 @@ const textData: Array<ArticleItem> = [
   },
   {
     text:
-      'Trabalhar diferentes opções musicais de uma mesma sonoridade, trabalhar a ideia de narrativa musical.',
+      'Trabalhar diferentes possibilidades musicais de uma mesma sonoridade; trabalhar a ideia de narrativa musical.',
     style: ['paragraph'],
   },
   {
