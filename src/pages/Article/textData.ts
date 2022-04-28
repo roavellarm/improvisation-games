@@ -662,7 +662,7 @@ const textData: Array<ArticleItem> = [
   },
   {
     text:
-      'Trabalhar a liberdade e as diferentes opções para o início, o desenvolvimento e o final da “peça” musical, trabalhar questões ligadas à ecologia e à ecologia acústica; trabalhar os diálogos, as polifonias e a noção de forma musical.',
+      'Trabalhar a liberdade e as diferentes opções para o início, o desenvolvimento e o final da “peça” musical; trabalhar questões ligadas à ecologia e à ecologia acústica; trabalhar os diálogos, as polifonias e a noção de forma musical.',
     style: ['paragraph'],
   },
   {
