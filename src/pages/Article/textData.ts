@@ -559,7 +559,7 @@ const textData: Array<ArticleItem> = [
     style: ['title2'],
   },
   {
-    text: 'Autor: Claudia Freixedas',
+    text: 'Autoria: Claudia Freixedas',
     style: ['paragraph', 'italic'],
   },
   {
@@ -576,7 +576,7 @@ const textData: Array<ArticleItem> = [
   },
   {
     text:
-      'Consiste em uma variação do jogo A noite no Castelo, com um acréscimo de complexidade. Nesse caso, também criamos uma história na qual dois exploradores chegam a uma floresta encantada. Nessa floresta, cada árvore emite um som diferente. Quando os exploradores se aproximam das árvores, elas emitem o seu som. Podemos realizar esse jogo com os olhos abertos ou vendados, de forma semelhante à do jogo A noite no Castelo e as árvores podem emitir um único som ou diferentes sons conforme o contexto musical. Porém, é interessante propormos algumas diferenças entre este jogo e o jogo anterior.',
+      'Consiste em uma variação do jogo A noite no Castelo, com um acréscimo de complexidade. Nesse caso, também criamos uma história na qual dois exploradores chegam a uma floresta encantada. Nessa floresta, cada árvore emite um som diferente. Quando os exploradores se aproximam das árvores, elas emitem o seu som. Podemos realizar esse jogo com os olhos abertos ou vendados, de forma semelhante à do jogo A noite no Castelo e as árvores podem emitir um único som ou diferentes sons conforme o contexto musical. É interessante, no entanto, propormos algumas diferenças entre este jogo e o jogo anterior.',
     style: ['paragraph'],
   },
   {
