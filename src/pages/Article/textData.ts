@@ -228,7 +228,7 @@ const textData: Array<ArticleItem> = [
   },
   {
     text:
-      'Antes da sua realização, podemos propor aos estudantes que explorem as diferentes sonoridades dos seus violoncelos. Uma das maneiras de realizar essa prática é por meio da imitação, propomos um som e pedimos que os estudantes repitam, em conjunto ou individualmente, esse mesmo som. É interessante que possamos nomear as técnicas que já apresentam um nome definido pela literatura, como por exemplo, con legno, sul ponticelo, pizzicato Bartók. É importante que abramos espaço para que os estudantes descubram seus próprios sons, destinando uma parte dessa exploração para que eles abordem sozinhos seus instrumentos. Podemos pedir para que cada um demonstre aos demais colegas um som que descobriu, a fim, novamente, de dar voz ao estudante, e, posteriormente, todos repetem aquele som.',
+      'Antes da sua realização, podemos propor aos estudantes que explorem as diferentes sonoridades dos seus violoncelos. Uma das maneiras de realizar essa prática é por meio da imitação; propomos um som e pedimos que os estudantes repitam, em conjunto ou individualmente, esse mesmo som. É interessante que possamos nomear as técnicas que já apresentam um nome definido pela literatura, como por exemplo, con legno, sul ponticelo, pizzicato Bartók. É importante que abramos espaço para que os estudantes descubram seus próprios sons, destinando uma parte dessa exploração para que eles abordem sozinhos seus instrumentos. Podemos pedir para que cada um demonstre aos demais colegas um som que descobriu, a fim, novamente, de dar voz ao estudante, e, posteriormente, todos repetem aquele som.',
     style: ['paragraph'],
   },
   {
@@ -413,7 +413,7 @@ const textData: Array<ArticleItem> = [
   },
   {
     text:
-      'Apresentamos aos estudantes três pequenos cartazes. No primeiro cartaz, apresentamos o sinal matemático utilizado para igual, no segundo o sinal matemático utilizado para diferente e no terceiro cartaz podemos criar algum sinal que represente o parecido. Propomos aos estudantes que eles devem respeitar os sinais que serão oferecidos a eles. O primeiro estudante cria livremente uma frase musical. Em seguida o professor apresenta um dos sinais ao segundo estudante, que deve repetir ou variar a frase de acordo com o sinal representado. O professor oferece, então, um novo sinal ao terceiro estudante, que agora deve repetir ou variar a frase apresentada pelo segundo estudante. Assim o jogo segue até que todos os estudantes tenham elaborado suas frases. Os sinais podem ser escolhidos aleatoriamente ou selecionados previamente pelo professor.',
+      'Apresentamos aos estudantes três pequenos cartazes. No primeiro cartaz, apresentamos o sinal matemático utilizado para igual, no segundo o sinal matemático utilizado para diferente e no terceiro cartaz podemos criar algum sinal que represente o parecido. Propomos aos estudantes que eles devem respeitar os sinais que serão oferecidos a eles. O primeiro estudante cria livremente uma frase musical. Em seguida, o professor apresenta um dos sinais ao segundo estudante, que deve repetir ou variar a frase de acordo com o sinal representado. O professor oferece, então, um novo sinal ao terceiro estudante, que agora deve repetir ou variar a frase apresentada pelo segundo estudante. Assim o jogo segue até que todos os estudantes tenham elaborado suas frases. Os sinais podem ser escolhidos aleatoriamente ou selecionados previamente pelo professor.',
     style: ['paragraph'],
   },
   {
