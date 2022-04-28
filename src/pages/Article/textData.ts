@@ -649,7 +649,11 @@ const textData: Array<ArticleItem> = [
     style: ['title2'],
   },
   {
-    text: 'Autores: Claudia Freixedas/Marta Brietzke',
+    text: 'Autoria: Claudia Freixedas',
+    style: ['paragraph', 'italic'],
+  },
+  {
+    text: 'Adaptação: Marta Brietzke',
     style: ['paragraph', 'italic'],
   },
   {
@@ -667,7 +671,7 @@ const textData: Array<ArticleItem> = [
   },
   {
     text:
-      'Nesse jogo, perguntamos aos estudantes quais sons de pássaros eles conhecem. Podemos inventariar coletivamente esses sons ou nos propormos a investigar em nossas casas e trazermos os resultados de nossas investigações aos demais colegas. Também podemos trazer um catálogo da gravação de sons de pássaros que podemos obter em sites da internet. Dessa forma, escolhemos alguns pássaros que desejamos imitar e buscamos sonoridades semelhantes em nossos violoncelos.',
+      'Nesse jogo, perguntamos aos estudantes quais sons de pássaros eles conhecem. Podemos inventariar, coletivamente, esses sons ou nos propormos a investigar em nossas casas e trazermos os resultados de nossas investigações aos demais colegas. Também podemos trazer um catálogo da gravação de sons de pássaros que podemos obter em sites da internet. Dessa forma, escolhemos alguns pássaros que desejamos imitar e buscamos sonoridades semelhantes em nossos violoncelos.',
     style: ['paragraph'],
   },
   {
