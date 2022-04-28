@@ -35,7 +35,7 @@ export default function SectionKnowledge() {
         necessárias e efetivas para suas demandas. Além disso, cabem muitos desdobramentos das
         propostas iniciais que podem suscitar outras ideias e perspectivas de trabalho.
       </Paragraph>
-      {/* <Paragraph>Boa diversão e boas aprendizagens!</Paragraph> */}
+      <Paragraph>Boa diversão e boas aprendizagens!</Paragraph>
 
       <Title>Sobre a autora</Title>
       <Picture isMobile={isMobileScreen} />
