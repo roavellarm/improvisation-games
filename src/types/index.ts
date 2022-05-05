@@ -10,6 +10,12 @@ export type Game = {
   content: GameContent[]
 }
 
+export type AboutType = {
+  id?: string
+  gameTitle?: string
+  content?: any
+}
+
 export interface ArticleItem {
   text: string
   style: Array<string>
