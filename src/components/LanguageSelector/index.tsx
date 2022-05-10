@@ -8,10 +8,9 @@ import { Wrapper, Button, DropdownContent, Options, Arrow } from './styles'
 
 export const LanguageSelector = () => {
   const [isOpen, setIsOpen] = useState(false)
-  const { language } = useLanguage()
-
   const openMenu = () => setIsOpen(true)
   const closeMenu = () => setIsOpen(false)
+  const { language, selectLanguage } = useLanguage()
 
   const languages = [
     { key: 'pt', label: 'Português', icon: ptIcon },
@@ -25,7 +24,7 @@ export const LanguageSelector = () => {
     const currentLanguage = getSelectedLanguage()
     return (
       <>
-        {currentLanguage.key.toUpperCase()}
+        {currentLanguage?.key.toUpperCase()}
         &nbsp;
         <img src={globeIcon} height={20} width={20} alt="Globe icon" />
         &nbsp;
@@ -43,7 +42,7 @@ export const LanguageSelector = () => {
       {isOpen && (
         <DropdownContent onMouseEnter={openMenu} onMouseLeave={closeMenu}>
           {languages.map((lang) => (
-            <Options key={lang.key} value={lang.key} onClick={() => null}>
+            <Options key={lang.key} onClick={() => selectLanguage(lang.key || 'pt')}>
               <img src={lang.icon} height={20} width={20} alt={`${lang.label} icon`} />
               &nbsp;
               {lang.label}

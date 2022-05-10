@@ -29,7 +29,7 @@ export const Button = styled.div<{ isOpen: boolean }>`
 `
 
 export const Arrow = styled.div<{ isOpen: boolean }>`
-  border: solid black;
+  border: solid ${({ theme }) => theme.colors.greenDark};
   border-width: 0 2px 2px 0;
   display: inline-block;
   padding: 2px;
@@ -47,7 +47,7 @@ export const DropdownContent = styled.div`
   border-radius: 0 0 8px 8px;
 `
 
-export const Options = styled.div<{ value: string }>`
+export const Options = styled.div`
   display: flex;
   align-items: center;
   font-size: 1.2rem;
