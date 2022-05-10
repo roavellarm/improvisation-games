@@ -1,18 +1,18 @@
-import React, { useCallback, useEffect, useMemo, useState } from 'react'
+import React, { useCallback, useEffect, useLayoutEffect, useMemo, useState } from 'react'
 import { useHistory } from 'react-router-dom'
 
-import { Game } from 'types'
 import Button from 'components/Button'
 import Carousel from 'components/Carousel'
 import { LanguageSelector } from 'components/LanguageSelector'
-import gameList from 'assets/texts/games'
 import { useLanguage } from 'contexts/LanguageContext'
-import { english, portuguese } from './text'
+import { GameIndex } from 'types'
+import { english, portuguese, spanish } from './text'
 import * as S from './styles'
 
 const TEXTS: any = {
   pt: portuguese,
   en: english,
+  es: spanish,
 }
 
 export default function Home() {
@@ -25,14 +25,14 @@ export default function Home() {
 
   const handleClick = (game: string) => push(`/game/${game}`)
 
-  const renderButton = (g: Game) => (
+  const renderButton = (g: GameIndex) => (
     <Button key={g.id} title={g.gameTitle} onClick={() => handleClick(g.id)} />
   )
 
   const renderTitle = () => (
     <>
-      <S.Title>{text.title}</S.Title>
-      <S.SubTitle>{text.subtitle}</S.SubTitle>
+      <S.Title>{text?.title}</S.Title>
+      <S.SubTitle>{text?.subtitle}</S.SubTitle>
     </>
   )
 
@@ -40,9 +40,9 @@ export default function Home() {
     <>
       <S.Image />
       <S.Links>
-        <S.Link onClick={() => push('quarantine-games')}>{text.quarantineLink}</S.Link>
-        <S.Link onClick={() => push('about')}>{text.aboutLink}</S.Link>
-        <S.Link onClick={() => push('article')}>{text.articleLink}</S.Link>
+        <S.Link onClick={() => push('quarantine-games')}>{text?.quarantineLink}</S.Link>
+        <S.Link onClick={() => push('about')}>{text?.aboutLink}</S.Link>
+        <S.Link onClick={() => push('article')}>{text?.articleLink}</S.Link>
       </S.Links>
     </>
   )
@@ -53,7 +53,7 @@ export default function Home() {
 
   const handleLanguage = useCallback(() => setText(TEXTS[`${language}`]), [language])
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     handleLanguage()
   }, [handleLanguage])
 
@@ -70,7 +70,7 @@ export default function Home() {
           <>
             <S.TitlesContainer>{renderTitle()}</S.TitlesContainer>
             {renderImageWithLinks()}
-            <Carousel gameList={gameList} />
+            <Carousel gameList={text?.games} />
           </>
         ) : (
           <>
@@ -78,8 +78,8 @@ export default function Home() {
               <S.TitlesContainer>{renderTitle()}</S.TitlesContainer>
 
               <S.ButtonsContainer>
-                <S.Column>{gameList.slice(0, 5).map((g: Game) => renderButton(g))}</S.Column>
-                <S.Column>{gameList.slice(5, 10).map((g: Game) => renderButton(g))}</S.Column>
+                <S.Column>{text?.games?.slice(0, 5).map((g) => renderButton(g))}</S.Column>
+                <S.Column>{text?.games?.slice(5, 10).map((g) => renderButton(g))}</S.Column>
               </S.ButtonsContainer>
             </S.LeftSide>
 
