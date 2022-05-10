@@ -1,28 +1,36 @@
-import React, { createContext, useContext, useState } from 'react'
+import React, { createContext, useCallback, useContext, useState } from 'react'
 
+export type LanguageOptions = 'pt' | 'en' | 'es' | string
 interface ContextData {
-  language: string
-  selectPortuguese(): void
-  selectEnglish(): void
-  selectSpanish(): void
+  language: LanguageOptions
+  selectLanguage(lang: LanguageOptions): void // eslint-disable-line
 }
 
 const LanguageContext = createContext<ContextData>({} as ContextData)
+
+export type LO = {
+  [key: string]: string
+}
 
 const LANGUAGE_OPTIONS = {
   pt: 'pt',
   en: 'en',
   es: 'es',
-}
+} as LO
 
 export const LanguageProvider = ({ children }: { children: React.ReactNode }) => {
-  const [language, setLanguage] = useState(LANGUAGE_OPTIONS.pt)
-  const selectPortuguese = () => setLanguage(LANGUAGE_OPTIONS.pt)
-  const selectEnglish = () => setLanguage(LANGUAGE_OPTIONS.en)
-  const selectSpanish = () => setLanguage(LANGUAGE_OPTIONS.es)
+  const [language, setLanguage] = useState<LanguageOptions>(
+    LANGUAGE_OPTIONS[localStorage.getItem('language') || 'pt']
+  )
+
+  const selectLanguage = useCallback((lang: LanguageOptions) => {
+    if (!LANGUAGE_OPTIONS[lang]) return null
+    localStorage.setItem('laguange', LANGUAGE_OPTIONS[lang])
+    return setLanguage(LANGUAGE_OPTIONS[lang])
+  }, [])
 
   return (
-    <LanguageContext.Provider value={{ language, selectPortuguese, selectEnglish, selectSpanish }}>
+    <LanguageContext.Provider value={{ language, selectLanguage }}>
       {children}
     </LanguageContext.Provider>
   )
