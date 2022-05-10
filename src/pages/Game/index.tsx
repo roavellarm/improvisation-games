@@ -10,7 +10,7 @@ import ScrollToTopButton from 'components/ScrollToTopButton'
 import SubTitle from 'components/SubTitle'
 import Title from 'components/Title'
 import AudioPlayer from 'components/AudioPlayer'
-import gameList from 'assets/texts/games'
+import { gameListPt } from 'assets/texts/games-pt'
 import * as S from './styles'
 
 export default function Game() {
@@ -26,7 +26,7 @@ export default function Game() {
   const showSideArea = useMemo(() => windowWith > 900, [windowWith])
 
   const getSelectedGame = (gameID: string) =>
-    gameList.filter((currentGame) => currentGame.id === gameID)[0]
+    gameListPt.filter((currentGame) => currentGame.id === gameID)[0]
 
   const updateWindowWidth = useCallback(() => {
     setWindowWidth(window.innerWidth)
