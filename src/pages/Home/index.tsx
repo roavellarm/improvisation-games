@@ -4,6 +4,7 @@ import { useHistory } from 'react-router-dom'
 import { Game } from 'types'
 import Button from 'components/Button'
 import Carousel from 'components/Carousel'
+import { LanguageSelector } from 'components/LanguageSelector'
 import gameList from 'assets/texts/games'
 import { useLanguage } from 'contexts/LanguageContext'
 import { english, portuguese } from './text'
@@ -18,7 +19,7 @@ export default function Home() {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth)
   const [text, setText] = useState(portuguese)
   const { push } = useHistory()
-  const { language, selectEnglish, selectPortuguese } = useLanguage()
+  const { language } = useLanguage()
 
   const isMobileScreen = useMemo(() => windowWidth <= 800, [windowWidth])
 
@@ -63,6 +64,7 @@ export default function Home() {
 
   return (
     <S.Wrapper>
+      <LanguageSelector />
       <S.Container>
         {isMobileScreen ? (
           <>
@@ -85,20 +87,6 @@ export default function Home() {
           </>
         )}
       </S.Container>
-      <button
-        style={{ height: '50px', width: '200px' }}
-        type="button"
-        onClick={() => selectPortuguese()}
-      >
-        Portugues
-      </button>
-      <button
-        style={{ height: '50px', width: '200px' }}
-        type="button"
-        onClick={() => selectEnglish()}
-      >
-        English
-      </button>
     </S.Wrapper>
   )
 }
