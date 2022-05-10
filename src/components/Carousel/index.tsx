@@ -3,7 +3,7 @@ import Carousel from 'react-elastic-carousel'
 import { useHistory } from 'react-router-dom'
 
 import leaf from 'assets/images/button-image.png'
-import { Game } from 'types'
+import { GameIndex } from 'types'
 import * as S from './styles'
 
 type CustomArrow = {
@@ -37,7 +37,7 @@ const customPagination = ({ pages, activePage, onClick }: CustomPagination) => (
   </div>
 )
 
-export default function Caroussel({ gameList }: { gameList: Game[] }) {
+export default function Caroussel({ gameList }: { gameList: GameIndex[] }) {
   const { push } = useHistory()
   const handleClick = (game: string) => push(`/game/${game}`)
 
