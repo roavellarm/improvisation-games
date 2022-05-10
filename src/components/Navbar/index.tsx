@@ -1,7 +1,7 @@
 import React, { ReactElement, useCallback, useEffect, useState } from 'react'
 import { useHistory } from 'react-router-dom'
 
-import gameList from 'assets/texts/games'
+import { gameListPt } from 'assets/texts/games-pt'
 import { gameOptions } from 'helpers/game'
 import { anchors } from 'pages/Article/anchors'
 import { quarentineAnchors } from 'pages/QuarantineGames/anchors'
@@ -24,7 +24,7 @@ const Navbar = ({ currentPage }: NavbarProps) => {
   const [windowHeight, setWindowHeight] = useState(INITIAL_STATE.windowHeight)
 
   const renderGamesOptions = () => {
-    if (windowWith > 700) return <CarousselNavbar gameList={gameList} />
+    if (windowWith > 700) return <CarousselNavbar gameList={gameListPt} />
     return <Dropdown title="Jogos" options={gameOptions} />
   }
 
