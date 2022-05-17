@@ -1,4 +1,4 @@
-import { AboutType } from 'types'
+import { AboutType } from '../../types'
 
 const aboutList: AboutType[] = [
   {
