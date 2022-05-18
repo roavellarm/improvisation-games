@@ -394,7 +394,7 @@ const textData: Array<ArticleItem> = [
   },
 
   {
-    text: ' Adaptação: Marta Brietzke',
+    text: 'Adaptação: Marta Brietzke',
     style: ['paragraph', 'italic'],
   },
 
@@ -443,7 +443,7 @@ const textData: Array<ArticleItem> = [
   },
 
   {
-    text: '  Adaptação: Marta Brietzke',
+    text: 'Adaptação: Marta Brietzke',
     style: ['paragraph', 'italic'],
   },
 
