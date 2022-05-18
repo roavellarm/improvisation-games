@@ -422,7 +422,7 @@ const gameList: Game[] = [
       },
       {
         text:
-          'After creating the song, distribute to each group a cardboard, a box of colored pencils and some other materials, such as colored ribbons, toothpicks, pebbles, etc.Após a criação da música, distribuir para cada grupo uma cartolina, uma caixa de lápis de cor e alguns outros materiais, como por exemplo, fitas coloridas, palitos de dente, pedrinhas, etc.',
+          'After creating the song, distribute to each group a cardboard, a box of colored pencils and some other materials, such as colored ribbons, toothpicks, pebbles, etc.',
         style: ['itemList'],
       },
       {
@@ -542,7 +542,7 @@ const gameList: Game[] = [
       },
       {
         text:
-          'We can organize and add complexities throughout the rounds, interspersed with collective auditions of the improvisations created by the students.Podemos organizar e acrescentar complexidades no decorrer das jogadas, intercalando-as com audições coletivas das improvisações criadas pelos estudantes.',
+          'We can organize and add complexities throughout the rounds, interspersed with collective auditions of the improvisations created by the students.',
         style: ['itemList'],
       },
     ],
@@ -654,7 +654,7 @@ const gameList: Game[] = [
       },
       {
         text:
-          'The visitor takes a walk through the zoo, positioning himself in front of the different animals, and at that moment, the animals reproduce the sound chosen by the students.O visitante realiza um passeio pelo zoológico, se posicionando frente aos diferentes animais, e nesse momento, os animais reproduzem o som escolhido pelos estudantes.',
+          'The visitor takes a walk through the zoo, positioning himself in front of the different animals, and at that moment, the animals reproduce the sound chosen by the students.',
         style: ['itemList'],
       },
       {

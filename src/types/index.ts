@@ -4,9 +4,12 @@ export type GameContent = {
   audio?: string
 }
 
-export type Game = {
+export type GameIndex = {
   id: string
   gameTitle: string
+}
+
+export interface Game extends GameIndex {
   content: GameContent[]
 }
 
