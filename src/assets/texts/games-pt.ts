@@ -192,7 +192,7 @@ export const gameListPt: Game[] = [
         style: ['paragraph'],
       },
       {
-        text: 'Objetivos',
+        text: 'Objetivos:',
         style: ['title2'],
       },
       {
@@ -201,7 +201,7 @@ export const gameListPt: Game[] = [
         style: ['paragraph'],
       },
       {
-        text: 'Metodologia',
+        text: 'Metodologia:',
         style: ['title2'],
       },
       {
