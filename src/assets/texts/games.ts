@@ -21,7 +21,7 @@ const gameList: Game[] = [
       },
       {
         text:
-          'Propiciar aos estudantes a consciência da sua individualidade e seu papel dentro do coletivo; estabelecer as ideias de narrativa musical e de perguntas e respostas, enfatizando o uso das quatro cordas do violoncelo, do ​ pizzicato, ​ de diferentes ritmos, métricas, timbres e dinâmicas.',
+          'Propiciar aos estudantes a consciência da sua individualidade e seu papel dentro do coletivo; estabelecer as ideias de narrativa musical e de perguntas e respostas, enfatizando o uso das quatro cordas do violoncelo, do pizzicato, de diferentes ritmos, métricas, timbres e dinâmicas.',
         style: ['paragraph'],
       },
       {
@@ -165,7 +165,7 @@ const gameList: Game[] = [
       },
       {
         text:
-          'Cada grupo deverá seguir as indicações dos seus respectivos “maestros”, que devem se comunicar de maneira não verbal e proporcionar a interação e o diálogo musical entre os dois grupos.',
+          'Cada grupo deverá seguir as indicações dos seus respectivos “maestros” que devem se comunicar de maneira não verbal e proporcionar a interação e o diálogo musical entre os dois grupos.',
         style: ['itemList'],
       },
       {
@@ -211,7 +211,7 @@ const gameList: Game[] = [
       },
       {
         text:
-          'Inventariar sons que poderiam compor esta paisagem(trovões, rajadas de vento, som da chuva, morcegos, fantasmas, etc) assim como objetos que estariam dentro do castelo(quadros, vasos, móveis antigos, etc).',
+          'Inventariar sons que poderiam compor esta paisagem (trovões, rajadas de vento, som da chuva, morcegos, fantasmas, etc) assim como objetos que estariam dentro do castelo (quadros, vasos, móveis antigos, etc).',
         style: ['itemList'],
       },
       {
@@ -280,22 +280,22 @@ const gameList: Game[] = [
       },
       {
         text:
-          'Propor que os estudantes, individualmente, criem suas assinaturas musicais, utilizando os sons que desejarem, e as apresentem para os demais colegas da turma.',
+          'Propor que os estudantes, individualmente, criem suas assinaturas musicais utilizando os sons que desejarem e as apresentem para os demais colegas da turma.',
         style: ['itemList'],
       },
       {
         text:
-          'Propor que os estudantes executem suas assinaturas mais de uma vez, a fim de que possamos verificar se elas se mantém as mesmas nas duas execuções.',
+          'Propor que os estudantes executem suas assinaturas mais de uma vez, a fim de que possamos verificar se elas se mantem as mesmas nas duas execuções.',
         style: ['itemList'],
       },
       {
         text:
-          'Escolher um dos estudantes da turma para ser o “maestro”, que deverá compor uma música utilizando apenas as assinaturas musicais elaboradas pelos estudantes.',
+          'Escolher um dos estudantes da turma para ser o “maestro” que deverá compor uma música utilizando apenas as assinaturas musicais elaboradas pelos estudantes.',
         style: ['itemList'],
       },
       {
         text:
-          'O “maestro” deve criar sinais que indiquem quando um estudante deve começar a tocar sua assinatura, quando deve parar, com qual intensidade, velocidade e outras variáveis, quantos estudantes devem tocar simultaneamente, criando diálogos, interações e diferentes combinações entre as assinaturas.',
+          'O “maestro” deve criar sinais que indiquem quando um estudante deve começar a tocar sua assinatura, quando deve parar, com qual intensidade, velocidade e outras variáveis, além de indicar quantos estudantes devem tocar simultaneamente, criando diálogos, interações e diferentes combinações entre as assinaturas.',
         style: ['itemList'],
       },
       {
@@ -304,12 +304,12 @@ const gameList: Game[] = [
       },
       {
         text:
-          'Devemos estimular os estudantes a trabalharem sua escuta e sua escolha artística frente ao material apresentado pelos colegas. Dessa forma, evitamos novamente que o jogo se torne mecânico e proporcionamos a construção de uma ideia musical consistente.',
+          'Estimular os estudantes a trabalharem a escuta e a escolha artística frente ao material apresentado pelos colegas. Dessa forma, evitar que o jogo se torne mecânico e proporcionar a construção de uma ideia musical consistente.',
         style: ['itemList'],
       },
       {
         text:
-          'É interessante, em todos os jogos, que o professor seja o "maestro" na primeira vez que o jogo está sendo executado, mas que em seguida sejam escolhidos diferentes estudantes para assumirem essa função, possibilitando que todos os estudantes do grupo possam, em algum momento, participar como "maestros" de algum dos jogos de improvisação.',
+          'É interessante, em todos os jogos, que o professor seja o "maestro" na primeira rodada, porém, em seguida, escolher diferentes estudantes para assumirem essa função e possibilitar que todos os estudantes do grupo possam, em algum momento, participar como "maestros" de algum dos jogos de improvisação.',
         style: ['itemList'],
       },
     ],
@@ -383,7 +383,6 @@ const gameList: Game[] = [
       },
     ],
   },
-
   {
     id: '6',
     gameTitle: 'Jogo 6',
@@ -424,7 +423,7 @@ const gameList: Game[] = [
       },
       {
         text:
-          'Cada grupo deve examinar as gravuras e imagens e criar uma história, que pode ser decorrente de quantas imagens o grupo escolher. Esse número pode variar entre os diferentes grupos.',
+          'Cada grupo deve examinar as gravuras e imagens e criar uma história que pode ser decorrente de quantas imagens o grupo escolher. Esse número pode variar entre os diferentes grupos.',
         style: ['itemList'],
       },
       {
@@ -462,7 +461,7 @@ const gameList: Game[] = [
       },
       {
         text:
-          'Durante o processo de criação da história e da música dar autonomia aos estudantes para que eles mesmos se organizem e estabeleçam relações entre eles, estimulando que todos participem deste processo.',
+          'Dar autonomia aos estudantes durante o processo de criação da história e da música para que eles mesmos se organizem e estabeleçam relações entre si, estimulando assim, que todos participem deste processo.',
         style: ['itemList'],
       },
 
@@ -599,7 +598,7 @@ const gameList: Game[] = [
       },
       {
         text:
-          'Este jogo é uma variação do ogo 3 (A noite no castelo) sendo acrescentadas algumas complexidades.',
+          'Este jogo é uma variação do Jogo 3 (A noite no castelo) sendo acrescentadas algumas complexidades.',
         style: ['itemList'],
       },
       {
