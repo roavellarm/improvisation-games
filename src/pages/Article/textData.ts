@@ -10,7 +10,7 @@ const textData: Array<ArticleItem> = [
     style: ['title1'],
   },
   {
-    text: 'Autora: Marta Macedo Brietzke',
+    text: 'Autoria: Marta Macedo Brietzke',
     style: ['paragraph', 'margin'],
   },
   {
@@ -27,7 +27,7 @@ const textData: Array<ArticleItem> = [
   },
   {
     text:
-      'Este trabalho faz parte da Dissertação de Mestrado de Marta Macedo Brietzke, intitulada “Música contemporânea na iniciação coletiva ao violoncelo:uma pesquisa - ação com jogos de improvisação em três instituições de ensino no estado de São Paulo”, defendida em 12 de dezembro de 2018, pela Universidade de São Paulo, com orientação do Prof. Dr. Fabio Soren Presgrave e coorientação do Prof. Dr. Mário André Wanderley Oliveira.',
+      'Este trabalho faz parte da minha Dissertação de Mestrado, intitulada “Música contemporânea na iniciação coletiva ao violoncelo:uma pesquisa - ação com jogos de improvisação em três instituições de ensino no estado de São Paulo”, defendida em 12 de dezembro de 2018, pela Universidade de São Paulo, com orientação do Prof. Dr. Fabio Soren Presgrave e coorientação do Prof. Dr. Mário André Wanderley Oliveira.',
     style: ['paragraph', 'italic'],
   },
 
@@ -37,22 +37,22 @@ const textData: Array<ArticleItem> = [
   },
   {
     text:
-      'O termo música contemporânea, muito utilizado por intérpretes, professores e estudantes de música, carece ainda de uma definição precisa, pois uma das problemáticas que envolve o uso desse termo é a ideia que ele se destinaria a definir toda e qualquer música produzida na atualidade. Para nos ajudar a definir o que se chama comumente nos meios acadêmicos de música contemporânea, recorremos as concepções da professora Bernardete Zagonel. A professora esclarece que, em tais meios, o termo é frequentemente utilizado para designar a música europeia de concerto dos séculos XX e XXI, que foi orientada esteticamente pelas profundas mudanças filosóficas, científicas, culturais e tecnológicas que aconteceram nesse período. Quando nos dispomos a ouvir e a apreciar a música contemporânea, precisamos nos despreender de paradigmas antigos e abrir nossas percepções para entender e apreender outras formas de expressão musical. A música contemporânea pode ser definida, então, como a produção musical ligada à música de concerto, vinculada a propostas artísticas formuladas a partir do século XX e marcadas pelas complexidades de diversas referências artísticas, culturais e filosóficas.',
+      'O termo música contemporânea, muito utilizado por intérpretes, professores e estudantes de música, carece ainda de uma definição precisa. Uma das problemáticas que envolve o uso desse termo é a ideia que ele se destinaria a definir toda e qualquer música produzida na atualidade. Para nos ajudar a definir o que se chama comumente nos meios acadêmicos de música contemporânea, recorremos as concepções da professora Bernardete Zagonel. A professora esclarece que, em tais meios, o termo é frequentemente utilizado para designar a música europeia de concerto dos séculos XX e XXI, que foi orientada esteticamente pelas profundas mudanças filosóficas, científicas, culturais e tecnológicas que aconteceram nesse período. Quando nos dispomos a ouvir e a apreciar a música contemporânea, precisamos nos despreender de paradigmas antigos e abrir nossas percepções para entender e apreender outras formas de expressão musical. A música contemporânea pode ser definida, então, como a produção musical ligada à música de concerto, vinculada a propostas artísticas formuladas a partir do século XX e marcadas pelas complexidades de diversas referências artísticas, culturais e filosóficas.',
     style: ['paragraph'],
   },
   {
     text:
-      'Apesar destas novas características já estarem consolidadas de diferentes maneiras desde meados do século XX, ainda hoje, com frequência, parte dos músicos profissionais e dos estudantes de música não é familiarizada e, inclusive, não gosta de tocar ou ouvir a música que envolva possibilidades sonoras distintas das consideradas tradicionais (as produzidas nos séculos anteriores). Porém, também desde o século passado diferentes músicos, compositores, educadores e professores de instrumento, buscam incorporar esse repertório e essas possibilidades sonoras às práticas dos estudantes. Como exemplo dessas iniciativas, podemos citar os trabalhos de Béla Bartók e Boris Porena, e também dos brasileiros Heitor Villa-Lobos, Ernest Mahle e Bruno Kiefer.',
+      'Apesar dessas novas características já estarem consolidadas de diferentes maneiras desde meados do século XX, ainda hoje, com frequência, parte dos músicos profissionais e dos estudantes de música não é familiarizada e, inclusive, não gosta de tocar ou ouvir a música que envolva possibilidades sonoras distintas das consideradas tradicionais (as produzidas nos séculos anteriores). Porém, também desde o século passado diferentes músicos, compositores, educadores e professores de instrumento, buscam incorporar esse repertório e essas possibilidades sonoras às práticas dos estudantes. Como exemplo dessas iniciativas, podemos citar os trabalhos de Béla Bartók e Boris Porena, e também dos brasileiros Heitor Villa-Lobos, Ernest Mahle e Bruno Kiefer.',
     style: ['paragraph'],
   },
   {
     text:
-      'A inserção do repertório da música contemporânea nas aulas de instrumento continua sendo reduzida e pouco divulgada. A pouca aceitação desse repertório nas salas de concerto do país pode ainda gerar dúvidas sobre a importância de sua aplicação, sobretudo com os estudantes de nível iniciante. Devemos compreender que a aplicação de propostas ligadas às poéticas da música contemporânea aproxima os estudantes das concepções e do pensamento do seu próprio tempo, principalmente quando essas propostas estão ligadas à atividades de criação, como o que acontece nas práticas de improvisação. Ao utilizarmos o termo “poética” para nos referirmos à música contemporânea, nos aproximamos de uma concepção que vê a música não apenas como linguagem, mas como uma expressão artística fundamentada nas concepções filosóficas, estéticas, históricas, sociais e políticas do seu entorno e, até mesmo, em elementos biográficos dos artistas. Este termo, utilizado desde a antiguidade pelo filósofo grego Aristóteles, para se referir às obras literárias, passou a ser adotado na contemporaneidade para se referir à outras manifestações artísticas, como por exemplo, as artes visuais, as artes cênicas e a música, se referindo a tudo aquilo que é produzido fazendo uso deliberado de uma composição estética.',
+      'A utilização do repertório da música contemporânea nas aulas de instrumento continua sendo reduzida e pouco divulgada. A pouca aceitação desse repertório nas salas de concerto do país pode ainda gerar dúvidas sobre a importância de sua aplicação, sobretudo com os estudantes de nível iniciante. Devemos compreender que a aplicação de propostas ligadas às poéticas da música contemporânea aproxima os estudantes das concepções e do pensamento do seu próprio tempo, principalmente quando essas propostas estão ligadas a atividades de criação, como o que acontece nas práticas de improvisação. Ao utilizarmos o termo “poética” para nos referirmos à música contemporânea, nos aproximamos de uma concepção que vê a música não apenas como linguagem, mas como uma expressão artística fundamentada nas concepções filosóficas, estéticas, históricas, sociais e políticas do seu entorno e, até mesmo, em elementos biográficos dos artistas. Esse termo, utilizado desde a antiguidade pelo filósofo grego Aristóteles para se referir às obras literárias passou a ser adotado na contemporaneidade para se referir à outras manifestações artísticas, como por exemplo, as artes visuais, as artes cênicas e a música, se referindo a tudo aquilo que é produzido fazendo uso deliberado de uma composição estética.',
     style: ['paragraph'],
   },
   {
     text:
-      'Através das propostas da música contemporânea que envolvem a improvisação, trazermos a criação para dentro das salas de aula de instrumento e aproximamos a arte da vida cotidiana, e a “música-pensamento”, assim como chamou o poeta Augusto de Campos, do dia a dia dos estudantes/intérpretes. Atualmente, a “música-pensamento”, ou a ”música de invenção”, como é algumas vezes chamada, parece estar destinada a uma parcela mínima da população que tem acesso ao ensino musical especializado. Dessa maneira, a abertura às diferentes manifestações musicais, compreendidas como fenômenos socioculturais, parece estar condicionadas a fatores de natureza social e econômica, pouco democráticas e inclusivas. No Brasil, a formação musical nas escolas especializadas, com grande frequência, destina-se quase exclusivamente a investigar e reproduzir repertórios de séculos anteriores aos séculos XX e XXI. Assim, o estudante tende a executar apenas obras do passado, não desenvolvendo seu poder criativo, nem a sua capacidade crítica e reflexiva. Nas principais salas de concerto brasileiras, o espetáculo musical também parece ser direcionado, quase sempre, à apreciação de caráter histórico, sendo desfavorecida a ideia da arte como agente promotor do pensamento crítico e da reflexão.',
+      'Através das propostas da música contemporânea que envolvem a improvisação trazermos a criação para dentro das salas de aula de instrumento e aproximamos a arte da vida cotidiana, e a “música-pensamento”, assim como chamou o poeta Augusto de Campos, do dia a dia dos estudantes/intérpretes. Atualmente, a “música-pensamento”, ou a ”música de invenção”, como é algumas vezes chamada, parece estar destinada a uma parcela mínima da população que tem acesso ao ensino musical especializado. Dessa maneira, a abertura às diferentes manifestações musicais, compreendidas como fenômenos socioculturais, parece estar condicionadas a fatores de natureza social e econômica, pouco democráticas e inclusivas. No Brasil, a formação musical nas escolas especializadas, com grande frequência, destina-se quase exclusivamente a investigar e reproduzir repertórios de séculos anteriores aos séculos XX e XXI. Assim, o estudante tende a executar apenas obras do passado. Nas principais salas de concerto brasileiras, o espetáculo musical também parece ser direcionado, quase sempre, à apreciação de caráter histórico, sendo desfavorecida a ideia da arte como agente promotor do pensamento crítico e da reflexão.',
     style: ['paragraph'],
   },
   {
@@ -71,12 +71,12 @@ const textData: Array<ArticleItem> = [
   },
   {
     text:
-      'Desde meados do século XX, a prática da improvisação tem se mostrado também uma estratégia pedagógica importante para o ensino de música. Porém, essa prática é pouco aplicada nas aulas de instrumento musical, segundo a pesquisadora Chefa Alonso, com exceção dos países nórdicos. Compreender a importância de atividades ligadas à improvisação e algumas propostas de utilização dessa prática nos auxilia, enquanto professores, a elaborar concepções onde essa se inclua nas atividades planejadas para nossas aulas. Os pesquisadores e educadores musicais enfatizam em seus trabalhos e relatos que, por meio de atividades relacionadas à improvisação, é possível apresentar os conteúdos musicais aos estudantes, ao mesmo tempo em que a música se torna um veículo para a expressão de percepções, pensamentos e sentimentos.',
+      'Desde meados do século XX, a prática da improvisação tem se mostrado também uma estratégia pedagógica importante para o ensino de música. Porém, essa prática é pouco aplicada nas aulas de instrumento musical, segundo a pesquisadora Chefa Alonso, com exceção dos países nórdicos. Compreender a importância de atividades ligadas à improvisação e algumas propostas de utilização dessa prática nos auxilia, enquanto professores, a elaborar concepções onde essa se inclua nas atividades planejadas para nossas aulas. Os pesquisadores e educadores musicais enfatizam em seus trabalhos e relatos que, por meio de atividades relacionadas à improvisação, é possível apresentar os conteúdos musicais aos estudantes ao mesmo tempo em que a música se torna um veículo para a expressão de percepções, pensamentos e sentimentos.',
     style: ['paragraph'],
   },
   {
     text:
-      'Desde o trabalho do pesquisador Derek Bailey, que data o ano de 1993, a improvisação começou a ser classificada segundo algumas características relativas ao seu idiomatismo. Apesar do uso desses termos ter sido relativizado pelo próprio pesquisador que os definiu, eles ainda são usados amplamente. É chamada de “improvisação idiomática” a que está ligada a uma estilo ou “idioma” musical específico e de “improvisação não-idiomática” a que não se relaciona com um idioma em particular, mas com o som, com suas possíveis relações e transformações. Dentro das práticas relacionadas como “não-idiomáticas” encontra-se também a “improvisação livre”, que abarca uma série de manifestações que se definem como tal. Em comum, essas práticas desenvolvem o foco na performance, que inclui, em maior ou menor grau, uma atuação ativa e criativa em tempo real. Os educadores musicais, na maioria dos casos, abordam em seus processos de ensino e aprendizagem alguns elementos de propostas ligadas à improvisação livre.',
+      'Desde o trabalho do pesquisador Derek Bailey, que data o ano de 1993, a improvisação começou a ser classificada segundo algumas características relativas ao seu idiomatismo. Apesar do uso desses termos ter sido relativizado pelo próprio pesquisador que os definiu, eles ainda são usados amplamente. É chamada de “improvisação idiomática” a que está ligada a um estilo ou “idioma” musical específico e de “improvisação não idiomática” a que não se relaciona com um idioma em particular, mas com o som, com suas possíveis relações e transformações. Dentro das práticas relacionadas como “não idiomáticas” encontra-se também a “improvisação livre”, que abarca uma série de manifestações que se definem como tal. Em comum, essas práticas desenvolvem o foco na performance, que inclui, em maior ou menor grau, uma atuação ativa e criativa em tempo real. Os educadores musicais, na maioria dos casos, abordam em seus processos de ensino e aprendizagem alguns elementos de propostas ligadas à improvisação livre.',
     style: ['paragraph'],
   },
   {
@@ -90,7 +90,7 @@ const textData: Array<ArticleItem> = [
   },
   {
     text:
-      'Educadores e pensadores de diversas áreas vêm desenvolvendo ao longo da tempo, ideias a respeito da aprendizagem por meio dos jogos, porém, os pesquisadores atuais consideram que essas ideias ainda não estão claras para todas as pessoas que trabalham diretamente com a educação. Um dos motivos dessa confusão diz respeito à característica polissêmica da palavra jogo, que pode ser usada para referenciar atividades com significados diversos. O jogo vem sendo estudado como uma parte natural e essencial do ser humano, parte essencial da aprendizagem e da transmissão de conhecimentos e da própria cultura.',
+      'Educadores e pensadores de diversas áreas vêm desenvolvendo ao longo do tempo, ideias a respeito da aprendizagem por meio dos jogos, porém, os pesquisadores atuais consideram que essas ideias ainda não estão claras para todas as pessoas que trabalham diretamente com a educação. Um dos motivos dessa confusão diz respeito à característica polissêmica da palavra jogo, que pode ser usada para referenciar atividades com significados diversos. O jogo vem sendo estudado como uma parte natural e essencial do ser humano, parte essencial da aprendizagem e da transmissão de conhecimentos e da própria cultura.',
     style: ['paragraph'],
   },
   {
@@ -109,7 +109,7 @@ const textData: Array<ArticleItem> = [
   },
   {
     text:
-      'Estima-se que o ensino de instrumento em grupo iniciou ainda no século XIX na Inglaterra e posteriormente nos Estados Unidos. No Brasil, ele começou a ser adotado na década de cinquenta do século XX, sendo que, na década de setenta, um grande movimento surgiu para o ensino coletivo de cordas friccionadas, encabeçado por Alberto Jaffé e Dayse de Luca. A partir da disseminação do ensino coletivo de instrumento, pesquisadores iniciaram a investigação sobre os benefícios de tal modelo de ensino, benefícios que, além de musicais, são de ordem psicológica e social.',
+      'Estima-se que o ensino de instrumento em grupo, como o denominamos hoje, iniciou ainda no século XIX na Inglaterra e posteriormente nos Estados Unidos. No Brasil, ele começou a ser adotado na década de cinquenta do século XX, sendo que, na década de setenta, um grande movimento surgiu para o ensino coletivo de cordas friccionadas, encabeçado por Alberto Jaffé e Dayse de Luca. A partir da disseminação do ensino coletivo de instrumento, pesquisadores iniciaram a investigação sobre os benefícios de tal modelo de ensino, benefícios que, além de musicais, são de ordem psicológica e social.',
     style: ['paragraph'],
   },
   {
@@ -123,7 +123,7 @@ const textData: Array<ArticleItem> = [
   },
   {
     text:
-      'O educador, pesquisador e compositor François Delalande, que integra o grupo francês GRM, fundado por Pierre Schaeffer em 1951, dedicado à música concreta e eletroacústica, através de intensas pesquisas com crianças, aponta que, comumente, ao começar a estudar um instrumento musical, os estudantes possuem uma postura semelhante à do compositor de música concreta, ou seja, a necessidade exploratória com fins expressivos dos corpos sonoros, no nosso caso, do violoncelo. Enquanto professores, podemos observar essa necessidade na tendência natural do estudante em percutir, raspar, friccionar e produzir diferentes ações com resultantes sonoras diversas. Podemos observar também que as crianças e adolescentes, na fase inicial do estudo do violoncelo, não possuem preconceitos estéticos como os que são apresentados por estudantes ou músicos mais avançados tecnicamente. Os estudantes iniciantes aceitam o violoncelo como uma possibilidade infinita de produção de diferentes músicas, com suas multiplicidades estéticas. Tal observação nos leva a concluir que as dificuldades de compreensão da música contemporânea por músicos profissionais é uma dificuldade colocada pela repetição sistemática de determinados estilos musicais, geralmente os pertencentes a música europeia de concerto dos séculos XVIII e XIX.',
+      'O educador, pesquisador e compositor François Delalande, que integra o grupo francês GRM fundado por Pierre Schaeffer em 1951, através de intensas pesquisas com crianças, aponta que, comumente, ao começar a estudar um instrumento musical, os estudantes possuem uma postura semelhante à do compositor de música concreta. Ele aponta, por exemplo, a necessidade exploratória com fins expressivos dos corpos sonoros, no nosso caso, do violoncelo. Enquanto professores, podemos observar essa necessidade na tendência natural do estudante em percutir, raspar, friccionar e produzir diferentes ações com resultantes sonoras diversas. Podemos observar também que as crianças e adolescentes, na fase inicial do estudo do violoncelo, não possuem preconceitos estéticos como os que são apresentados por estudantes ou músicos mais avançados tecnicamente. Os estudantes iniciantes aceitam o violoncelo como uma possibilidade infinita de produção de diferentes músicas, com suas multiplicidades estéticas. Tal observação nos leva a concluir que as dificuldades de compreensão da música contemporânea por músicos profissionais é uma dificuldade colocada pela repetição sistemática de determinados estilos musicais, geralmente os pertencentes a música europeia de concerto dos séculos XVIII e XIX.',
     style: ['paragraph'],
   },
   {
@@ -133,7 +133,7 @@ const textData: Array<ArticleItem> = [
   },
   {
     text:
-      'Durante a exploração do violoncelo, a mimese também pode ser usada como recurso pedagógico. Os diferentes sons produzidos pelo violoncelo podem ser relacionados, em conjunto com os estudantes, com conteúdos psicológicos e ambientais. Tal abordagem proporciona aos estudantes a compreensão de que os sons produzidos por meio das técnicas estendidas, ou seja, maneiras não-convencionais de abordar o instrumento, não são apenas ruídos, e sim parte importante do leque expressivo musical, sendo que os estudantes passam a produzir conteúdos musicais cada vez subjetivos, englobando tanto as técnicas convencionais quanto as técnicas estendidas. Dessa maneira, tornam-se capazes de expressar seus pensamentos, sentimentos e emoções por meio de ideias musicais.',
+      'Durante a exploração do violoncelo, a mimese também pode ser usada como recurso pedagógico. Os diferentes sons produzidos pelo violoncelo podem ser relacionados, em conjunto com os estudantes, com conteúdos psicológicos e ambientais. Tal abordagem proporciona aos estudantes a compreensão de que os sons produzidos por meio das técnicas estendidas, ou seja, maneiras não convencionais de abordar o instrumento, não são apenas ruídos, e sim parte importante do leque expressivo musical. Assim, os estudantes passam a produzir conteúdos musicais cada vez subjetivos, englobando tanto as técnicas convencionais quanto as técnicas estendidas. Dessa maneira, tornam-se capazes de expressar seus pensamentos, sentimentos e emoções por meio de ideias musicais.',
     style: ['paragraph'],
   },
   {
@@ -153,7 +153,7 @@ const textData: Array<ArticleItem> = [
     style: ['title2'],
   },
   {
-    text: 'Autor: Marta Brietzke',
+    text: 'Autoria: Marta Brietzke',
     style: ['paragraph', 'italic'],
   },
   {
@@ -162,7 +162,7 @@ const textData: Array<ArticleItem> = [
   },
   {
     text:
-      'Propiciar aos estudantes a consciência da sua individualidade e seu papel dentro do coletivo, estabelecer as ideias de narrativa musical, de perguntas e respostas, enfatizando o uso das quatro cordas do violoncelo, do pizzicato, de diferentes ritmos, métricas, timbres e dinâmicas.',
+      'Propiciar aos estudantes a consciência da sua individualidade e seu papel dentro do coletivo; estabelecer as ideias de narrativa musical, de perguntas e respostas, enfatizando o uso das quatro cordas do violoncelo, do pizzicato, de diferentes ritmos, métricas, timbres e dinâmicas.',
     style: ['paragraph'],
   },
   {
@@ -181,12 +181,12 @@ const textData: Array<ArticleItem> = [
   },
   {
     text:
-      'Logo após, propomos que os estudantes se distribuam em duplas e que escolham quem vai fazer a pergunta e quem vai fazer a resposta. Cada dupla se dispõe em um local da sala e é importante que os estudantes tenham experiência em ambos os papéis. A ideia é que após esse momento, os estudantes possam “apresentar”, em duplas, para os demais colegas uma série de perguntas e respostas elaboradas por eles.',
+      'Logo após, propomos que os estudantes se distribuam em duplas e que escolham quem vai fazer a pergunta e quem vai fazer a resposta. Cada dupla se dispõe em um local da sala e é importante que os estudantes tenham experiência em ambos os papéis. A ideia é que, após esse momento, os estudantes possam “apresentar”, em duplas, para os demais colegas uma série de perguntas e respostas elaboradas por eles.',
     style: ['paragraph'],
   },
   {
     text:
-      'É importante que possibilitemos uma certa autonomia aos estudantes. É interessante que deixemos a sua escolha definir quantas perguntas e respostas querem apresentar aos colegas, quem inicia perguntando, que sinal vão combinar para o início e o final das sessões de perguntas e respostas. Comfrequência, vamos observar um aumento na complexidade das perguntas e respostas feitas pelos estudantes em relação àquelas elaboradas no início do jogo.',
+      'É importante que possibilitemos uma certa autonomia aos estudantes. É interessante que deixemos a sua escolha definir quantas perguntas e respostas querem apresentar aos colegas, quem inicia perguntando, que sinal vão combinar para o início e o final das sessões de perguntas e respostas. Com frequência, vamos observar um aumento na complexidade das perguntas e respostas feitas pelos estudantes em relação àquelas elaboradas no início do jogo.',
     style: ['paragraph'],
   },
   {
@@ -206,7 +206,11 @@ const textData: Array<ArticleItem> = [
     style: ['title2'],
   },
   {
-    text: 'Autor: Maria Teresa Alencar de Brito/Murray Schafer',
+    text: 'Autoria: Maria Teresa Alencar de Brito',
+    style: ['paragraph', 'italic'],
+  },
+  {
+    text: 'Adaptação: Marta Brietzke',
     style: ['paragraph', 'italic'],
   },
   {
@@ -224,17 +228,17 @@ const textData: Array<ArticleItem> = [
   },
   {
     text:
-      'Antes da sua realização, podemos propor aos estudantes que explorem as diferentes sonoridades dos seus violoncelos. Uma das maneiras de realizar essa prática é por meio da imitação, propomos um som e pedimos que os estudantes repitam, em conjunto ou individualmente, esse mesmo som. É interessante que possamos nomear as técnicas que já apresentam um nome definido pela literatura, como por exemplo, con legno, sul ponticelo, pizzicato Bartók. É importante que abramos espaço para que os estudantes descubram seus próprios sons, destinando uma parte dessa exploração para que eles abordem sozinhos seus instrumentos. Podemos pedir para que cada um demonstre aos demais colegas um som que descobriu, a fim, novamente, de dar voz ao estudante, e, posteriormente, todos repetem aquele som.',
+      'Antes da sua realização, podemos propor aos estudantes que explorem as diferentes sonoridades dos seus violoncelos. Uma das maneiras de realizar essa prática é por meio da imitação: propomos um som e pedimos que os estudantes repitam, em conjunto ou individualmente, esse mesmo som. É interessante que possamos nomear as técnicas que já apresentam um nome definido pela literatura, como por exemplo, con legno, sul ponticelo, pizzicato Bartók. É importante que abramos espaço para que os estudantes descubram seus próprios sons, destinando uma parte dessa exploração para que eles abordem sozinhos seus instrumentos. Podemos pedir para que cada um demonstre aos demais colegas um som que descobriu, a fim, novamente, de dar voz ao estudante, e, posteriormente, todos repetem aquele som.',
     style: ['paragraph'],
   },
   {
     text:
-      'Podemos também escolher alguns desses sons e compartilhá-los com os estudantes, se considerarmos que o aprendizado de todos os sons no mesmo dia pode causar alguma dificuldade de assimilação por parte dos estudantes. Posteriormente, nas próximas aulas, podemos introduzir mais alguns desses sons, a fim de aumentar o leque expressivo dos estudantes. Em alguns grupos de estudantes, que ainda não sabem segurar o arco, podemos oferecer esses mesmos sons, propondo que os estudantes segurem o arco “abraçando-o” no talão. Dessa maneira, os estudantes ficarão confortáveis e não vão adquirir vícios posturais. A maioria dos sons podem ser produzidos com a “pegada” do arco dessa maneira, possibilitando que os jogos sejam desenvolvidos em paralelo com a aquisição técnica dos estudantes.',
+      'Podemos também escolher alguns desses sons e compartilhá-los com os estudantes, se considerarmos que o aprendizado de todos os sons no mesmo dia pode causar alguma dificuldade de assimilação. Posteriormente, nas próximas aulas, podemos introduzir mais alguns desses sons, a fim de aumentar o leque expressivo dos estudantes. Em alguns grupos de estudantes, que ainda não sabem segurar o arco, podemos oferecer esses mesmos sons, propondo que os estudantes segurem o arco “abraçando-o” no talão. Dessa maneira, os estudantes ficarão confortáveis e não vão adquirir vícios posturais. A maioria dos sons podem ser produzidos com a “pegada” do arco dessa maneira, possibilitando que os jogos sejam desenvolvidos em paralelo com a aquisição técnica dos estudantes.',
     style: ['paragraph'],
   },
   {
     text:
-      'Após a exploração do instrumento, mostramos aos estudantes dois pequenos cartazes, um verde e um vermelho. Associamos esses cartazes às regras de trânsito, em que o verde significa seguir ou, então, tocar, e o vermelho significa parar ou não tocar. Podemos propor que os estudantes escolham, cada um, um dos sons inventariados anteriormente, ou então que produzam diferentes sons. Ao ser apresentado o sinal verde, os estudantes devem executar um som no seu violoncelo, ao ser apresentado o sinal vermelho, os estudantes devem fazer uma pausa. Dessa maneira, estabelecemos a importância e a função do silêncio na perspectiva musical.',
+      'Após a exploração do instrumento, mostramos aos estudantes dois pequenos cartazes, um verde e um vermelho. Associamos esses cartazes às regras de trânsito, em que o verde significa seguir ou, então, tocar, e o vermelho significa parar ou não tocar. Podemos propor que os estudantes escolham, cada um, um dos sons inventariados anteriormente, ou então que produzam diferentes sons. Ao ser apresentado o sinal verde, os estudantes devem executar um som no seu violoncelo. Ao ser apresentado o sinal vermelho, os estudantes devem fazer uma pausa. Dessa maneira, estabelecemos a importância e a função do silêncio na perspectiva musical.',
     style: ['paragraph'],
   },
   {
@@ -244,17 +248,16 @@ const textData: Array<ArticleItem> = [
   },
   {
     text:
-      'Os maestros devem se comunicar entre si para definir o início e o fim da música, cabendo a nós, estabelecermos que essa comunicação deve ser não verbal. Devemos salientar, nessa fase do jogo, que é importante que, tantos os maestros quanto os executantes escutem as diferentes sonoridades produzidas pelo grupo e se tornem conscientes da “narrativa” musical que está sendo criada. Os maestros devem ser incentivados a criarem, junto com os sinais verde e vermelho, sinais de variação de dinâmicas, de articulação e de caráter. Por exemplo, abaixar o sinal pode indicar tocar mais piano, levantar o sinal pode significar tocar mais forte. Devemos estar atentos e estimular que o poder de escuta dos estudantes vá se aprofundando em cada rodada do jogo, evitando que ele se torne mecânico e repetitivo.',
+      'Os maestros devem se comunicar entre si para definir o início e o fim da música, cabendo a nós, estabelecermos que essa comunicação deve ser não verbal. Devemos salientar nessa fase do jogo que é importante que, tantos os maestros quanto os executantes escutem as diferentes sonoridades produzidas pelo grupo e se tornem conscientes da “narrativa” musical que está sendo criada. Os maestros devem ser incentivados a criarem, junto com os sinais verde e vermelho, sinais de variação de dinâmicas, de articulação e de caráter. Por exemplo, abaixar o sinal pode indicar tocar mais piano, levantar o sinal pode significar tocar mais forte. Devemos estar atentos e estimular que o poder de escuta dos estudantes vá se aprofundando em cada rodada do jogo, evitando que ele se torne mecânico e repetitivo.',
     style: ['paragraph'],
   },
   {
     text:
-      'Também é interessante nesse momento que mostremos a gravação de alguma peça musical que utilize técnicas estendidas, como por exemplo, a peça Pression de Helmut Lachenmann, disponível em várias versões no site youtube. Tal audição aproxima o trabalho realizado pelos estudantes com o trabalho realizado por outras pessoas, o que é importante para que os estudantes valorizem sua própria produção e as dos demais. Outra peça interessante são as improvisações por senhas executadas pelo grupo de violoncelistas argentinos _ARRE!_ Algumas dessas improvisações também estão disponíveis no site youtube e proporcionam ao estudante a escuta de diferentes sonoridades, sendo produzidas por grupo de violoncelos, e assim como em Lachenmann, aproximam o trabalho realizado pelos estudantes com o que vem sendo produzido pelos músicos da atualidade.',
+      'Também é interessante nesse momento que mostremos a gravação de alguma peça musical que utilize técnicas estendidas, como por exemplo, a peça Pression de Helmut Lachenmann, disponível em várias versões no site youtube. Tal audição aproxima o trabalho realizado pelos estudantes com o trabalho realizado por outras pessoas, o que é importante para que os estudantes valorizem sua própria produção e as dos demais. Outra peça interessante são as improvisações por senhas executadas pelo grupo de violoncelistas argentinos _ARRE!_ Algumas dessas improvisações também estão disponíveis no site youtube e proporcionam ao estudante a escuta de diferentes sonoridades, sendo produzidas por grupo de violoncelos e, assim como em Lachenmann, aproximam o trabalho realizado pelos estudantes com o que vem sendo produzido pelos músicos da atualidade.',
     style: ['paragraph'],
   },
   {
-    text:
-      'Fonte: Elaborado pela autora, com base nas propostas de Maria Teresa Alencar de Brito e Murray Schafer.',
+    text: 'Fonte: Elaborado pela autora, com base nas propostas de Maria Teresa Alencar de Brito.',
     style: ['paragraph', 'citation'],
   },
   {
@@ -270,7 +273,7 @@ const textData: Array<ArticleItem> = [
     style: ['title2'],
   },
   {
-    text: 'Autor: Claudia Freixedas',
+    text: 'Autoria: Claudia Freixedas',
     style: ['paragraph', 'italic'],
   },
   {
@@ -279,7 +282,7 @@ const textData: Array<ArticleItem> = [
   },
   {
     text:
-      'Estabelecer uma relação entre o imaginado e o sonoro; reforçar a confiança entre pares; desenvolver o poder de escolha dentro da criação musical.',
+      'Estabelecer uma relação entre o imaginário e o sonoro; reforçar a confiança entre pares; desenvolver o poder de escolha dentro da criação musical.',
     style: ['paragraph'],
   },
   {
@@ -288,7 +291,7 @@ const textData: Array<ArticleItem> = [
   },
   {
     text:
-      'Nesse jogo, contamos uma história, imaginando um castelo mal-assombrado em meio a uma noite de tempestade. Estimulamos os estudantes a narrarem quais elementos estariam presentes nesse castelo, como por exemplo, teias de aranha, morcegos, fantasmas, bem como os elementos da natureza, como por exemplo, trovões, rajadas de vento, chuva. Nessa tempestade, um viajante se aproximará do castelo e tomará contato com essas diferentes manifestações.',
+      'Nesse jogo contamos uma história imaginando um castelo mal-assombrado em meio a uma noite de tempestade. Estimulamos os estudantes a narrarem quais elementos estariam presentes nesse castelo, como por exemplo, teias de aranha, morcegos, fantasmas, bem como os elementos da natureza, como por exemplo, trovões, rajadas de vento, chuva. Nessa tempestade, um viajante se aproximará do castelo e tomará contato com essas diferentes manifestações.',
     style: ['paragraph'],
   },
   {
@@ -308,7 +311,7 @@ const textData: Array<ArticleItem> = [
   },
   {
     text:
-      'É interessante que se faça uma gravação em áudio ou vídeo da improvisação que posteriormente se escute essa gravação em conjunto e se discuta sobre o resultado. A audição da peça inteira proporciona a todos os participantes a ideia geral da proposta musical produzida. Algumas vezes, os estudantes envolvidos na execução podem perder a noção do todo musical e essa audição é fundamental para que os estudantes percebam que não estão sendo produzidos apenas ruídos desconexos e sim, um “caminho” musical.',
+      'É interessante que se faça uma gravação em áudio ou vídeo da improvisação e que, posteriormente, se escute essa gravação em conjunto e se discuta sobre o resultado. A audição da peça inteira proporciona a todos os participantes a ideia geral da proposta musical produzida. Algumas vezes, os estudantes envolvidos na execução podem perder a noção do todo musical e essa audição é fundamental para que os estudantes percebam que não estão sendo produzidos apenas ruídos desconexos e sim, um “caminho” musical.',
     style: ['paragraph'],
   },
   {
@@ -328,7 +331,7 @@ const textData: Array<ArticleItem> = [
     style: ['title2'],
   },
   {
-    text: 'Autor: Wanderson Cruz',
+    text: 'Autoria: Wanderson Cruz',
     style: ['paragraph', 'italic'],
   },
   {
@@ -351,7 +354,7 @@ const textData: Array<ArticleItem> = [
   },
   {
     text:
-      'Propomos então aos estudantes que cada um crie sua própria assinatura musical utilizando para isso os sons que desejarem. Damos um tempo para que os estudantes façam essa pesquisa e escolham individualmente sua assinatura. Logo após, propomos que cada estudante execute a sua assinatura para os demais colegas do grupo, a fim de que todos possam conhecer todas as assinaturas. É interessante que peçamos aos estudantes que executem mais de uma vez a sua assinatura, para que possamos verificar se ele está mantendo sempre a mesma assinatura ou se a cada vez executa uma assinatura diferente. Nesse jogo, propomos que as assinaturas de cada estudante sejam sempre as mesmas.',
+      'Propomos, então, que cada um crie sua própria assinatura musical utilizando para isso os sons que desejar. Damos um tempo para que os estudantes façam essa pesquisa e escolham individualmente sua assinatura. Logo após, propomos que cada estudante execute a sua assinatura para os demais colegas do grupo, a fim de que todos possam conhecer todas as assinaturas. É interessante que peçamos aos estudantes que executem mais de uma vez a sua assinatura, para que possamos verificar se ele está mantendo sempre a mesma assinatura ou se a cada vez executa uma assinatura diferente. Nesse jogo, propomos que as assinaturas de cada estudante sejam sempre as mesmas.',
     style: ['paragraph'],
   },
   {
@@ -366,7 +369,7 @@ const textData: Array<ArticleItem> = [
   },
   {
     text:
-      'É interessante, em todos os jogos, que o professor seja o maestro na primeira vez que o jogo está sendo executado, mas que em seguida sejam escolhidos diferentes estudantes para assumirem essa função, possibilitando que todos os estudantes do grupo possam, em algum momento, participar como maestros de algum dos jogos de improvisação.',
+      'É interessante, em todos os jogos, que o professor seja o maestro na primeira vez que o jogo está sendo executado, mas que, em seguida, sejam escolhidos diferentes estudantes para assumirem essa função. Assim, possibilitamos que todos os estudantes do grupo possam, em algum momento, participar como maestros de algum dos jogos de improvisação.',
     style: ['paragraph'],
   },
   {
@@ -386,9 +389,15 @@ const textData: Array<ArticleItem> = [
     style: ['title2'],
   },
   {
-    text: 'Autor: Violeta Gainza',
+    text: 'Autoria: Violeta Gainza',
     style: ['paragraph', 'italic'],
   },
+
+  {
+    text: 'Adaptação: Marta Brietzke',
+    style: ['paragraph', 'italic'],
+  },
+
   {
     text: 'Objetivos:',
     style: ['paragraph', 'bold'],
@@ -404,7 +413,7 @@ const textData: Array<ArticleItem> = [
   },
   {
     text:
-      'Apresentamos aos estudantes três pequenos cartazes. No primeiro cartaz, apresentamos o sinal matemático utilizado para igual, no segundo o sinal matemático utilizado para diferente e no terceiro cartaz podemos criar algum sinal que represente o parecido. Propomos aos estudantes que eles devem respeitar os sinais que serão oferecidos a eles. O primeiro estudante cria livremente uma frase musical, em seguida o professor apresenta um dos sinais ao segundo estudante, que deve repetir ou variar a frase de acordo com o sinal representado. O professor oferece então um novo sinal ao terceiro estudante, que agora deve repetir ou variar a frase apresentada pelo segundo estudante, e assim sucessivamente, até que todos os estudantes tenham elaborado suas frases. Os sinais podem ser escolhidos aleatoriamente ou selecionados previamente pelo professor.',
+      'Apresentamos aos estudantes três pequenos cartazes. No primeiro cartaz, apresentamos o sinal matemático utilizado para igual, no segundo o sinal matemático utilizado para diferente e no terceiro cartaz podemos criar algum sinal que represente o parecido. Propomos aos estudantes que eles devem respeitar os sinais que serão oferecidos a eles. O primeiro estudante cria livremente uma frase musical. Em seguida, o professor apresenta um dos sinais ao segundo estudante, que deve repetir ou variar a frase de acordo com o sinal representado. O professor oferece, então, um novo sinal ao terceiro estudante, que agora deve repetir ou variar a frase apresentada pelo segundo estudante. Assim o jogo segue até que todos os estudantes tenham elaborado suas frases. Os sinais podem ser escolhidos aleatoriamente ou selecionados previamente pelo professor.',
     style: ['paragraph'],
   },
   {
@@ -429,16 +438,22 @@ const textData: Array<ArticleItem> = [
     style: ['title2'],
   },
   {
-    text: 'Autor: Diversos autores/Marta Brietzke',
+    text: 'Autoria: Diversos autores',
     style: ['paragraph', 'italic'],
   },
+
+  {
+    text: 'Adaptação: Marta Brietzke',
+    style: ['paragraph', 'italic'],
+  },
+
   {
     text: 'Objetivos:',
     style: ['paragraph', 'bold'],
   },
   {
     text:
-      'Aproximar os estudantes da ideia de composição; desenvolver uma simbologia própria que represente suas ideias musicais, fazer contato com diferentes maneiras de escrita e representação musical; atentar para as limitações existentes em qualquer tipo de escrita musical; aproximar compositores e intérpretes.',
+      'Aproximar os estudantes da ideia de composição; desenvolver uma simbologia própria que represente suas ideias musicais; fazer contato com diferentes maneiras de escrita e representação musical; chamar a atenção para as limitações existentes em qualquer tipo de escrita musical; aproximar compositores e intérpretes.',
     style: ['paragraph'],
   },
   {
@@ -452,12 +467,12 @@ const textData: Array<ArticleItem> = [
   },
   {
     text:
-      'Começamos o jogo dividindo a turma em grupos. Cada grupo irá apresentar suas gravuras e fotos para os demais colegas e o professor poderá distribuir mais gravuras aos estudantes. Propomos, então, que os estudantes escolham uma ou mais gravuras ou fotos, quantas desejarem, para que contem uma história musical. Podemos dar um exemplo com nosso próprio violoncelo escolhendo uma das gravuras. Devemos ressaltar que a história deve ter um enredo, um início, meio e fim e que os estudantes devem discutir e elaborar em conjunto esse enredo, de acordo com a(s) gravura(s) que escolherem.',
+      'Começamos o jogo dividindo a turma em grupos. Cada grupo irá apresentar suas gravuras e fotos para os demais colegas. O professor poderá distribuir mais gravuras aos estudantes. Propomos, então, que os estudantes escolham uma ou mais gravuras ou fotos, quantas desejarem, para que contem uma história musical. Podemos dar um exemplo com nosso próprio violoncelo escolhendo uma das gravuras. Devemos ressaltar que a história deve ter um enredo, um início, meio e fim e que os estudantes devem discutir e elaborar em conjunto esse enredo, de acordo com a(s) gravura(s) que escolherem.',
     style: ['paragraph'],
   },
   {
     text:
-      'Após a elaboração do enredo, estimulamos que os estudantes produzam com os seus violoncelos conteúdos musicais que representem a história criada por eles, estimulando que a história pode ser contada em partes, ou mesmo simultaneamente, dependendo das escolhas feitas pelos estudantes. A seleção desses conteúdos deve ser feita em conjunto pelos grupos e podemos dar a eles quanto tempo acharmos necessário para que pesquisem e selecionem os sons desejados.',
+      'Após a elaboração do enredo, estimulamos que os estudantes produzam com os seus violoncelos conteúdos musicais que representem a história criada por eles.  A história poderá ser contada em partes, ou mesmo simultaneamente, dependendo das escolhas feitas pelos estudantes. A seleção desses conteúdos deve ser feita em conjunto pelos grupos e podemos dar a eles quanto tempo acharmos necessário para que pesquisem e selecionem os sons desejados.',
     style: ['paragraph'],
   },
   {
@@ -492,7 +507,11 @@ const textData: Array<ArticleItem> = [
     style: ['title2'],
   },
   {
-    text: 'Autor: Vários autores/Marta Brietzke',
+    text: 'Autoria: Vários autores',
+    style: ['paragraph', 'italic'],
+  },
+  {
+    text: 'Adaptação: Marta Brietzke',
     style: ['paragraph', 'italic'],
   },
   {
@@ -515,12 +534,12 @@ const textData: Array<ArticleItem> = [
   },
   {
     text:
-      'Propomos, então, aos estudantes que o grupo se divida em orquestra e solista. O grupo que representará a orquestra executará o ritmo ostinato com corda solta ré, enquanto o estudante escolhido para ser solista executará diferentes frases, englobando os conhecimentos musicais e técnicos já aprendidos por eles. Não é necessário, nesse momento, que se pense em harmonia ou condução vocal, pois a improvisação não necessita obedecer aos padrões estéticos do tonalismo. O objetivo é que os estudantes possam utilizar livremente seus conhecimentos musicais e organizar suas ideias tendo como ponto de partida um ritmo em ostinato.',
+      'Propomos, então, aos estudantes que o grupo se divida em orquestra e solista. O grupo que representará a orquestra executará o ritmo ostinato com corda solta ré, enquanto o estudante escolhido para ser solista executará diferentes frases, englobando os conhecimentos musicais e técnicos já aprendidos por eles. Não é necessário, nesse momento, que se pense em harmonia ou condução vocal, pois a improvisação não necessita obedecer aos padrões estéticos do tonalismo. O objetivo é que os estudantes possam utilizar livremente seus conhecimentos musicais e organizar suas ideias, tendo como ponto de partida um ritmo em ostinato.',
     style: ['paragraph'],
   },
   {
     text:
-      'Podemos organizar a improvisação de diferentes maneiras, como por exemplo, estabelecendo que vamos executar duas vezes o ritmo em ostinato após o término de cada solo, para que o próximo executante identifique a sua hora de entrar como solista na execução. Também podemos organizar a improvisação na forma rondó, propondo que a parte A seja algum número específico de vezes da repetição do ostinato ou algum tema criado em conjunto pelo grupo, a ser executado pelo solista antes da sua livre improvisação. Organizamos e acrescentamos complexidade ao jogo no decorrer das jogadas, que podem ser intercaladas com sessões de audição coletiva da gravação das improvisações.',
+      'Podemos organizar a improvisação de diferentes maneiras, como por exemplo, estabelecendo que vamos executar duas vezes o ritmo em ostinato após o término de cada solo, para que o próximo executante identifique a sua hora de entrar como solista na execução. Também podemos organizar a improvisação na forma rondó, propondo que a parte A seja algum número específico de vezes da repetição do ostinato ou algum tema criado em conjunto pelo grupo, a ser executado pelo solista antes da sua livre improvisação, etc. Organizamos e acrescentamos complexidade ao jogo no decorrer das jogadas, que podem ser intercaladas com sessões de audição coletiva da gravação das improvisações.',
     style: ['paragraph'],
   },
   {
@@ -540,7 +559,7 @@ const textData: Array<ArticleItem> = [
     style: ['title2'],
   },
   {
-    text: 'Autor: Claudia Freixedas',
+    text: 'Autoria: Claudia Freixedas',
     style: ['paragraph', 'italic'],
   },
   {
@@ -557,7 +576,7 @@ const textData: Array<ArticleItem> = [
   },
   {
     text:
-      'Consiste em uma variação do jogo A noite no Castelo, com um acréscimo de complexidade. Nesse caso, também criamos uma história na qual dois exploradores chegam a uma floresta encantada. Nessa floresta, cada árvore emite um som diferente. Quando os exploradores se aproximam das árvores, elas emitem o seu som. Podemos realizar esse jogo com os olhos abertos ou vendados, de forma semelhante à do jogo A noite no Castelo e as árvores podem emitir um único som ou diferentes sons conforme o contexto musical. Porém, é interessante propormos algumas diferenças entre este jogo e o jogo anterior.',
+      'Consiste em uma variação do jogo A noite no Castelo, com um acréscimo de complexidade. Nesse caso, também criamos uma história na qual dois exploradores chegam a uma floresta encantada. Nessa floresta, cada árvore emite um som diferente. Quando os exploradores se aproximam das árvores, elas emitem o seu som. Podemos realizar esse jogo com os olhos abertos ou vendados, de forma semelhante à do jogo A noite no Castelo e as árvores podem emitir um único som ou diferentes sons conforme o contexto musical. É interessante, no entanto, propormos algumas diferenças entre este jogo e o jogo anterior.',
     style: ['paragraph'],
   },
   {
@@ -582,7 +601,7 @@ const textData: Array<ArticleItem> = [
     style: ['title2'],
   },
   {
-    text: 'Autor: Violeta Gainza',
+    text: 'Autoria: Violeta Gainza',
     style: ['paragraph', 'italic'],
   },
   {
@@ -591,7 +610,7 @@ const textData: Array<ArticleItem> = [
   },
   {
     text:
-      'Trabalhar diferentes opções musicais de uma mesma sonoridade, trabalhar a ideia de narrativa musical.',
+      'Trabalhar diferentes possibilidades musicais de uma mesma sonoridade; trabalhar a ideia de narrativa musical.',
     style: ['paragraph'],
   },
   {
@@ -630,7 +649,11 @@ const textData: Array<ArticleItem> = [
     style: ['title2'],
   },
   {
-    text: 'Autores: Claudia Freixedas/Marta Brietzke',
+    text: 'Autoria: Claudia Freixedas',
+    style: ['paragraph', 'italic'],
+  },
+  {
+    text: 'Adaptação: Marta Brietzke',
     style: ['paragraph', 'italic'],
   },
   {
@@ -639,7 +662,7 @@ const textData: Array<ArticleItem> = [
   },
   {
     text:
-      'Trabalhar a liberdade e as diferentes opções para o início, o desenvolvimento e o final da “peça” musical, trabalhar questões ligadas à ecologia e à ecologia acústica; trabalhar os diálogos, as polifonias e a noção de forma musical.',
+      'Trabalhar a liberdade e as diferentes opções para o início, o desenvolvimento e o final da “peça” musical; trabalhar questões ligadas à ecologia e à ecologia acústica; trabalhar os diálogos, as polifonias e a noção de forma musical.',
     style: ['paragraph'],
   },
   {
@@ -648,7 +671,7 @@ const textData: Array<ArticleItem> = [
   },
   {
     text:
-      'Nesse jogo, perguntamos aos estudantes quais sons de pássaros eles conhecem. Podemos inventariar coletivamente esses sons ou nos propormos a investigar em nossas casas e trazermos os resultados de nossas investigações aos demais colegas. Também podemos trazer um catálogo da gravação de sons de pássaros que podemos obter em sites da internet. Dessa forma, escolhemos alguns pássaros que desejamos imitar e buscamos sonoridades semelhantes em nossos violoncelos.',
+      'Nesse jogo, perguntamos aos estudantes quais sons de pássaros eles conhecem. Podemos inventariar, coletivamente, esses sons ou nos propormos a investigar em nossas casas e trazermos os resultados de nossas investigações aos demais colegas. Também podemos trazer um catálogo da gravação de sons de pássaros que podemos obter em sites da internet. Dessa forma, escolhemos alguns pássaros que desejamos imitar e buscamos sonoridades semelhantes em nossos violoncelos.',
     style: ['paragraph'],
   },
   {
