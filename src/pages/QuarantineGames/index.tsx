@@ -21,6 +21,7 @@ export default function QuarantineGames() {
     es: quarantineGamesTextEs,
     en: quarantineGamesTextEn,
   }
+
   return (
     <ArticleLayout
       currentPage="quarantineGamesPage"
