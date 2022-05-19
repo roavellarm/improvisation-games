@@ -2,7 +2,7 @@ import { Game } from 'types'
 import audioGame3 from '../sounds/a-noite-no-castelo.mp3'
 import audioGame6 from '../sounds/composicao-com-gravuras.mp3'
 
-const gameList: Game[] = [
+export const gameListEn: Game[] = [
   {
     id: '1',
     gameTitle: 'Game 1',
@@ -753,5 +753,3 @@ const gameList: Game[] = [
     ],
   },
 ]
-
-export default gameList

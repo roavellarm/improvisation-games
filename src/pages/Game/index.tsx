@@ -2,6 +2,7 @@ import React, { useCallback, useEffect, useMemo, useState } from 'react'
 import { useParams, useHistory } from 'react-router-dom'
 
 import { Game as GameProps } from 'types'
+import { useLanguage } from 'contexts/LanguageContext'
 import HeaderTitle from 'components/HeaderTitle'
 import ItemList from 'components/ItemList'
 import Navbar from 'components/Navbar'
@@ -11,12 +12,21 @@ import SubTitle from 'components/SubTitle'
 import Title from 'components/Title'
 import AudioPlayer from 'components/AudioPlayer'
 import { gameListPt } from 'assets/texts/games-pt'
+import { gameListEn } from 'assets/texts/games-en'
+import { gameListEs } from 'assets/texts/games-es'
 import * as S from './styles'
+
+const GAME_LIST: any = {
+  pt: gameListPt,
+  en: gameListEn,
+  es: gameListEs,
+}
 
 export default function Game() {
   const { id } = useParams() as { id: string }
   const { push } = useHistory()
   const [windowWith, setWindowWidth] = useState(window.innerWidth)
+  const { language } = useLanguage()
   const [game, setGame] = useState<GameProps>({
     id: '',
     gameTitle: '',
@@ -25,8 +35,11 @@ export default function Game() {
 
   const showSideArea = useMemo(() => windowWith > 900, [windowWith])
 
-  const getSelectedGame = (gameID: string) =>
-    gameListPt.filter((currentGame) => currentGame.id === gameID)[0]
+  const getSelectedGame = useCallback(
+    (gameID: string) =>
+      GAME_LIST[language].filter((currentGame: GameProps) => currentGame.id === gameID)[0],
+    [language]
+  )
 
   const updateWindowWidth = useCallback(() => {
     setWindowWidth(window.innerWidth)
@@ -39,7 +52,7 @@ export default function Game() {
     window.scrollTo({ top: 0 })
     document.body.scrollTop = 0
     document.documentElement.scrollTop = 0
-  }, [id, push])
+  }, [getSelectedGame, id, push])
 
   useEffect(() => {
     window.addEventListener('resize', updateWindowWidth)
