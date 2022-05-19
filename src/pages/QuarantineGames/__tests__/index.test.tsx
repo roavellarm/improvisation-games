@@ -9,6 +9,10 @@ jest.mock('react-router-dom', () => ({
   useHistory: () => jest.fn(),
 }))
 
+jest.mock('contexts/LanguageContext', () => ({
+  useLanguage: () => ({ language: 'pt' }),
+}))
+
 window.scrollTo = jest.fn()
 
 describe('when the component is rendered', () => {
