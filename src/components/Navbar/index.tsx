@@ -1,10 +1,11 @@
 import React, { ReactElement, useCallback, useEffect, useState } from 'react'
 import { useHistory } from 'react-router-dom'
 
-import gameList from 'assets/texts/games'
+import { gameListPt } from 'assets/texts/games-pt'
 import { gameOptions } from 'helpers/game'
 import { anchors } from 'pages/Article/anchors'
 import { quarentineAnchors } from 'pages/QuarantineGames/anchors'
+import { useLanguage } from 'contexts/LanguageContext'
 import CarousselNavbar from '../CarouselNavbar'
 import Dropdown from '../Drodown'
 import * as S from './styles'
@@ -22,9 +23,16 @@ const Navbar = ({ currentPage }: NavbarProps) => {
   const { push } = useHistory()
   const [windowWith, setWindowWidth] = useState(INITIAL_STATE.windowWidth)
   const [windowHeight, setWindowHeight] = useState(INITIAL_STATE.windowHeight)
+  const { language } = useLanguage()
+
+  const TEXT: any = {
+    pt: 'Voltar',
+    en: 'Go back',
+    es: 'Volver',
+  }
 
   const renderGamesOptions = () => {
-    if (windowWith > 700) return <CarousselNavbar gameList={gameList} />
+    if (windowWith > 700) return <CarousselNavbar gameList={gameListPt} />
     return <Dropdown title="Jogos" options={gameOptions} />
   }
 
@@ -62,7 +70,7 @@ const Navbar = ({ currentPage }: NavbarProps) => {
     <S.StyledNavbar>
       <S.Line />
       <S.Container isGamePage={currentPage === 'gamePage' || false}>
-        <S.SideArea onClick={() => push('/')}>{`<- Voltar`}</S.SideArea>
+        <S.SideArea onClick={() => push('/')}>{`<- ${TEXT[language]}`}</S.SideArea>
         <S.Spacer>{pagesMenus[`${currentPage}`]}</S.Spacer>
         <S.SideArea />
       </S.Container>

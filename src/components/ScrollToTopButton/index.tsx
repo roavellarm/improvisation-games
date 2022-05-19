@@ -1,4 +1,6 @@
 import React, { memo } from 'react'
+
+import { useLanguage } from 'contexts/LanguageContext'
 import * as S from './styles'
 
 function ScrollToTopButton() {
@@ -7,10 +9,17 @@ function ScrollToTopButton() {
     document.body.scrollTop = 0
     document.documentElement.scrollTop = 0
   }
+  const { language } = useLanguage()
+
+  const TEXT: any = {
+    pt: 'Topo',
+    en: 'Top',
+    es: 'Arriba',
+  }
 
   return (
     <S.Wrapper onClick={() => scrooToTop()}>
-      <S.Text>Topo</S.Text>
+      <S.Text>{TEXT[language]}</S.Text>
       <S.Button>{`<`}</S.Button>
     </S.Wrapper>
   )
