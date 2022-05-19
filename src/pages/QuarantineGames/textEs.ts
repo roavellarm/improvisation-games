@@ -1,6 +1,6 @@
 import { ArticleItem } from 'types'
 
-const quarantineGamesTextData: Array<ArticleItem> = [
+export const quarantineGamesTextEs: Array<ArticleItem> = [
   {
     text: '',
     style: ['space'],
@@ -15,7 +15,7 @@ const quarantineGamesTextData: Array<ArticleItem> = [
   },
   {
     text:
-      'Os jogos descritos abaixo foram elaborados em 2020, com base nos jogos utilizados em meu trabalho de mestrado. No momento em que foram pensados, o mundo vivia as primeiras duas ondas da pandemia de Covid-19, momento no qual o contato e a presença física se tornaram difíceis, em função das condições sanitárias e epidemiológicas. A intenção dessas atividades é manter alguns dos aspectos possíveis do ensino coletivo de instrumentos musicais, mesmo à distância, com o auxílio das tecnologias digitais. Para sua aplicação, sugiro que cada professor crie com seus estudantes um ambiente virtual de trocas, como, por exemplo, um grupo de mensagens, no qual os estudantes compartilhem suas criações, experiências e descobertas. Espero que o mundo não precise viver novas fases de isolamento e que essas atividades possam ser utilizadas em outros momentos de ensino e aprendizagem à distância ou presenciais.',
+      'Los juegos... descritos abaixo foram elaborados em 2020, com base nos jogos utilizados em meu trabalho de mestrado. No momento em que foram pensados, o mundo vivia as primeiras duas ondas da pandemia de Covid-19, momento no qual o contato e a presença física se tornaram difíceis, em função das condições sanitárias e epidemiológicas. A intenção dessas atividades é manter alguns dos aspectos possíveis do ensino coletivo de instrumentos musicais, mesmo à distância, com o auxílio das tecnologias digitais. Para sua aplicação, sugiro que cada professor crie com seus estudantes um ambiente virtual de trocas, como, por exemplo, um grupo de mensagens, no qual os estudantes compartilhem suas criações, experiências e descobertas. Espero que o mundo não precise viver novas fases de isolamento e que essas atividades possam ser utilizadas em outros momentos de ensino e aprendizagem à distância ou presenciais.',
     style: ['paragraph', 'italic'],
   },
   {
@@ -149,5 +149,3 @@ const quarantineGamesTextData: Array<ArticleItem> = [
     style: ['paragraph'],
   },
 ]
-
-export default quarantineGamesTextData
