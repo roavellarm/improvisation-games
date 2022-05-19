@@ -12,7 +12,7 @@ export const gameListPt: Game[] = [
         style: ['title1'],
       },
       {
-        text: 'Autor: Marta Brietzke',
+        text: 'Autoria: Marta Brietzke',
         style: ['paragraph'],
       },
       {
@@ -21,7 +21,7 @@ export const gameListPt: Game[] = [
       },
       {
         text:
-          'Propiciar aos estudantes a consciência da sua individualidade e seu papel dentro do coletivo; estabelecer as ideias de narrativa musical, de perguntas e respostas, enfatizando o uso das quatro cordas do violoncelo, do ​ pizzicato, ​ de diferentes ritmos, métricas, timbres e dinâmicas.',
+          'Propiciar aos estudantes a consciência da sua individualidade e seu papel dentro do coletivo; estabelecer as ideias de narrativa musical e de perguntas e respostas, enfatizando o uso das quatro cordas do violoncelo, do pizzicato, de diferentes ritmos, métricas, timbres e dinâmicas.',
         style: ['paragraph'],
       },
       {
@@ -34,12 +34,12 @@ export const gameListPt: Game[] = [
       },
       {
         text:
-          'Explicar aos estudantes o que pode ser uma pergunta e o que pode ser uma resposta dentro de uma narrativa musical.',
+          'Explicar aos estudantes o que poderia ser uma pergunta e o que poderia ser uma resposta dentro de uma narrativa musical.',
         style: ['itemList'],
       },
       {
         text:
-          'Dar um exemplo utilizando apenas as cordas soltas do violoncelo, contemplando diferentes ritmos, métricas, dinâmicas e variações de caráter.',
+          'Exemplificar utilizando apenas as cordas soltas do violoncelo, contemplando diferentes ritmos, métricas, dinâmicas e variações de caráter.',
         style: ['itemList'],
       },
       {
@@ -84,7 +84,7 @@ export const gameListPt: Game[] = [
       },
       {
         text:
-          'Com frequência se observa um aumento de complexidade na elaboração das perguntas e respostas dos estudantes ao longo das atividades.',
+          'Se observa, com frequência, um aumento de complexidade na elaboração das perguntas e respostas dos estudantes ao longo das atividades.É interessante enfatizar esse fato.',
         style: ['itemList'],
       },
     ],
@@ -98,7 +98,7 @@ export const gameListPt: Game[] = [
         style: ['title1'],
       },
       {
-        text: 'Autor: Maria Teresa Alencar de Brito/Murray Schafer',
+        text: 'Autoria: Maria Teresa Alencar de Brito/Murray Schafer',
         style: ['paragraph'],
       },
       {
@@ -120,7 +120,7 @@ export const gameListPt: Game[] = [
       },
       {
         text:
-          'Propor que os estudantes explorem diferentes sonoridades dos seus violoncelos, associadas às técnicas estendidas.',
+          'Propor aos estudantes que explorem diferentes sonoridades dos seus violoncelos, através das técnicas estendidas.',
         style: ['itemList'],
       },
       {
@@ -135,27 +135,27 @@ export const gameListPt: Game[] = [
       },
       {
         text:
-          'Cada estudante deverá apresentar uma sonoridade pesquisada aos demais colegas da turma, que devem, em conjunto, reproduzí-la.',
+          'Cada estudante deverá apresentar uma sonoridade pesquisada aos demais colegas da turma, que devem, em conjunto, reproduzi-la.',
         style: ['itemList'],
       },
       {
         text:
-          'Apresentar dois pequenos cartazes aos estudantes, um da cor verde e outro da cor vermelha. Associar os cartazes com as leis de trânsito, sendo que verde significará “tocar” e vermelho significará “não tocar”.',
+          'Apresentar dois pequenos cartazes aos estudantes, um da cor verde e outro da cor vermelha. Associar os cartazes com as regras de trânsito, sendo que verde significará “tocar” e vermelho significará “não tocar”.',
         style: ['itemList'],
       },
       {
         text:
-          'Executar algumas combinações com os cartazes, propondo que os estudantes toquem quaisquer sons que desejarem, oriundos das técnicas tradicionais ou das técnicas estendidas.',
+          'Executar algumas combinações com os cartazes, propondo que os estudantes toquem quaisquer sons que desejarem.',
         style: ['itemList'],
       },
       {
         text:
-          'Propor algumas variações de dinâmica, dependendo da maneira como os cartazes forem apresentado aos estudantes.',
+          'Propor algumas variações de dinâmica, dependendo da sequência que os cartazes forem apresentados aos estudantes.',
         style: ['itemList'],
       },
       {
         text:
-          'Escolher um estudante para ser o “maestro” dos demais, cabendo à ele a função de apresentar os cartazes aos colegas.',
+          'Escolher um estudante para ser o “maestro” dos demais, cabendo a ele a função de apresentar os cartazes aos colegas.',
         style: ['itemList'],
       },
       {
@@ -165,7 +165,7 @@ export const gameListPt: Game[] = [
       },
       {
         text:
-          'Cada grupo deverá seguir as indicações dos seus respectivos “maestros”, que devem se comunicar, de maneira não-verbal, a fim de proporcionar a interação e o diálogo musical entre os dois grupos.',
+          'Cada grupo deverá seguir as indicações dos seus respectivos “maestros” que devem se comunicar de maneira não verbal e proporcionar a interação e o diálogo musical entre os dois grupos.',
         style: ['itemList'],
       },
       {
@@ -174,7 +174,7 @@ export const gameListPt: Game[] = [
       },
       {
         text:
-          'Devemos estar atentos e estimular o poder de escuta dos estudantes, ressaltando que as diferentes combinações de sons e silêncios estabelecidas entre os “maestros” proporcionam a criação de uma narrativa musical.',
+          'Devemos estar atentos e estimular o poder de escuta dos estudantes ressaltando que as diferentes combinações de sons e silêncios estabelecidas entre os “maestros” proporcionam a criação de uma narrativa musical.',
         style: ['itemList'],
       },
     ],
@@ -188,7 +188,7 @@ export const gameListPt: Game[] = [
         style: ['title1'],
       },
       {
-        text: 'Autor: Claudia Freixedas',
+        text: 'Autoria: Claudia Freixedas',
         style: ['paragraph'],
       },
       {
@@ -197,7 +197,7 @@ export const gameListPt: Game[] = [
       },
       {
         text:
-          'Estabelecer uma relação entre o imaginado e o sonoro; reforçar a confiança entre pares; desenvolver o poder de escolha dentro da criação musical.',
+          'Estabelecer relações entre o imaginário e o sonoro; reforçar a confiança entre pares; desenvolver o poder de escolha dentro da criação musical.',
         style: ['paragraph'],
       },
       {
@@ -206,12 +206,12 @@ export const gameListPt: Game[] = [
       },
       {
         text:
-          'Contar uma história aos estudantes, sobre um viajante que chega à um castelo mal-assombrado em meio a uma noite de tempestade',
+          'Contar uma história aos estudantes sobre um viajante que chega em um castelo mal-assombrado em meio a uma noite de tempestade',
         style: ['itemList'],
       },
       {
         text:
-          'Inventariar sons que poderiam compor esta paisagem, como, trovões, rajadas de vento, som da chuva, morcegos, fantasmas, assim como objetos que estariam dentro do castelo, como quadros, vasos, móveis antigos, etc.',
+          'Inventariar sons que poderiam compor esta paisagem (trovões, rajadas de vento, som da chuva, morcegos, fantasmas, etc) assim como objetos que estariam dentro do castelo (quadros, vasos, móveis antigos, etc).',
         style: ['itemList'],
       },
       {
@@ -221,7 +221,7 @@ export const gameListPt: Game[] = [
       },
       {
         text:
-          'Escolher um dos estudantes para representar o viajante. Este estudante fará uma caminhada pelo castelo, evitando bater nos “objetos”, sendo guiado por sua audição. Quando o viajante se aproximar de um objeto do castelo, o estudante que representa este objeto executará o seu som específico. À medida que o viajante se afastar do objeto, o som diminui de intensidade, e o estudante que agora estiver mais próximo do viajante começará a executar o som correspondente ao seu objeto, e assim sucessivamente, compondo uma narrativa musical.',
+          'Escolher um dos estudantes para representar o viajante. Este estudante fará uma caminhada pelo castelo evitando bater nos “objetos”, guiado por sua audição. Quando o viajante se aproximar de um objeto do castelo, o estudante que representa este objeto executará o seu som específico. À medida que o viajante se afastar do objeto, o som diminui de intensidade, e o estudante que estiver mais próximo do viajante começará a executar o som correspondente ao seu objeto, e assim sucessivamente, compondo uma narrativa musical.',
         style: ['itemList'],
       },
       {
@@ -230,7 +230,7 @@ export const gameListPt: Game[] = [
       },
       {
         text:
-          'A fim de estimular os estudantes a intensificarem seu poder de escuta, podemos propor que o viajante permaneça mais tempo na frente do objeto que quer ouvir, ou que volte à um determinado objeto que deseja ouvir novamente, exercendo papel ativo na composição da narrativa.',
+          'A fim de estimular os estudantes a intensificarem seu poder de escuta, propor que o viajante permaneça mais tempo na frente do objeto que quer ouvir ou que volte a um determinado objeto que deseja ouvir novamente, exercendo papel ativo na composição da narrativa.',
         style: ['itemList'],
       },
       {
@@ -248,7 +248,7 @@ export const gameListPt: Game[] = [
         style: ['title1'],
       },
       {
-        text: 'Autor: Wanderson Cruz',
+        text: 'Autoria: Wanderson Cruz',
         style: ['paragraph'],
       },
       {
@@ -280,22 +280,22 @@ export const gameListPt: Game[] = [
       },
       {
         text:
-          'Propor que os estudantes, individualmente, criem suas assinaturas musicais, utilizando os sons que desejarem, e as apresentem para os demais colegas da turma.',
+          'Propor que os estudantes, individualmente, criem suas assinaturas musicais utilizando os sons que desejarem e as apresentem para os demais colegas da turma.',
         style: ['itemList'],
       },
       {
         text:
-          'Propor que os estudantes executem suas assinaturas mais de uma vez, a fim de que possamos verificar se elas se mantém as mesmas nas duas execuções.',
+          'Propor que os estudantes executem suas assinaturas mais de uma vez, a fim de que possamos verificar se elas se mantem as mesmas nas duas execuções.',
         style: ['itemList'],
       },
       {
         text:
-          'Escolher um dos estudantes da turma para ser o “maestro”, que deverá compor uma música utilizando apenas as assinaturas musicais elaboradas pelos estudantes.',
+          'Escolher um dos estudantes da turma para ser o “maestro” que deverá compor uma música utilizando apenas as assinaturas musicais elaboradas pelos estudantes.',
         style: ['itemList'],
       },
       {
         text:
-          'O “maestro” deve criar sinais que indiquem quando um estudante deve começar a tocar sua assinatura, quando deve parar, com qual intensidade, velocidade e outras variáveis, quantos estudantes devem tocar simultaneamente, criando diálogos, interações e diferentes combinações entre as assinaturas.',
+          'O “maestro” deve criar sinais que indiquem quando um estudante deve começar a tocar sua assinatura, quando deve parar, com qual intensidade, velocidade e outras variáveis, além de indicar quantos estudantes devem tocar simultaneamente, criando diálogos, interações e diferentes combinações entre as assinaturas.',
         style: ['itemList'],
       },
       {
@@ -304,12 +304,12 @@ export const gameListPt: Game[] = [
       },
       {
         text:
-          'Devemos estimular os estudantes a trabalharem sua escuta e sua escolha artística frente ao material apresentado pelos colegas. Dessa forma, evitamos novamente que o jogo se torne mecânico e proporcionamos a construção de uma ideia musical consistente.',
+          'Estimular os estudantes a trabalharem a escuta e a escolha artística frente ao material apresentado pelos colegas. Dessa forma, evitar que o jogo se torne mecânico e proporcionar a construção de uma ideia musical consistente.',
         style: ['itemList'],
       },
       {
         text:
-          'É interessante, em todos os jogos, que o professor seja o "maestro" na primeira vez que o jogo está sendo executado, mas que em seguida sejam escolhidos diferentes estudantes para assumirem essa função, possibilitando que todos os estudantes do grupo possam, em algum momento, participar como "maestros" de algum dos jogos de improvisação.',
+          'É interessante, em todos os jogos, que o professor seja o "maestro" na primeira rodada, porém, em seguida, escolher diferentes estudantes para assumirem essa função e possibilitar que todos os estudantes do grupo possam, em algum momento, participar como "maestros" de algum dos jogos de improvisação.',
         style: ['itemList'],
       },
     ],
@@ -323,7 +323,11 @@ export const gameListPt: Game[] = [
         style: ['title1'],
       },
       {
-        text: 'Autor: Violeta Gainza',
+        text: 'Autoria: Violeta Gainza',
+        style: ['paragraph'],
+      },
+      {
+        text: 'Adaptação: Marta Brietzke',
         style: ['paragraph'],
       },
       {
@@ -332,7 +336,7 @@ export const gameListPt: Game[] = [
       },
       {
         text:
-          'Trabalhar as ideias de similaridade e diferença em música; proporcionar a criação a partir de um elemento dado previamente; trabalhar a ideia de frases ou narrativas musicais.',
+          'Trabalhar as ideias de similaridade e diferença em música; proporcionar a criação a partir de um elemento dado previamente; desenvolver a ideia de frases e de narrativas musicais.',
         style: ['paragraph'],
       },
       {
@@ -355,17 +359,17 @@ export const gameListPt: Game[] = [
       },
       {
         text:
-          'O professor escolhe um dos cartazes e mostra ao segundo estudante, que deve seguir as instruções contidas no cartaz, executando, assim, uma frase igual, parecida ou diferente da frase criada pelo primeiro estudante.',
+          'O professor escolhe um dos cartazes e mostra ao segundo estudante que deve seguir as instruções contidas no cartaz, tocando, assim, uma frase igual, parecida ou diferente da frase criada pelo primeiro estudante.',
         style: ['itemList'],
       },
       {
         text:
-          'Oferecer um dos cartazes ao terceiro estudante, que deverá executar sua frase seguindo as instruções do cartaz, fazendo referência à frase executada pelo segundo estudante e assim por diante, até que todos os estudantes tenham participado algumas de rodadas do jogo.',
+          'Apresentar um dos cartazes ao terceiro estudante que deverá executar sua frase seguindo as instruções do cartaz e fazendo referência à frase executada pelo segundo estudante e assim por diante. O jogo segue essa dinâmica até que todos os estudantes tenham participado de algumas rodadas do jogo.',
         style: ['itemList'],
       },
       {
         text:
-          'Escolher um dos estudantes para ser o “maestro” e mostrar os cartazes aos demais colegas. Podemos acrescentar mais complexidade nesta rodada do jogo, propondo que o “maestro”, além de escolher os cartazes, escolha também qual estudante executará a nova frase, sendo que para isso, o “maestro” deve utilizar sinais de linguagem não-verbal.',
+          'Escolher um dos estudantes para ser o “maestro” e assumir a função de apresentar os cartazes aos demais colegas. Podemos acrescentar mais complexidade nesta rodada do jogo propondo que o “maestro”, além de escolher os cartazes, escolha também qual estudante executará a nova frase. Para isso o “maestro” deve utilizar sinais de linguagem não verbal.',
         style: ['itemList'],
       },
       {
@@ -374,7 +378,7 @@ export const gameListPt: Game[] = [
       },
       {
         text:
-          'Ao acrescentarmos mais complexidade na variação do jogo propiciaremos que os estudantes desenvolvam mais atenção na escuta.',
+          'Ao acrescentarmos mais complexidade na variação do jogo propiciamos que os estudantes desenvolvam mais atenção na escuta.',
         style: ['itemList'],
       },
     ],
@@ -388,7 +392,11 @@ export const gameListPt: Game[] = [
         style: ['title1'],
       },
       {
-        text: 'Autor: Diversos autores/Marta Brietzke',
+        text: 'Autoria: Diversos autores',
+        style: ['paragraph'],
+      },
+      {
+        text: 'Adaptação: Marta Brietzke',
         style: ['paragraph'],
       },
       {
@@ -415,12 +423,12 @@ export const gameListPt: Game[] = [
       },
       {
         text:
-          'Cada grupo deve examinar as gravuras e imagens e criar uma história, que pode ser decorrente de quantas imagens o grupo escolher para isso, sendo que este número pode variar entre os diferentes grupos.',
+          'Cada grupo deve examinar as gravuras e imagens e criar uma história que pode ser decorrente de quantas imagens o grupo escolher. Esse número pode variar entre os diferentes grupos.',
         style: ['itemList'],
       },
       {
         text:
-          'Propor aos estudantes que criem uma história que apresente um enredo, contendo início, meio e final.',
+          'Propor aos estudantes que criem uma história que apresente um enredo contendo início, meio e final.',
         style: ['itemList'],
       },
       {
@@ -453,7 +461,18 @@ export const gameListPt: Game[] = [
       },
       {
         text:
-          'Durante o processo de criação da história e da música devemos dar aos estudantes autonomia para que eles mesmos se organizem e estabeleçam relações entre eles, estimulando que todos os estudantes devem participar deste processo.',
+          'Dar autonomia aos estudantes durante o processo de criação da história e da música para que eles mesmos se organizem e estabeleçam relações entre si, estimulando assim, que todos participem deste processo.',
+        style: ['itemList'],
+      },
+
+      {
+        text:
+          'Dar autonomia aos estudantes durante seus ensaios e durante a apresentação. Os grupos podem escolher como farão esta apresentação, contando ou não a história criada, apresentando ou não a partitura.',
+        style: ['itemList'],
+      },
+      {
+        text:
+          'Estimular que a comunicação entre os estudantes seja estabelecida de forma não verbal durante a apresentação da música.',
         style: ['itemList'],
       },
       {
@@ -481,7 +500,11 @@ export const gameListPt: Game[] = [
         style: ['title1'],
       },
       {
-        text: 'Autor: Diversos autores/Marta Brietzke',
+        text: 'Autoria: Diversos autores',
+        style: ['paragraph'],
+      },
+      {
+        text: 'Adaptação: Marta Brietzke',
         style: ['paragraph'],
       },
       {
@@ -516,7 +539,7 @@ export const gameListPt: Game[] = [
       },
       {
         text:
-          'O grupo que representa a orquestra deve executar o ostinato, enquanto o estudante solista executa diferentes frases ou ideias musicais, utilizando os sons que desejar.',
+          'O grupo que representa a orquestra deve executar o ostinato. O estudante solista executa diferentes frases ou ideias musicais utilizando os sons que desejar.',
         style: ['itemList'],
       },
       {
@@ -525,7 +548,7 @@ export const gameListPt: Game[] = [
       },
       {
         text:
-          'Após a execução do solo por um estudante, o estudante seguinte passa a ser o solista, e assim sucessivamente, até que todos os estudantes tenham participado no papel de solistas.',
+          'Após a execução do solo por um estudante, o estudante seguinte passa a ser o solista, e assim sucessivamente até que todos os estudantes tenham participado no papel de solistas.',
         style: ['itemList'],
       },
       {
@@ -534,22 +557,17 @@ export const gameListPt: Game[] = [
       },
       {
         text:
-          'Durante os solos não é necessário que pensemos em harmonia ou condução vocal, pois a improvisação não necessita obedecer aos padrões do tonalismo.',
+          'Durante os solos não é necessário pensar em harmonia ou condução vocal, pois a improvisação não necessita obedecer aos padrões do tonalismo.',
         style: ['itemList'],
       },
       {
         text:
-          'O objetivo desta improvisação é que os estudantes possam organizar livremente suas ideias, utilizando os conteúdos já absorvidos por eles.',
+          'A improvisação pode ser organizada de diferentes maneiras, por exemplo, estabelecer que após o final de cada solo se executará um número determinado de vezes o ostinato, ou propor uma forma rondó, onde a parte A será um número fixo de vezes que a orquestra executará o ostinato, ou um tema criado em conjunto pelos estudantes, etc.',
         style: ['itemList'],
       },
       {
         text:
-          'A improvisação pode ser organizada de diferentes maneiras, por exemplo, estabelecer que após o final de cada solo se executará um número determinado de vezes o ostinato, ou propor uma forma rondó, onde a parte A será um número fixo de vezes que a orquestra executará o ostinato, ou um tema criado em conjunto pelos estudantes.',
-        style: ['itemList'],
-      },
-      {
-        text:
-          'Podemos organizar e acrescentar complexidades no decorrer das jogadas, intercalando-as com audições coletivas das improvisações criadas pelos estudantes.',
+          'Acrescentar complexidades no decorrer das jogadas, intercalando-as com audições coletivas das improvisações criadas pelos estudantes.',
         style: ['itemList'],
       },
     ],
@@ -563,7 +581,7 @@ export const gameListPt: Game[] = [
         style: ['title1'],
       },
       {
-        text: 'Autor: Claudia Freixedas',
+        text: 'Autoria: Claudia Freixedas',
         style: ['paragraph'],
       },
       {
@@ -580,12 +598,12 @@ export const gameListPt: Game[] = [
       },
       {
         text:
-          'Este jogo é uma variação do jogo 3, A noite no castelo, porém, sendo acrescentadas algumas complexidades.',
+          'Este jogo é uma variação do Jogo 3 (A noite no castelo) sendo acrescentadas algumas complexidades.',
         style: ['itemList'],
       },
       {
         text:
-          'Posicionar os estudantes em diferentes pontos da sala, com alguma distância entre eles.',
+          'Posicionar os estudantes em diferentes pontos da sala com alguma distância entre eles.',
         style: ['itemList'],
       },
       {
@@ -594,7 +612,7 @@ export const gameListPt: Game[] = [
       },
       {
         text:
-          'Cada árvore da floresta emitirá um som escolhido pelo estudantes que a representará.',
+          'Cada árvore da floresta emitirá um som escolhido pelos estudantes que a representará.',
         style: ['itemList'],
       },
       {
@@ -603,7 +621,7 @@ export const gameListPt: Game[] = [
       },
       {
         text:
-          'Ao se aproximarem das árvores, essas emitem o som escolhido pelo estudante que a representa. Ao se afastarem, a intensidade do som vai diminuindo e o estudante que estiver mais próximo começa a emitir o seu som escolhido.',
+          'Ao se aproximarem das árvores, elas emitem o som escolhido pelo estudante que a representa. Ao se afastarem a intensidade do som vai diminuindo e o estudante que estiver mais próximo começa a emitir o som escolhido por ele.',
         style: ['itemList'],
       },
       {
@@ -612,12 +630,12 @@ export const gameListPt: Game[] = [
       },
       {
         text:
-          'Devemos acrescentar algumas diferenças e complexidades neste jogo em relação ao jogo 3, A noite no castelo.',
+          'Devemos acrescentar algumas diferenças e complexidades neste jogo em relação ao jogo 3.',
         style: ['itemList'],
       },
       {
         text:
-          'Uma das complexidades a serem acrescentadas é a participação de dois “maestros”, o que resultará em interações e diálogos musicais entre eles.',
+          'Uma das complexidades que podem ser acrescentadas é a participação de dois “maestros”, o que resultará em interações e diálogos musicais entre eles.',
         style: ['itemList'],
       },
     ],
@@ -631,7 +649,7 @@ export const gameListPt: Game[] = [
         style: ['title1'],
       },
       {
-        text: 'Autor: Violeta Gainza',
+        text: 'Autoria: Violeta Gainza',
         style: ['paragraph'],
       },
       {
@@ -640,7 +658,7 @@ export const gameListPt: Game[] = [
       },
       {
         text:
-          'Trabalhar diferentes opções musicais de uma mesma sonoridade; trabalhar a ideia de narrativa musical.',
+          'Trabalhar diferentes possibilidades musicais de uma mesma sonoridade; trabalhar a ideia de narrativa musical.',
         style: ['paragraph'],
       },
       {
@@ -663,7 +681,7 @@ export const gameListPt: Game[] = [
       },
       {
         text:
-          'O visitante realiza um passeio pelo zoológico, se posicionando frente aos diferentes animais, e nesse momento, os animais reproduzem o som escolhido pelos estudantes.',
+          'O visitante realiza um passeio pelo zoológico, se posicionando frente aos diferentes animais e, nesse momento, os animais reproduzem o som escolhido pelos estudantes.',
         style: ['itemList'],
       },
       {
@@ -672,12 +690,12 @@ export const gameListPt: Game[] = [
       },
       {
         text:
-          'Podemos propor que os animais emitam os seus sons de acordo com as indicações corporais do visitante, executando diferentes níveis de dinâmica, intensidade e caráter musical.',
+          'Propor que os animais emitam os seus sons de acordo com as indicações corporais do visitante, que deve executar diferentes níveis de dinâmica, intensidade e caráter musical.',
         style: ['itemList'],
       },
       {
         text:
-          'Assim como nos jogos anteriores, podemos gravar as improvisações possibilitando que, nas próximas rodadas dos jogos, as interações sejam cada vez mais provenientes das escolhas musicais dos estudantes.',
+          'Assim como nos jogos anteriores, é interessante gravar as improvisações possibilitando que nas próximas rodadas dos jogos as interações sejam mais conscientes e decorrentes das escolhas musicais dos estudantes.',
         style: ['itemList'],
       },
     ],
@@ -691,7 +709,11 @@ export const gameListPt: Game[] = [
         style: ['title1'],
       },
       {
-        text: 'Autor: Cláudia Freixedas/Marta Brietzke',
+        text: 'Autoria: Cláudia Freixedas',
+        style: ['paragraph'],
+      },
+      {
+        text: 'Adaptação: Marta Brietzke',
         style: ['paragraph'],
       },
       {
@@ -700,7 +722,7 @@ export const gameListPt: Game[] = [
       },
       {
         text:
-          'Trabalhar a liberdade e as diferentes opções para o início, o desenvolvimento e o final da “peça” musical; trabalhar questões ligadas à ecologia e à ecologia acústica; trabalhar os diálogos, as polifonias e a noção de forma musical.',
+          'Trabalhar a liberdade e as diferentes opções para o início, para o desenvolvimento e para o final da “peça” musical; trabalhar questões ligadas à ecologia e à ecologia acústica; trabalhar os diálogos, as polifonias e a noção de forma musical.',
         style: ['paragraph'],
       },
       {
@@ -730,11 +752,11 @@ export const gameListPt: Game[] = [
       },
       {
         text:
-          'Cada estudante atuará representando o som de um dos pássaros, e um estudante representará o caçador.',
+          'Cada estudante atuará representando o som de um dos pássaros e um estudante representará o caçador.',
         style: ['itemList'],
       },
       {
-        text: 'Os pássaros devem dialogar entre si, criando um contexto musical.',
+        text: 'Os pássaros devem dialogar entre si criando um contexto musical.',
         style: ['itemList'],
       },
       {
@@ -756,7 +778,7 @@ export const gameListPt: Game[] = [
       },
       {
         text:
-          'Devemos proporcionar autonomia aos estudantes, deixando a seu critério quando será o início e o final da improvisação, bem como, depois de quanto tempo após a intervenção do caçador os pássaros voltarão a cantar.',
+          'Proporcionar autonomia aos estudantes, deixando a seu critério quando será o início e o final da improvisação, bem como, depois de quanto tempo após a intervenção do caçador os pássaros voltarão a cantar.',
         style: ['itemList'],
       },
     ],
