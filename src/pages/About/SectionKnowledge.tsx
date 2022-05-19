@@ -57,9 +57,7 @@ export default function SectionKnowledge() {
       </Paragraph>
 
       <Paragraph>
-        {`Minha `}
-        <strong>dissertação</strong>
-        {` está disponível `}
+        Minha <strong>dissertação</strong> está disponível
         <Link target="_blank" rel="noopener noreferrer" href={dissertation}>
           aqui
         </Link>
