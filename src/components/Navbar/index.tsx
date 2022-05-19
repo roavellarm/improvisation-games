@@ -4,7 +4,7 @@ import { useHistory } from 'react-router-dom'
 import { gameListPt } from 'assets/texts/games-pt'
 import { gameOptions } from 'helpers/game'
 import { anchors } from 'pages/Article/anchors'
-import { quarentineAnchors } from 'pages/QuarantineGames/anchors'
+import { anchorsPt, anchorsEn, anchorsEs } from 'pages/QuarantineGames/anchors'
 import { useLanguage } from 'contexts/LanguageContext'
 import CarousselNavbar from '../CarouselNavbar'
 import Dropdown from '../Drodown'
@@ -17,6 +17,12 @@ export type NavbarProps = {
 const INITIAL_STATE = {
   windowWidth: window.innerWidth,
   windowHeight: window.innerHeight,
+}
+
+const ANCHORS: any = {
+  pt: anchorsPt,
+  en: anchorsEn,
+  es: anchorsEs,
 }
 
 const Navbar = ({ currentPage }: NavbarProps) => {
@@ -43,7 +49,7 @@ const Navbar = ({ currentPage }: NavbarProps) => {
 
   const renderQuarantineGamesOptions = () =>
     windowWith <= 800 || windowHeight <= 645 ? (
-      <Dropdown title="Tópicos" isArticleStyle options={quarentineAnchors} />
+      <Dropdown title="Tópicos" isArticleStyle options={ANCHORS[language]} />
     ) : null
 
   type PagesMenus = {
