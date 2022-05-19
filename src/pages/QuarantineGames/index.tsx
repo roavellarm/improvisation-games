@@ -24,7 +24,7 @@ export default function QuarantineGames() {
   return (
     <ArticleLayout
       currentPage="quarantineGamesPage"
-      headerTitle="Sons da quarentena"
+      headerTitle={language === 'pt' ? 'Sons da Quarenta' : 'Quarentine Sounds'}
       textData={TEXT[language]}
       anchors={ANCHORS[language]}
       checkStepperPosition={checkStepperPosition}
