@@ -6,7 +6,7 @@ const quarantineGamesTextData: Array<ArticleItem> = [
     style: ['space'],
   },
   {
-    text: 'Autora: Marta Macedo Brietzke',
+    text: 'Autoria: Marta Macedo Brietzke',
     style: ['paragraph', 'margin'],
   },
   {
