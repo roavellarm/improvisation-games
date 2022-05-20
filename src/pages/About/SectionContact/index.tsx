@@ -1,50 +1,57 @@
 import React from 'react'
-import contacts from 'helpers/contacts'
+
+import { useLanguage } from 'contexts/LanguageContext'
 import HeaderTitle from 'components/HeaderTitle'
 import Paragraph from 'components/Paragraph'
 import Title from 'components/Title'
 import ItemList from 'components/ItemList'
+import contacts from 'helpers/contacts'
 
+import { TEXT, SUBJECT, BODY } from './textData'
 import { Link } from '../styles'
 
 export default function SectionContact() {
   const { gustavo, marta, rodrigo } = contacts
-  const subject = 'Contato jogoscello.com'
-  const body = 'Olá! Eu sou <seu nome>...'
+  const { language } = useLanguage()
 
   return (
     <>
-      <HeaderTitle isAboutPage>Me escreva!</HeaderTitle>
-      <Paragraph>
-        Se você experimentar alguma das propostas dos jogos, não deixe de compartilhar comigo. Será
-        muito bom conhecer suas experiências e vivências com as atividades!
-      </Paragraph>
-
+      <HeaderTitle isAboutPage>{TEXT[language][0]}</HeaderTitle>
+      <Paragraph>{TEXT[language][1]}</Paragraph>
       <Title>
-        {`Entre em contato `}
-        <Link target="_blank" href={`mailto:${marta}?subject=${subject}&body=${body}`}>
-          aqui
+        {`${TEXT[language][2]} `}
+        <Link
+          target="_blank"
+          href={`mailto:${marta}?subject=${SUBJECT[language]}&body=${BODY[language]}`}
+        >
+          {TEXT[language][3]}
         </Link>
       </Title>
 
-      <HeaderTitle isAboutPage>Colaboradores</HeaderTitle>
+      <HeaderTitle isAboutPage>{TEXT[language][4]}</HeaderTitle>
       <ItemList>
-        {`Desenhos: `}
+        {`${TEXT[language][5]} `}
         <Link target="_blank" href="https://www.samantafloor.com.br/">
           Samanta Flôor
         </Link>
       </ItemList>
 
       <ItemList>
-        {`Design e desenvolvimento web: `}
-        <Link target="_blank" href={`mailto:${rodrigo}?subject=${subject}&body=${body}`}>
+        {`${TEXT[language][6]} `}
+        <Link
+          target="_blank"
+          href={`mailto:${rodrigo}?subject=${SUBJECT[language]}&body=${BODY[language]}`}
+        >
           Rodrigo Avellar de Muniagurria
         </Link>
       </ItemList>
 
       <ItemList>
-        {`Desenvolvimento web: `}
-        <Link target="_blank" href={`mailto:${gustavo}?subject=${subject}&body=${body}`}>
+        {`${TEXT[language][7]} `}
+        <Link
+          target="_blank"
+          href={`mailto:${gustavo}?subject=${SUBJECT[language]}&body=${BODY[language]}`}
+        >
           Gustavo Sohne
         </Link>
       </ItemList>
