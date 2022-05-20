@@ -13,7 +13,7 @@ export const anchorsPt = [
 
 export const anchorsEn = [
   '1. Sound detective',
-  '2. What is that sound?',
+  '2. What sound is this?',
   '3. Virtual sound cordless phone',
   '4. Musical LEGO',
   '5. Window stories',

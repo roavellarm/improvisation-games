@@ -124,7 +124,7 @@ export const quarantineGamesTextEn: Array<ArticleItem> = [
     style: ['line'],
   },
   {
-    text: '9. Sounds that say “I miss you"',
+    text: '9. Sounds that say “I miss you”',
     style: ['title2', 'anchor'],
   },
   {
