@@ -6,7 +6,7 @@ export const quarantineGamesTextEn: Array<ArticleItem> = [
     style: ['space'],
   },
   {
-    text: 'Autoria: Marta Macedo Brietzke',
+    text: 'Author: Marta Macedo Brietzke',
     style: ['paragraph', 'margin'],
   },
   {
@@ -14,8 +14,7 @@ export const quarantineGamesTextEn: Array<ArticleItem> = [
     style: ['space'],
   },
   {
-    text:
-      'The games... descritos abaixo foram elaborados em 2020, com base nos jogos utilizados em meu trabalho de mestrado. No momento em que foram pensados, o mundo vivia as primeiras duas ondas da pandemia de Covid-19, momento no qual o contato e a presença física se tornaram difíceis, em função das condições sanitárias e epidemiológicas. A intenção dessas atividades é manter alguns dos aspectos possíveis do ensino coletivo de instrumentos musicais, mesmo à distância, com o auxílio das tecnologias digitais. Para sua aplicação, sugiro que cada professor crie com seus estudantes um ambiente virtual de trocas, como, por exemplo, um grupo de mensagens, no qual os estudantes compartilhem suas criações, experiências e descobertas. Espero que o mundo não precise viver novas fases de isolamento e que essas atividades possam ser utilizadas em outros momentos de ensino e aprendizagem à distância ou presenciais.',
+    text: `The games described below were created in 2020 based on the games used in my master's study. At the time they were thought of, the world was experiencing the first two waves of the COVID-19 pandemic, when contact and physical presence became difficult due to sanitary and epidemiological conditions. The intention of these activities is to maintain some of the possible aspects of collective teaching of musical instruments, even at a distance, with the help of digital technologies. For its application, I suggest each teacher to create, with students, a virtual exchange environment, such as a message group, in which students share their creations, experiences and discoveries, for example. I hope that the world does not have to go through new phases of isolation and that these activities can be used in other moments of distance or face-to-face teaching and learning.`,
     style: ['paragraph', 'italic'],
   },
   {
@@ -23,12 +22,11 @@ export const quarantineGamesTextEn: Array<ArticleItem> = [
     style: ['line'],
   },
   {
-    text: '1. Detetive sonoro',
+    text: '1. Sound detective',
     style: ['title2', 'anchor'],
   },
   {
-    text:
-      'Cada estudante deve inventariar, no mínimo, cinco sons que começaram a fazer parte do seu dia a dia durante a quarentena. Inventariar sons que acontecem dentro de casa, sons que chegam dos vizinhos, das janelas, das ruas. Gravar os sons inventariados em áudio ou vídeo. Escolher três sons e criar uma maneira de reproduzi-los no seu instrumento. Não é necessário que seja uma reprodução literal, mas sim, que faça sentido para quem a criou. Gravar os três sons criados com o violoncelo. Enviar os sons criados para um colega. Cada estudante tem a tarefa de descobrir qual foi o som original que serviu de inspiração para seu colega. Enquanto o estudante que recebeu a gravação não descobrir qual é o som original, quem o criou envia “pistas” até que o colega o identifique. Estabelecer anteriormente quanto tempo será destinado para que se descubra o som do colega, antes que se envie uma nova pista, e assim sucessivamente.',
+    text: `Each student must add to an inventory at least five sounds that began to be part of their daily lives during quarantine. Add sounds that happen inside the house, sounds that come from neighbors, from windows, from the streets. Record the inventoried sounds in audio or video. Choose three sounds and create a way to play them on your instrument. It doesn't have to be a literal reproduction, but it must make sense to whoever created it. Record the three sounds created with the cello. Send the created sounds to a colleague. Each student is tasked with discovering which original sound inspired their colleague. While the student who received the recording does not discover what the original sound is, who created it sends "clues" until the colleague identifies it. In advance, establish how much time will be allocated for discovering the sound of the colleague, before sending a new track, and so on.`,
     style: ['paragraph'],
   },
   {
@@ -36,12 +34,12 @@ export const quarantineGamesTextEn: Array<ArticleItem> = [
     style: ['line'],
   },
   {
-    text: '2. Que som é esse?',
+    text: '2. What sound is this?',
     style: ['title2', 'anchor'],
   },
   {
     text:
-      'Cada estudante deve enviar para um colega a gravação original de um dos seus sons inventariados. Quem recebeu e quem enviou o som deve criar com seus instrumentos, individualmente, as suas versões para representar esse som. Em momento posterior, escutar coletivamente os dois sons criados pelos dois estudantes. Observar e conversar sobre as diferenças e semelhanças. Também pode ser criada uma representação coletiva para o som original, após as considerações surgidas nessa conversa.',
+      'Each student must send the original recording of one of their inventoried sounds to a colleague. Those who received and who sent the sound must create with their instruments, individually, their versions to represent that sound. Later, collectively listen to the two sounds created by the two students. Observe and talk about differences and similarities. A collective representation for the original sound can also be created after the considerations that emerged in this conversation.',
     style: ['paragraph'],
   },
   {
@@ -49,12 +47,12 @@ export const quarantineGamesTextEn: Array<ArticleItem> = [
     style: ['line'],
   },
   {
-    text: '3. Telefone sem fio sonoro virtual',
+    text: '3. Virtual sound cordless phone',
     style: ['title2', 'anchor'],
   },
   {
     text:
-      'Um estudante (estudante 1) deve gravar um trecho curto de alguma criação sua no seu instrumento. Pode ser uma célula rítmica, melódica, sonoridades expandidas, etc. Em seguida, enviar para um colega (estudante 2). O colega pode ouvir apenas três vezes o trecho recebido. Em seguida, gravar a sua versão do trecho e enviar para outro colega (estudante 3). Assim vai se sucedendo a atividade até toda a turma ter participado. Ao final, as gravações são escutadas coletivamente na sequência (1, 2, 3, 4, ...). A turma deve conversar sobre o que aconteceu no processo, se aconteceram mudanças, como aconteceram, se as gravações são semelhantes, etc.',
+      'A student (student 1) must record a short snippet of some of their creations on their instrument. It can be a rhythmic or melodic cell, or expanded sonorities etc. Then send it to a colleague (student 2). The colleague can only listen to the received passage three times. Then record your version of the excerpt and send it to another colleague (student 3). This continues the activity until the whole class has participated. At the end, the recordings are heard collectively in the sequence (1, 2, 3, 4...). The class should talk about what happened in the process, if there were changes, how they happened, if the recordings are similar, etc.',
     style: ['paragraph'],
   },
   {
@@ -62,12 +60,11 @@ export const quarantineGamesTextEn: Array<ArticleItem> = [
     style: ['line'],
   },
   {
-    text: '4. Lego musical',
+    text: '4. Musical LEGO',
     style: ['title2', 'anchor'],
   },
   {
-    text:
-      'Um estudante (estudante 1) deve gravar um trecho curto de alguma criação sua no seu instrumento. Assim como no jogo anterior, pode ser uma célula rítmica, melódica, sonoridades expandidas, etc. Enviar para um colega (estudante 2). Quem recebeu a gravação deve ouvir quantas vezes desejar e tentar reproduzir o mesmo trecho com seu instrumento. A sua versão, não precisa ser exatamente igual, mas deve ser parecida com a gravação recebida. O estudante 2 deve criar mais um trecho e acrescentar esse trecho à criação de seu colega. Gravar os dois trechos em sequência (trecho 1, trecho 2) e enviar para outro colega (estudante 3). O estudante que recebeu a gravação deve fazer o mesmo processo, continuar a criação e enviar uma gravação dos 3 trechos em sequência (trecho 1, trecho 2, trecho 3) para um outro colega. A atividade deve continuar sucessivamente até que retorne para o primeiro estudante (estudante 1), que deve reproduzir toda a criação. Todos escutam coletivamente a versão final e conversam sobre o que escutaram, colocando suas percepções, ideias, etc.',
+    text: `A student (student 1) must record a short snippet of some of their creations on their instrument. As in the previous game, it can be a rhythmic or melodic cell, or expanded sonorities etc. Send to a colleague (student 2). Whoever received the recording can listen as many times as they wish and try to reproduce the same passage with their instrument. Your version does not have to be exactly the same, but it should be similar to the recording received. Student 2 must create one more snippet and add this snippet to his colleague's creation. Record the two excerpts in sequence (excerpt 1, excerpt 2) and send to another colleague (student 3). The student who received the recording must do the same process, continue the creation, and send a recording of the 3 excerpts in sequence (excerpt 1, excerpt 2, excerpt 3) to another colleague. The activity must continue successively until it returns to the first student (Student 1), who must reproduce the entire creation. Everyone collectively listens to the final version and talks about what they heard, putting their perceptions, ideas etc.`,
     style: ['paragraph'],
   },
   {
@@ -75,12 +72,12 @@ export const quarantineGamesTextEn: Array<ArticleItem> = [
     style: ['line'],
   },
   {
-    text: '5. Histórias da janela',
+    text: '5. Window stories',
     style: ['title2', 'anchor'],
   },
   {
     text:
-      'Cada estudante deve gravar as sonoridades da sua janela ou do quintal de sua casa durante mais ou menos três minutos em três momentos do dia: manhã, tarde e noite. As gravações devem ser realizadas sempre no mesmo local. Cada estudante deve escutar as três gravações e perceber se existem diferenças ou semelhanças entre as sonoridades gravadas, como por exemplo, intensidades, timbres, cores, movimentos, etc. Cada um deve criar com seu instrumento uma história musical, com princípio, meio e fim, que conte algo sobre esses três momentos sonoros do dia, distintos ou semelhantes. Em seguida, cada estudante deve gravar a sua história musical e enviar para um colega. O estudante que recebeu a gravação deve escutar atentamente a história musical do seu colega e criar um pequeno texto, escrito ou oral, que conte o que ele imaginou com a história musical recebida.',
+      'Each student must record the sounds from their window or backyard for about three minutes at three times of the day: morning, afternoon, and night. Recordings must always be carried out in the same location. Each student must listen to the three recordings and see if there are differences or similarities between the sounds, such as intensities, timbres, colors, movements etc. Each one must create, with their instrument, a musical story, with a beginning, middle, and end, that tells something about these three different or similar sound moments of the day. Then, each student must record their musical story and send it to a colleague. The student who received the recording must listen carefully to the musical story of his colleague and create a short text, written or oral, that tells what he imagined with the musical story received.',
     style: ['paragraph'],
   },
   {
@@ -88,12 +85,12 @@ export const quarantineGamesTextEn: Array<ArticleItem> = [
     style: ['line'],
   },
   {
-    text: '6. Escrevendo a história',
+    text: '6. Writing the story',
     style: ['title2', 'anchor'],
   },
   {
     text:
-      'Esse jogo é uma continuação do jogo 5. O estudante que recebeu a história gravada por seu colega deve construir, da sua maneira, uma “partitura” ou representação gráfica, na qual conste a sua forma de registrar a história sonora recebida.',
+      'This game is a continuation of game 5. The student who received the story recorded by his colleague must build, in his own way, a “score” or graphic representation, in which he or she recorded the way of registering the sound story received.',
     style: ['paragraph'],
   },
   {
@@ -101,12 +98,12 @@ export const quarantineGamesTextEn: Array<ArticleItem> = [
     style: ['line'],
   },
   {
-    text: '7. Espelho, espelho meu',
+    text: '7. Mirror, mirror on the wall',
     style: ['title2', 'anchor'],
   },
   {
     text:
-      'Cada estudante deve escolher três sons gravados com o seu instrumento e enviar para um colega. Esse colega (estudante 2) deve criar uma partitura ou representação gráfica para o som recebido na gravação. Em seguida, enviar a partitura criada para um terceiro colega (estudante 3) que deve, com o seu instrumento, interpretar a partitura da sua maneira. Em seguida todos escutam o som gravado pelo estudante 1 e depois a versão do estudante 3. Em conjunto observam e conversam sobre semelhanças e diferenças. Também podem criar, coletivamente, uma nova interpretação ou uma nova partitura.',
+      'Each student must choose three sounds recorded with their instrument and send them to a colleague. This colleague (student 2) must create a score or graphic representation for the sound received in the recording. Then, send the created score to a third colleague (student 3) who must, with its instrument, interpret the score in its own way. Then everyone listens to the sound recorded by student 1 and then the version of student 3. Together they observe and talk about similarities and differences. They can also collectively create a new interpretation or a new score.',
     style: ['paragraph'],
   },
   {
@@ -114,12 +111,12 @@ export const quarantineGamesTextEn: Array<ArticleItem> = [
     style: ['line'],
   },
   {
-    text: '8. Mapa musical',
+    text: '8. Musical map',
     style: ['title2', 'anchor'],
   },
   {
     text:
-      'A turma deve criar, coletivamente, um mapa virtual de sonoridades. Esse mapa, dependendo de cada turma, pode ser o mapa do país, do estado, da cidade, do bairro ou da rua. Inicialmente, confeccionar através de uma foto, de uma imagem ou desenho, um mapa, conforme escolhido por todos. Colocar esse mapa em uma plataforma digital, na qual possa ser visualizado por toda a turma. Cada pessoa deve gravar com seu instrumento, no mínimo, três pequenos vídeos ou áudios com sonoridades que representem o lugar onde vive. Esses sons podem ser sons da casa ou do entorno. O professor recebe esses vídeos ou áudios, cria um link em alguma mídia social e anexa o link ao mapa, no local onde essa pessoa vive. Disponibilizar o mapa com os vídeos ou áudios linkados para todas as pessoas da turma. Reservar um ou mais momentos em que a turma possa assistir os vídeos coletivamente, estabelecendo os diálogos que podem surgir dessa experiência.',
+      'The class must collectively create a virtual map of sounds. This map, depending on each class, can be the map of the country, state, city, neighborhood or street. Initially, make a map through a photo, an image or a drawing, as chosen by everyone. Put this map on a digital platform, where it can be viewed by the whole class. Each person must record, with their instrument, at least three small videos or audios with sounds that represent the place where they live. These sounds can be sounds from the house or surroundings. The teacher receives these videos or audios, creates a link on some social media and attaches the link to the map, in the place where that person lives. Make the map with the linked videos or audios available to everyone in the class. Reserve one or more moments in which the class can watch the videos collectively, establishing the dialogues that can arise from this experience.',
     style: ['paragraph'],
   },
   {
@@ -127,12 +124,12 @@ export const quarantineGamesTextEn: Array<ArticleItem> = [
     style: ['line'],
   },
   {
-    text: '9. Sons da saudade',
+    text: '9. Sounds that say “I miss you”',
     style: ['title2', 'anchor'],
   },
   {
     text:
-      'Cada pessoa da turma pesquisa em seu instrumento algumas sonoridades que representem, para ela, lugares, coisas, pessoas, situações, experiências, que sente saudades por não estarem presentes, ou sendo vivenciadas, devido a distância física. Em uma reunião coletiva cada pessoa da turma mostra com seu instrumento, ou com uma gravação realizada previamente, o som escolhido. Em seguida, conta um pouco para seus colegas sobre o som escolhido e sobre o que ele representa para ela.',
+      'Each student searches on his instrument for some sounds that represent, for him or her, places, things, people, situations, experiences, which he or she misses for not being present, or being experienced, due to physical distance. In a collective meeting, each person in the class shows with their instrument, or with a recording made in advance, the chosen sound. Then, the student shares with colleagues a little about the chosen sound and what it represents.',
     style: ['paragraph'],
   },
   {
@@ -140,12 +137,12 @@ export const quarantineGamesTextEn: Array<ArticleItem> = [
     style: ['line'],
   },
   {
-    text: '10. Nossa música da quarentena',
+    text: '10. Our quarantine song',
     style: ['title2', 'anchor'],
   },
   {
     text:
-      'Coletivamente, a turma deve criar uma música que englobe todas as sonoridades escolhidas na atividade 9. A turma deve decidir se contará alguma história coletiva com essas sonoridades ou se a música não será descritiva, como os sons serão organizados, se vão soar simultaneamente ou em sequência. Além das escolhas musicais devem ser levadas em conta, também, a destreza e as possibilidades tecnológicas ao alcance de cada turma. Cada estudante deve gravar no seu instrumento um pequeno vídeo executando a sonoridade escolhida por ele. Uma ou mais pessoas montam um vídeo ou áudio com a música criada conforme as orientações da turma e a apresentam, posteriormente, para que todos a escutem coletivamente. Esse processo pode levar quantas aulas forem necessárias, pois as combinações realizadas podem ser avaliadas e, consequentemente, alteradas, até que a turma chegue a um consenso sobre a proposta final. Posteriormente, a turma pode escrever coletivamente uma partitura ou representação gráfica da música criada.',
+      'Collectively, the class must create a song that encompasses all the sounds chosen in activity 9. The class must decide whether to tell a collective story with these sounds or if the music will not be descriptive, how the sounds will be organized, if they will sound simultaneously or in sequence. In addition to musical choices, the dexterity and technological possibilities available to each class must also be taken into account. Each student must record a short video on their instrument performing the sound chosen by them. One or more people assemble a video or audio with the music created according to the guidelines of the class and then present it for everyone to hear collectively. This process can take as many classes as necessary, as the combinations made can be evaluated and, consequently, changed, until the class reaches a consensus on the final proposal. Afterwards, the class can collectively write a score or graphic representation of the music created.',
     style: ['paragraph'],
   },
 ]
