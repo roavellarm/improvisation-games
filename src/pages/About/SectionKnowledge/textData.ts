@@ -1,0 +1,116 @@
+export const textPt = [
+  {
+    text: 'Saiba mais',
+    style: ['headerTitle'],
+  },
+  {
+    text:
+      'Este site foi pensado para professores de violoncelo de estudantes iniciantes de desenvolvimento instrumental que utilizam abordagens de ensino coletivo. É produto de uma pesquisa de mestrado realizada nos anos de 2017 e 2018 na Universidade de São Paulo, Brasil.',
+    style: ['paragraph'],
+  },
+  {
+    text:
+      'Apesar do trabalho de pesquisa ter sido direcionado para estudantes de violoncelo, muitas das propostas contidas nos jogos podem ser desenvolvidas para outros instrumentos e, também, para outros níveis de aprendizagem, cabendo a cada professor fazer as adaptações que julgar necessárias e efetivas para suas demandas. Além disso, cabem muitos desdobramentos das propostas iniciais que podem suscitar outras ideias e perspectivas de trabalho.',
+    style: ['paragraph'],
+  },
+  {
+    text: 'Boa diversão e boas aprendizagens!',
+    style: ['paragraph'],
+  },
+  {
+    text: 'Sobre a autora',
+    style: ['title'],
+  },
+  {
+    text: '',
+    style: ['picture'],
+  },
+  {
+    text:
+      'Meu nome é Marta Macedo Brietzke e sou natural de Porto Alegre, Rio Grande do Sul, Brasil. Iniciei meus estudos de música com meu pai e, logo após, no Projeto Prelúdio e na Orquestra Infanto-Juvenil da Universidade Federal do Rio Grande do Sul, com o violino e o violoncelo. Me graduei em Música nessa mesma universidade, fazendo minha pós-graduação em São Paulo, na Universidade de São Paulo.',
+    style: ['paragraph'],
+  },
+  {
+    text:
+      'Atuei como instrumentista e como professora em orquestras e projetos sociais da capital e da região metropolitana do meu estado. Em conjunto com alguns estudantes de violoncelo, fundamos em Porto Alegre um espaço autogestionado de ensino e aprendizagem do violoncelo, denominado Filarmônica de Violoncelos-Tchêllistas. Minha área de pesquisa se relaciona ao ensino coletivo de instrumentos musicais abordando distintas possibilidades e facetas. Também me dedico à performance de música contemporânea de concerto, fazendo a estreia de algumas peças de compositores brasileiros.',
+    style: ['paragraph'],
+  },
+]
+
+export const textEn = [
+  {
+    text: 'About',
+    style: ['headerTitle'],
+  },
+  {
+    text:
+      'This site foi pensado para professores de violoncelo de estudantes iniciantes de desenvolvimento instrumental que utilizam abordagens de ensino coletivo. É produto de uma pesquisa de mestrado realizada nos anos de 2017 e 2018 na Universidade de São Paulo, Brasil.',
+    style: ['paragraph'],
+  },
+  {
+    text:
+      'Apesar do trabalho de pesquisa ter sido direcionado para estudantes de violoncelo, muitas das propostas contidas nos jogos podem ser desenvolvidas para outros instrumentos e, também, para outros níveis de aprendizagem, cabendo a cada professor fazer as adaptações que julgar necessárias e efetivas para suas demandas. Além disso, cabem muitos desdobramentos das propostas iniciais que podem suscitar outras ideias e perspectivas de trabalho.',
+    style: ['paragraph'],
+  },
+  {
+    text: 'Boa diversão e boas aprendizagens!',
+    style: ['paragraph'],
+  },
+  {
+    text: 'About the author',
+    style: ['title'],
+  },
+  {
+    text: '',
+    style: ['picture'],
+  },
+  {
+    text:
+      'My name is Marta Macedo Brietzke e sou natural de Porto Alegre, Rio Grande do Sul, Brasil. Iniciei meus estudos de música com meu pai e, logo após, no Projeto Prelúdio e na Orquestra Infanto-Juvenil da Universidade Federal do Rio Grande do Sul, com o violino e o violoncelo. Me graduei em Música nessa mesma universidade, fazendo minha pós-graduação em São Paulo, na Universidade de São Paulo.',
+    style: ['paragraph'],
+  },
+  {
+    text:
+      'Atuei como instrumentista e como professora em orquestras e projetos sociais da capital e da região metropolitana do meu estado. Em conjunto com alguns estudantes de violoncelo, fundamos em Porto Alegre um espaço autogestionado de ensino e aprendizagem do violoncelo, denominado Filarmônica de Violoncelos-Tchêllistas. Minha área de pesquisa se relaciona ao ensino coletivo de instrumentos musicais abordando distintas possibilidades e facetas. Também me dedico à performance de música contemporânea de concerto, fazendo a estreia de algumas peças de compositores brasileiros.',
+    style: ['paragraph'],
+  },
+]
+
+export const textEs = [
+  {
+    text: 'Sepa más',
+    style: ['headerTitle'],
+  },
+  {
+    text:
+      'Este site fué pensado para professores de violoncelo de estudantes iniciantes de desenvolvimento instrumental que utilizam abordagens de ensino coletivo. É produto de uma pesquisa de mestrado realizada nos anos de 2017 e 2018 na Universidade de São Paulo, Brasil.',
+    style: ['paragraph'],
+  },
+  {
+    text:
+      'Apesar do trabalho de pesquisa ter sido direcionado para estudantes de violoncelo, muitas das propostas contidas nos jogos podem ser desenvolvidas para outros instrumentos e, também, para outros níveis de aprendizagem, cabendo a cada professor fazer as adaptações que julgar necessárias e efetivas para suas demandas. Além disso, cabem muitos desdobramentos das propostas iniciais que podem suscitar outras ideias e perspectivas de trabalho.',
+    style: ['paragraph'],
+  },
+  {
+    text: 'Boa diversão e boas aprendizagens!',
+    style: ['paragraph'],
+  },
+  {
+    text: 'Sobre la autora',
+    style: ['title'],
+  },
+  {
+    text: '',
+    style: ['picture'],
+  },
+  {
+    text:
+      'Mi nombre es Marta Macedo Brietzke e sou natural de Porto Alegre, Rio Grande do Sul, Brasil. Iniciei meus estudos de música com meu pai e, logo após, no Projeto Prelúdio e na Orquestra Infanto-Juvenil da Universidade Federal do Rio Grande do Sul, com o violino e o violoncelo. Me graduei em Música nessa mesma universidade, fazendo minha pós-graduação em São Paulo, na Universidade de São Paulo.',
+    style: ['paragraph'],
+  },
+  {
+    text:
+      'Atuei como instrumentista e como professora em orquestras e projetos sociais da capital e da região metropolitana do meu estado. Em conjunto com alguns estudantes de violoncelo, fundamos em Porto Alegre um espaço autogestionado de ensino e aprendizagem do violoncelo, denominado Filarmônica de Violoncelos-Tchêllistas. Minha área de pesquisa se relaciona ao ensino coletivo de instrumentos musicais abordando distintas possibilidades e facetas. Também me dedico à performance de música contemporânea de concerto, fazendo a estreia de algumas peças de compositores brasileiros.',
+    style: ['paragraph'],
+  },
+]
