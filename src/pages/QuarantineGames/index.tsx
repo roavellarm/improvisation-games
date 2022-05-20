@@ -22,10 +22,16 @@ export default function QuarantineGames() {
     en: quarantineGamesTextEn,
   }
 
+  const HEADER_TITLE: any = {
+    pt: 'Sons da Quarenta',
+    es: 'Sonidos de la quarentena',
+    en: 'Quarentine Sounds',
+  }
+
   return (
     <ArticleLayout
       currentPage="quarantineGamesPage"
-      headerTitle={language === 'pt' ? 'Sons da Quarenta' : 'Quarentine Sounds'}
+      headerTitle={HEADER_TITLE[language]}
       textData={TEXT[language]}
       anchors={ANCHORS[language]}
       checkStepperPosition={checkStepperPosition}
