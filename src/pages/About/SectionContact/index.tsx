@@ -5,7 +5,7 @@ import Paragraph from 'components/Paragraph'
 import Title from 'components/Title'
 import ItemList from 'components/ItemList'
 
-import { Link } from './styles'
+import { Link } from '../styles'
 
 export default function SectionContact() {
   const { gustavo, marta, rodrigo } = contacts
