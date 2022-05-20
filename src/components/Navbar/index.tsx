@@ -37,6 +37,11 @@ const Navbar = ({ currentPage }: NavbarProps) => {
     es: 'Volver',
   }
 
+  const TOPIC: any = {
+    pt: 'Topico',
+    en: 'Topic',
+    es: 'Tema',
+  }
   const renderGamesOptions = () => {
     if (windowWith > 700) return <CarousselNavbar gameList={gameListPt} />
     return <Dropdown title="Jogos" options={gameOptions} />
@@ -44,12 +49,12 @@ const Navbar = ({ currentPage }: NavbarProps) => {
 
   const renderArticleOptions = () =>
     windowWith <= 800 || windowHeight <= 645 ? (
-      <Dropdown title="Tópicos" isArticleStyle options={anchors} />
+      <Dropdown title={TOPIC[`${language}`]} isArticleStyle options={anchors} />
     ) : null
 
   const renderQuarantineGamesOptions = () =>
     windowWith <= 800 || windowHeight <= 645 ? (
-      <Dropdown title="Tópicos" isArticleStyle options={ANCHORS[language]} />
+      <Dropdown title={TOPIC[`${language}`]} isArticleStyle options={ANCHORS[language]} />
     ) : null
 
   type PagesMenus = {
