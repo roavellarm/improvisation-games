@@ -38,9 +38,9 @@ const Navbar = ({ currentPage }: NavbarProps) => {
   }
 
   const TOPIC: any = {
-    pt: 'Tópico',
-    en: 'Topic',
-    es: 'Tema',
+    pt: 'Tópicos',
+    en: 'Topics',
+    es: 'Temas',
   }
   const renderGamesOptions = () => {
     if (windowWith > 700) return <CarousselNavbar gameList={gameListPt} />
