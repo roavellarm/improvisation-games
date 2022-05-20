@@ -24,44 +24,16 @@ export default function SectionKnowledge() {
     setWindowWidth(window.innerWidth)
   }, [])
 
+  const TEXT_LINK: any = {
+    pt: ['Minha', 'dissertação', 'está disponível', 'aqui'],
+    en: ['My', 'dissertation', 'is available', 'here'],
+    es: ['Mi', 'disertación', 'está disponible', 'aqui'],
+  }
+
   useEffect(() => {
     window.addEventListener('resize', updateWindowWidth)
     return () => window.removeEventListener('resize', updateWindowWidth)
   }, [updateWindowWidth])
-
-  const handleRenderLink = () => {
-    if (language === 'pt')
-      return (
-        <>
-          Minha <strong>dissertação</strong> está disponível
-          <Link target="_blank" rel="noopener noreferrer" href={dissertation}>
-            aqui
-          </Link>
-          .
-        </>
-      )
-    if (language === 'en')
-      return (
-        <>
-          Mine <strong>dissertação</strong> está disponível
-          <Link target="_blank" rel="noopener noreferrer" href={dissertation}>
-            aqui
-          </Link>
-          .
-        </>
-      )
-    if (language === 'es')
-      return (
-        <>
-          Mi <strong>dissertación</strong> está disponíble
-          <Link target="_blank" rel="noopener noreferrer" href={dissertation}>
-            aqui
-          </Link>
-          .
-        </>
-      )
-    return undefined
-  }
 
   return (
     <>
@@ -79,7 +51,15 @@ export default function SectionKnowledge() {
         return null
       })}
 
-      <Paragraph>{handleRenderLink()}</Paragraph>
+      <Paragraph>
+        {`${TEXT_LINK[language][0]} `}
+        <strong>{TEXT_LINK[language][1]}</strong>
+        {` ${TEXT_LINK[language][2]} `}
+        <Link target="_blank" rel="noopener noreferrer" href={dissertation}>
+          {TEXT_LINK[language][3]}
+        </Link>
+        .
+      </Paragraph>
       <br />
     </>
   )

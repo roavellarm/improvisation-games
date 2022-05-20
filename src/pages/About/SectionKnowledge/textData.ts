@@ -57,7 +57,7 @@ export const textEn = [
     style: ['paragraph'],
   },
   {
-    text: 'Sobre a autora',
+    text: 'About the author',
     style: ['title'],
   },
   {
@@ -66,7 +66,7 @@ export const textEn = [
   },
   {
     text:
-      'Meu nome é Marta Macedo Brietzke e sou natural de Porto Alegre, Rio Grande do Sul, Brasil. Iniciei meus estudos de música com meu pai e, logo após, no Projeto Prelúdio e na Orquestra Infanto-Juvenil da Universidade Federal do Rio Grande do Sul, com o violino e o violoncelo. Me graduei em Música nessa mesma universidade, fazendo minha pós-graduação em São Paulo, na Universidade de São Paulo.',
+      'My name is Marta Macedo Brietzke e sou natural de Porto Alegre, Rio Grande do Sul, Brasil. Iniciei meus estudos de música com meu pai e, logo após, no Projeto Prelúdio e na Orquestra Infanto-Juvenil da Universidade Federal do Rio Grande do Sul, com o violino e o violoncelo. Me graduei em Música nessa mesma universidade, fazendo minha pós-graduação em São Paulo, na Universidade de São Paulo.',
     style: ['paragraph'],
   },
   {
@@ -96,7 +96,7 @@ export const textEs = [
     style: ['paragraph'],
   },
   {
-    text: 'Sobre a autora',
+    text: 'Sobre la autora',
     style: ['title'],
   },
   {
@@ -105,7 +105,7 @@ export const textEs = [
   },
   {
     text:
-      'Meu nome é Marta Macedo Brietzke e sou natural de Porto Alegre, Rio Grande do Sul, Brasil. Iniciei meus estudos de música com meu pai e, logo após, no Projeto Prelúdio e na Orquestra Infanto-Juvenil da Universidade Federal do Rio Grande do Sul, com o violino e o violoncelo. Me graduei em Música nessa mesma universidade, fazendo minha pós-graduação em São Paulo, na Universidade de São Paulo.',
+      'Mi nombre es Marta Macedo Brietzke e sou natural de Porto Alegre, Rio Grande do Sul, Brasil. Iniciei meus estudos de música com meu pai e, logo após, no Projeto Prelúdio e na Orquestra Infanto-Juvenil da Universidade Federal do Rio Grande do Sul, com o violino e o violoncelo. Me graduei em Música nessa mesma universidade, fazendo minha pós-graduação em São Paulo, na Universidade de São Paulo.',
     style: ['paragraph'],
   },
   {
