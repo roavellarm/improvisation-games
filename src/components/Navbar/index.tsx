@@ -38,7 +38,7 @@ const Navbar = ({ currentPage }: NavbarProps) => {
   }
 
   const TOPIC: any = {
-    pt: 'Topico',
+    pt: 'Tópico',
     en: 'Topic',
     es: 'Tema',
   }
