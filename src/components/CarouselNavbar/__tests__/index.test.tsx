@@ -56,7 +56,7 @@ const gameList = [
 
 describe('when the CarouselNavbar is render', () => {
   it('should render correctly', () => {
-    const { queryByText } = render(withTheme(<CarouselNavbar gameList={gameList} />))
+    const { queryByText } = render(withTheme(<CarouselNavbar gamesIndex={gameList} />))
     expect(queryByText('Foo')).toBeInTheDocument()
     expect(queryByText('Bar')).toBeInTheDocument()
   })
@@ -65,7 +65,7 @@ describe('when the CarouselNavbar is render', () => {
 describe('when a game option is clicked', () => {
   it('should navigate to the page of the chosen game', () => {
     global.window.scrollTo = jest.fn()
-    const { queryByText } = render(withTheme(<CarouselNavbar gameList={gameList} />))
+    const { queryByText } = render(withTheme(<CarouselNavbar gamesIndex={gameList} />))
     const gameOption = queryByText('Bar') as Element
     fireEvent.click(gameOption)
     expect(mockPush).toHaveBeenCalledWith('/game/2')
