@@ -18,14 +18,16 @@ const LANGUAGE_OPTIONS = {
   es: 'es',
 } as LO
 
+const KEY = 'JOGOS_CELLO-language'
+
 export const LanguageProvider = ({ children }: { children: React.ReactNode }) => {
   const [language, setLanguage] = useState<LanguageOptions>(
-    LANGUAGE_OPTIONS[localStorage.getItem('language') || 'pt']
+    window.localStorage.getItem(KEY) || 'pt'
   )
 
   const selectLanguage = useCallback((lang: LanguageOptions) => {
     if (!LANGUAGE_OPTIONS[lang]) return null
-    localStorage.setItem('laguange', LANGUAGE_OPTIONS[lang])
+    window.localStorage.setItem(KEY, LANGUAGE_OPTIONS[lang])
     return setLanguage(LANGUAGE_OPTIONS[lang])
   }, [])
 

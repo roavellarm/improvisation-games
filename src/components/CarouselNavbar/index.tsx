@@ -2,7 +2,7 @@ import React from 'react'
 import Carousel from 'react-elastic-carousel'
 import { useHistory } from 'react-router-dom'
 
-import { Game } from 'types'
+import { GameIndex } from 'types'
 import * as S from './styles'
 
 const customArrow = ({ type, onClick, isEdge }: any) => {
@@ -14,7 +14,7 @@ const customArrow = ({ type, onClick, isEdge }: any) => {
   )
 }
 
-export default function CarousselNavbar({ gameList }: { gameList: Game[] }) {
+export default function CarousselNavbar({ gamesIndex }: { gamesIndex: GameIndex[] }) {
   const { push } = useHistory()
   const handleClick = (game: string) => {
     window.scrollTo({ top: 0 })
@@ -26,7 +26,7 @@ export default function CarousselNavbar({ gameList }: { gameList: Game[] }) {
   return (
     <S.Container>
       <Carousel itemsToShow={4} itemsToScroll={4} renderArrow={customArrow} pagination={false}>
-        {gameList.map((game) => (
+        {gamesIndex.map((game) => (
           <S.Card key={game.id} onClick={() => handleClick(game.id)}>
             <S.Title>{game.gameTitle}</S.Title>
           </S.Card>

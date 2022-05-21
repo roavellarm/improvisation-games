@@ -1,6 +1,6 @@
 import { Game } from 'types'
-import audioGame3 from '../sounds/a-noite-no-castelo.mp3'
-import audioGame6 from '../sounds/composicao-com-gravuras.mp3'
+import audioGame3 from 'assets/sounds/a-noite-no-castelo.mp3'
+import audioGame6 from 'assets/sounds/composicao-com-gravuras.mp3'
 
 export const gameListEn: Game[] = [
   {
