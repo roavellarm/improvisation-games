@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useMemo, useEffect, useCallback } from 'react'
 import { useLanguage } from 'contexts/LanguageContext'
 import globeIcon from 'assets/images/globe-icon.svg'
 import ptIcon from 'assets/images/pt-icon.png'
@@ -7,10 +7,11 @@ import esIcon from 'assets/images/es-icon.png'
 import { Wrapper, Button, DropdownContent, Options, Arrow } from './styles'
 
 export const LanguageSelector = () => {
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth)
   const [isOpen, setIsOpen] = useState(false)
-  const openMenu = () => setIsOpen(true)
-  const closeMenu = () => setIsOpen(false)
   const { language, selectLanguage } = useLanguage()
+
+  const isMobileScreen = useMemo(() => windowWidth <= 500, [windowWidth])
 
   const languages = [
     { key: 'pt', label: 'Português', icon: ptIcon },
@@ -19,6 +20,24 @@ export const LanguageSelector = () => {
   ]
 
   const getSelectedLanguage = () => languages.filter((lang) => lang.key === language && language)[0]
+
+  const openMenu = () => setIsOpen(true)
+  const closeMenu = () => setIsOpen(false)
+  const toggle = () => setIsOpen(!isOpen)
+
+  const selectOption = (option: string) => {
+    selectLanguage(option || 'pt')
+    return closeMenu()
+  }
+
+  const updateWindowWidth = useCallback(() => {
+    setWindowWidth(window.innerWidth)
+  }, [])
+
+  useEffect(() => {
+    window.addEventListener('resize', updateWindowWidth)
+    return () => window.removeEventListener('resize', updateWindowWidth)
+  }, [updateWindowWidth])
 
   const renderCurrentLanguage = () => {
     const currentLanguage = getSelectedLanguage()
@@ -35,14 +54,22 @@ export const LanguageSelector = () => {
 
   return (
     <Wrapper>
-      <Button onMouseEnter={openMenu} onMouseLeave={closeMenu} isOpen={isOpen}>
+      <Button
+        isOpen={isOpen}
+        onClick={toggle}
+        onMouseEnter={isMobileScreen ? () => null : openMenu}
+        onMouseLeave={isMobileScreen ? () => null : closeMenu}
+      >
         {renderCurrentLanguage()}
       </Button>
 
       {isOpen && (
-        <DropdownContent onMouseEnter={openMenu} onMouseLeave={closeMenu}>
+        <DropdownContent
+          onMouseEnter={isMobileScreen ? () => null : openMenu}
+          onMouseLeave={isMobileScreen ? () => null : closeMenu}
+        >
           {languages.map((lang) => (
-            <Options key={lang.key} onClick={() => selectLanguage(lang.key || 'pt')}>
+            <Options key={lang.key} onClick={() => selectOption(lang.key)}>
               <img src={lang.icon} height={20} width={20} alt={`${lang.label} icon`} />
               &nbsp;
               {lang.label}

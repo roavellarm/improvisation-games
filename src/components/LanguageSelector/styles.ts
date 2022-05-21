@@ -43,8 +43,9 @@ export const DropdownContent = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  background: rgba(219, 152, 19, 0.5);
+  background: #eccb89;
   border-radius: 0 0 8px 8px;
+  z-index: 9 !important;
 `
 
 export const Options = styled.div`
