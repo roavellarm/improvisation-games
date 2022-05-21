@@ -1,17 +1,18 @@
-import React, { useState, useMemo, useEffect, useCallback } from 'react'
+import React, { useState, useMemo } from 'react'
 import { useLanguage } from 'contexts/LanguageContext'
 import globeIcon from 'assets/images/globe-icon.svg'
 import ptIcon from 'assets/images/pt-icon.png'
 import enIcon from 'assets/images/en-icon.png'
 import esIcon from 'assets/images/es-icon.png'
+import { useScreenSize } from 'contexts/screenSize'
 import { Wrapper, Button, DropdownContent, Options, Arrow } from './styles'
 
 export const LanguageSelector = () => {
-  const [windowWidth, setWindowWidth] = useState(window.innerWidth)
   const [isOpen, setIsOpen] = useState(false)
   const { language, selectLanguage } = useLanguage()
+  const { width } = useScreenSize()
 
-  const isMobileScreen = useMemo(() => windowWidth <= 500, [windowWidth])
+  const isMobileScreen = useMemo(() => width <= 500, [width])
 
   const languages = [
     { key: 'pt', label: 'Português', icon: ptIcon },
@@ -29,15 +30,6 @@ export const LanguageSelector = () => {
     selectLanguage(option || 'pt')
     return closeMenu()
   }
-
-  const updateWindowWidth = useCallback(() => {
-    setWindowWidth(window.innerWidth)
-  }, [])
-
-  useEffect(() => {
-    window.addEventListener('resize', updateWindowWidth)
-    return () => window.removeEventListener('resize', updateWindowWidth)
-  }, [updateWindowWidth])
 
   const renderCurrentLanguage = () => {
     const currentLanguage = getSelectedLanguage()
