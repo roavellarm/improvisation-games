@@ -5,7 +5,7 @@ import { gameListPt } from 'assets/texts/games-pt'
 import { gameOptions } from 'helpers/game'
 import { anchors } from 'pages/Article/anchors'
 import { anchorsPt, anchorsEn, anchorsEs } from 'pages/QuarantineGames/anchors'
-import { useLanguage } from 'contexts/LanguageContext'
+import { LO, useLanguage } from 'contexts/LanguageContext'
 import CarousselNavbar from '../CarouselNavbar'
 import Dropdown from '../Drodown'
 import * as S from './styles'
@@ -19,7 +19,9 @@ const INITIAL_STATE = {
   windowHeight: window.innerHeight,
 }
 
-const ANCHORS: any = {
+export type AnchorsType = { [key: string]: string[] }
+
+const ANCHORS: AnchorsType = {
   pt: anchorsPt,
   en: anchorsEn,
   es: anchorsEs,
@@ -31,12 +33,17 @@ const Navbar = ({ currentPage }: NavbarProps) => {
   const [windowHeight, setWindowHeight] = useState(INITIAL_STATE.windowHeight)
   const { language } = useLanguage()
 
-  const TEXT: any = {
+  const TEXT: LO = {
     pt: 'Voltar',
     en: 'Go back',
     es: 'Volver',
   }
 
+  const TOPIC: LO = {
+    pt: 'Tópicos',
+    en: 'Topics',
+    es: 'Temas',
+  }
   const renderGamesOptions = () => {
     if (windowWith > 700) return <CarousselNavbar gameList={gameListPt} />
     return <Dropdown title="Jogos" options={gameOptions} />
@@ -44,12 +51,12 @@ const Navbar = ({ currentPage }: NavbarProps) => {
 
   const renderArticleOptions = () =>
     windowWith <= 800 || windowHeight <= 645 ? (
-      <Dropdown title="Tópicos" isArticleStyle options={anchors} />
+      <Dropdown title={TOPIC[language]} isArticleStyle options={anchors} />
     ) : null
 
   const renderQuarantineGamesOptions = () =>
     windowWith <= 800 || windowHeight <= 645 ? (
-      <Dropdown title="Tópicos" isArticleStyle options={ANCHORS[language]} />
+      <Dropdown title={TOPIC[language]} isArticleStyle options={ANCHORS[language]} />
     ) : null
 
   type PagesMenus = {
