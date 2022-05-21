@@ -10,6 +10,7 @@ import SubTitle from 'components/SubTitle'
 import Title from 'components/Title'
 import Line from 'components/Line'
 import Stepper from 'components/Stepper'
+import { useScreenSize } from 'contexts/screenSize'
 import * as S from './styles'
 
 interface ArticleProps {
@@ -27,14 +28,10 @@ function ArticleLayout({
   anchors,
   checkStepperPosition,
 }: ArticleProps) {
-  const [windowWidth, setWindowWidth] = useState(window.innerWidth)
-  const [windowHeight, setWindowHeight] = useState(window.innerHeight)
   const [selectedStep, setSelectedStep] = useState(0)
+  const { width, height } = useScreenSize()
 
-  const isDesktopScreen = useMemo(() => windowWidth > 800 && windowHeight > 645, [
-    windowHeight,
-    windowWidth,
-  ])
+  const isDesktopScreen = useMemo(() => width > 800 && height > 645, [height, width])
 
   const getVerticalScrollPercentage = (elm: any) => {
     const p = elm.parentNode
@@ -48,20 +45,10 @@ function ArticleLayout({
     setSelectedStep(selectedStepper)
   }, [checkStepperPosition])
 
-  const handleWindowResize = useCallback(() => {
-    setWindowWidth(window.innerWidth)
-    setWindowHeight(window.innerHeight)
-  }, [])
-
   useEffect(() => {
     window.addEventListener('scroll', handleScrollPosition)
     return () => window.removeEventListener('scroll', handleScrollPosition)
   }, [handleScrollPosition])
-
-  useEffect(() => {
-    window.addEventListener('resize', handleWindowResize)
-    return () => window.removeEventListener('resize', handleWindowResize)
-  }, [handleWindowResize])
 
   return (
     <>
