@@ -11,9 +11,9 @@ import ScrollToTopButton from 'components/ScrollToTopButton'
 import SubTitle from 'components/SubTitle'
 import Title from 'components/Title'
 import AudioPlayer from 'components/AudioPlayer'
-import { gameListPt } from 'assets/texts/games-pt'
-import { gameListEn } from 'assets/texts/games-en'
-import { gameListEs } from 'assets/texts/games-es'
+import { gameListPt } from './games-pt'
+import { gameListEn } from './games-en'
+import { gameListEs } from './games-es'
 import * as S from './styles'
 
 const GAME_LIST: any = {
