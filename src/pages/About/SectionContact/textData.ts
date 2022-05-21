@@ -12,8 +12,8 @@ const textPt = [
 ]
 
 const textEn = [
-  'Contact me!',
-  'If you... experimentar alguma das propostas dos jogos, não deixe de compartilhar comigo. Será muito bom conhecer suas experiências e vivências com as atividades!',
+  'Write me!',
+  "If you try any of the games' proposals, be sure to share it with me. It will be great to know your experiences with the activities!",
   'Contact us',
   'here',
   'Colaborators',
