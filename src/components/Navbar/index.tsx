@@ -1,13 +1,14 @@
 import React, { ReactElement, useCallback, useEffect, useState } from 'react'
 import { useHistory } from 'react-router-dom'
 
-import { gameListPt } from 'assets/texts/games-pt'
 import { gameOptions } from 'helpers/game'
 import { anchors } from 'pages/Article/anchors'
 import { anchorsPt, anchorsEn, anchorsEs } from 'pages/QuarantineGames/anchors'
 import { LO, useLanguage } from 'contexts/LanguageContext'
+import { GameIndex } from 'types'
 import CarousselNavbar from '../CarouselNavbar'
 import Dropdown from '../Drodown'
+import { gameIndexPt, gameIndexEn, gameIndexEs } from './gameIndex'
 import * as S from './styles'
 
 export type NavbarProps = {
@@ -25,6 +26,12 @@ const ANCHORS: AnchorsType = {
   pt: anchorsPt,
   en: anchorsEn,
   es: anchorsEs,
+}
+
+const GAMES_INDEX: { [key: string]: GameIndex[] } = {
+  pt: gameIndexPt,
+  en: gameIndexEn,
+  es: gameIndexEs,
 }
 
 const Navbar = ({ currentPage }: NavbarProps) => {
@@ -45,7 +52,7 @@ const Navbar = ({ currentPage }: NavbarProps) => {
     es: 'Temas',
   }
   const renderGamesOptions = () => {
-    if (windowWith > 700) return <CarousselNavbar gameList={gameListPt} />
+    if (windowWith > 700) return <CarousselNavbar gamesIndex={GAMES_INDEX[language]} />
     return <Dropdown title="Jogos" options={gameOptions} />
   }
 
