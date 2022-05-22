@@ -1,6 +1,7 @@
-import React, { ReactNode, useCallback, useEffect, useMemo, useState } from 'react'
+import React, { ReactNode, useEffect } from 'react'
 
 import Navbar from 'components/Navbar'
+import { useScreenSize } from 'contexts/screenSize'
 import { Container, SideArea, Content, ImgTopRight, ImgBottomLeft, ImgBottomRight } from './styles'
 
 interface LayoutProps {
@@ -8,33 +9,25 @@ interface LayoutProps {
 }
 
 export default function Layout({ children }: LayoutProps) {
-  const [windowWith, setWindowWidth] = useState(window.innerWidth)
-
-  const isDesktopScreen = useMemo(() => windowWith > 800, [windowWith])
-
-  const updateWindowWidth = useCallback(() => {
-    setWindowWidth(window.innerWidth)
-  }, [])
+  const { isMobile } = useScreenSize()
 
   useEffect(() => {
     window.scrollTo({ top: 0 })
     document.body.scrollTop = 0
     document.documentElement.scrollTop = 0
-    window.addEventListener('resize', updateWindowWidth)
-    return () => window.removeEventListener('resize', updateWindowWidth)
-  }, [updateWindowWidth])
+  }, [])
 
   return (
     <>
       <Navbar />
       <Container>
-        <SideArea>{isDesktopScreen && <ImgBottomLeft />}</SideArea>
+        <SideArea>{!isMobile && <ImgBottomLeft />}</SideArea>
 
         <Content>{children}</Content>
 
         <SideArea>
           <ImgTopRight />
-          {isDesktopScreen && <ImgBottomRight />}
+          {!isMobile && <ImgBottomRight />}
         </SideArea>
       </Container>
     </>

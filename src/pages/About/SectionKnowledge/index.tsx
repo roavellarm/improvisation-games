@@ -1,10 +1,11 @@
-import React, { useCallback, useEffect, useMemo, useState } from 'react'
+import React, { useMemo } from 'react'
 import dissertation from 'assets/texts/DissertacaoMartaMacedoBrietzke.pdf'
 import HeaderTitle from 'components/HeaderTitle'
 import Paragraph from 'components/Paragraph'
 import Title from 'components/Title'
 import { useLanguage } from 'contexts/LanguageContext'
 import { Item } from 'types'
+import { useScreenSize } from 'contexts/screenSize'
 import { textPt, textEn, textEs } from './textData'
 import { Link, Picture } from '../styles'
 
@@ -15,25 +16,15 @@ const TEXT: any = {
 }
 
 export default function SectionKnowledge() {
-  const [windowWidth, setWindowWidth] = useState(window.innerWidth)
   const { language } = useLanguage()
-
-  const isMobileScreen = useMemo(() => windowWidth <= 500, [windowWidth])
-
-  const updateWindowWidth = useCallback(() => {
-    setWindowWidth(window.innerWidth)
-  }, [])
+  const { checkIsMobile } = useScreenSize()
+  const isMobileScreen = useMemo(() => checkIsMobile(500), [checkIsMobile])
 
   const TEXT_LINK: any = {
     pt: ['Minha', 'dissertação', 'está disponível', 'aqui'],
     en: ['My', "master's thesis", 'is available', 'here'],
     es: ['Mi', 'disertación', 'está disponible', 'aqui'],
   }
-
-  useEffect(() => {
-    window.addEventListener('resize', updateWindowWidth)
-    return () => window.removeEventListener('resize', updateWindowWidth)
-  }, [updateWindowWidth])
 
   return (
     <>

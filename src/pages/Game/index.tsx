@@ -11,6 +11,7 @@ import ScrollToTopButton from 'components/ScrollToTopButton'
 import SubTitle from 'components/SubTitle'
 import Title from 'components/Title'
 import AudioPlayer from 'components/AudioPlayer'
+import { useScreenSize } from 'contexts/screenSize'
 import { gameListPt } from './games-pt'
 import { gameListEn } from './games-en'
 import { gameListEs } from './games-es'
@@ -25,25 +26,21 @@ const GAME_LIST: any = {
 export default function Game() {
   const { id } = useParams() as { id: string }
   const { push } = useHistory()
-  const [windowWith, setWindowWidth] = useState(window.innerWidth)
   const { language } = useLanguage()
   const [game, setGame] = useState<GameProps>({
     id: '',
     gameTitle: '',
     content: [],
   })
+  const { width } = useScreenSize()
 
-  const showSideArea = useMemo(() => windowWith > 900, [windowWith])
+  const showSideArea = useMemo(() => width > 900, [width])
 
   const getSelectedGame = useCallback(
     (gameID: string) =>
       GAME_LIST[language].filter((currentGame: GameProps) => currentGame.id === gameID)[0],
     [language]
   )
-
-  const updateWindowWidth = useCallback(() => {
-    setWindowWidth(window.innerWidth)
-  }, [])
 
   useEffect(() => {
     const currentGame = getSelectedGame(id) as GameProps
@@ -53,11 +50,6 @@ export default function Game() {
     document.body.scrollTop = 0
     document.documentElement.scrollTop = 0
   }, [getSelectedGame, id, push])
-
-  useEffect(() => {
-    window.addEventListener('resize', updateWindowWidth)
-    return () => window.removeEventListener('resize', updateWindowWidth)
-  }, [updateWindowWidth])
 
   return (
     <>
