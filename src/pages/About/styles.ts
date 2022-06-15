@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import imgTopRight from 'assets/images/aboutTopRight.png'
 import imgBottomRight from 'assets/images/aboutBottomRight.png'
 import imgBottomLeft from 'assets/images/aboutBottomLeft.png'
-import picture from 'assets/images/Marta.jpeg'
+import picture from 'assets/images/marta-oficial.jpg'
 
 export const Container = styled.div`
   display: flex;
@@ -164,8 +164,8 @@ export const ImgBottomLeft = styled.div`
 `
 
 export const Picture = styled.div`
-  width: ${({ isMobile }: { isMobile: boolean }) => (isMobile ? '124px' : '156px')};
-  height: ${({ isMobile }: { isMobile: boolean }) => (isMobile ? '165px' : '207px')};
+  width: ${({ isMobile }: { isMobile: boolean }) => (isMobile ? '144px' : '276px')};
+  height: ${({ isMobile }: { isMobile: boolean }) => (isMobile ? '185px' : '221px')};
   float: right;
   margin: 0.5rem 0px 0px 1rem;
   border-radius: 8px;
