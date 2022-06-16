@@ -165,7 +165,7 @@ export const ImgBottomLeft = styled.div`
 
 export const Picture = styled.div`
   width: ${({ isMobile }: { isMobile: boolean }) => (isMobile ? '144px' : '276px')};
-  height: ${({ isMobile }: { isMobile: boolean }) => (isMobile ? '185px' : '221px')};
+  height: ${({ isMobile }: { isMobile: boolean }) => (isMobile ? '195px' : '231px')};
   float: right;
   margin: 0.5rem 0px 0px 1rem;
   border-radius: 8px;
@@ -175,4 +175,9 @@ export const Picture = styled.div`
   background-size: contain;
   -webkit-filter: brightness(1.2) contrast(0.8);
   filter: brightness(1.2) contrast(0.8);
+
+  @media screen and (max-width: 700px) {
+    margin-left: 0.5rem;
+    margin-top: -35px;
+  }
 `
