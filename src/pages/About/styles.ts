@@ -183,6 +183,6 @@ export const Picture = styled.div`
     background-repeat: no-repeat;
     background-size: contain;
 
-    margin: 5px 15px 0px 0.18rem;
+    margin: 5px 10px -20px 0.18rem;
   }
 `
