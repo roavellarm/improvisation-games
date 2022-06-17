@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import imgTopRight from 'assets/images/aboutTopRight.png'
 import imgBottomRight from 'assets/images/aboutBottomRight.png'
 import imgBottomLeft from 'assets/images/aboutBottomLeft.png'
-import picture from 'assets/images/MartaZipada.jpg'
+import picture from 'assets/images/MartaCello.jpg'
 
 export const Container = styled.div`
   display: flex;
