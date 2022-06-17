@@ -181,6 +181,7 @@ export const Picture = styled.div`
     margin-top: 3px;
     background-position: bottom;
     background-repeat: no-repeat;
+    background-size: contain;
 
     margin: 5px 15px 0px 0.18rem;
   }
