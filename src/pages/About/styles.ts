@@ -180,6 +180,8 @@ export const Picture = styled.div`
   @media screen and (max-width: 700px) {
     margin-top: 3px;
     background-position: bottom;
+    background-repeat: no-repeat;
+
     margin: 5px 15px 0px 0.18rem;
   }
 `
