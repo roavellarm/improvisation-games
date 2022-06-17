@@ -164,23 +164,22 @@ export const ImgBottomLeft = styled.div`
 `
 
 export const Picture = styled.div`
-  width: ${({ isMobile }: { isMobile: boolean }) => (isMobile ? '164px' : '270px')};
-  height: ${({ isMobile }: { isMobile: boolean }) => (isMobile ? '105px' : '170px')};
+  width: ${({ isMobile }: { isMobile: boolean }) => (isMobile ? '164px' : '300px')};
+  height: ${({ isMobile }: { isMobile: boolean }) => (isMobile ? '105px' : '180px')};
   float: right;
   margin: 5px 0px 0px 0.18rem;
   border-radius: 8px;
   background: url(${picture});
   background-position: center;
   background-repeat: no-repeat;
-  /* border: 1px solid red; */
 
   background-size: cover;
   -webkit-filter: brightness(1.2) contrast(0.8);
   filter: brightness(1.2) contrast(0.8);
 
   @media screen and (max-width: 700px) {
-    /* margin-left: 0.1rem; */
     margin-top: 3px;
     background-position: bottom;
+    margin: 5px 15px 0px 0.18rem;
   }
 `
