@@ -178,11 +178,9 @@ export const Picture = styled.div`
   filter: brightness(1.2) contrast(0.8);
 
   @media screen and (max-width: 700px) {
-    margin-top: 3px;
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: contain;
-
     margin: 5px 10px -20px 0.18rem;
   }
 `
