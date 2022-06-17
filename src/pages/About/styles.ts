@@ -164,10 +164,10 @@ export const ImgBottomLeft = styled.div`
 `
 
 export const Picture = styled.div`
-  width: ${({ isMobile }: { isMobile: boolean }) => (isMobile ? '144px' : '276px')};
-  height: ${({ isMobile }: { isMobile: boolean }) => (isMobile ? '195px' : '231px')};
+  width: ${({ isMobile }: { isMobile: boolean }) => (isMobile ? '154px' : '276px')};
+  height: ${({ isMobile }: { isMobile: boolean }) => (isMobile ? '185px' : '225px')};
   float: right;
-  margin: 0.5rem 0px 0px 1rem;
+  margin: -9px 0px 0px 1rem;
   border-radius: 8px;
   background: url(${picture});
   background-position: center;
@@ -177,7 +177,7 @@ export const Picture = styled.div`
   filter: brightness(1.2) contrast(0.8);
 
   @media screen and (max-width: 700px) {
-    margin-left: 0.5rem;
+    margin-left: 0.1rem;
     margin-top: -35px;
   }
 `
