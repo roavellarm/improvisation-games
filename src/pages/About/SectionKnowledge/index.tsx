@@ -36,11 +36,7 @@ export default function SectionKnowledge() {
             </HeaderTitle>
           )
         if (item.style.includes('paragraph'))
-          return (
-            <Paragraph margin key={index}>
-              {item?.text || ''}
-            </Paragraph>
-          )
+          return <Paragraph key={index}>{item?.text || ''}</Paragraph>
         if (item.style.includes('title')) return <Title key={index}>{item?.text || ''}</Title>
         if (item.style.includes('picture')) return <Picture key={index} isMobile={isMobileScreen} />
         return null
