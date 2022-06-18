@@ -177,7 +177,7 @@ export const Picture = styled.div`
   -webkit-filter: brightness(1.2) contrast(0.8);
   filter: brightness(1.2) contrast(0.8);
 
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 500px) {
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: contain;
