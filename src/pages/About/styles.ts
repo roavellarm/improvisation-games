@@ -179,7 +179,7 @@ export const Picture = styled.div`
 
   @media screen and (max-width: 500px) {
     background-position: bottom;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-size: contain;
     margin: 5px 10px -20px 0.18rem;
   }
