@@ -22,7 +22,8 @@ export const textPt = [
     style: ['title'],
   },
   {
-    text: '',
+    text:
+      "Marta Brietzke segurando seu violoncelo, ao fundo vê-se em desfoque o espelho d'agua do parque Farroupilha de Porto Alegre",
     style: ['picture'],
   },
   {
@@ -61,7 +62,8 @@ export const textEn = [
     style: ['title'],
   },
   {
-    text: '',
+    text:
+      'Marta Brietzke holding her cello, with the Farroupilha park from Porto Alegre in the background on blur.',
     style: ['picture'],
   },
   {
@@ -100,7 +102,8 @@ export const textEs = [
     style: ['title'],
   },
   {
-    text: '',
+    text:
+      'Marta Brietzke sosteniendo su violonchelo, al fondo se ve borroso el espejo de agua del Parque Farroupilha en Porto Alegre',
     style: ['picture'],
   },
   {
