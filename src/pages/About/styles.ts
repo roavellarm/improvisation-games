@@ -2,7 +2,6 @@ import styled from 'styled-components'
 import imgTopRight from 'assets/images/aboutTopRight.png'
 import imgBottomRight from 'assets/images/aboutBottomRight.png'
 import imgBottomLeft from 'assets/images/aboutBottomLeft.png'
-import picture from 'assets/images/MartaCello.jpg'
 
 export const Container = styled.div`
   display: flex;
@@ -160,26 +159,5 @@ export const ImgBottomLeft = styled.div`
   }
   @media screen and (max-width: 860px) {
     width: ${`${146 * 0.34}px`};
-  }
-`
-
-export const Picture = styled.div`
-  width: ${({ isMobile }: { isMobile: boolean }) => (isMobile ? '164px' : '300px')};
-  height: ${({ isMobile }: { isMobile: boolean }) => (isMobile ? '105px' : '180px')};
-  float: right;
-  margin: 5px 0px 0px 0.18rem;
-  border-radius: 8px;
-  background: url(${picture});
-  background-position: center;
-  background-repeat: no-repeat;
-
-  background-size: cover;
-  -webkit-filter: brightness(1.2) contrast(0.8);
-  filter: brightness(1.2) contrast(0.8);
-
-  @media screen and (max-width: 500px) {
-    background-position: bottom;
-    background-size: contain;
-    margin: 5px 10px -20px 0.18rem;
   }
 `
