@@ -39,7 +39,7 @@ export const gameListEs: Game[] = [
       },
       {
         text:
-          'Ejemplificar utilizando a penas las cuerdas al aire del violoncello, contemplando diferentes ritmos, métricas, dinámicas y variaciones de carácter.',
+          'Ejemplificar utilizando a penas las cuerdas sueltas del violoncello, contemplando diferentes ritmos, métricas, dinámicas y variaciones de carácter.',
         style: ['itemList'],
       },
       {
@@ -95,7 +95,7 @@ export const gameListEs: Game[] = [
     gameTitle: 'Juego 2',
     content: [
       {
-        text: 'Señal verde X Señal Rojo',
+        text: 'Luz verde X Luz roja',
         style: ['title1'],
       },
       {
