@@ -89,4 +89,99 @@ export const gameListEs: Game[] = [
       },
     ],
   },
+
+  {
+    id: '1',
+    gameTitle: 'Juego 2',
+    content: [
+      {
+        text: 'Señal verde X Señal Rojo',
+        style: ['title1'],
+      },
+      {
+        text: 'Autoría: Marta Brietzke',
+        style: ['paragraph'],
+      },
+      {
+        text: 'Adaptación: Marta Brietzke',
+        style: ['paragraph'],
+      },
+      {
+        text: 'Objetivos:',
+        style: ['title2'],
+      },
+      {
+        text:
+          'Trabajar las diferencias entre sonido y silencio, enfatizando su importancia y su rol dentro de la construcción musical; profundizar la importancia de lo colectivo dentro del proceso musical; establecer la idea de diálogo musical.',
+        style: ['paragraph'],
+      },
+      {
+        text: 'Metodología:',
+        style: ['title2'],
+      },
+      {
+        text: 'Organizar a los estudiantes en un semicírculo.',
+        style: ['itemList'],
+      },
+      {
+        text:
+          'Proponer a los estudantes que exploren diferentes sonoridades de sus violoncellos, a través de técnicas extendidas.',
+        style: ['itemList'],
+      },
+      {
+        text:
+          'Presentar una determinada sonoridad y proponer que los estudiantes, en conjunto, la reproduzcan.',
+        style: ['itemList'],
+      },
+      {
+        text:
+          'Estimular a los estudiantes a explorar, individualmente, sus instrumentos, buscando nuevas sonoridades.',
+        style: ['itemList'],
+      },
+      {
+        text:
+          'Cada estudiante deberá presentar una sonoridad sobre la que haya investigado a los demás compañeros del grupo que debe, en conjunto, reproducirla.',
+        style: ['itemList'],
+      },
+      {
+        text:
+          'Presentar dos pequeñas tarjetas a los estudiantes, una de color verde y otra de color rojo. Asociar estas tarjetas con el semáforo y las reglas de tránsito: el verde significará “tocar”, y el rojo “ no tocar”.',
+        style: ['itemList'],
+      },
+      {
+        text:
+          'Ejecutar algunas combinaciones con las tarjetas, proponiendo que los estudiantes toquen cualquier sonido que deseen.',
+        style: ['itemList'],
+      },
+      {
+        text:
+          'Proponer algunas variaciones de dinámica, dependiendo de la secuencia en que las tarjetas sean presentadas a los estudiantes.',
+        style: ['itemList'],
+      },
+      {
+        text:
+          'Elegir un estudiante para ser el “maestro” de los demás, debiendo cumplir la función de presentar las tarjetas a sus compañeros.',
+        style: ['itemList'],
+      },
+      {
+        text:
+          'Dividir al grupo en dos, eligiendo un “maestro” para cada sub-grupo. Cada “maestro” recibirá un conjunto de tarjetas verdes y rojas.',
+        style: ['itemList'],
+      },
+      {
+        text:
+          'Cada grupo deberá seguir las indicaciones de sus respectivos “maestros”, que deben comunicarse de manera no verbal, y proporcionar la interacción y el diálogo musical entre los dos grupos.',
+        style: ['itemList'],
+      },
+      {
+        text: 'Observaciones:',
+        style: ['title2'],
+      },
+      {
+        text:
+          'Estar atento y estimular el poder de escucha de los estudiantes, resaltando que las diferentes combinaciones de sonidos y silencios establecidas entre los “maestros” proporcionan a la creación de una narrativa musical.',
+        style: ['itemList'],
+      },
+    ],
+  },
 ]
