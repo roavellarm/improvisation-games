@@ -36,7 +36,7 @@ export const quarantineGamesTextEs: Array<ArticleItem> = [
     style: ['line'],
   },
   {
-    text: '2. Qué sonido es ese?',
+    text: '2. ¿Que sonido es ese?',
     style: ['title2', 'anchor'],
   },
   {
