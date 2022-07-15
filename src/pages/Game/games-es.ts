@@ -91,7 +91,7 @@ export const gameListEs: Game[] = [
   },
 
   {
-    id: '1',
+    id: '2',
     gameTitle: 'Juego 2',
     content: [
       {
@@ -99,7 +99,7 @@ export const gameListEs: Game[] = [
         style: ['title1'],
       },
       {
-        text: 'Autoría: Marta Brietzke',
+        text: 'Autoría: Maria Teresa Alencar de Brito',
         style: ['paragraph'],
       },
       {
