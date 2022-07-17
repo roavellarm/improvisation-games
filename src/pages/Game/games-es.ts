@@ -246,4 +246,84 @@ export const gameListEs: Game[] = [
       },
     ],
   },
+
+  {
+    id: '4',
+    gameTitle: 'Jogo 4',
+    content: [
+      {
+        text: 'Firma Musical',
+        style: ['title1'],
+      },
+      {
+        text: 'Autoría: Wanderson Cruz',
+        style: ['paragraph'],
+      },
+      {
+        text: 'Adaptación: Marta Brietzke',
+        style: ['paragraph'],
+      },
+      {
+        text: 'Objetivos:',
+        style: ['title2'],
+      },
+      {
+        text:
+          'Posibilitar la experiencia de creación a partir de células musicales pre-establecidas; establecer las diferencias entre polifonías y homofonías; incentivar el poder de elección dentro de la creación musical.',
+        style: ['paragraph'],
+      },
+      {
+        text: 'Metodología:',
+        style: ['title2'],
+      },
+      {
+        text: 'Organizar a los estudiantes en un semicírculo.',
+        style: ['itemList'],
+      },
+      {
+        text:
+          'Preguntar a los estudiantes qué es una firma, y relacionar las respuestas con lo que podría ser una firma musical.',
+        style: ['itemList'],
+      },
+      {
+        text:
+          'Dar un ejemplo utilizando para eso los sonidos provenientes de las técnicas tradicionales y de las técnicas extendidas.',
+        style: ['itemList'],
+      },
+      {
+        text:
+          'Proponer que los estudiantes, individualmente, creen sus firmas musicales utilizando los sonidos que quieran y las presenten para los demás compañeros del curso.',
+        style: ['itemList'],
+      },
+      {
+        text:
+          'Proponer que los estudiantes ejecuten sus firmas más de una vez, con el fin de que podamos verificar si ellas siguen siendo las mismas luego de dos ejecuciones.',
+        style: ['itemList'],
+      },
+      {
+        text:
+          'Elegir a uno de los estudiantes del grupo para ser el “maestro” que deberá componer una música utilizando sól las firmas musicales elaboradas por los estudiantes.',
+        style: ['itemList'],
+      },
+      {
+        text:
+          'El “maestro” debe crear señales que indiquen cuando un estudiante debe comenzar a tocar su firma, cuando debe parar, con qué intensidad, velocidad y otras variables, además de indicar cuántos estudiantes deben tocar simultáneamente, creando diálogos, interacciones y diferentes combinaciones entre las firmas.',
+        style: ['itemList'],
+      },
+      {
+        text: 'Observaciones:',
+        style: ['title2'],
+      },
+      {
+        text:
+          'Estimular a los estudiantes a que trabajen la escucha y la elección artística frente al material presentado por sus compañeros. De esa forma, evitar que el juego se torne mecánico y proporcionar la construcción de una idea musical consistente.',
+        style: ['itemList'],
+      },
+      {
+        text:
+          'Es interesante, en todos los juegos, que el profesor sea el "maestro" en la primera vuelta pero, luego, elegir diferentes estudiantes para asumir esa función y posibilitar que todos los estudiantes del grupo puedan, en algún momento, participar como  "maestros" de alguno de los juegos de improvisación.',
+        style: ['itemList'],
+      },
+    ],
+  },
 ]
