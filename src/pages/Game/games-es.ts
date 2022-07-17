@@ -1,5 +1,6 @@
 import { Game } from 'types'
-// import audioGame3 from 'assets/sounds/a-noite-no-castelo.mp3'
+import audioGame3 from 'assets/sounds/a-noite-no-castelo.mp3'
+
 // import audioGame6 from 'assets/sounds/composicao-com-gravuras.mp3'
 
 export const gameListEs: Game[] = [
@@ -181,6 +182,67 @@ export const gameListEs: Game[] = [
         text:
           'Estar atento y estimular el poder de escucha de los estudiantes, resaltando que las diferentes combinaciones de sonidos y silencios establecidas entre los “maestros” proporcionan a la creación de una narrativa musical.',
         style: ['itemList'],
+      },
+    ],
+  },
+
+  {
+    id: '3',
+    gameTitle: 'Jogo 3',
+    content: [
+      {
+        text: 'La noche en el castillo',
+        style: ['title1'],
+      },
+      {
+        text: 'Autoría: Claudia Freixedas',
+        style: ['paragraph'],
+      },
+      {
+        text: 'Objetivos:',
+        style: ['title2'],
+      },
+      {
+        text:
+          'Establecer relaciones entre lo imaginario y lo sonoro; reforzar la confianza entre pares; desarrollar el poder de elección dentro de la creación musical.',
+        style: ['paragraph'],
+      },
+      {
+        text: 'Metodología:',
+        style: ['title2'],
+      },
+      {
+        text:
+          'Contar una historia a los estudiantes sobre un viajante que llega a un castillo mal iluminado en medio de una noche de tormenta',
+        style: ['itemList'],
+      },
+      {
+        text:
+          'Elaborar un catálogo de sonidos que podrían formar parte de este paisaje (truenos, ráfagas de viento, lluvia, murciélagos, fantasmas, etc.), como así también objetos que estarían dentro del castillo (cuadros, vasos, muebles antiguos, etc.).',
+        style: ['itemList'],
+      },
+      {
+        text:
+          'Distribuir a los estudiantes en diferentes puntos de la sala, con una cierta distancia entre ellos.',
+        style: ['itemList'],
+      },
+      {
+        text:
+          'Elegir a uno de los estudiantes para representar al viajante. Este estudiante hará una caminata por el castillo evitando pegarle a los “objetos”, guiado por su audición. Cuando el viajante se aproxima a un objeto del castillo, el estudiante que representa este objeto ejecutará su sonido específico. A medida que el viajante se aleje del objeto, el sonido disminuye su intensidad, y el estudiante que esté más próximo al viajante comenzará a ejecutar el sonido correspondiente a su objeto, y así sucesivamente, componiendo una narrativa musical.',
+        style: ['itemList'],
+      },
+      {
+        text: 'Observaciones:',
+        style: ['title2'],
+      },
+      {
+        text:
+          'A fin de estimular a los estudiantes a intensificar su poder de escucha, proponer que el viajante permanezca más tiempo frente al objeto que quiere oír, o que vuelva a un determinado objeto que desee oír nuevamente, ejerciendo un rol activo en la composición de la narrativa.',
+        style: ['itemList'],
+      },
+      {
+        style: ['audio'],
+        audio: audioGame3,
       },
     ],
   },
