@@ -1,7 +1,6 @@
 import { Game } from 'types'
 import audioGame3 from 'assets/sounds/a-noite-no-castelo.mp3'
-
-// import audioGame6 from 'assets/sounds/composicao-com-gravuras.mp3'
+import audioGame6 from 'assets/sounds/composicao-com-gravuras.mp3'
 
 export const gameListEs: Game[] = [
   {
@@ -392,6 +391,105 @@ export const gameListEs: Game[] = [
         text:
           'Al sumar complejidad en la variación del juego, propiciamos que los estudiantes desarrollen más atención en la escucha.',
         style: ['itemList'],
+      },
+    ],
+  },
+
+  {
+    id: '6',
+    gameTitle: 'Juego 6',
+    content: [
+      {
+        text: 'Composición con imágenes y escritura con notación propria',
+        style: ['title1'],
+      },
+      {
+        text: 'Autoría: Diversos autores',
+        style: ['paragraph'],
+      },
+      {
+        text: 'Adaptación: Marta Brietzke',
+        style: ['paragraph'],
+      },
+      {
+        text: 'Objetivos:',
+        style: ['title2'],
+      },
+      {
+        text:
+          '​Aproximar a los estudiantes a la idea de composición; desarrollar una simbología propia que represente sus ideas musicales; hacer contacto con diferentes maneras de escrita y representación musical; llamar la atención sobre las limitaciones existentes en cualquier tipo de escritura musical; acercar a compositores e intérpretes.',
+        style: ['paragraph'],
+      },
+      {
+        text: 'Metodología:',
+        style: ['title2'],
+      },
+      {
+        text:
+          'Solicitar, en la clase anterior, que los estudiantes traigan imágene, fotos o grabados para realizar una creación colectiva.',
+        style: ['itemList'],
+      },
+      {
+        text: 'Dividir al curso en grupos de cinco o seis estudiantes.',
+        style: ['itemList'],
+      },
+      {
+        text:
+          'Cada grupo debe examinar las imágenes, fotos o grabados, y crear una historia que puede surgir de cuantas imágenes el grupo elija. Ese número puede variar entre los diferentes grupos.',
+        style: ['itemList'],
+      },
+      {
+        text:
+          'Proponer a los estudiantes que creen una historia que presente un enredo que contenga inicio, medio y final.',
+        style: ['itemList'],
+      },
+      {
+        text:
+          'Proponer a los estudiantes que elijan diferentes sonidos y combinaciones para que la historia creada por ellos pueda ser representada a través de la música.',
+        style: ['itemList'],
+      },
+      {
+        text:
+          'Luego del momento de creación musical, distribuir para cada grupo una cartulina, una caja con lápices de colores y algunos otros materiales, como por ejemplo cintas de colores, escarbadientes, pequeñas piedras, etc.',
+        style: ['itemList'],
+      },
+      {
+        text:
+          'Cada grupo deberá “escribir” su música, utilizando para eso los signos que deseen, dibujos, palabras, símbolos, etc.',
+        style: ['itemList'],
+      },
+      {
+        text:
+          'Luego de la escritura de la música, cada grupo deberá ensayar algunas veces su composición, utilizando o no el apoyo de la partitura.',
+        style: ['itemList'],
+      },
+      {
+        text: 'Proponer que cada grupo presente su música a los compañeros.',
+        style: ['itemList'],
+      },
+      {
+        text: 'Observaciones:',
+        style: ['title2'],
+      },
+      {
+        text:
+          'Durante el proceso de creación de la historia y de la música, dar autonomía a los estudiantes para que ellos mismos se organicen, y establezcan relaciones entre ellos, estimulando que todos perticipen de este proceso.',
+        style: ['itemList'],
+      },
+
+      {
+        text:
+          'Dar autonomía a los estudiantes durante sus ensayos y durante la presentación. Los grupos pueden elegir como van hacer esta presentación, contando o no la historia creada, presentando o no la partitura.',
+        style: ['itemList'],
+      },
+      {
+        text:
+          'Estimular que la comunicación entre los estudiantes sea establecida de forma no verbal durante la presentación de la música.',
+        style: ['itemList'],
+      },
+      {
+        audio: audioGame6,
+        style: ['audio'],
       },
     ],
   },
