@@ -326,4 +326,73 @@ export const gameListEs: Game[] = [
       },
     ],
   },
+  {
+    id: '5',
+    gameTitle: 'Jogo 5',
+    content: [
+      {
+        text: 'Igual X Parecido X Diferente',
+        style: ['title1'],
+      },
+      {
+        text: 'Autoría: Violeta Gainza',
+        style: ['paragraph'],
+      },
+      {
+        text: 'Adaptación: Marta Brietzke',
+        style: ['paragraph'],
+      },
+      {
+        text: 'Objetivos:',
+        style: ['title2'],
+      },
+      {
+        text:
+          'Trabajar las ideas de similaridad y diferencia en música; proporcionar la creación a partir de un elemento dado previamente; desarrollar la idea de frases y de narrativas musicales.',
+        style: ['paragraph'],
+      },
+      {
+        text: 'Metodología:',
+        style: ['title2'],
+      },
+      {
+        text: 'Organizar a los estudiantes en un semicírculo.',
+        style: ['itemList'],
+      },
+      {
+        text:
+          'Presentar tres pequeñas tarjetas. En una de ellas deberá estar representada el signo matemático de igual, en otro el signo de parecido y en otro el de diferente.',
+        style: ['itemList'],
+      },
+      {
+        text:
+          'El primer estudiante debe crear libremente una frase musical, utilizando para eso los sonidos que desee.',
+        style: ['itemList'],
+      },
+      {
+        text:
+          'El profesor elige una de las tarjetas y muestra al segundo estudiante que debe seguir las instrucciones que están en ella, tocando, así, una frase igual, parecida o diferente de la frase creada por el primer estudiante.',
+        style: ['itemList'],
+      },
+      {
+        text:
+          'Presentar una de las tarjetas al tercer estudiante que deberá ejecutar su frase siguiendo las instrucciones de la tarjeta, y haciendo referencia a la frase ejecutada por el segundo estudiante. El juego sigue esa dinámica hasta que todos los estudiantes hayan participado durante algunas vueltas.',
+        style: ['itemList'],
+      },
+      {
+        text:
+          'Elegir a uno de los estudiantes para ser el “maestro” y asumir la función de presentar las tarjetas a los demás colegas. Podemos sumar más complejidad en esta vuelta del juego proponiendo que el “maestro”, además de elegir las tarjetas, también elija al estudiante que ejecutará la nueva frase. Para esto, el “maestro” debe utilizar señas de lenguaje no verbal.',
+        style: ['itemList'],
+      },
+      {
+        text: 'Observaciones:',
+        style: ['title2'],
+      },
+      {
+        text:
+          'Al sumar complejidad en la variación del juego, propiciamos que los estudiantes desarrollen más atención en la escucha.',
+        style: ['itemList'],
+      },
+    ],
+  },
 ]
