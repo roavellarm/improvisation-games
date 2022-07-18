@@ -641,4 +641,64 @@ export const gameListEs: Game[] = [
       },
     ],
   },
+  {
+    id: '9',
+    gameTitle: 'Juego 9',
+    content: [
+      {
+        text: 'Passeo em el Zoológico',
+        style: ['title1'],
+      },
+      {
+        text: 'Autoría: Violeta Gainza',
+        style: ['paragraph'],
+      },
+      {
+        text: 'Objetivos:',
+        style: ['title2'],
+      },
+      {
+        text:
+          'Trabajar diferentes posibilidades musicales de una misma sonoridad; trabajar la idea de narrativa musical.',
+        style: ['paragraph'],
+      },
+      {
+        text: 'Metodología:',
+        style: ['title2'],
+      },
+      {
+        text: 'Organizar a los estudiantes en un semicírculo.',
+        style: ['itemList'],
+      },
+      {
+        text:
+          'Contar a los estudiantes una historia de un visitante que llega a un zoológico y observa los diferentes animales.',
+        style: ['itemList'],
+      },
+      {
+        text:
+          'Cada estudiante elige un animal para representar, eligiendo también los sonidos que lo caractericen.',
+        style: ['itemList'],
+      },
+      {
+        text:
+          'El visitante realiza un paseo por el zoológico, colocándose frente a los diferentes animales y, en ese momento, los animales reproducen el sonido elegido por los estudiantes.',
+        style: ['itemList'],
+      },
+      {
+        text: 'Observaciones:',
+        style: ['title2'],
+      },
+      {
+        text:
+          'Proponer que los animales emitan sus sonidos de acuerdo con las indicaciones corporales del visitante, que debe ejecutar diferentes niveles de dinámica, intensidad y carácter musical.',
+        style: ['itemList'],
+      },
+      {
+        text:
+          'Así como en los juegos anteriores, es interesante grabar las improvisaciones, posibilitando que en las próximas vueltas de los juegos las interacciones sean más conscientes y surjan de las elecciones musicales de los estudiantes.',
+        style: ['itemList'],
+      },
+    ],
+  },
 ]
