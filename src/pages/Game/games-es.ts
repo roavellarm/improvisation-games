@@ -701,4 +701,88 @@ export const gameListEs: Game[] = [
       },
     ],
   },
+
+  {
+    id: '10',
+    gameTitle: 'Juego 10',
+    content: [
+      {
+        text: 'Los pájaros y el cazador',
+        style: ['title1'],
+      },
+      {
+        text: 'Autoría: Cláudia Freixedas',
+        style: ['paragraph'],
+      },
+      {
+        text: 'Adaptación: Marta Brietzke',
+        style: ['paragraph'],
+      },
+      {
+        text: 'Objetivos:',
+        style: ['title2'],
+      },
+      {
+        text:
+          'Trabajar sobre la libertad y las direrentes opciones para el comienzo, para el desarrollo y para el final de la “pieza” musical; trabajar cuestiones ligadas a la ecología y a la ecología acústica; trabajar los diálogos, las polifonías y la noción de forma musical.',
+        style: ['paragraph'],
+      },
+      {
+        text: 'Metodología:',
+        style: ['title2'],
+      },
+      {
+        text: 'Organizar a los estudiantes en un semicírculo.',
+        style: ['itemList'],
+      },
+      {
+        text: 'Preguntar a los estudiantes sobre qué sonidos de pájaros ellos econocen.',
+        style: ['itemList'],
+      },
+      {
+        text: 'Inventariar junto com los estudiantes algunos de esos sonidos.',
+        style: ['itemList'],
+      },
+      {
+        text:
+          'Proponer que los estudiantes creen con sus violoncellos sonidos que representen los inventariados previamente.',
+        style: ['itemList'],
+      },
+      {
+        text: 'Crear em conjunto com los estudiantes um sonido que represente al cazador.',
+        style: ['itemList'],
+      },
+      {
+        text:
+          'Cada estudiante actuará representando el sonido de uno de los pájaros, y um estudiante representará al cazador.',
+        style: ['itemList'],
+      },
+      {
+        text: 'Los pájaros deben dialogar entre sí creando un contexto musical.',
+        style: ['itemList'],
+      },
+      {
+        text:
+          'Cuando lo desee, el estudiante que representa al cazador puede intervenir. Cuando el cazador interviene, todos los pájaros se callan.',
+        style: ['itemList'],
+      },
+      {
+        text: 'Poco a poco, los pájaros vuelven a cantar y a dialogar entre sí.',
+        style: ['itemList'],
+      },
+      {
+        text: 'El cazador puede intervenir el número de veces que lo desee.',
+        style: ['itemList'],
+      },
+      {
+        text: 'Observaciones:',
+        style: ['title2'],
+      },
+      {
+        text:
+          ' Otorgar autonomía a los estudiantes, dejando a su criterio cuando será el inicio y el final de la improvisación, y también después de cuanto tiempo luego de la intervención del cazador, los pájaros volverán a cantar.',
+        style: ['itemList'],
+      },
+    ],
+  },
 ]
