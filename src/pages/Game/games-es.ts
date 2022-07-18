@@ -493,4 +493,85 @@ export const gameListEs: Game[] = [
       },
     ],
   },
+  {
+    id: '7',
+    gameTitle: 'Juego 7',
+    content: [
+      {
+        text: 'Improvisación con ostinato',
+        style: ['title1'],
+      },
+      {
+        text: 'Autoría: Diversos autores',
+        style: ['paragraph'],
+      },
+      {
+        text: 'Adaptación: Marta Brietzke',
+        style: ['paragraph'],
+      },
+      {
+        text: 'Objetivos:',
+        style: ['title2'],
+      },
+      {
+        text:
+          'Trabajar la noción de solo y de tutti; trabajar la idea de ostinato; trabajar el concepto de forma musical.',
+        style: ['paragraph'],
+      },
+      {
+        text: 'Metodología:',
+        style: ['title2'],
+      },
+      {
+        text: 'Organizar a los estudiantes en un semicírculo.',
+        style: ['itemList'],
+      },
+      {
+        text: 'Explicar a los estudiantes qué es un ostinato.',
+        style: ['itemList'],
+      },
+      {
+        text:
+          'Proponer un ostinato rítmico simple, a ser ejecutado, por ejemlpo, con una cuerda suelta.',
+        style: ['itemList'],
+      },
+      {
+        text: 'Dividir al grupo en orquesta y solista.',
+        style: ['itemList'],
+      },
+      {
+        text:
+          'El grupo que representa a la orquesta debe ejecutar el ostinato. El estudiante solista ejecuta diferentes frases o ideas musicales utilizando los sonidos que desee.',
+        style: ['itemList'],
+      },
+      {
+        text:
+          'Combinar con los estudiantes cuál será la indicación que determinará el final del solo.',
+        style: ['itemList'],
+      },
+      {
+        text:
+          'Luego de la ejecución del solo por un estudiante, el proximo pasa a ser el solista, y así sucesivamente hasta que todos hayan participado en el papel de solistas.',
+        style: ['itemList'],
+      },
+      {
+        text: 'Observaciones:',
+        style: ['title2'],
+      },
+      {
+        text: 'Durante los solos no es necesario pensar en armonía o conducción vocal.',
+        style: ['itemList'],
+      },
+      {
+        text:
+          'La improvisación puede ser organizada de diferentes maneras, por ejemplo, estableciendo que luego del final de cada solo se ejecutará un número determinado de veces el ostinato, o proponer una forma rondó, donde la parte A será un número fijo de veces que la orquesta ejecutará el ostinato, o un tema creado en conjunto por los estudiantes, etc.',
+        style: ['itemList'],
+      },
+      {
+        text:
+          'Sumar complejidades con el correr de las vueltas, intercalándolas con audiciones colectivas de improvisaciones creadas por los estudiantes.',
+        style: ['itemList'],
+      },
+    ],
+  },
 ]
