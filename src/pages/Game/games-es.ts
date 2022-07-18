@@ -574,4 +574,71 @@ export const gameListEs: Game[] = [
       },
     ],
   },
+  {
+    id: '8',
+    gameTitle: 'Juego 8',
+    content: [
+      {
+        text: 'El bosque encantado',
+        style: ['title1'],
+      },
+      {
+        text: 'Autoría: Claudia Freixedas',
+        style: ['paragraph'],
+      },
+      {
+        text: 'Objetivos:',
+        style: ['title2'],
+      },
+      {
+        text: 'Trabajar el diálogo musical; trabajar la idea de polifonía.',
+        style: ['paragraph'],
+      },
+      {
+        text: 'Metodología:',
+        style: ['title2'],
+      },
+      {
+        text: `Este juego es una variación del Juego 3 (“La noche en el castillo”), agregado algunas dificultades.`,
+        style: ['itemList'],
+      },
+      {
+        text:
+          'Posicionar a los estudiantes en diferentes puntos de la sala con alguna distancia entre ellos.',
+        style: ['itemList'],
+      },
+      {
+        text: 'Contar una historia sobre dos exploradores que llegan a un bosque encantado.',
+        style: ['itemList'],
+      },
+      {
+        text:
+          'Cada árbol del bosque emitirá un sonido elegido por los estudiantes que lo representará.',
+        style: ['itemList'],
+      },
+      {
+        text: 'Los exploadores pueden estar con los ojos abiertos o vendados.',
+        style: ['itemList'],
+      },
+      {
+        text:
+          'Al aproximarse a los árboles, ellos emitiran el sonido elegido por el estudianto que lo representa. Al alejarse, la intensidad del sonido irá disminuyendo y el estudiante que esté más próximo comienza a emitir el sonido que ha elegido.',
+        style: ['itemList'],
+      },
+      {
+        text: 'Observaciones:',
+        style: ['title2'],
+      },
+      {
+        text:
+          'Debemos sumar algunas diferencias y dificultades en este juego, con relación al Juego 3.',
+        style: ['itemList'],
+      },
+      {
+        text:
+          'Una de las dificultades que puede sumarse, es la participación de los “maestros”, contando así con la posibilidad de realizar interacciones y diálogos musicales entre ellos.',
+        style: ['itemList'],
+      },
+    ],
+  },
 ]
