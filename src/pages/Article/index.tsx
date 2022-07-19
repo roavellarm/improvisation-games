@@ -15,17 +15,24 @@ import { checkStepperPosition } from './checkStepperPosition'
 export default function Article() {
   const { language } = useLanguage()
 
-  function getSelectedGame() {
+  function getSelectedLanguage() {
     if (language === 'pt') return textDataPt
     if (language === 'es') return textDataEs
 
     return textDataPt
   }
 
+  function getSelectedLanguageheaderTitle() {
+    if (language === 'pt') return `Caderno de atividades`
+    if (language === 'es') return `Libro de actividades`
+
+    return `Caderno de atividades`
+  }
+
   return (
     <ArticleLayout
-      headerTitle="Caderno de atividades"
-      textData={getSelectedGame()}
+      headerTitle={getSelectedLanguageheaderTitle()}
+      textData={getSelectedLanguage()}
       anchors={anchors}
       checkStepperPosition={checkStepperPosition}
     />
