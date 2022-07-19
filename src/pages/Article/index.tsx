@@ -1,6 +1,6 @@
 import React from 'react'
 import ArticleLayout from 'components/Templates/ArticleLayout'
-import textData from './textData'
+import textData from './textData-PT'
 import { anchors } from './anchors'
 import { checkStepperPosition } from './checkStepperPosition'
 

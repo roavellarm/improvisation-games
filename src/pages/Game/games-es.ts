@@ -187,7 +187,7 @@ export const gameListEs: Game[] = [
 
   {
     id: '3',
-    gameTitle: 'Jogo 3',
+    gameTitle: 'Juego 3',
     content: [
       {
         text: 'La noche en el castillo',
@@ -212,7 +212,7 @@ export const gameListEs: Game[] = [
       },
       {
         text:
-          'Contar una historia a los estudiantes sobre un viajante que llega a un castillo mal iluminado en medio de una noche de tormenta',
+          'Contar una historia a los estudiantes sobre un viajante que llega a un castillo mal iluminado en medio de una noche de tormenta ',
         style: ['itemList'],
       },
       {
@@ -248,7 +248,7 @@ export const gameListEs: Game[] = [
 
   {
     id: '4',
-    gameTitle: 'Jogo 4',
+    gameTitle: 'Juego 4',
     content: [
       {
         text: 'Firma Musical',
@@ -327,7 +327,7 @@ export const gameListEs: Game[] = [
   },
   {
     id: '5',
-    gameTitle: 'Jogo 5',
+    gameTitle: 'Juego 5',
     content: [
       {
         text: 'Igual X Parecido X Diferente',
