@@ -554,15 +554,15 @@ const textData: Array<ArticleItem> = [
     style: ['line'],
   },
   {
-    text: 'Descrição do Jogo 8',
+    text: 'Descripción del Juego 8',
     style: ['paragraph', 'bold', 'anchor'],
   },
   {
-    text: 'A floresta encantada',
+    text: 'El bosque encantado',
     style: ['title2'],
   },
   {
-    text: 'Autoria: Claudia Freixedas',
+    text: 'Autoría: Claudia Freixedas',
     style: ['paragraph', 'italic'],
   },
   {
@@ -570,25 +570,25 @@ const textData: Array<ArticleItem> = [
     style: ['paragraph', 'bold'],
   },
   {
-    text: 'Trabalhar o diálogo musical; trabalhar a ideia de polifonia.',
+    text: 'Trabajar el diálogo musical; trabajar la idea de polifonía.',
     style: ['paragraph'],
   },
   {
-    text: 'Metodologia e aplicação:',
+    text: 'Metodología y aplicación:',
     style: ['paragraph', 'bold'],
   },
   {
     text:
-      'Consiste em uma variação do jogo A noite no Castelo, com um acréscimo de complexidade. Nesse caso, também criamos uma história na qual dois exploradores chegam a uma floresta encantada. Nessa floresta, cada árvore emite um som diferente. Quando os exploradores se aproximam das árvores, elas emitem o seu som. Podemos realizar esse jogo com os olhos abertos ou vendados, de forma semelhante à do jogo A noite no Castelo e as árvores podem emitir um único som ou diferentes sons conforme o contexto musical. É interessante, no entanto, propormos algumas diferenças entre este jogo e o jogo anterior.',
+      'Consiste en una variación del juego La noche en el castillo, con una complejidad añadida. En este caso, también creamos una historia en la que dos exploradores llegan a un bosque encantado. En este bosque, cada árbol emite un sonido diferente. Cuando los exploradores se acercan a los árboles, hacen su propio sonido. Podemos jugar a este juego con los ojos abiertos o con los ojos vendados, de forma similar al juego La noche en el castillo, y los árboles pueden emitir un único sonido o diferentes sonidos, según el contexto musical. Es interesante, sin embargo, proponer algunas diferencias entre este juego y el anterior.',
     style: ['paragraph'],
   },
   {
     text:
-      'Nesse jogo, uma das complexidades a serem apresentadas aos estudantes é que mais de um explorador entra na floresta ao mesmo tempo. Tal característica proporcionará a existência de um diálogo a ser “composto” pelos exploradores, que também atuarão como maestros.',
+      'En este juego, una de las complejidades que se presentan a los alumnos es que más de un explorador entra en el bosque al mismo tiempo. Esta característica permitirá la existencia de un diálogo que será "compuesto" por los exploradores, que también actuarán como directores de orquesta.',
     style: ['paragraph'],
   },
   {
-    text: 'Fonte: Elaborado pela autora, com base nas propostas de Claudia Freixedas.',
+    text: 'Fuente: Elaboración propia a partir de las propuestas de Claudia Freixedas.',
     style: ['paragraph', 'citation'],
   },
   {
@@ -596,15 +596,15 @@ const textData: Array<ArticleItem> = [
     style: ['line'],
   },
   {
-    text: 'Descrição do Jogo 9',
+    text: 'Descripción del Juego 9',
     style: ['paragraph', 'bold', 'anchor'],
   },
   {
-    text: 'Passeio no zoológico',
+    text: 'Paseo en el zoológico',
     style: ['title2'],
   },
   {
-    text: 'Autoria: Violeta Gainza',
+    text: 'Autoría: Violeta Gainza',
     style: ['paragraph', 'italic'],
   },
   {
@@ -613,11 +613,11 @@ const textData: Array<ArticleItem> = [
   },
   {
     text:
-      'Trabalhar diferentes possibilidades musicais de uma mesma sonoridade; trabalhar a ideia de narrativa musical.',
+      'Trabajar diferentes posibilidades musicales de una misma sonoridad; trabajar la idea de narrativa musical.',
     style: ['paragraph'],
   },
   {
-    text: 'Metodologia e aplicação:',
+    text: 'Metodología y aplicación:',
     style: ['paragraph', 'bold'],
   },
   {
@@ -627,16 +627,16 @@ const textData: Array<ArticleItem> = [
   },
   {
     text:
-      'Nesse jogo, podemos acrescentar a interação do visitante com os animais. Conforme essa interação ocorra, o animal pode se manifestar com diferentes caracteres musicais, utilizando diferentes dinâmicas, articulações, ritmos, nuances timbrísticas ou organização dos conteúdos em forma de frases musicais.',
+      'En este juego, también creamos, junto con los alumnos, una historia sobre un visitante en un zoológico. El visitante recorre el zoo y observa los diferentes animales. Cada alumno elegirá un animal para representarlo con su violonchelo. El visitante elegirá qué animal quiere visitar poniéndose delante de cada uno de los compañeros que le representarán.',
     style: ['paragraph'],
   },
   {
     text:
-      'Assim, como citado anteriormente, podemos gravar as improvisações resultantes, aumentando o poder de escuta e análise dos estudantes, possibilitando que nas próximas rodadas dos jogos as interações musicais sejam, cada vez mais, provenientes da escolha artística dos estudantes. Devemos sempre evitar que a execução dos jogos se torne uma atividade mecânica e desprovida de análise crítica, pois, nesse caso, perdemos uma importante estratégia de desenvolvimento musical dos estudantes.',
+      'Así, como ya se ha dicho, podemos grabar las improvisaciones resultantes, aumentando el poder de escucha y análisis de los alumnos, haciendo posible que en las siguientes rondas de los juegos las interacciones musicales provengan cada vez más de la elección artística de los estudiantes. Hay que evitar siempre que la ejecución de los juegos se convierta en una actividad mecánica y desprovista de análisis crítico, porque, en este caso, se pierde una importante estrategia de desarrollo musical de los estudiantes.',
     style: ['paragraph'],
   },
   {
-    text: 'Fonte: Elaborado pela autora, com base nas propostas de Violeta Gainza.',
+    text: 'Fuente: Elaboración propia a partir de las propuestas de Violeta Gainza.',
     style: ['paragraph', 'citation'],
   },
   {
@@ -644,19 +644,19 @@ const textData: Array<ArticleItem> = [
     style: ['line'],
   },
   {
-    text: 'Descrição do Jogo 10',
+    text: 'Descripción del Juego 10',
     style: ['paragraph', 'bold', 'anchor'],
   },
   {
-    text: 'Os pássaros e o caçador',
+    text: 'Los pájaros y el cazador',
     style: ['title2'],
   },
   {
-    text: 'Autoria: Claudia Freixedas',
+    text: 'Autoría: Claudia Freixedas',
     style: ['paragraph', 'italic'],
   },
   {
-    text: 'Adaptação: Marta Brietzke',
+    text: 'Adaptación: Marta Brietzke',
     style: ['paragraph', 'italic'],
   },
   {
@@ -665,35 +665,35 @@ const textData: Array<ArticleItem> = [
   },
   {
     text:
-      'Trabalhar a liberdade e as diferentes opções para o início, o desenvolvimento e o final da “peça” musical; trabalhar questões ligadas à ecologia e à ecologia acústica; trabalhar os diálogos, as polifonias e a noção de forma musical.',
+      'Trabajar sobre la libertad y las diferentes posibilidades de inicio, desarrollo y fin de la "pieza" musical; trabajar sobre cuestiones relacionadas con la ecología y la ecología acústica; trabajar sobre los diálogos, las polifonías y la noción de forma musical.',
     style: ['paragraph'],
   },
   {
-    text: 'Metodologia e aplicação:',
+    text: 'Metodología y aplicación:',
     style: ['paragraph', 'bold'],
   },
   {
     text:
-      'Nesse jogo, perguntamos aos estudantes quais sons de pássaros eles conhecem. Podemos inventariar, coletivamente, esses sons ou nos propormos a investigar em nossas casas e trazermos os resultados de nossas investigações aos demais colegas. Também podemos trazer um catálogo da gravação de sons de pássaros que podemos obter em sites da internet. Dessa forma, escolhemos alguns pássaros que desejamos imitar e buscamos sonoridades semelhantes em nossos violoncelos.',
+      'En este juego preguntamos a los estudiantes qué sonidos de pájaros conocen. Podemos hacer colectivamente un inventario de estos sonidos o proponernos investigar en nuestras casas y llevar los resultados de nuestras investigaciones al resto de los compañeros. También podemos llevar un catálogo de sonidos de aves grabados que podemos obtener de sitios de Internet. De este modo, elegimos algunos pájaros que queremos imitar y buscamos sonidos similares en nuestros violoncelos.',
     style: ['paragraph'],
   },
   {
     text:
-      'Após a escolha dos sons dos pássaros, cada estudante se torna responsável pela emissão de um desses sons, representando uma espécie de pássaros. Em seguida, escolhemos em conjunto um som representativo que imite o som produzido pelo caçador. Esse som pode ser o som de um rifle disparando, da caminhada do caçador pela mata ou do que a imaginação dos estudantes determinar.',
+      'Tras elegir los sonidos de las aves, cada alumno se encarga de emitir uno de estos sonidos, representando una especie de aves. A continuación, elegimos juntos un sonido representativo que imite el sonido producido por el cazador. Este sonido puede ser el de un rifle disparando, el del cazador caminando por el bosque o el que determine la imaginación de los alumnos.',
     style: ['paragraph'],
   },
   {
     text:
-      'Propomos, então, que na mata onde se encontram os pássaros, cada um deles atue de forma a dialogar com os demais pássaros, criando conscientemente um conteúdo sonoro. Um estudante será responsável por executar o som do caçador. Todos os pássaros, ao ouvirem o som do caçador, calam-se por um momento. Em seguida, não havendo mais perigo, os pássaros pouco a pouco voltam a cantar, novamente estabelecendo um diálogo com os demais pássaros da mata.',
+      'Proponemos, pues, que en el bosque donde se encuentran los pájaros, cada uno de ellos actúa de forma que dialoga con los demás pájaros, creando conscientemente un contenido sonoro. Un estudiante se encargará de hacer el sonido del cazador. Todos los pájaros, al oír el sonido del cazador, se callan por un momento. Luego, cuando ya no hay peligro, los pájaros vuelven a cantar poco a poco, estableciendo de nuevo un diálogo con los demás pájaros del bosque.',
     style: ['paragraph'],
   },
   {
     text:
-      'O caçador pode intervir na mata o número de vezes que desejar e com a frequência que desejar. Também devemos dar autonomia para que o próprio grupo sinta o tempo necessário de silêncio após a intervenção do caçador, o momento de iniciar a improvisação e o momento de finalizá-la. Dessa maneira, ampliamos a percepção do grupo em relação à atuação e à participação de cada um no todo musical.',
+      'El cazador puede intervenir en el bosque tantas veces y con la frecuencia que desee. También hay que dar autonomía para que el propio grupo sienta el tiempo necesario de silencio tras la intervención del cazador, el momento de iniciar la improvisación y el momento de terminarla. De este modo, ampliamos la percepción del grupo en relación con la actuación y la participación de cada uno en el conjunto musical.',
     style: ['paragraph'],
   },
   {
-    text: 'Fonte: Elaborado pela autora, com base nas propostas de Claudia Freixedas.',
+    text: 'Fuente: Elaboración propia a partir de las propuestas de Claudia Freixedas.',
     style: ['paragraph', 'citation'],
   },
   {
@@ -701,16 +701,16 @@ const textData: Array<ArticleItem> = [
     style: ['line'],
   },
   {
-    text: 'Sugestão de repertório:',
+    text: 'Sugerencia de repertorio:',
     style: ['title1', 'anchor'],
   },
   {
     text:
-      'A fim de contextualizarmos o trabalho com os jogos de improvisação dentro das poéticas da música contemporânea e oferecermos subsídios aos estudantes, podemos apresentar, em diferentes momentos, peças do repertório dos séculos XX e XXI, compostas para violoncelo. O objetivo da audição de tais peças é que os estudantes possam identificar elementos comuns dessas peças com as suas próprias criações e assim valorizem mais o seu trabalho e o trabalho dos compositores apresentados.',
+      'Para contextualizar el trabajo con juegos de improvisación dentro de la poética de la música contemporánea y ofrecer subsidios a los estudiantes, podemos presentar, en diferentes momentos, piezas del repertorio de los siglos XX y XXI, compuestas para violonchelo. El objetivo de la escucha de estas piezas es que los estudiantes puedan identificar elementos comunes de estas piezas con sus propias creaciones y así dar más valor a su trabajo y al de los compositores presentados.',
     style: ['paragraph'],
   },
   {
-    text: 'Relação de peças do repertório contemporâneo para violoncelo',
+    text: 'Lista de piezas del repertorio contemporáneo para violoncelo',
     style: ['paragraph', 'bold'],
   },
   {
@@ -806,7 +806,7 @@ const textData: Array<ArticleItem> = [
     style: ['itemList'],
   },
   {
-    text: 'Fonte: Elaborado pela autora.',
+    text: 'Fuente: Elaborado pela autora.',
     style: ['paragraph', 'citation'],
   },
   {
@@ -814,11 +814,11 @@ const textData: Array<ArticleItem> = [
     style: ['line'],
   },
   {
-    text: 'Para saber mais:',
+    text: 'Para saber más:',
     style: ['title2', 'anchor'],
   },
   {
-    text: 'Relação de livros e publicações sobre os temas tratados',
+    text: 'Lista de libros y publicaciones sobre los temas tratados',
     style: ['paragraph', 'bold'],
   },
   {
@@ -865,13 +865,13 @@ const textData: Array<ArticleItem> = [
     style: ['line'],
   },
   {
-    text: 'Referência:',
+    text: 'Referencia:',
     style: ['title1'],
   },
   {
     text: 'BRIETZKE, Marta Macedo. ',
     titleStrong:
-      'A música contemporânea na iniciação coletiva ao violoncelo: uma pesquisa-ação com jogos de improvisação em três instituições de ensino no estado de São Paulo. ',
+      'La música contemporánea en la iniciación colectiva al violonchelo: una investigación-acción con juegos de improvisación en tres instituciones educativas del estado de São Paulo. ',
     rest:
       '2018. 159 f. Dissertação (Mestrado) - Escola de Comunicações e Artes - USP, São Paulo, 2018.',
     style: ['bibliography'],
