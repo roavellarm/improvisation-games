@@ -433,20 +433,20 @@ const textData: Array<ArticleItem> = [
     style: ['line'],
   },
   {
-    text: 'Descrição do Jogo 6',
+    text: 'Descripción del Juego 6',
     style: ['paragraph', 'bold', 'anchor'],
   },
   {
-    text: 'Composição com gravuras e escrita com notação própria',
+    text: 'Composición con imágenes y escritura com notación propia',
     style: ['title2'],
   },
   {
-    text: 'Autoria: Diversos autores',
+    text: 'Autoría: Diversos autores',
     style: ['paragraph', 'italic'],
   },
 
   {
-    text: 'Adaptação: Marta Brietzke',
+    text: 'Adaptación: Marta Brietzke',
     style: ['paragraph', 'italic'],
   },
 
@@ -456,31 +456,31 @@ const textData: Array<ArticleItem> = [
   },
   {
     text:
-      'Aproximar os estudantes da ideia de composição; desenvolver uma simbologia própria que represente suas ideias musicais; fazer contato com diferentes maneiras de escrita e representação musical; chamar a atenção para as limitações existentes em qualquer tipo de escrita musical; aproximar compositores e intérpretes.',
+      'Acercar a los estudiantes a la idea de composición; desarrollar una simbología propia que represente sus ideas musicales; tomar contacto con diferentes formas de escritura y representación musical; llamar la atención sobre las limitaciones de cualquier tipo de escritura musical; acercar a compositores e intérpretes.',
     style: ['paragraph'],
   },
   {
-    text: 'Metodologia e aplicação:',
+    text: 'Metodología y aplicación:',
     style: ['paragraph', 'bold'],
   },
   {
     text:
-      'Para o jogo de composição com gravuras solicitamos na aula anterior que os estudantes tragam gravuras de revistas ou fotos pessoais. Porém, é interessante que o professor traga algumas gravuras selecionadas previamente, pois algumas vezes os estudantes esquecem de trazê-las e a atividade fica comprometida. Também é necessário que o professor traga cartazes de cartolina e jogos de lápis de cor. Também podemos acrescentar outros materiais, conforme nossa disponibilidade, como por exemplo, palitos de dente, fitas coloridas, cordões de espessuras diversas, pedrinhas, etc.',
+      'Para el juego de composición con imágenes pedimos en la lección anterior que los estudiantes trajeran imágenes de revistas o fotos personales. Sin embargo, es interesante que el profesor traiga algunas imágenes previamente seleccionadas, porque a veces los estudiantes se olvidan de traerlas y la actividad se ve comprometida. El profesor también debe traer carteles de cartón y juegos de lápices de colores. También podemos añadir otros materiales, según nuestra disponibilidad, como palillos, cintas de colores, cuerdas de diferentes grosores, piedras, etc.',
     style: ['paragraph'],
   },
   {
     text:
-      'Começamos o jogo dividindo a turma em grupos. Cada grupo irá apresentar suas gravuras e fotos para os demais colegas. O professor poderá distribuir mais gravuras aos estudantes. Propomos, então, que os estudantes escolham uma ou mais gravuras ou fotos, quantas desejarem, para que contem uma história musical. Podemos dar um exemplo com nosso próprio violoncelo escolhendo uma das gravuras. Devemos ressaltar que a história deve ter um enredo, um início, meio e fim e que os estudantes devem discutir e elaborar em conjunto esse enredo, de acordo com a(s) gravura(s) que escolherem.',
+      'Comenzamos el juego dividiendo la clase en grupos. Cada grupo presentará sus dibujos y fotos a los demás compañeros. El profesor puede distribuir más imágenes a los estudiantes. A continuación, proponemos a los estudiantes que elijan una o varias imágenes o fotos, tantas como deseen, para contar una historia musical. Podemos poner un ejemplo con nuestro propio violoncelo eligiendo una de las imágenes. Hay que insistir en que la historia debe tener una trama, un principio, un medio y un final, y que los estudiantes deben discutir y elaborar esta trama juntos, de acuerdo con la(s) imagen(es) que elijan.',
     style: ['paragraph'],
   },
   {
     text:
-      'Após a elaboração do enredo, estimulamos que os estudantes produzam com os seus violoncelos conteúdos musicais que representem a história criada por eles.  A história poderá ser contada em partes, ou mesmo simultaneamente, dependendo das escolhas feitas pelos estudantes. A seleção desses conteúdos deve ser feita em conjunto pelos grupos e podemos dar a eles quanto tempo acharmos necessário para que pesquisem e selecionem os sons desejados.',
+      'Tras la elaboración de la trama, animamos a los estudiantes a producir contenidos musicales con sus violonchelos que representen la historia creada por ellos. La historia puede contarse por partes, o incluso simultáneamente, en función de las elecciones de los estudiantes. La selección de estos contenidos debe hacerse en conjunto por los grupos y podemos darles todo el tiempo que creamos necesario para que investiguen y seleccionen los sonidos deseados.',
     style: ['paragraph'],
   },
   {
     text:
-      'Num terceiro momento do jogo, distribuímos os cartazes, os lápis coloridos e os demais materiais e propomos que os estudantes criem uma maneira de “escrever” a música inventada por eles. Essa escrita pode utilizar desenhos, cores, símbolos, palavras, dependendo do que cada grupo achar conveniente. Podemos sugerir que escolham um título para sua peça, que coloquem seus nomes como compositores ou podemos nem mencionar tais aspectos, dando liberdade para que cada grupo determine o que julgar necessário para a compreensão da peça.',
+      'En un tercer momento del juego, distribuimos los carteles, lápices de colores y otros materiales y pedimos a los estudiantes que creen una forma de "escribir" la música que han inventado. Esta escritura puede utilizar dibujos, colores, símbolos, palabras, dependiendo de lo que cada grupo encuentre conveniente. Podemos sugerir que elijan un título para su pieza, que pongan sus nombres como compositores, o podemos ni siquiera mencionar tales aspectos, dando a cada grupo la libertad de determinar lo que considere necesario para entender la pieza.',
     style: ['paragraph'],
   },
   {
@@ -490,11 +490,11 @@ const textData: Array<ArticleItem> = [
   },
   {
     text:
-      'Podemos sugerir que os estudantes contem sua história e depois executem a peça ou que executem a peça e depois contem sua história, ou apenas que mostrem as gravuras escolhidas por eles para a criação das suas peças, dependendo do que julgarmos interessante no momento. É importante que nesse momento também proporcionemos autonomia aos estudantes na sua organização e apresentação aos demais colegas.',
+      'Cuando los estudiantes terminan de escribir, les pedimos que ensayen juntos la pieza que han creado, utilizando la partitura o no. Debemos darles autonomía para que establezcan entre ellos las señales de inicio y fin de la música, las señales dinámicas y otras informaciones que consideren necesarias. Después de algunos ensayos, proponemos un momento de presentación de las piezas a los compañeros del otro grupo. Podemos sugerir que los estudiantes cuenten su historia y luego interpreten la pieza, o que interpreten la pieza y luego cuenten su historia, o simplemente mostrar las imágenes elegidas por ellos para la creación de sus piezas, dependiendo de lo que consideremos interesante en ese momento. Es importante que en este momento también demos autonomía a los estudiantes en su organización y presentación a los demás compañeros.',
     style: ['paragraph'],
   },
   {
-    text: 'Fonte: Elaborado pela autora.',
+    text: 'Fuente: Elaboración propia.',
     style: ['paragraph', 'citation'],
   },
   {
