@@ -384,7 +384,7 @@ const textData: Array<ArticleItem> = [
     style: ['line'],
   },
   {
-    text: 'Descrição do Jogo 5',
+    text: 'Descripción del Juego 5',
     style: ['paragraph', 'bold', 'anchor'],
   },
   {
@@ -392,12 +392,12 @@ const textData: Array<ArticleItem> = [
     style: ['title2'],
   },
   {
-    text: 'Autoria: Violeta Gainza',
+    text: 'Autoría: Violeta Gainza',
     style: ['paragraph', 'italic'],
   },
 
   {
-    text: 'Adaptação: Marta Brietzke',
+    text: 'Adaptación: Marta Brietzke',
     style: ['paragraph', 'italic'],
   },
 
@@ -407,25 +407,25 @@ const textData: Array<ArticleItem> = [
   },
   {
     text:
-      'Trabalhar as ideias de similaridade e diferença em música; proporcionar a criação a partir de um elemento dado previamente; trabalhar a ideia de frases ou narrativas musicais.',
+      'Trabajar las ideas de similitud y diferencia en la música; aportar la creación a partir de un elemento previamente dado; trabajar la idea de frases o narraciones musicales.',
     style: ['paragraph'],
   },
   {
-    text: 'Metodologia e aplicação:',
+    text: 'Metodología y aplicación:',
     style: ['paragraph', 'bold'],
   },
   {
     text:
-      'Apresentamos aos estudantes três pequenos cartazes. No primeiro cartaz, apresentamos o sinal matemático utilizado para igual, no segundo o sinal matemático utilizado para diferente e no terceiro cartaz podemos criar algum sinal que represente o parecido. Propomos aos estudantes que eles devem respeitar os sinais que serão oferecidos a eles. O primeiro estudante cria livremente uma frase musical. Em seguida, o professor apresenta um dos sinais ao segundo estudante, que deve repetir ou variar a frase de acordo com o sinal representado. O professor oferece, então, um novo sinal ao terceiro estudante, que agora deve repetir ou variar a frase apresentada pelo segundo estudante. Assim o jogo segue até que todos os estudantes tenham elaborado suas frases. Os sinais podem ser escolhidos aleatoriamente ou selecionados previamente pelo professor.',
+      'Presentamos a los estudiantes tres pequeños carteles. En el primer póster presentamos el signo matemático utilizado para igual, en el segundo el signo matemático utilizado para diferente y en el tercer póster podemos crear algún signo que represente lo similar. Proponemos a los estudiantes que respeten las señales que se les ofrecerán. El primer alumno crea libremente una frase musical. A continuación, el profesor presenta uno de los signos al segundo estudiante, que debe repetir o variar la frase según el signo representado. A continuación, el profesor ofrece un nuevo signo al tercer alumno, que ahora debe repetir o variar la frase presentada por el segundo. El juego continúa hasta que todos los estudiantes hayan creado sus frases. Los signos pueden ser elegidos al azar o previamente seleccionados por el profesor.',
     style: ['paragraph'],
   },
   {
     text:
-      'Em seguida, propomos que um dos estudantes seja o maestro e faça as indicações dos cartazes aos seus colegas. Podemos acrescentar complexidades ao jogo propondo que o maestro, além de escolher o próximo cartaz que oferecerá aos colegas, escolha também, sempre de maneira não verbal, o estudante que executará a próxima variação da frase.',
+      'A continuación, proponemos que uno de los estudiantes sea el director de orquesta y dé las indicaciones de las señales a sus compañeros. Podemos añadir complejidad al juego proponiendo que el director de orquesta, además de elegir el siguiente cartel que ofrecerá a los compañeros, elija también, siempre de forma no verbal, al estudiante que ejecutará la siguiente variación de la frase.',
     style: ['paragraph'],
   },
   {
-    text: 'Fonte: Elaborado pela autora, com base nas propostas de Violeta Gainza.',
+    text: 'Fuente: Elaboración propia a partir de las propuestas de Violeta Gainza.',
     style: ['paragraph', 'citation'],
   },
   {
