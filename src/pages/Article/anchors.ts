@@ -1,4 +1,4 @@
-export const anchors = [
+export const anchorsArticlePT = [
   'A música contemporânea:',
   'A improvisação:',
   'Os jogos na aprendizagem:',
@@ -17,4 +17,30 @@ export const anchors = [
   'Sugestão de repertório:',
   'Para saber mais:',
   'Referência:',
+]
+
+export const anchorsArticleES = [
+  '1. La música contemporánea:',
+  '2. La improvisación',
+  '3. Telefone sem fio sonoro virtual',
+  '4. Lego musical',
+  '5. Histórias da janela',
+  '6. Escrevendo a história',
+  '7. Espelho, espelho meu',
+  '8. Mapa musical',
+  '9. Sons da saudade',
+  '10. Nossa música da quarentena',
+]
+
+export const anchorsArticleEN = [
+  '1. ENGLISH',
+  '2. ¿Que sonido es ese?',
+  '3. Telefone sem fio sonoro virtual',
+  '4. Lego musical',
+  '5. Histórias da janela',
+  '6. Escrevendo a história',
+  '7. Espelho, espelho meu',
+  '8. Mapa musical',
+  '9. Sons da saudade',
+  '10. Nossa música da quarentena',
 ]
