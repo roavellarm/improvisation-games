@@ -146,15 +146,15 @@ const textData: Array<ArticleItem> = [
   },
   // ***** ATE AQUI *****
   {
-    text: 'Descrição do Jogo 1',
+    text: 'Descripción del juego 1',
     style: ['paragraph', 'bold', 'anchor'],
   },
   {
-    text: 'Pergunta e Resposta com cordas soltas em pizzicato',
+    text: 'Pregunta y respuesta com cuerdas sueltas en pizzicato',
     style: ['title2'],
   },
   {
-    text: 'Autoria: Marta Brietzke',
+    text: 'Autoría: Marta Brietzke',
     style: ['paragraph', 'italic'],
   },
   {
@@ -163,41 +163,42 @@ const textData: Array<ArticleItem> = [
   },
   {
     text:
-      'Propiciar aos estudantes a consciência da sua individualidade e seu papel dentro do coletivo; estabelecer as ideias de narrativa musical, de perguntas e respostas, enfatizando o uso das quatro cordas do violoncelo, do pizzicato, de diferentes ritmos, métricas, timbres e dinâmicas.',
+      'Proporcionar a los estudiantes una conciencia de su individualidad y de su papel dentro del colectivo; establecer las ideas de narrativa musical, preguntas y respuestas, haciendo hincapié en el uso de las cuatro cuerdas del violonchelo, el pizzicato, los diferentes ritmos, la métrica, los timbres y la dinámica.',
     style: ['paragraph'],
   },
   {
-    text: 'Metodologia e aplicação:',
+    text: 'Metodología y aplicación:',
     style: ['paragraph', 'bold'],
   },
   {
     text:
-      'Se inicia o jogo explicando aos estudantes o que poderia ser uma pergunta e uma resposta dentro de uma “narrativa” musical. Podemos dar um exemplo com nosso próprio instrumento, utilizando apenas as cordas soltas. Nesse momento, uma boa estratégia para que os estudantes compreendam os conceitos de pergunta e resposta é que utilizemos variações de dinâmica ou ritmo.',
+      'Comenzamos el juego explicando a los estudiantes lo que podría ser una pregunta y una respuesta dentro de una "narración" musical. Podemos dar un ejemplo con nuestro propio instrumento, utilizando sólo las cuerdas sueltas. En este punto, una buena estrategia para que los estudiantes comprendan los conceptos de pregunta y respuesta es que utilicemos variaciones de dinámica o ritmo.',
     style: ['paragraph'],
   },
   {
     text:
-      'Em seguida, propomos que cada um dos estudantes elabore uma resposta musical a uma pergunta que será feita por nós. O professor executa uma pergunta e o primeiro estudante executa uma resposta. Em seguida, o professor executa outra pergunta e o segundo estudante executa uma resposta e assim sucessivamente, até que todos os estudantes tenham participado do jogo. Podemos fazer quantas rodadas acharmos necessário, dependendo de cada turma ou grupo de estudantes. As perguntas podem englobar diferentes dinâmicas, ritmos e métricas, a fim de que os estudantes sejam estimulados de diferentes maneiras.',
+      'A continuación, proponemos que cada uno de los estudiantes elabore una respuesta musical a una pregunta que le haremos. El profesor hace una pregunta y el primer estudiante responde. A continuación, el profesor hace otra pregunta y el segundo estudiante responde, y así sucesivamente hasta que todos los estudiantes hayan participado en el juego. Podemos hacer tantas rondas como creamos necesarias, dependiendo de cada clase o grupo de estudiantes. Las preguntas pueden abarcar diferentes dinámicas, ritmos y métricas, de modo que los estudiantes se vean estimulados de diferentes maneras.',
     style: ['paragraph'],
   },
   {
     text:
-      'Logo após, propomos que os estudantes se distribuam em duplas e que escolham quem vai fazer a pergunta e quem vai fazer a resposta. Cada dupla se dispõe em um local da sala e é importante que os estudantes tenham experiência em ambos os papéis. A ideia é que, após esse momento, os estudantes possam “apresentar”, em duplas, para os demais colegas uma série de perguntas e respostas elaboradas por eles.',
+      'A continuación, pedimos a los estudiantes que se dividan en parejas y elijan quién hará la pregunta y quién dará la respuesta. Cada pareja se coloca en una parte diferente de la sala y es importante que los estudiantes tengan experiencia en ambos papeles. La idea es que, tras este momento, los estudiantes puedan "presentar", por parejas, a los demás compañeros una serie de preguntas y respuestas que han preparado.',
     style: ['paragraph'],
   },
   {
     text:
-      'É importante que possibilitemos uma certa autonomia aos estudantes. É interessante que deixemos a sua escolha definir quantas perguntas e respostas querem apresentar aos colegas, quem inicia perguntando, que sinal vão combinar para o início e o final das sessões de perguntas e respostas. Com frequência, vamos observar um aumento na complexidade das perguntas e respostas feitas pelos estudantes em relação àquelas elaboradas no início do jogo.',
+      'Es importante que permitamos a los estudiantes cierta autonomía. Es interesante que dejemos que sean ellos los que definan cuántas preguntas y respuestas quieren presentar a sus compañeros, quién empieza a preguntar, qué señal acordarán para el inicio y el final de las sesiones de preguntas y respuestas. A menudo observaremos un aumento de la complejidad de las preguntas y respuestas formuladas por los estudiantes en comparación con las preparadas al principio del juego.',
     style: ['paragraph'],
   },
   {
-    text: 'Fonte: elaborado pela autora.',
+    text: 'Fuente: elaborado por la autora.',
     style: ['paragraph', 'citation'],
   },
   {
     text: '',
     style: ['line'],
   },
+  // ***** ATE AQUI ****
   {
     text: 'Descrição do Jogo 2',
     style: ['paragraph', 'bold', 'anchor'],
