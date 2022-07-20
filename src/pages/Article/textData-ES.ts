@@ -326,15 +326,15 @@ const textData: Array<ArticleItem> = [
     style: ['line'],
   },
   {
-    text: 'Descrição do Jogo 4',
+    text: 'Descripción del Juego 4',
     style: ['paragraph', 'bold', 'anchor'],
   },
   {
-    text: 'Assinatura Musical',
+    text: 'Firma Musical',
     style: ['title2'],
   },
   {
-    text: 'Autoria: Wanderson Cruz',
+    text: 'Autoría: Wanderson Cruz',
     style: ['paragraph', 'italic'],
   },
   {
@@ -343,40 +343,40 @@ const textData: Array<ArticleItem> = [
   },
   {
     text:
-      'Possibilitar a experiência de criação a partir de células musicais pré-estabelecidas; proporcionar diferenças entre as polifonias e homofonias; incentivar o poder de escolha dentro da criação musical.',
+      'Permitir la experiencia de la creación a partir de células musicales preestablecidas; proporcionar diferencias entre polifonía y homofonía; fomentar el poder de elección dentro de la creación musical.',
     style: ['paragraph'],
   },
   {
-    text: 'Metodologia e aplicação:',
+    text: 'Metodología y aplicación:',
     style: ['paragraph', 'bold'],
   },
   {
     text:
-      'Iniciamos perguntando para os estudantes o que é uma assinatura. Logo após, relacionamos essa resposta com o que seria uma “assinatura musical”. Podemos dar um exemplo com nosso próprio instrumento, sendo interessante que utilizemos sons convencionais e sons provenientes das técnicas estendidas.',
+      'Empezamos preguntando a los estudiantes qué es una firma. Poco después, relacionamos esta respuesta con lo que sería una "firma musical". Podemos dar un ejemplo con nuestro propio instrumento, siendo interesante que utilicemos sonidos convencionales y sonidos de técnicas extendidas.',
     style: ['paragraph'],
   },
   {
     text:
-      'Propomos, então, que cada um crie sua própria assinatura musical utilizando para isso os sons que desejar. Damos um tempo para que os estudantes façam essa pesquisa e escolham individualmente sua assinatura. Logo após, propomos que cada estudante execute a sua assinatura para os demais colegas do grupo, a fim de que todos possam conhecer todas as assinaturas. É interessante que peçamos aos estudantes que executem mais de uma vez a sua assinatura, para que possamos verificar se ele está mantendo sempre a mesma assinatura ou se a cada vez executa uma assinatura diferente. Nesse jogo, propomos que as assinaturas de cada estudante sejam sempre as mesmas.',
+      'A continuación, proponemos que cada estudiante cree su propia firma musical utilizando los sonidos que desee. Damos un tiempo para que los estudiantes hagan esta investigación y elijan individualmente su firma. Después, proponemos que cada estudiante realice su firma para el resto del grupo, para que todos puedan conocer todas las firmas. Es interesante pedir a los estudiantes que ejecuten su firma más de una vez, para poder comprobar si mantienen siempre la misma firma o si cada vez ejecutan una firma diferente. En este juego, proponemos que las firmas de cada estudiante sean siempre las mismas.',
     style: ['paragraph'],
   },
   {
     text:
-      'Após a apresentação dos estudantes, sugerimos a composição de uma peça utilizando as assinaturas musicais de cada um dos estudantes. Escolhemos um maestro para que organize a composição. O maestro executa sinais com as mãos e com o corpo indicando quando cada estudante deve tocar sua assinatura, com que dinâmica e quando deve parar de tocar. A ideia é que enquanto o maestro não der um sinal para parar de tocar, as assinaturas vão sendo executadas continuamente. Ao terminar sua assinatura, o estudante recomeça do princípio até que receba um sinal para parar.',
+      'Después de que los estudiantes hayan actuado, proponemos componer una pieza utilizando las firmas musicales de cada uno de ellos. Elegimos un director de orquesta para organizar la composición. El director realiza señales con sus manos y su cuerpo indicando cuándo debe tocar cada estudiante su firma, con qué dinámica y cuándo debe dejar de tocar. La idea es que, hasta que el director de orquesta dé la señal de parar, las firmas se reproduzcan continuamente. Cuando el estudiante termina su firma, vuelve a empezar desde el principio hasta que recibe la señal de parar.',
     style: ['paragraph'],
   },
   {
     text:
-      'Devemos estimular os estudantes a trabalharem sua escuta e sua escolha artística frente ao material apresentado pelos colegas. Dessa forma, evitamos novamente que o jogo se torne mecânico e proporcionamos a construção de uma ideia musical consistente.',
+      'Hay que estimular a los estudiantes para que trabajen su escucha y su elección artística frente al material presentado por sus compañeros. De este modo, volvemos a evitar que el juego se vuelva mecánico y facilitamos la construcción de una idea musical coherente.',
     style: ['paragraph'],
   },
   {
     text:
-      'É interessante, em todos os jogos, que o professor seja o maestro na primeira vez que o jogo está sendo executado, mas que, em seguida, sejam escolhidos diferentes estudantes para assumirem essa função. Assim, possibilitamos que todos os estudantes do grupo possam, em algum momento, participar como maestros de algum dos jogos de improvisação.',
+      'Es interesante, en todos los juegos, que el profesor sea el director de orquesta la primera vez que se juega, pero que, después, se elija a diferentes alumnos para que asuman este papel. De este modo, hacemos posible que todos los estudiantes del grupo puedan, en algún momento, participar como directores de uno de los juegos de improvisación.',
     style: ['paragraph'],
   },
   {
-    text: 'Fonte: Elaborado pela autora, com base nas propostas de Wanderson Cruz.',
+    text: 'Fuente: Elaborado por la autra a partir de las propuestas de Wanderson Cruz.',
     style: ['paragraph', 'citation'],
   },
   {
