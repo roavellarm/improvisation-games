@@ -268,15 +268,15 @@ const textData: Array<ArticleItem> = [
   // ***** ATE AQUI ****
 
   {
-    text: 'Descrição do Jogo 3',
+    text: 'Descripción del Juego 3',
     style: ['paragraph', 'bold', 'anchor'],
   },
   {
-    text: 'A noite no Castelo',
+    text: 'La noche en el castillo',
     style: ['title2'],
   },
   {
-    text: 'Autoria: Claudia Freixedas',
+    text: 'Autoría: Claudia Freixedas',
     style: ['paragraph', 'italic'],
   },
   {
@@ -285,40 +285,40 @@ const textData: Array<ArticleItem> = [
   },
   {
     text:
-      'Estabelecer uma relação entre o imaginário e o sonoro; reforçar a confiança entre pares; desenvolver o poder de escolha dentro da criação musical.',
+      'Establecer una relación entre lo imaginario y lo sonoro; reforzar la confianza entre compañeros; desarrollar el poder de elección dentro de la creación musical.',
     style: ['paragraph'],
   },
   {
-    text: 'Metodologia e aplicação:',
+    text: 'Metodología y aplicación:',
     style: ['paragraph', 'bold'],
   },
   {
     text:
-      'Nesse jogo contamos uma história imaginando um castelo mal-assombrado em meio a uma noite de tempestade. Estimulamos os estudantes a narrarem quais elementos estariam presentes nesse castelo, como por exemplo, teias de aranha, morcegos, fantasmas, bem como os elementos da natureza, como por exemplo, trovões, rajadas de vento, chuva. Nessa tempestade, um viajante se aproximará do castelo e tomará contato com essas diferentes manifestações.',
+      'En este juego contamos una historia imaginando un castillo encantado en medio de una noche de tormenta. Animamos a los alumnos a narrar qué elementos estarían presentes en este castillo, como telas de araña, murciélagos, fantasmas, así como elementos de la naturaleza, como truenos, ráfagas de viento, lluvia. En esta tormenta, el viajero se acercará al castillo y entrará en contacto con estas diferentes manifestaciones.',
     style: ['paragraph'],
   },
   {
     text:
-      'Distribuímos os estudantes em diferentes pontos da sala, de preferência com uma certa distância entre eles. Cada estudante escolherá o som que deseja executar ou pode ser estabelecido que os estudantes possam executar mais de um tipo de som, dependendo do que julgarem adequado ao contexto musical. Cada estudante representará um objeto do castelo, não sendo necessário que se nomeie cada um desses objetos e deixando a cargo da imaginação de cada um, dando possibilidades que associações subjetivas sejam feitas pelos estudantes.',
+      'Distribuimos a los estudiantes en diferentes partes de la sala, preferiblemente con cierta distancia entre ellos. Cada estudiante elegirá el sonido que quiera tocar o se puede establecer que los alumnos puedan tocar más de un tipo de sonido, en función de lo que consideren adecuado para el contexto musical. Cada estudiante representará un objeto del castillo, no siendo necesario nombrar cada uno de estos objetos y dejándolo a la imaginación de cada uno, dando posibilidades a las asociaciones subjetivas que hagan los alumnos.',
     style: ['paragraph'],
   },
   {
     text:
-      'Um estudante escolhido pelo grupo será o viajante. Esse estudante ficará vendado com um lenço, simulando a escuridão do castelo. O objetivo é que o viajante caminhe pelo castelo sem bater em nenhum objeto. Para isso, quando o viajante se aproximar de um objeto, o estudante responsável pelo objeto deve produzir o som escolhido. Quando o viajante se afastar do objeto, o som vai diminuindo de intensidade e o som do objeto mais próximo ao viajante vai sendo acionado.',
+      'Un estudiante elegido por el grupo será el viajero. Este estudiante tendrá los ojos vendados con un pañuelo, simulando la oscuridad del castillo. El objetivo es que el viajero atraviese el castillo sin chocar con ningún objeto. Para ello, cuando el viajero se acerque a un objeto, el alumno responsable del mismo deberá producir el sonido elegido. Cuando el viajero se aleja del objeto, el sonido disminuye en intensidad y se reproduce el sonido del objeto más cercano al viajero.',
     style: ['paragraph'],
   },
   {
     text:
-      'À medida que realizamos as rodadas desse jogo, podemos acrescentar complexidades. Podemos sugerir que o viajante demore mais frente a um objeto cujo som deseja ouvir ou que volte para um som já ouvido e que deseja ouvir novamente. Assim, o estudante viajante se torna uma espécie de maestro e suas escolhas produzem determinada “narrativa” musical.',
+      'A medida que jugamos las rondas de este juego, podemos añadir complejidades. Podemos sugerir al viajero que se quede más tiempo frente a un objeto cuyo sonido quiere escuchar o que vuelva a un sonido que ya ha escuchado y quiere volver a oír. De este modo, el estudiante viajero se convierte en una especie de director de orquesta y sus elecciones producen una determinada "narrativa" musical.',
     style: ['paragraph'],
   },
   {
     text:
-      'É interessante que se faça uma gravação em áudio ou vídeo da improvisação e que, posteriormente, se escute essa gravação em conjunto e se discuta sobre o resultado. A audição da peça inteira proporciona a todos os participantes a ideia geral da proposta musical produzida. Algumas vezes, os estudantes envolvidos na execução podem perder a noção do todo musical e essa audição é fundamental para que os estudantes percebam que não estão sendo produzidos apenas ruídos desconexos e sim, um “caminho” musical.',
+      'Es interesante hacer una grabación de audio o vídeo de la improvisación y luego escuchar esta grabación juntos y discutir el resultado. La escucha de la pieza completa permite a todos los participantes hacerse una idea general de la propuesta musical elaborada. A veces, los estudiantes que participan en la actuación pueden perder la noción del conjunto musical y esta audición es fundamental para que los alumnos comprendan que no están produciendo sólo ruidos inconexos, sino un "camino" musical.',
     style: ['paragraph'],
   },
   {
-    text: 'Fonte: Elaborado pela autora, com base nas propostas de Claudia Freixedas.',
+    text: 'Fuente: Elaboración propia a partir de las propuestas de Claudia Freixedas.',
     style: ['paragraph', 'citation'],
   },
   {
