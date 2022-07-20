@@ -2,7 +2,7 @@ import React, { ReactElement } from 'react'
 import { useHistory } from 'react-router-dom'
 
 import { gameOptions } from 'helpers/game'
-import { anchors } from 'pages/Article/anchors'
+import { anchorsArticlePT } from 'pages/Article/anchors'
 import { anchorsPt, anchorsEn, anchorsEs } from 'pages/QuarantineGames/anchors'
 import { LO, useLanguage } from 'contexts/LanguageContext'
 import { GameIndex } from 'types'
@@ -53,7 +53,7 @@ const Navbar = ({ currentPage }: NavbarProps) => {
 
   const renderArticleOptions = () =>
     width <= 800 || height <= 645 ? (
-      <Dropdown title={TOPIC[language]} isArticleStyle options={anchors} />
+      <Dropdown title={TOPIC[language]} isArticleStyle options={anchorsArticlePT} />
     ) : null
 
   const renderQuarantineGamesOptions = () =>
