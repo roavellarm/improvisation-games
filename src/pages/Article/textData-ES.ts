@@ -84,57 +84,56 @@ const textData: Array<ArticleItem> = [
       'La práctica de la improvisación libre como objeto artístico apareció en Alemania e Inglaterra en los años sesenta del siglo XX, a través de la creación de diversos grupos dedicados a esta práctica. Paralelamente, los educadores musicales empezaron a observar que los niños ya improvisan libremente de forma natural y que, si se estimula esta práctica, se pueden incorporar elementos musicales a sus experiencias y aprendizajes. Los educadores destacan algunos de los beneficios de la improvisación, entre ellos el aprendizaje de nuevas formas de relación interpersonal basadas en la igualdad, la profundización de la relación con el instrumento, una mayor comprensión de las composiciones musicales, la necesidad de resolver problemas que se presentan como similares a los de la vida cotidiana, el desarrollo de la creatividad, la autoexpresión, la autoestima y la autonomía.',
     style: ['paragraph'],
   },
-  // ATÉ AQUI
   {
-    text: 'Os jogos na aprendizagem:',
+    text: 'Los juegos en el aprendizaje:',
     style: ['title2', 'anchor'],
   },
   {
     text:
-      'Educadores e pensadores de diversas áreas vêm desenvolvendo ao longo do tempo, ideias a respeito da aprendizagem por meio dos jogos, porém, os pesquisadores atuais consideram que essas ideias ainda não estão claras para todas as pessoas que trabalham diretamente com a educação. Um dos motivos dessa confusão diz respeito à característica polissêmica da palavra jogo, que pode ser usada para referenciar atividades com significados diversos. O jogo vem sendo estudado como uma parte natural e essencial do ser humano, parte essencial da aprendizagem e da transmissão de conhecimentos e da própria cultura.',
+      'Educadores y pensadores de diversas áreas han ido desarrollando a lo largo del tiempo, ideas sobre el aprendizaje a través de los juegos, sin embargo, los investigadores actuales consideran que estas ideas aún no están claras para todas las personas que trabajan directamente con la educación. Una de las razones de esta confusión es la característica polisémica de la palabra juego, que puede utilizarse para referirse a actividades con diferentes significados. El juego ha sido estudiado como una parte natural y esencial del ser humano, una parte esencial del aprendizaje y de la transmisión del conocimiento y de la propia cultura.',
     style: ['paragraph'],
   },
   {
     text:
-      'Para os pesquisadores que lidam com a aprendizagem através dos jogos, esses não possuem um “objetivo educacional” determinado, mas consideram que tudo o que aprendemos, aprendemos por intermédio do jogo. Os jogos de improvisação propostos por este trabalho acompanham essa ideia, não possuem como objetivo o desenvolvimento de conteúdos específicos, e sim, são destinados a trabalharem a natureza lúdica inata das crianças e adolescentes.',
+      'Para los investigadores que se ocupan del aprendizaje a través de los juegos, éstos no tienen un "objetivo educativo" determinado, sino que consideran que todo lo que aprendemos, lo hacemos a través de los juegos. Los juegos de improvisación propuestos en este trabajo siguen esta idea, no tienen como objetivo el desarrollo de contenidos específicos, sino que están destinados a trabajar la naturaleza lúdica innata de los niños y adolescentes.',
     style: ['paragraph'],
   },
   {
-    text: 'O ensino coletivo do violoncelo:',
+    text: 'La enseñanza colectiva del violoncelo:',
     style: ['title2', 'anchor'],
   },
   {
     text:
-      'Na nossa prática enquanto professores, muitas vezes, encontramos instituições onde o ensino se dá apenas de maneira individual, ou tutorial, e outras onde o ensino acontece coletivamente. No Brasil, na maioria das vezes, o ensino coletivo acontece em instituições ou ONG’s onde o fluxo de estudantes é constante e é preciso atender a um grande número de estudantes ao mesmo tempo, enquanto nas escolas livres ou conservatórios, o ensino é dirigido a uma única pessoa por vez. Porém, a opção pelo ensino coletivo vai além das restrições econômicas, levando-se em consideração seus objetivos e concepções.',
+      'En nuestra práctica como profesores, a menudo encontramos instituciones en las que la enseñanza tiene lugar sólo de forma individual o tutorial, y otras en las que la enseñanza se produce de forma colectiva. En Brasil, la enseñanza colectiva suele tener lugar en instituciones u ONGs donde el flujo de estudiantes es constante y es necesario atender a un gran número de estudiantes al mismo tiempo, mientras que en las escuelas libres o los conservatorios, la enseñanza se dirige a una sola persona a la vez. Sin embargo, la opción por la enseñanza colectiva va más allá de las restricciones económicas, teniendo en cuenta sus objetivos y concepciones.',
     style: ['paragraph'],
   },
   {
     text:
-      'Estima-se que o ensino de instrumento em grupo, como o denominamos hoje, iniciou ainda no século XIX na Inglaterra e posteriormente nos Estados Unidos. No Brasil, ele começou a ser adotado na década de cinquenta do século XX, sendo que, na década de setenta, um grande movimento surgiu para o ensino coletivo de cordas friccionadas, encabeçado por Alberto Jaffé e Dayse de Luca. A partir da disseminação do ensino coletivo de instrumento, pesquisadores iniciaram a investigação sobre os benefícios de tal modelo de ensino, benefícios que, além de musicais, são de ordem psicológica e social.',
+      'Se estima que la enseñanza de instrumentos en grupo, tal como la llamamos hoy, comenzó en el siglo XIX en Inglaterra y posteriormente en Estados Unidos. En Brasil, comenzó a adoptarse en los años cincuenta, y en los setenta surgió un gran movimiento para la enseñanza colectiva de las cuerdas frotadas, encabezado por Alberto Jaffé y Dayse de Luca. A partir de la difusión de la enseñanza colectiva del instrumento, los investigadores iniciaron la investigación sobre los beneficios de dicho modelo de enseñanza, beneficios que, además de musicales, son de orden psicológico y social.',
     style: ['paragraph'],
   },
   {
     text:
-      'No ensino coletivo, acredita-se que é possível compartilhar conhecimento, espaço, e que a interação e a diferença são partes importantes da aprendizagem. Além desses valores, a prática musical em conjunto proporciona a maior diversificação de conteúdos musicais abordados, pois se incluem algumas variáveis que são impossíveis no ensino individual. Cabe ressaltar que o ensino coletivo não deve ser uma cópia do ensino individual, apenas direcionado a mais pessoas ao mesmo tempo. Uma das características do ensino coletivo é que todos os estudantes devem estar ativos o tempo todo durante a aula. Para tanto, a atuação do professor também deve ser diferenciada, capaz de agregar todos os estudantes em função dos objetivos propostos. As práticas dos jogos de improvisação oferecidas aqui só são possíveis dentro desse contexto, tendo em vista que são direcionadas para a aprendizagem coletiva do instrumento em associação com os objetivos e concepções desse processo.',
+      'En la enseñanza colectiva, se cree que es posible compartir el conocimiento, el espacio, y que la interacción y la diferencia son partes importantes del aprendizaje. Además de estos valores, la práctica de la música en conjunto proporciona una mayor diversificación de los contenidos musicales tratados, ya que incluye algunas variables que son imposibles en la enseñanza individual. Hay que tener en cuenta que la enseñanza colectiva no debe ser una copia de la individual, sólo que dirigida a más personas al mismo tiempo. Una de las características de la enseñanza colectiva es que todos los estudiantes deben estar activos en todo momento durante la clase. Por lo tanto, la actuación del profesor debe ser también diferenciada, capaz de reunir a todos los alumnos en función de los objetivos propuestos. Las prácticas de los juegos de improvisación que aquí se ofrecen sólo son posibles en este contexto, ya que están dirigidas al aprendizaje colectivo del instrumento en asociación con los objetivos y las concepciones de este proceso.',
     style: ['paragraph'],
   },
   {
-    text: 'Atividades práticas:',
+    text: 'Actividades prácticas:',
     style: ['title2', 'anchor'],
   },
   {
     text:
-      'O educador, pesquisador e compositor François Delalande, que integra o grupo francês GRM fundado por Pierre Schaeffer em 1951, através de intensas pesquisas com crianças, aponta que, comumente, ao começar a estudar um instrumento musical, os estudantes possuem uma postura semelhante à do compositor de música concreta. Ele aponta, por exemplo, a necessidade exploratória com fins expressivos dos corpos sonoros, no nosso caso, do violoncelo. Enquanto professores, podemos observar essa necessidade na tendência natural do estudante em percutir, raspar, friccionar e produzir diferentes ações com resultantes sonoras diversas. Podemos observar também que as crianças e adolescentes, na fase inicial do estudo do violoncelo, não possuem preconceitos estéticos como os que são apresentados por estudantes ou músicos mais avançados tecnicamente. Os estudantes iniciantes aceitam o violoncelo como uma possibilidade infinita de produção de diferentes músicas, com suas multiplicidades estéticas. Tal observação nos leva a concluir que as dificuldades de compreensão da música contemporânea por músicos profissionais é uma dificuldade colocada pela repetição sistemática de determinados estilos musicais, geralmente os pertencentes a música europeia de concerto dos séculos XVIII e XIX.',
+      'El pedagogo, investigador y compositor François Delalande, que forma parte del grupo francés GRM, fundado por Pierre Schaeffer en 1951, a través de una intensa investigación con niños, señala que, comúnmente, al comenzar a estudiar un instrumento musical, los alumnos tienen una postura similar a la del compositor de música concreta. Señala, por ejemplo, la necesidad exploratoria con fines expresivos de los cuerpos sonoros, en nuestro caso, el chelo. Como profesores, podemos observar esta necesidad en la tendencia natural del alumno a percutir, raspar, frotar y producir diferentes acciones con diversos resultados sonoros. También podemos observar que los niños y adolescentes, en la fase inicial de estudio del violonchelo, no tienen prejuicios estéticos como los que presentan los estudiantes o músicos más avanzados técnicamente. Los alumnos principiantes aceptan el violonchelo como una posibilidad infinita de producir música diferente, con sus multiplicidades estéticas. Esta observación nos lleva a concluir que las dificultades de comprensión de la música contemporánea por parte de los músicos profesionales es una dificultad planteada por la repetición sistemática de ciertos estilos musicales, generalmente los pertenecientes a la música de concierto europea de los siglos XVIII y XIX.',
     style: ['paragraph'],
   },
   {
     text:
-      'Sendo assim, pode-se concluir que uma das maneiras de começar a ensinar o repertório de música contemporânea e os jogos de improvisação é permitindo que o estudante exerça sua curiosidade natural em explorar os sons do entorno, entre eles, os sons que podem ser produzidos pelo violoncelo. Ao fazermos isso, podemos utilizar algumas ideias provenientes de alguns compositores de música contemporânea, como a narratividade, a paisagem sonora e a mimese. A mimese é um recurso utilizado por diferentes linguagens artísticas, entre elas, a música. Em música, a mimese consiste basicamente na imitação dos fenômenos ambientais ou psicológicos por meio das qualidades do som e da construção de narrativas musicais.',
+      'Por lo tanto, se puede concluir que una forma de empezar a enseñar el repertorio de música contemporánea y los juegos de improvisación es permitir que el estudiante ejercite su curiosidad natural en la exploración de los sonidos del entorno, entre ellos, los sonidos que puede producir el violonchelo. Para ello, podemos utilizar algunas ideas de algunos compositores de música contemporánea, como la narratividad, el paisaje sonoro y la mímesis. La mímesis es un recurso utilizado por diferentes lenguajes artísticos, entre ellos, la música. En música, la mímesis consiste básicamente en la imitación de fenómenos ambientales o psicológicos a través de las cualidades del sonido y la construcción de narraciones musicales.',
     style: ['paragraph'],
   },
   {
     text:
-      'Durante a exploração do violoncelo, a mimese também pode ser usada como recurso pedagógico. Os diferentes sons produzidos pelo violoncelo podem ser relacionados, em conjunto com os estudantes, com conteúdos psicológicos e ambientais. Tal abordagem proporciona aos estudantes a compreensão de que os sons produzidos por meio das técnicas estendidas, ou seja, maneiras não convencionais de abordar o instrumento, não são apenas ruídos, e sim parte importante do leque expressivo musical. Assim, os estudantes passam a produzir conteúdos musicais cada vez subjetivos, englobando tanto as técnicas convencionais quanto as técnicas estendidas. Dessa maneira, tornam-se capazes de expressar seus pensamentos, sentimentos e emoções por meio de ideias musicais.',
+      'Durante la exploración del violonchelo, la mímesis también puede utilizarse como recurso pedagógico. Los diferentes sonidos producidos por el violonchelo pueden relacionarse, junto con los alumnos, con contenidos psicológicos y ambientales. Este enfoque permite a los alumnos comprender que los sonidos producidos a través de las técnicas extendidas, es decir, las formas no convencionales de abordar el instrumento, no son sólo ruido, sino una parte importante de la gama expresiva musical. Así, los alumnos comienzan a producir contenidos musicales cada vez más subjetivos, abarcando tanto las técnicas convencionales como las extendidas. De este modo, son capaces de expresar sus pensamientos, sentimientos y emociones a través de ideas musicales.',
     style: ['paragraph'],
   },
   {
@@ -142,9 +141,10 @@ const textData: Array<ArticleItem> = [
     style: ['line'],
   },
   {
-    text: 'Jogos de improvisação coletiva:',
+    text: 'Juegos de improvisación colectiva:',
     style: ['title1'],
   },
+  // ***** ATE AQUI *****
   {
     text: 'Descrição do Jogo 1',
     style: ['paragraph', 'bold', 'anchor'],
