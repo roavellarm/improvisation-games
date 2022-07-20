@@ -198,21 +198,20 @@ const textData: Array<ArticleItem> = [
     text: '',
     style: ['line'],
   },
-  // ***** ATE AQUI ****
   {
-    text: 'Descrição do Jogo 2',
+    text: 'Descripción del Juego 2',
     style: ['paragraph', 'bold', 'anchor'],
   },
   {
-    text: 'Sinal Verde X Sinal Vermelho',
+    text: 'LUZ VERDE X LUZ ROJA',
     style: ['title2'],
   },
   {
-    text: 'Autoria: Maria Teresa Alencar de Brito',
+    text: 'Autoría: Maria Teresa Alencar de Brito',
     style: ['paragraph', 'italic'],
   },
   {
-    text: 'Adaptação: Marta Brietzke',
+    text: 'Adaptación: Marta Brietzke',
     style: ['paragraph', 'italic'],
   },
   {
@@ -221,51 +220,53 @@ const textData: Array<ArticleItem> = [
   },
   {
     text:
-      'Trabalhar as diferenças entre som e silêncio, bem como sua importância e papel dentro da construção musical; aprofundar a importância da coletividade dentro do processo musical; estabelecer a ideia de diálogo musical.',
+      'Trabajar las diferencias entre el sonido y el silencio, así como su importancia y papel en la construcción de la música; profundizar en la importancia de la colectividad dentro del proceso musical; establecer la idea de diálogo musical.',
     style: ['paragraph'],
   },
   {
-    text: 'Metodologia e aplicação:',
+    text: 'Metodología y aplicación:',
     style: ['paragraph', 'bold'],
   },
   {
     text:
-      'Antes da sua realização, podemos propor aos estudantes que explorem as diferentes sonoridades dos seus violoncelos. Uma das maneiras de realizar essa prática é por meio da imitação: propomos um som e pedimos que os estudantes repitam, em conjunto ou individualmente, esse mesmo som. É interessante que possamos nomear as técnicas que já apresentam um nome definido pela literatura, como por exemplo, con legno, sul ponticelo, pizzicato Bartók. É importante que abramos espaço para que os estudantes descubram seus próprios sons, destinando uma parte dessa exploração para que eles abordem sozinhos seus instrumentos. Podemos pedir para que cada um demonstre aos demais colegas um som que descobriu, a fim, novamente, de dar voz ao estudante, e, posteriormente, todos repetem aquele som.',
+      'Antes de su realización, podemos proponer a los estudiantes que exploren las diferentes sonoridades de sus violoncelos. Una forma de realizar esta práctica es a través de la imitación: proponemos un sonido y pedimos a los estudiantes que repitan, juntos o individualmente, ese mismo sonido. Es interesante que podamos nombrar las técnicas que ya tienen un nombre definido por la literatura, por ejemplo, con legno, sul ponticelo, pizzicato Bartók. Es importante que dejemos espacio para que los estudiantes descubran sus propios sonidos, destinando una parte de esta exploración para que se acerquen a sus instrumentos por sí mismos. Podemos pedir a cada uno que demuestre a los demás compañeros un sonido que haya descubierto, para, de nuevo, dar voz al estudiante, y luego todos repiten ese sonido.',
     style: ['paragraph'],
   },
   {
     text:
-      'Podemos também escolher alguns desses sons e compartilhá-los com os estudantes, se considerarmos que o aprendizado de todos os sons no mesmo dia pode causar alguma dificuldade de assimilação. Posteriormente, nas próximas aulas, podemos introduzir mais alguns desses sons, a fim de aumentar o leque expressivo dos estudantes. Em alguns grupos de estudantes, que ainda não sabem segurar o arco, podemos oferecer esses mesmos sons, propondo que os estudantes segurem o arco “abraçando-o” no talão. Dessa maneira, os estudantes ficarão confortáveis e não vão adquirir vícios posturais. A maioria dos sons podem ser produzidos com a “pegada” do arco dessa maneira, possibilitando que os jogos sejam desenvolvidos em paralelo com a aquisição técnica dos estudantes.',
+      'También podemos elegir algunos de estos sonidos y compartirlos con los estudiantes, si consideramos que el aprendizaje de todos los sonidos el mismo día puede provocar alguna dificultad de asimilación. Más adelante, en las próximas lecciones, podemos introducir algunos de estos sonidos más, con el fin de aumentar el rango expresivo de los estudiantes. En algunos grupos de estudiantes, que aún no saben sostener el arco, podemos ofrecer estos mismos sonidos, proponiendo que los alumnos sostengan el arco "abrazándolo" en la cuenta. De este modo, los estudiantes estarán cómodos y no adquirirán vicios posturales. La mayoría de los sonidos pueden producirse con la "sujeción" del arco de esta manera, lo que permite desarrollar los juegos en paralelo a la adquisición técnica de los estudiantes.',
     style: ['paragraph'],
   },
   {
     text:
-      'Após a exploração do instrumento, mostramos aos estudantes dois pequenos cartazes, um verde e um vermelho. Associamos esses cartazes às regras de trânsito, em que o verde significa seguir ou, então, tocar, e o vermelho significa parar ou não tocar. Podemos propor que os estudantes escolham, cada um, um dos sons inventariados anteriormente, ou então que produzam diferentes sons. Ao ser apresentado o sinal verde, os estudantes devem executar um som no seu violoncelo. Ao ser apresentado o sinal vermelho, os estudantes devem fazer uma pausa. Dessa maneira, estabelecemos a importância e a função do silêncio na perspectiva musical.',
+      'Después de explorar el instrumento, mostramos a los estudiantes dos pequeños carteles, uno verde y otro rojo. Asociamos estos carteles con las normas de tráfico, en las que el verde significa seguir o si no tocar, y el rojo significa parar o no tocar. Podemos proponer que los alumnos elijan cada uno uno de los sonidos inventariados anteriormente, o que produzcan diferentes sonidos. Cuando se presenta la señal verde, los alumnos deben tocar un sonido en su violonchelo. Cuando se presenta la señal roja, los alumnos deben hacer una pausa. De este modo, establecemos la importancia y la función del silencio desde una perspectiva musical.',
     style: ['paragraph'],
   },
   {
     text:
-      'É interessante proporcionar aos estudantes a experiência de ser o “maestro”, ou seja, a pessoa que vai escolher quando se faz som, quando se faz silêncio. Após algumas rodadas do jogo, podemos distribuir mais um sinal verde e um sinal vermelho, estabelecendo dois “maestros” e dividindo o grupo em dois. Cada grupo deve seguir as orientações do seu maestro específico, o que resultará em diálogos musicais entre os dois grupos e uma sonoridade mais complexa.',
+      'Es interesante dar a los estudiantes la experiencia de ser el "director de orquesta", es decir, la persona que elegirá cuándo hacer ruido, cuándo callar. Después de unas cuantas rondas del juego, podemos distribuir una luz verde más y una luz roja más, estableciendo dos "conductores" y dividiendo el grupo en dos. Cada grupo debe seguir las directrices de su director específico, lo que dará lugar a diálogos musicales entre los dos grupos y a un sonido más complejo.',
     style: ['paragraph'],
   },
   {
     text:
-      'Os maestros devem se comunicar entre si para definir o início e o fim da música, cabendo a nós, estabelecermos que essa comunicação deve ser não verbal. Devemos salientar nessa fase do jogo que é importante que, tantos os maestros quanto os executantes escutem as diferentes sonoridades produzidas pelo grupo e se tornem conscientes da “narrativa” musical que está sendo criada. Os maestros devem ser incentivados a criarem, junto com os sinais verde e vermelho, sinais de variação de dinâmicas, de articulação e de caráter. Por exemplo, abaixar o sinal pode indicar tocar mais piano, levantar o sinal pode significar tocar mais forte. Devemos estar atentos e estimular que o poder de escuta dos estudantes vá se aprofundando em cada rodada do jogo, evitando que ele se torne mecânico e repetitivo.',
+      'Los directores deben comunicarse entre sí para definir el principio y el final de la música, y a nosotros nos corresponde establecer que esta comunicación debe ser no verbal. Hay que destacar en esta fase del juego que es importante que tanto los directores como los intérpretes escuchen los diferentes sonidos producidos por el grupo y tomen conciencia de la "narrativa" musical que se está creando. Hay que animar a los directores a crear, junto con las señales verdes y rojas, señales para las variaciones de dinámica, articulación y carácter. Por ejemplo, bajar la señal puede indicar que se toca más el piano, y subir la señal puede significar que se toca más fuerte. Debemos estar atentos y estimular que el poder de escucha de los alumnos se profundice con cada ronda del juego, evitando que se vuelva mecánico y repetitivo.',
     style: ['paragraph'],
   },
   {
     text:
-      'Também é interessante nesse momento que mostremos a gravação de alguma peça musical que utilize técnicas estendidas, como por exemplo, a peça Pression de Helmut Lachenmann, disponível em várias versões no site youtube. Tal audição aproxima o trabalho realizado pelos estudantes com o trabalho realizado por outras pessoas, o que é importante para que os estudantes valorizem sua própria produção e as dos demais. Outra peça interessante são as improvisações por senhas executadas pelo grupo de violoncelistas argentinos _ARRE!_ Algumas dessas improvisações também estão disponíveis no site youtube e proporcionam ao estudante a escuta de diferentes sonoridades, sendo produzidas por grupo de violoncelos e, assim como em Lachenmann, aproximam o trabalho realizado pelos estudantes com o que vem sendo produzido pelos músicos da atualidade.',
+      'También es interesante en este momento mostrar la grabación de alguna pieza musical que utilice técnicas extendidas, como la pieza Pression de Helmut Lachenmann, disponible en varias versiones en la web de youtube. Esta audición acerca el trabajo de los alumnos al de otras personas, lo que es importante para que los alumnos valoren su propia producción y la de los demás. ¡Otra pieza interesante son las improvisaciones por contraseñas interpretadas por el grupo de violoncelistas argentinos ARRE! Algunas de estas improvisaciones también están disponibles en la web de youtube y permiten al alumno escuchar diferentes sonidos, producidos por un grupo de violonchelistas y, como en el caso de Lachenmann, acercan el trabajo realizado por los alumnos con lo que producen los músicos en la actualidad.',
     style: ['paragraph'],
   },
   {
-    text: 'Fonte: Elaborado pela autora, com base nas propostas de Maria Teresa Alencar de Brito.',
+    text: 'Fuente: Elaboración propia a partir de las propuestas de Maria Teresa Alencar de Brito.',
     style: ['paragraph', 'citation'],
   },
   {
     text: '',
     style: ['line'],
   },
+  // ***** ATE AQUI ****
+
   {
     text: 'Descrição do Jogo 3',
     style: ['paragraph', 'bold', 'anchor'],
