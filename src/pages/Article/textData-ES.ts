@@ -502,19 +502,19 @@ const textData: Array<ArticleItem> = [
     style: ['line'],
   },
   {
-    text: 'Descrição do Jogo 7',
+    text: 'Descripción del Juego 7',
     style: ['paragraph', 'bold', 'anchor'],
   },
   {
-    text: 'Improvisação com ostinato',
+    text: 'Improvisación con ostinato',
     style: ['title2'],
   },
   {
-    text: 'Autoria: Vários autores',
+    text: 'Autoría: Varios autores',
     style: ['paragraph', 'italic'],
   },
   {
-    text: 'Adaptação: Marta Brietzke',
+    text: 'Adaptación: Marta Brietzke',
     style: ['paragraph', 'italic'],
   },
   {
@@ -523,30 +523,30 @@ const textData: Array<ArticleItem> = [
   },
   {
     text:
-      'Trabalhar a noção de solo e tutti; trabalhar a ideia de ostinato; trabalhar o conceito de forma musical.',
+      'Trabajar la noción de solo y tutti; trabajar la idea de ostinato; trabajar el concepto de forma musical.',
     style: ['paragraph'],
   },
   {
-    text: 'Metodologia e aplicação:',
+    text: 'Metodología y aplicación:',
     style: ['paragraph', 'bold'],
   },
   {
     text:
-      'Iniciamos esse jogo de improvisação explicando aos estudantes o que é um ostinato. Logo após, propomos algum ostinato rítmico a ser executado por todos os estudantes com a corda solta ré, em pizzicato. Esse ostinato deve ser simples, como por exemplo, uma semínima seguida de duas colcheias.',
+      'Empezamos este juego de improvisación explicando a los estudiantes qué es un ostinato. Poco después, se propone algún ostinato rítmico para ser ejecutado por todos los estudiantes con la cuerda en pizzicato. Este ostinato debe ser sencillo, como por ejemplo, una negra seguida de dos corcheas.',
     style: ['paragraph'],
   },
   {
     text:
-      'Propomos, então, aos estudantes que o grupo se divida em orquestra e solista. O grupo que representará a orquestra executará o ritmo ostinato com corda solta ré, enquanto o estudante escolhido para ser solista executará diferentes frases, englobando os conhecimentos musicais e técnicos já aprendidos por eles. Não é necessário, nesse momento, que se pense em harmonia ou condução vocal, pois a improvisação não necessita obedecer aos padrões estéticos do tonalismo. O objetivo é que os estudantes possam utilizar livremente seus conhecimentos musicais e organizar suas ideias, tendo como ponto de partida um ritmo em ostinato.',
+      'A continuación, proponemos a los estudiantes que el grupo se divida en orquesta y solista. El grupo que representará a la orquesta ejecutará el ritmo de ostinato con un solo acorde D, mientras que el estudiante elegido para ser el solista ejecutará diferentes frases, englobando los conocimientos musicales y técnicos ya aprendidos por ellos. No es necesario, en este momento, pensar en la armonía o en la conducción vocal, porque la improvisación no necesita obedecer a los patrones estéticos del tonalismo. El objetivo es que los estudiantes puedan utilizar libremente sus conocimientos musicales y organizar sus ideas, teniendo como punto de partida un ritmo de ostinato.',
     style: ['paragraph'],
   },
   {
     text:
-      'Podemos organizar a improvisação de diferentes maneiras, como por exemplo, estabelecendo que vamos executar duas vezes o ritmo em ostinato após o término de cada solo, para que o próximo executante identifique a sua hora de entrar como solista na execução. Também podemos organizar a improvisação na forma rondó, propondo que a parte A seja algum número específico de vezes da repetição do ostinato ou algum tema criado em conjunto pelo grupo, a ser executado pelo solista antes da sua livre improvisação, etc. Organizamos e acrescentamos complexidade ao jogo no decorrer das jogadas, que podem ser intercaladas com sessões de audição coletiva da gravação das improvisações.',
+      'Podemos organizar la improvisación de diferentes maneras, como por ejemplo estableciendo que tocaremos el ritmo de ostinato dos veces después del final de cada solo, para que el siguiente intérprete pueda identificar su momento para entrar como solista en la actuación. También podemos organizar la improvisación en forma de rondó, proponiendo que la parte A sea un número determinado de veces de repetición de ostinato o algún tema creado en conjunto por el grupo, para ser tocado por el solista antes de su improvisación libre, etc. Organizamos y añadimos complejidad al juego en el transcurso de las jugadas, que pueden intercalarse con sesiones de escucha colectiva de las grabaciones de las improvisaciones.',
     style: ['paragraph'],
   },
   {
-    text: 'Fonte: Elaborado pela autora.',
+    text: 'Fuente: Elaboración propia.',
     style: ['paragraph', 'citation'],
   },
   {
