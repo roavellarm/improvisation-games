@@ -10,8 +10,8 @@ import { checkStepperPosition } from './checkStepperPosition'
 
 const ANCHORS: any = {
   pt: anchorsArticlePT,
-  en: anchorsArticleES,
-  es: anchorsArticleEN,
+  en: anchorsArticleEN,
+  es: anchorsArticleES,
 }
 
 const TEXT: any = {

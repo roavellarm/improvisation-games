@@ -5,10 +5,7 @@ const textData: Array<ArticleItem> = [
     text: 'IMPROVISATIONS GAMES:',
     style: ['title1'],
   },
-  {
-    text: 'ENGLISH:',
-    style: ['title1'],
-  },
+
   {
     text: 'Possibilidades para a iniciação coletiva ao violoncelo',
     style: ['title1'],
