@@ -24,7 +24,7 @@ const textEn = [
 
 const textEs = [
   'Escríbe-me!',
-  'Si vos... experimentar alguma das propostas dos jogos, não deixe de compartilhar comigo. Será muito bom conhecer suas experiências e vivências com as atividades!',
+  'Si probás alguna de las propuestas de los juegos, no olvides compartirlas conmigo. ¡Será muy bueno conocer sus experiencias con las actividades!',
   'Entre en contacto',
   'aqui',
   'Colaboradores',
