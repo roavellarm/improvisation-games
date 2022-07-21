@@ -90,11 +90,11 @@ export const textEs = [
   },
   {
     text:
-      'Apesar do trabalho de pesquisa ter sido direcionado para estudantes de violoncelo, muitas das propostas contidas nos jogos podem ser desenvolvidas para outros instrumentos e, também, para outros níveis de aprendizagem, cabendo a cada professor fazer as adaptações que julgar necessárias e efetivas para suas demandas. Além disso, cabem muitos desdobramentos das propostas iniciais que podem suscitar outras ideias e perspectivas de trabalho.',
+      'Apesar de que le trabajo de investigación fue dirigido para estudiantes principiantes de violoncello, muchas de las propuestas que se encuentran en estos juegos pueden ser desarrolladas para otros instrumentos y, también, para otros niveles de aprendizaje. Corresponde a cada profesor realizar las adaptaciones que considere necesarias y eficaces para sus demandas. Además, hay muchos desarrollos de las propuestas iniciales que pueden dar lugar a otras ideas y perspectivas de trabajo.',
     style: ['paragraph'],
   },
   {
-    text: 'Boa diversão e boas aprendizagens!',
+    text: '¡Buena diversión y buen aprendizaje!',
     style: ['paragraph'],
   },
   {
@@ -113,7 +113,7 @@ export const textEs = [
   },
   {
     text:
-      'Atuei como instrumentista e como professora em orquestras e projetos sociais da capital e da região metropolitana do meu estado. Em conjunto com alguns estudantes de violoncelo, fundamos em Porto Alegre um espaço autogestionado de ensino e aprendizagem do violoncelo, denominado Filarmônica de Violoncelos-Tchêllistas. Minha área de pesquisa se relaciona ao ensino coletivo de instrumentos musicais abordando distintas possibilidades e facetas. Também me dedico à performance de música contemporânea de concerto, fazendo a estreia de algumas peças de compositores brasileiros.',
+      'Actué como instrumentista y como profesora en orquestas y proyectos sociales en la capital y la región metropolitana de mi estado. Junto con algunos alumnos de violoncello, fundé en Porto Alegre un espacio autogestionado de enseñanza y aprendizaje de este instrumento, llamado Filarmônica de Violoncelos-Tchêllistas. Mi área de investigación está relacionada con la enseñanza colectiva de los instrumentos musicales, abordando diferentes posibilidades y facetas. También me dedico a la interpretación de música contemporánea, realizando el estreno de algunas piezas de compositores brasileños.',
     style: ['paragraph'],
   },
 ]
