@@ -2,7 +2,7 @@ import React, { ReactElement } from 'react'
 import { useHistory } from 'react-router-dom'
 
 import { gameOptions } from 'helpers/game'
-import { anchorsArticlePT } from 'pages/Article/anchors'
+import { anchorsArticlePT, anchorsArticleES, anchorsArticleEN } from 'pages/Article/anchors'
 import { anchorsPt, anchorsEn, anchorsEs } from 'pages/QuarantineGames/anchors'
 import { LO, useLanguage } from 'contexts/LanguageContext'
 import { GameIndex } from 'types'
@@ -22,6 +22,12 @@ const ANCHORS: AnchorsType = {
   pt: anchorsPt,
   en: anchorsEn,
   es: anchorsEs,
+}
+
+const ANCHORS_ARTICLES: AnchorsType = {
+  pt: anchorsArticlePT,
+  en: anchorsArticleEN,
+  es: anchorsArticleES,
 }
 
 const GAMES_INDEX: { [key: string]: GameIndex[] } = {
@@ -53,7 +59,7 @@ const Navbar = ({ currentPage }: NavbarProps) => {
 
   const renderArticleOptions = () =>
     width <= 800 || height <= 645 ? (
-      <Dropdown title={TOPIC[language]} isArticleStyle options={anchorsArticlePT} />
+      <Dropdown title={TOPIC[language]} isArticleStyle options={ANCHORS_ARTICLES[language]} />
     ) : null
 
   const renderQuarantineGamesOptions = () =>
