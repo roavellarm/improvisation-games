@@ -1,7 +1,7 @@
 import React, { ReactElement } from 'react'
 import { useHistory } from 'react-router-dom'
 
-import { gameOptions } from 'helpers/game'
+import { gameOptionsPT, gameOptionsES, gameOptionsEN } from 'helpers/game'
 import { anchors } from 'pages/Article/anchors'
 import { anchorsPt, anchorsEn, anchorsEs } from 'pages/QuarantineGames/anchors'
 import { LO, useLanguage } from 'contexts/LanguageContext'
@@ -30,6 +30,12 @@ const GAMES_INDEX: { [key: string]: GameIndex[] } = {
   es: gameIndexEs,
 }
 
+const GAMES_OPTIONS: any = {
+  pt: gameOptionsPT,
+  en: gameOptionsEN,
+  es: gameOptionsES,
+}
+
 const GAMES_TITLE_LANGUAGE: any = {
   pt: 'Jogos',
   en: 'Games',
@@ -54,7 +60,7 @@ const Navbar = ({ currentPage }: NavbarProps) => {
   }
   const renderGamesOptions = () => {
     if (width > 700) return <CarousselNavbar gamesIndex={GAMES_INDEX[language]} />
-    return <Dropdown title={GAMES_TITLE_LANGUAGE[language]} options={gameOptions} />
+    return <Dropdown title={GAMES_TITLE_LANGUAGE[language]} options={GAMES_OPTIONS[language]} />
   }
 
   const renderArticleOptions = () =>
