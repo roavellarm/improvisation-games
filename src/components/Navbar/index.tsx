@@ -30,6 +30,12 @@ const GAMES_INDEX: { [key: string]: GameIndex[] } = {
   es: gameIndexEs,
 }
 
+const GAMES_TITLE_LANGUAGE: any = {
+  pt: 'Jogos',
+  en: 'Games',
+  es: 'Juegos',
+}
+
 const Navbar = ({ currentPage }: NavbarProps) => {
   const { push } = useHistory()
   const { language } = useLanguage()
@@ -48,7 +54,7 @@ const Navbar = ({ currentPage }: NavbarProps) => {
   }
   const renderGamesOptions = () => {
     if (width > 700) return <CarousselNavbar gamesIndex={GAMES_INDEX[language]} />
-    return <Dropdown title="Jogos" options={gameOptions} />
+    return <Dropdown title={GAMES_TITLE_LANGUAGE[language]} options={gameOptions} />
   }
 
   const renderArticleOptions = () =>
