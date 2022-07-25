@@ -109,7 +109,7 @@ export const textEs = [
   },
   {
     text:
-      'Mi nombre es Marta Macedo Brietzke e sou natural de Porto Alegre, Rio Grande do Sul, Brasil. Iniciei meus estudos de música com meu pai e, logo após, no Projeto Prelúdio e na Orquestra Infanto-Juvenil da Universidade Federal do Rio Grande do Sul, com o violino e o violoncelo. Me graduei em Música nessa mesma universidade, fazendo minha pós-graduação em São Paulo, na Universidade de São Paulo.',
+      'Mi nombre es Marta Macedo Brietzke, y nací en Porto Alegre, Rio Grande do Sul, Brasil. Comencé mis estudios musicales con mi padre y, poco después, en el Proyecto Preludio y en la Orquesta Infantil y Juvenil de la Universidad Federal de Río Grande do Sul, con el violín y el violoncello. Me gradué en Música en esa misma universidad, haciendo mi posgrado en São Paulo, en la Universidad de São Paulo.',
     style: ['paragraph'],
   },
   {
