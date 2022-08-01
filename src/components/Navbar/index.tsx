@@ -1,7 +1,6 @@
 import React, { ReactElement } from 'react'
 import { useHistory } from 'react-router-dom'
 
-import { gameOptionsPT, gameOptionsES, gameOptionsEN } from 'helpers/game'
 import { anchors } from 'pages/Article/anchors'
 import { anchorsPt, anchorsEn, anchorsEs } from 'pages/QuarantineGames/anchors'
 import { LO, useLanguage } from 'contexts/LanguageContext'
@@ -12,9 +11,7 @@ import Dropdown from '../Drodown'
 import { gameIndexPt, gameIndexEn, gameIndexEs } from './gameIndex'
 import * as S from './styles'
 
-export type NavbarProps = {
-  currentPage?: string
-}
+export type NavbarProps = { currentPage?: string }
 
 export type AnchorsType = { [key: string]: string[] }
 
@@ -30,16 +27,22 @@ const GAMES_INDEX: { [key: string]: GameIndex[] } = {
   es: gameIndexEs,
 }
 
-const GAMES_OPTIONS: any = {
-  pt: gameOptionsPT,
-  en: gameOptionsEN,
-  es: gameOptionsES,
-}
-
-const GAMES_TITLE_LANGUAGE: any = {
+const GAMES_TITLE_LANGUAGE: LO = {
   pt: 'Jogos',
   en: 'Games',
   es: 'Juegos',
+}
+
+const TEXT: LO = {
+  pt: 'Voltar',
+  en: 'Go back',
+  es: 'Volver',
+}
+
+const TOPIC: LO = {
+  pt: 'Tópicos',
+  en: 'Topics',
+  es: 'Temas',
 }
 
 const Navbar = ({ currentPage }: NavbarProps) => {
@@ -47,20 +50,14 @@ const Navbar = ({ currentPage }: NavbarProps) => {
   const { language } = useLanguage()
   const { width, height } = useScreenSize()
 
-  const TEXT: LO = {
-    pt: 'Voltar',
-    en: 'Go back',
-    es: 'Volver',
-  }
-
-  const TOPIC: LO = {
-    pt: 'Tópicos',
-    en: 'Topics',
-    es: 'Temas',
-  }
   const renderGamesOptions = () => {
     if (width > 700) return <CarousselNavbar gamesIndex={GAMES_INDEX[language]} />
-    return <Dropdown title={GAMES_TITLE_LANGUAGE[language]} options={GAMES_OPTIONS[language]} />
+    return (
+      <Dropdown
+        title={GAMES_TITLE_LANGUAGE[language]}
+        options={GAMES_INDEX[language].map((i) => i.gameTitle)}
+      />
+    )
   }
 
   const renderArticleOptions = () =>
