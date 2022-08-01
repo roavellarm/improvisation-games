@@ -27,12 +27,12 @@ export const anchorsEn = [
 export const anchorsEs = [
   '1. Detective sonoro',
   '2. ¿Que sonido es ese?',
-  '3. Telefone sem fio sonoro virtual',
+  '3. Teléfono inalámbrico sonoro virtual',
   '4. Lego musical',
-  '5. Histórias da janela',
-  '6. Escrevendo a história',
-  '7. Espelho, espelho meu',
+  '5. Historias desde la ventana',
+  '6. Escribiendo la historia',
+  '7. Espejito, espejito',
   '8. Mapa musical',
-  '9. Sons da saudade',
-  '10. Nossa música da quarentena',
+  '9. Sonidos de la “saudade” (nostalgia)',
+  '10. Nuestra música de la cuarentena',
 ]
