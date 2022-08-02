@@ -144,7 +144,6 @@ const textData: Array<ArticleItem> = [
     text: 'Juegos de improvisación colectiva:',
     style: ['title1'],
   },
-  // ***** ATE AQUI *****
   {
     text: 'Descripción del juego 1',
     style: ['paragraph', 'bold', 'anchor'],
@@ -265,8 +264,6 @@ const textData: Array<ArticleItem> = [
     text: '',
     style: ['line'],
   },
-  // ***** ATE AQUI ****
-
   {
     text: 'Descripción del Juego 3',
     style: ['paragraph', 'bold', 'anchor'],
