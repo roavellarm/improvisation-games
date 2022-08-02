@@ -85,16 +85,17 @@ export const textEs = [
   },
   {
     text:
-      'Este site fué pensado para professores de violoncelo de estudantes iniciantes de desenvolvimento instrumental que utilizam abordagens de ensino coletivo. É produto de uma pesquisa de mestrado realizada nos anos de 2017 e 2018 na Universidade de São Paulo, Brasil.',
+      'Este sitio está diseñado para los profesores de violonchelo de alumnos principiantes que utilizan enfoques de enseñanza colectiva. Es producto de una investigación de maestría realizada durante los años 2017 y 2018 en la Universidad de São Paulo (São Paulo, Brasil).',
     style: ['paragraph'],
   },
   {
     text:
-      'Apesar do trabalho de pesquisa ter sido direcionado para estudantes de violoncelo, muitas das propostas contidas nos jogos podem ser desenvolvidas para outros instrumentos e, também, para outros níveis de aprendizagem, cabendo a cada professor fazer as adaptações que julgar necessárias e efetivas para suas demandas. Além disso, cabem muitos desdobramentos das propostas iniciais que podem suscitar outras ideias e perspectivas de trabalho.',
+      'Apesar de que el trabajo de investigación fue dirigido para estudiantes principiantes de violoncello, muchas de las propuestas que se encuentran en estos juegos pueden ser desarrolladas para otros instrumentos y, también, para otros niveles de aprendizaje. Corresponde a cada profesor realizar las adaptaciones que considere necesarias y eficaces para sus demandas. Además, hay muchos desarrollos de las propuestas iniciales que pueden dar lugar a otras ideas y perspectivas de trabajo.',
+
     style: ['paragraph'],
   },
   {
-    text: 'Boa diversão e boas aprendizagens!',
+    text: '¡Buena diversión y buen aprendizaje!',
     style: ['paragraph'],
   },
   {
@@ -108,12 +109,12 @@ export const textEs = [
   },
   {
     text:
-      'Mi nombre es Marta Macedo Brietzke e sou natural de Porto Alegre, Rio Grande do Sul, Brasil. Iniciei meus estudos de música com meu pai e, logo após, no Projeto Prelúdio e na Orquestra Infanto-Juvenil da Universidade Federal do Rio Grande do Sul, com o violino e o violoncelo. Me graduei em Música nessa mesma universidade, fazendo minha pós-graduação em São Paulo, na Universidade de São Paulo.',
+      'Mi nombre es Marta Macedo Brietzke. Nací en Porto Alegre, Rio Grande do Sul, Brasil. Comencé mis estudios musicales con mi padre y, poco después, en el Proyecto Preludio y en la Orquesta Infantil y Juvenil de la Universidad Federal de Río Grande do Sul, con el violín y el violoncello. Me gradué en Música en esa misma universidad, haciendo mi posgrado en São Paulo, en la Universidad de São Paulo.',
     style: ['paragraph'],
   },
   {
     text:
-      'Atuei como instrumentista e como professora em orquestras e projetos sociais da capital e da região metropolitana do meu estado. Em conjunto com alguns estudantes de violoncelo, fundamos em Porto Alegre um espaço autogestionado de ensino e aprendizagem do violoncelo, denominado Filarmônica de Violoncelos-Tchêllistas. Minha área de pesquisa se relaciona ao ensino coletivo de instrumentos musicais abordando distintas possibilidades e facetas. Também me dedico à performance de música contemporânea de concerto, fazendo a estreia de algumas peças de compositores brasileiros.',
+      'Actué como instrumentista y como profesora en orquestas y proyectos sociales en la capital y la región metropolitana de mi estado. Junto con algunos alumnos de violoncello, fundé en Porto Alegre un espacio autogestionado de enseñanza y aprendizaje de este instrumento, llamado Filarmônica de Violoncelos-Tchêllistas. Mi área de investigación está relacionada con la enseñanza colectiva de los instrumentos musicales, abordando diferentes posibilidades y facetas. También me dedico a la interpretación de música contemporánea, realizando el estreno de algunas piezas de compositores brasileños.',
     style: ['paragraph'],
   },
 ]

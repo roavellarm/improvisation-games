@@ -482,11 +482,6 @@ const textData: Array<ArticleItem> = [
   },
   {
     text:
-      'Quando os estudantes terminarem sua escrita, solicitamos que, em conjunto, utilizando ou não a partitura, ensaiem a peça criada por eles. Devemos dar autonomia para que eles estabeleçam entre si sinais para o início e fim da música, sinais de dinâmica e outras informações que sintam necessidade. Após alguns ensaios, propomos um momento de apresentação das peças para os colegas do outro grupo.',
-    style: ['paragraph'],
-  },
-  {
-    text:
       'Cuando los estudiantes terminan de escribir, les pedimos que ensayen juntos la pieza que han creado, utilizando la partitura o no. Debemos darles autonomía para que establezcan entre ellos las señales de inicio y fin de la música, las señales dinámicas y otras informaciones que consideren necesarias. Después de algunos ensayos, proponemos un momento de presentación de las piezas a los compañeros del otro grupo. Podemos sugerir que los estudiantes cuenten su historia y luego interpreten la pieza, o que interpreten la pieza y luego cuenten su historia, o simplemente mostrar las imágenes elegidas por ellos para la creación de sus piezas, dependiendo de lo que consideremos interesante en ese momento. Es importante que en este momento también demos autonomía a los estudiantes en su organización y presentación a los demás compañeros.',
     style: ['paragraph'],
   },
@@ -619,11 +614,6 @@ const textData: Array<ArticleItem> = [
   },
   {
     text:
-      'Nesse jogo, também criamos, em conjunto com os estudantes, uma história de um visitante em um zoológico. O visitante passeia pelo zoológico e observa os diferentes animais. Cada estudante escolherá um animal para representar com seu violoncelo. O visitante escolherá qual animal quer visitar se posicionando na frente de cada um dos colegas que estará representando-o.',
-    style: ['paragraph'],
-  },
-  {
-    text:
       'En este juego, también creamos, junto con los alumnos, una historia sobre un visitante en un zoológico. El visitante recorre el zoo y observa los diferentes animales. Cada alumno elegirá un animal para representarlo con su violonchelo. El visitante elegirá qué animal quiere visitar poniéndose delante de cada uno de los compañeros que le representarán.',
     style: ['paragraph'],
   },
@@ -706,6 +696,7 @@ const textData: Array<ArticleItem> = [
       'Para contextualizar el trabajo con juegos de improvisación dentro de la poética de la música contemporánea y ofrecer subsidios a los estudiantes, podemos presentar, en diferentes momentos, piezas del repertorio de los siglos XX y XXI, compuestas para violonchelo. El objetivo de la escucha de estas piezas es que los estudiantes puedan identificar elementos comunes de estas piezas con sus propias creaciones y así dar más valor a su trabajo y al de los compositores presentados.',
     style: ['paragraph'],
   },
+  // TODO: Verificar no arquivo traduzido se esta lista não foi traduzida para o espanhol.
   {
     text: 'Lista de piezas del repertorio contemporáneo para violoncelo',
     style: ['paragraph', 'bold'],
@@ -854,7 +845,7 @@ const textData: Array<ArticleItem> = [
     style: ['itemList'],
   },
   {
-    text: 'Fonte: Elaborado pela autora.',
+    text: 'Fuente: elaborado por la autora.',
     style: ['paragraph', 'citation'],
   },
   {
