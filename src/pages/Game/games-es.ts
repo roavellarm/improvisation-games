@@ -8,7 +8,7 @@ export const gameListEs: Game[] = [
     gameTitle: 'Juego 1',
     content: [
       {
-        text: 'Pregunta y Respuesta con cordas al aire en pizzicato',
+        text: 'Pregunta y Respuesta con cuerdas sueltas en pizzicato',
         style: ['title1'],
       },
       {
