@@ -5,21 +5,20 @@ const textData: Array<ArticleItem> = [
     text: 'IMPROVISATIONS GAMES:',
     style: ['title1'],
   },
-
   {
     text: 'Possibilidades para a iniciação coletiva ao violoncelo',
     style: ['title1'],
   },
   {
-    text: 'Autoria: Marta Macedo Brietzke',
+    text: 'Author: Marta Macedo Brietzke',
     style: ['paragraph', 'margin'],
   },
   {
-    text: 'Orientador: Prof. Dr. Fabio Soren Presgrave',
+    text: 'Supervisor: Prof. Dr. Fabio Soren Presgrave',
     style: ['paragraph', 'margin'],
   },
   {
-    text: 'Coorientador: Prof. Dr. Mário André Wanderley Oliveira',
+    text: 'Supervisor: Prof. Dr. Mário André Wanderley Oliveira',
     style: ['paragraph', 'margin'],
   },
   {
@@ -28,113 +27,113 @@ const textData: Array<ArticleItem> = [
   },
   {
     text:
-      'Este trabalho faz parte da minha Dissertação de Mestrado, intitulada “Música contemporânea na iniciação coletiva ao violoncelo:uma pesquisa - ação com jogos de improvisação em três instituições de ensino no estado de São Paulo”, defendida em 12 de dezembro de 2018, pela Universidade de São Paulo, com orientação do Prof. Dr. Fabio Soren Presgrave e coorientação do Prof. Dr. Mário André Wanderley Oliveira.',
+      "This paper is part of Marta Macedo Brietzke's Master Thesis entitled “Contemporary Music in collective initiation to the cello: an action-research with improvisation games in three educational institutions in the state of São Paulo”, defended on December 12th 2018 through the University of São Paulo, with supervision from Prof. Dr. Fabio Soren Presgrave and co-supervision from Prof. Dr. Mário André Wanderley Oliveira.",
     style: ['paragraph', 'italic'],
   },
 
   {
-    text: 'A música contemporânea:',
+    text: 'The Contemporary Music:',
     style: ['title2', 'anchor'],
   },
   {
     text:
-      'O termo música contemporânea, muito utilizado por intérpretes, professores e estudantes de música, carece ainda de uma definição precisa. Uma das problemáticas que envolve o uso desse termo é a ideia que ele se destinaria a definir toda e qualquer música produzida na atualidade. Para nos ajudar a definir o que se chama comumente nos meios acadêmicos de música contemporânea, recorremos as concepções da professora Bernardete Zagonel. A professora esclarece que, em tais meios, o termo é frequentemente utilizado para designar a música europeia de concerto dos séculos XX e XXI, que foi orientada esteticamente pelas profundas mudanças filosóficas, científicas, culturais e tecnológicas que aconteceram nesse período. Quando nos dispomos a ouvir e a apreciar a música contemporânea, precisamos nos despreender de paradigmas antigos e abrir nossas percepções para entender e apreender outras formas de expressão musical. A música contemporânea pode ser definida, então, como a produção musical ligada à música de concerto, vinculada a propostas artísticas formuladas a partir do século XX e marcadas pelas complexidades de diversas referências artísticas, culturais e filosóficas.',
+      'The term contemporary music, widely used by performers, teachers and students of music, still lacks a precise definition since one of the problematics that involves the use of this term is the idea that it would be intended to define all and any music produced nowadays. To help us to define what commonly called in academia by contemporary music, we resorted to the conceptions of the professor Bernardete Zagonel. The professor elucidates that, in those circles, the expression often used to refer to the European classical music of the XX and XXI centuries, which has been aesthetically oriented by profound philosophical, scientific, cultural and technological changes that have taken place during this period. When we are willing to listen to and appreciate contemporary music, we must detach ourselves from old paradigms and open our perceptions to understand and apprehend other forms of musical expression. So, contemporary music can be defined as the music production connected to classical music, linked to the artistic proposals formulated from the twentieth century on and marked by the complexities of various artistic, cultural and philosophical references.',
     style: ['paragraph'],
   },
   {
     text:
-      'Apesar dessas novas características já estarem consolidadas de diferentes maneiras desde meados do século XX, ainda hoje, com frequência, parte dos músicos profissionais e dos estudantes de música não é familiarizada e, inclusive, não gosta de tocar ou ouvir a música que envolva possibilidades sonoras distintas das consideradas tradicionais (as produzidas nos séculos anteriores). Porém, também desde o século passado diferentes músicos, compositores, educadores e professores de instrumento, buscam incorporar esse repertório e essas possibilidades sonoras às práticas dos estudantes. Como exemplo dessas iniciativas, podemos citar os trabalhos de Béla Bartók e Boris Porena, e também dos brasileiros Heitor Villa-Lobos, Ernest Mahle e Bruno Kiefer.',
+      'Although these new characteristics have been consolidated in different ways since mid-twentieth century, even nowadays, commonly, a fraction of the professional musicians and music students is not familiar and even does not like to play or listen to music that involves sounds possibilities different from those considered traditional (those produced in the previous centuries). However, since the last century distincts musicians, composers, educators and instrument teacher, seek to embody this repertoire and sound possibilities to the practices of students. As an example of these initiatives, we can mention the works of Béla Bartók and Boris Porena, as also of the brazilians Heitor Villa-Lobos, Ernest Mahle and Bruno Kiefer.',
     style: ['paragraph'],
   },
   {
     text:
-      'A utilização do repertório da música contemporânea nas aulas de instrumento continua sendo reduzida e pouco divulgada. A pouca aceitação desse repertório nas salas de concerto do país pode ainda gerar dúvidas sobre a importância de sua aplicação, sobretudo com os estudantes de nível iniciante. Devemos compreender que a aplicação de propostas ligadas às poéticas da música contemporânea aproxima os estudantes das concepções e do pensamento do seu próprio tempo, principalmente quando essas propostas estão ligadas a atividades de criação, como o que acontece nas práticas de improvisação. Ao utilizarmos o termo “poética” para nos referirmos à música contemporânea, nos aproximamos de uma concepção que vê a música não apenas como linguagem, mas como uma expressão artística fundamentada nas concepções filosóficas, estéticas, históricas, sociais e políticas do seu entorno e, até mesmo, em elementos biográficos dos artistas. Esse termo, utilizado desde a antiguidade pelo filósofo grego Aristóteles para se referir às obras literárias passou a ser adotado na contemporaneidade para se referir à outras manifestações artísticas, como por exemplo, as artes visuais, as artes cênicas e a música, se referindo a tudo aquilo que é produzido fazendo uso deliberado de uma composição estética.',
+      'The insertion of the contemporary music repertoire in the instrument classes continues to be reduced and poorly publicized. The low acceptance of this repertoire in the concert halls across the country may also raise doubts about the importance of its application, mainly among students of beginner levels. We must comprehend that the application of proposals related to the poetics of contemporary music brings students closer to the conceptions and thought of their own time, especially when these proposals are linked to activities of creation, such as what happens in the practices of improvisation. By using the term “poetic” to refer to contemporary music, we come close to a conception that sees music not only as language but as an artistic expression grounded on the philosophical, aesthetic, historical, social and political conceptions of its surroundings and, even in biographical elements of artists. This term, used since antiquity by the Greek philosopher Aristotle, to refer to literary works, has been adopted in contemporaneity to refer to other artistic manifestations, such as the visual arts, the performing arts and music, referring to everything that is produced making deliberate use of an aesthetic composition.',
     style: ['paragraph'],
   },
   {
     text:
-      'Através das propostas da música contemporânea que envolvem a improvisação trazermos a criação para dentro das salas de aula de instrumento e aproximamos a arte da vida cotidiana, e a “música-pensamento”, assim como chamou o poeta Augusto de Campos, do dia a dia dos estudantes/intérpretes. Atualmente, a “música-pensamento”, ou a ”música de invenção”, como é algumas vezes chamada, parece estar destinada a uma parcela mínima da população que tem acesso ao ensino musical especializado. Dessa maneira, a abertura às diferentes manifestações musicais, compreendidas como fenômenos socioculturais, parece estar condicionadas a fatores de natureza social e econômica, pouco democráticas e inclusivas. No Brasil, a formação musical nas escolas especializadas, com grande frequência, destina-se quase exclusivamente a investigar e reproduzir repertórios de séculos anteriores aos séculos XX e XXI. Assim, o estudante tende a executar apenas obras do passado. Nas principais salas de concerto brasileiras, o espetáculo musical também parece ser direcionado, quase sempre, à apreciação de caráter histórico, sendo desfavorecida a ideia da arte como agente promotor do pensamento crítico e da reflexão.',
+      'Through the proposals of contemporary music that involve improvisation, we bring the creation into the instrument classrooms and bring the art of everyday life closer, and the "music- thought", as the poet Augusto de Campos called it, from the day to day of students/ performers. Currently, "music-thought", or "invention music", as it is sometimes named, seems to be aimed at a minimal part of the population that has access to specialized music education. Thus, the openness to different musical manifestations, which are understood as socio-cultural phenomena, seems to be conditioned to factors of a social and economic nature, undemocratic and not very inclusive. In Brazil, musical education in specialized schools, frequently is intended almost exclusively to investigate and reproduce repertoires from centuries before the 20th and 21st centuries. Thereby, the student tends to perform only works of the past, developing neither his creative power nor his critical and reflective capacity. In the main Brazilian concert halls, the musical presentation also seems to be addressed often to the appreciation of historical character, being the idea of art as a promoter of critical thinking and reflection undervalued.',
     style: ['paragraph'],
   },
   {
     text:
-      'Cabe a nós, professores de música, em conjunto com compositores e pesquisadores da área, ressaltar o valor da música como produto e produtora de experiências e de pensamento. Para tanto, a execução de obras musicais da atualidade, desde o início da formação do estudante/intérprete é essencial para que possamos trazer a “música-pensamento” para dentro da nossa vida diária.',
+      'It is up to us, music teachers, together with composers and researchers in the area, to highlight the value of music as a product and producer of experiences and thought. Therefore, the implementation of current musical works, since the beginning of the formation of the student / performer is essential so that we can bring the "music-thinking" into our daily life.',
     style: ['paragraph'],
   },
   {
-    text: 'A improvisação:',
+    text: 'The improvisation:',
     style: ['title2', 'anchor'],
   },
   {
     text:
-      'A improvisação é uma prática que se desenvolveu ao longo dos séculos e de diferentes maneiras em muitas culturas, como por exemplo, as culturas indianas, árabes e persas, entre outras. Nas culturas europeias, essa prática era comum até meados do século XIX, quando os papeis do compositor e do intérprete começaram a ser delineados como auto-excludentes. A prática da improvisação continuou sendo abordada, geralmente nos meios da música popular, em estilos como o jazz, o choro, a salsa, nas manifestações artísticas conhecidas como “livre improvisação”, assim como em peças de compositores das poéticas contemporâneas que, algumas vezes, destinam passagens à improvisação dos intérpretes.',
+      'Improvisation is a practice that has developed over the centuries and in different ways in many cultures, such as Indian, Arab and Persian cultures, among others. In European cultures, this practice was common until the middle of the 19th century, when the roles of composer and performer began to be outlined as self-excluding. The practice of improvisation continued to be addressed, generally in the midst of popular music, in styles such as jazz, choro, salsa, in artistic manifestations known as "free improvisation", as well as in pieces by composers of contemporary poetics that, sometimes, earmark passages to performers\' improvisation.',
     style: ['paragraph'],
   },
   {
     text:
-      'Desde meados do século XX, a prática da improvisação tem se mostrado também uma estratégia pedagógica importante para o ensino de música. Porém, essa prática é pouco aplicada nas aulas de instrumento musical, segundo a pesquisadora Chefa Alonso, com exceção dos países nórdicos. Compreender a importância de atividades ligadas à improvisação e algumas propostas de utilização dessa prática nos auxilia, enquanto professores, a elaborar concepções onde essa se inclua nas atividades planejadas para nossas aulas. Os pesquisadores e educadores musicais enfatizam em seus trabalhos e relatos que, por meio de atividades relacionadas à improvisação, é possível apresentar os conteúdos musicais aos estudantes ao mesmo tempo em que a música se torna um veículo para a expressão de percepções, pensamentos e sentimentos.',
+      'Since the mid-twentieth century, the practice of improvisation has also proven to be an important pedagogical strategy for the teaching of music. However, this practice is rarely applied in musical instrument classes, according to the researcher Chefa Alonso, with the exception of the Nordic countries. Understanding the importance of activities related to improvisation and some proposals for the use of this practice helps us, as teachers, to elaborate concepts where this is included in the planned activities for our classes. Researchers and music educators emphasize in their work and reports that, through activities related to improvisation, it is possible to present the musical contents to students, while music becomes a vehicle for the expression of perceptions, thoughts and feelings.',
     style: ['paragraph'],
   },
   {
     text:
-      'Desde o trabalho do pesquisador Derek Bailey, que data o ano de 1993, a improvisação começou a ser classificada segundo algumas características relativas ao seu idiomatismo. Apesar do uso desses termos ter sido relativizado pelo próprio pesquisador que os definiu, eles ainda são usados amplamente. É chamada de “improvisação idiomática” a que está ligada a um estilo ou “idioma” musical específico e de “improvisação não idiomática” a que não se relaciona com um idioma em particular, mas com o som, com suas possíveis relações e transformações. Dentro das práticas relacionadas como “não idiomáticas” encontra-se também a “improvisação livre”, que abarca uma série de manifestações que se definem como tal. Em comum, essas práticas desenvolvem o foco na performance, que inclui, em maior ou menor grau, uma atuação ativa e criativa em tempo real. Os educadores musicais, na maioria dos casos, abordam em seus processos de ensino e aprendizagem alguns elementos de propostas ligadas à improvisação livre.',
+      'Since the work of researcher Derek Bailey, which dates back to 1993, improvisation began to be classified according to some characteristics related to his idiom. Although the use of these terms has been relativized by the researcher who defined them, they are still widely used. It is called "idiomatic improvisation" which is linked to a specific style or musical "language" and "non-idiomatic improvisation" which does not relate to a particular language, but to sound, with its possible relations and transformations. Among the practices related to "non-idiomatics" is also the "free improvisation," which encompasses a series of manifestations that define themselves as such. In common, these practices develop a focus on performance, which includes, to a greater or lesser extent, an active and creative performance in real time. Musical educators, in most cases, address in their teaching and learning processes some elements of proposals linked to free improvisation.',
     style: ['paragraph'],
   },
   {
     text:
-      'A prática da improvisação livre enquanto objeto artístico surgiu na Alemanha e na Inglaterra na década de sessenta do século XX, por meio da criação de diversos grupos dedicados à essa prática. Em paralelo começou a ser observado pelos educadores musicais que as crianças naturalmente já improvisam livremente e que se essa prática for estimulada, elementos musicais podem ser incorporados às suas vivências e aprendizagem. Os educadores ressaltam alguns dos benefícios da improvisação, entre eles, a aprendizagem de novas formas de relações interpessoais baseadas na igualdade, o aprofundamento da relação com o instrumento, a maior compreensão das composições musicais, a necessidade da resolução de problemas que se apresentam como similares aos da vida cotidiana, o desenvolvimento da criatividade, da autoexpressão, da autoestima e da autonomia.',
+      'The practice of free improvisation as an artistic object emerged in Germany and England in the sixties of the twentieth century, through the creation of several groups dedicated à to this practice. In parallel it began to be observed by musical educators that children naturally already improvise freely and that if this practice is stimulated, musical elements can be incorporated into their experiences and learning. The educators emphasize some of the benefits of improvisation, among them, the learning of new forms of interpersonal relationships based on equality, the deepening of the relationship with the instrument, the greater understanding of musical compositions, the need to solve problems that present themselves as similar to those of everyday life, the development of creativity, self-expression, self-esteem and autonomy.',
     style: ['paragraph'],
   },
   {
-    text: 'Os jogos na aprendizagem:',
+    text: 'The gaming in learning:',
     style: ['title2', 'anchor'],
   },
   {
     text:
-      'Educadores e pensadores de diversas áreas vêm desenvolvendo ao longo do tempo, ideias a respeito da aprendizagem por meio dos jogos, porém, os pesquisadores atuais consideram que essas ideias ainda não estão claras para todas as pessoas que trabalham diretamente com a educação. Um dos motivos dessa confusão diz respeito à característica polissêmica da palavra jogo, que pode ser usada para referenciar atividades com significados diversos. O jogo vem sendo estudado como uma parte natural e essencial do ser humano, parte essencial da aprendizagem e da transmissão de conhecimentos e da própria cultura.',
+      'Educators and thinkers from several areas have been developing through time, ideas about learning through games, however, researchers today consider that these ideas are not yet clear to all people who work directly with education. One of the reasons for this confusion concerns the polysemic characteristic of the word game, which can be used to refer to activities with different meanings. The game is been studied as a natural and essential part of the human being, an essential part of learning and the transmission of knowledge and of culture itself.',
     style: ['paragraph'],
   },
   {
     text:
-      'Para os pesquisadores que lidam com a aprendizagem através dos jogos, esses não possuem um “objetivo educacional” determinado, mas consideram que tudo o que aprendemos, aprendemos por intermédio do jogo. Os jogos de improvisação propostos por este trabalho acompanham essa ideia, não possuem como objetivo o desenvolvimento de conteúdos específicos, e sim, são destinados a trabalharem a natureza lúdica inata das crianças e adolescentes.',
+      'For researchers who deal with learning through games, these do not have a specific "educational goal", but consider that everything we learn, we learn through the game. The improvisation games proposed by this paper follow this idea, which they do not have as objective the development of specific content, but are intended to work the innate playful nature of children and young people.',
     style: ['paragraph'],
   },
   {
-    text: 'O ensino coletivo do violoncelo:',
+    text: 'Collective initiation to the cello:',
     style: ['title2', 'anchor'],
   },
   {
     text:
-      'Na nossa prática enquanto professores, muitas vezes, encontramos instituições onde o ensino se dá apenas de maneira individual, ou tutorial, e outras onde o ensino acontece coletivamente. No Brasil, na maioria das vezes, o ensino coletivo acontece em instituições ou ONG’s onde o fluxo de estudantes é constante e é preciso atender a um grande número de estudantes ao mesmo tempo, enquanto nas escolas livres ou conservatórios, o ensino é dirigido a uma única pessoa por vez. Porém, a opção pelo ensino coletivo vai além das restrições econômicas, levando-se em consideração seus objetivos e concepções.',
+      "In our practice as teachers, we often find institutions where teaching takes place only in an individual way, or tutorial, and others where teaching takes place collectively. In Brazil, mostly collective education takes place in institutions or NGO's where the flow of students is constant and it is necessary to attend to a large number of students at the same time, while in free or conservatory schools, teaching is directed to a single person at a time. However, the choice of collective education goes beyond economic constraints, taking into account its objectives and conceptions.",
     style: ['paragraph'],
   },
   {
     text:
-      'Estima-se que o ensino de instrumento em grupo, como o denominamos hoje, iniciou ainda no século XIX na Inglaterra e posteriormente nos Estados Unidos. No Brasil, ele começou a ser adotado na década de cinquenta do século XX, sendo que, na década de setenta, um grande movimento surgiu para o ensino coletivo de cordas friccionadas, encabeçado por Alberto Jaffé e Dayse de Luca. A partir da disseminação do ensino coletivo de instrumento, pesquisadores iniciaram a investigação sobre os benefícios de tal modelo de ensino, benefícios que, além de musicais, são de ordem psicológica e social.',
+      'It is estimated that group instrument teaching began in the 19th century in England and later in the United States. In Brazil, it began to be embraced in the fifties of the twentieth century, and in the seventies, a great movement emerged for the collective teaching of stroke strings, headed by Alberto Jaffé and Dayse de Luca. After the dissemination of the collective teaching instrument, researchers began to investigate the benefits of such teaching method, benefits that, in addition to musicals, are psychological and social in nature.',
     style: ['paragraph'],
   },
   {
     text:
-      'No ensino coletivo, acredita-se que é possível compartilhar conhecimento, espaço, e que a interação e a diferença são partes importantes da aprendizagem. Além desses valores, a prática musical em conjunto proporciona a maior diversificação de conteúdos musicais abordados, pois se incluem algumas variáveis que são impossíveis no ensino individual. Cabe ressaltar que o ensino coletivo não deve ser uma cópia do ensino individual, apenas direcionado a mais pessoas ao mesmo tempo. Uma das características do ensino coletivo é que todos os estudantes devem estar ativos o tempo todo durante a aula. Para tanto, a atuação do professor também deve ser diferenciada, capaz de agregar todos os estudantes em função dos objetivos propostos. As práticas dos jogos de improvisação oferecidas aqui só são possíveis dentro desse contexto, tendo em vista que são direcionadas para a aprendizagem coletiva do instrumento em associação com os objetivos e concepções desse processo.',
+      "In collective teaching, it is believed that it is possible to share knowledge, space, and that interaction and diversity are important parts of learning. In addition to these values, the musical practice collectively provides greater diversification of musical contents approached as they include some variables that are impossible in individual teaching. It is worth mentioning that collective education should not be a copy of individual education, only directed to more people at the same time. One of the features of the collective teaching is that the students must be busy during the entire class. To do so, the teacher's performance should also be differentiated, able to gather all students in function of the proposed objectives. The gaming improvisation practices offered on this paper are only possible within this context, given that they are directed to the collective learning of the instrument in association with the objectives and conceptions of this process.",
     style: ['paragraph'],
   },
   {
-    text: 'Atividades práticas:',
+    text: 'Practical activities:',
     style: ['title2', 'anchor'],
   },
   {
     text:
-      'O educador, pesquisador e compositor François Delalande, que integra o grupo francês GRM fundado por Pierre Schaeffer em 1951, através de intensas pesquisas com crianças, aponta que, comumente, ao começar a estudar um instrumento musical, os estudantes possuem uma postura semelhante à do compositor de música concreta. Ele aponta, por exemplo, a necessidade exploratória com fins expressivos dos corpos sonoros, no nosso caso, do violoncelo. Enquanto professores, podemos observar essa necessidade na tendência natural do estudante em percutir, raspar, friccionar e produzir diferentes ações com resultantes sonoras diversas. Podemos observar também que as crianças e adolescentes, na fase inicial do estudo do violoncelo, não possuem preconceitos estéticos como os que são apresentados por estudantes ou músicos mais avançados tecnicamente. Os estudantes iniciantes aceitam o violoncelo como uma possibilidade infinita de produção de diferentes músicas, com suas multiplicidades estéticas. Tal observação nos leva a concluir que as dificuldades de compreensão da música contemporânea por músicos profissionais é uma dificuldade colocada pela repetição sistemática de determinados estilos musicais, geralmente os pertencentes a música europeia de concerto dos séculos XVIII e XIX.',
+      "The educator, researcher and composer François Delalande, member of the French group GRM, founded by Pierre Schaeffer in 1951, dedicated to concrete and electroacoustic music, through intense research with children, points out that, commonly, when starting to study a musical instrument, students have a similar posture to the composer of concrete music, in other words, the exploratory need with expressive purposes of the sound bodies, in our case, the cello. As teachers, we can observe this need in the student's natural tendency to impact, scrape, stroke and produce different actions with different sound results. We can also observe that children and teens, in the initial phase of the study of the cello, do not have aesthetic prejudices such as those presented by students or musicians more technically advanced. Beginner students accept the cello as an infinite possibility of producing different music, with its aesthetic multiplicity. Such observation leads us to the conclusion that the difficulties of understanding contemporary music by professional musicians is a difficulty posed by the systematic repetition of certain musical styles, generally those belonging to European concert music of the 18th and 19th centuries.",
     style: ['paragraph'],
   },
   {
     text:
-      'Sendo assim, pode-se concluir que uma das maneiras de começar a ensinar o repertório de música contemporânea e os jogos de improvisação é permitindo que o estudante exerça sua curiosidade natural em explorar os sons do entorno, entre eles, os sons que podem ser produzidos pelo violoncelo. Ao fazermos isso, podemos utilizar algumas ideias provenientes de alguns compositores de música contemporânea, como a narratividade, a paisagem sonora e a mimese. A mimese é um recurso utilizado por diferentes linguagens artísticas, entre elas, a música. Em música, a mimese consiste basicamente na imitação dos fenômenos ambientais ou psicológicos por meio das qualidades do som e da construção de narrativas musicais.',
+      'Thus, it can be concluded that one of the ways to start teaching the contemporary music repertoire and improvisation games is to allow the student to exercise his natural curiosity in exploring the sounds of the surroundings, among them, the sounds that can be produced by the cello. In doing so, we can use some ideas from some composers of contemporary music, such as the narrative, soundscape and mimesis. A mimesis is a resource used by different artistic languages, including music. In music, themimesisbasically consists of the imitation of environmental or psychological phenomena through the qualities of sound and the construction of musical narratives.',
     style: ['paragraph'],
   },
   {
     text:
-      'Durante a exploração do violoncelo, a mimese também pode ser usada como recurso pedagógico. Os diferentes sons produzidos pelo violoncelo podem ser relacionados, em conjunto com os estudantes, com conteúdos psicológicos e ambientais. Tal abordagem proporciona aos estudantes a compreensão de que os sons produzidos por meio das técnicas estendidas, ou seja, maneiras não convencionais de abordar o instrumento, não são apenas ruídos, e sim parte importante do leque expressivo musical. Assim, os estudantes passam a produzir conteúdos musicais cada vez subjetivos, englobando tanto as técnicas convencionais quanto as técnicas estendidas. Dessa maneira, tornam-se capazes de expressar seus pensamentos, sentimentos e emoções por meio de ideias musicais.',
+      'During the cello exploration, the mimesis can also be used as a pedagogical resource. The several sounds produced by the cello can be related, along with the students, to psychological and environmental contents. Such approach provides students with the understanding that the sounds produced by the extended techniques, i.e., unconventional ways of approaching the instrument, are not only noises, but an important part of the expressive musical range, and students start to produce musical content increasingly subjective, encompassing both conventional techniques and extended techniques. In such way, they are able to express their thoughts, feelings and emotions through musical ideas.',
     style: ['paragraph'],
   },
   {
@@ -142,56 +141,56 @@ const textData: Array<ArticleItem> = [
     style: ['line'],
   },
   {
-    text: 'Jogos de improvisação coletiva:',
+    text: 'The collective improvisation games:',
     style: ['title1'],
   },
   {
-    text: 'Descrição do Jogo 1',
+    text: 'Description of Game 1',
     style: ['paragraph', 'bold', 'anchor'],
   },
   {
-    text: 'Pergunta e Resposta com cordas soltas em pizzicato',
+    text: 'Question and Answer with open strings in pizzicato',
     style: ['title2'],
   },
   {
-    text: 'Autoria: Marta Brietzke',
+    text: 'Author: Marta Brietzke',
     style: ['paragraph', 'italic'],
   },
   {
-    text: 'Objetivos:',
+    text: 'Objectives:',
     style: ['paragraph', 'bold'],
   },
   {
     text:
-      'Propiciar aos estudantes a consciência da sua individualidade e seu papel dentro do coletivo; estabelecer as ideias de narrativa musical, de perguntas e respostas, enfatizando o uso das quatro cordas do violoncelo, do pizzicato, de diferentes ritmos, métricas, timbres e dinâmicas.',
+      "Provide awareness to the students of their individuality and their role within the collective, establish the idea of musical narrative, questions and answers, emphasizing the use of the violoncello's four strings, the pizzicato, and the different rhythms, metrics, timbres and dynamics.",
     style: ['paragraph'],
   },
   {
-    text: 'Metodologia e aplicação:',
+    text: 'Methodology and application:',
     style: ['paragraph', 'bold'],
   },
   {
     text:
-      'Se inicia o jogo explicando aos estudantes o que poderia ser uma pergunta e uma resposta dentro de uma “narrativa” musical. Podemos dar um exemplo com nosso próprio instrumento, utilizando apenas as cordas soltas. Nesse momento, uma boa estratégia para que os estudantes compreendam os conceitos de pergunta e resposta é que utilizemos variações de dinâmica ou ritmo.',
+      'The game begins by explaining to the students what could be a question and an answer within a musical "narrative". We can give an example with our own instrument, using only open strings. At this point, a good strategy for students to understand the concepts of question and answer is to use variations in dynamics or rhythm.',
     style: ['paragraph'],
   },
   {
     text:
-      'Em seguida, propomos que cada um dos estudantes elabore uma resposta musical a uma pergunta que será feita por nós. O professor executa uma pergunta e o primeiro estudante executa uma resposta. Em seguida, o professor executa outra pergunta e o segundo estudante executa uma resposta e assim sucessivamente, até que todos os estudantes tenham participado do jogo. Podemos fazer quantas rodadas acharmos necessário, dependendo de cada turma ou grupo de estudantes. As perguntas podem englobar diferentes dinâmicas, ritmos e métricas, a fim de que os estudantes sejam estimulados de diferentes maneiras.',
+      'We then propose that each of the students prepare a musical answer to a question that will be asked by us. The teacher plays a question and the first student plays a answer. The teacher then plays another question and the second student plays an answer and consecutively, until all the students have played the game. We can have as many rounds as we deem it necessary, depending on each class or group of students. Questions can encompass different dynamics, rhythms and metrics, in order to stimulate students in different ways.',
     style: ['paragraph'],
   },
   {
     text:
-      'Logo após, propomos que os estudantes se distribuam em duplas e que escolham quem vai fazer a pergunta e quem vai fazer a resposta. Cada dupla se dispõe em um local da sala e é importante que os estudantes tenham experiência em ambos os papéis. A ideia é que, após esse momento, os estudantes possam “apresentar”, em duplas, para os demais colegas uma série de perguntas e respostas elaboradas por eles.',
+      'After that, we propose that the students split into pairs and choose who will ask the question and who will answer it. Each pair is arranged in one spot in the room and it is important that the students have experienced both roles. The idea is that after this moment, the students can "present", in pairs, to the other students a series of questions and answers elaborated by them.',
     style: ['paragraph'],
   },
   {
     text:
-      'É importante que possibilitemos uma certa autonomia aos estudantes. É interessante que deixemos a sua escolha definir quantas perguntas e respostas querem apresentar aos colegas, quem inicia perguntando, que sinal vão combinar para o início e o final das sessões de perguntas e respostas. Com frequência, vamos observar um aumento na complexidade das perguntas e respostas feitas pelos estudantes em relação àquelas elaboradas no início do jogo.',
+      'It is important that we allow the students a certain autonomy. It is interesting that we let at their choice define how many questions and answers they want to present to their classmates, who starts the questions, what sign they will agree on for the beginning and the end of the question and answer sessions. Frequently, we will observe an increase in the complexity of the questions and answers asked by students compared to those elaborated at the beginning of the game .',
     style: ['paragraph'],
   },
   {
-    text: 'Fonte: elaborado pela autora.',
+    text: 'Source: elaborated by the author.',
     style: ['paragraph', 'citation'],
   },
   {
@@ -199,66 +198,63 @@ const textData: Array<ArticleItem> = [
     style: ['line'],
   },
   {
-    text: 'Descrição do Jogo 2',
+    text: 'Description of Game 2',
     style: ['paragraph', 'bold', 'anchor'],
   },
   {
-    text: 'Sinal Verde X Sinal Vermelho',
+    text: 'Green Light X Red Light',
     style: ['title2'],
   },
   {
-    text: 'Autoria: Maria Teresa Alencar de Brito',
+    text: 'Author: Maria Teresa Alencar de Brito/Murray Schafer',
     style: ['paragraph', 'italic'],
   },
   {
-    text: 'Adaptação: Marta Brietzke',
-    style: ['paragraph', 'italic'],
-  },
-  {
-    text: 'Objetivos:',
+    text: 'Objectives:',
     style: ['paragraph', 'bold'],
   },
   {
     text:
-      'Trabalhar as diferenças entre som e silêncio, bem como sua importância e papel dentro da construção musical; aprofundar a importância da coletividade dentro do processo musical; estabelecer a ideia de diálogo musical.',
+      'Work on the differences between sound and silence, as well as its importance and role within the musical construction; deepen the importance of collectivity within the musical process; to establish the idea of musical dialogue.',
     style: ['paragraph'],
   },
   {
-    text: 'Metodologia e aplicação:',
+    text: 'Methodology and application:',
     style: ['paragraph', 'bold'],
   },
   {
     text:
-      'Antes da sua realização, podemos propor aos estudantes que explorem as diferentes sonoridades dos seus violoncelos. Uma das maneiras de realizar essa prática é por meio da imitação: propomos um som e pedimos que os estudantes repitam, em conjunto ou individualmente, esse mesmo som. É interessante que possamos nomear as técnicas que já apresentam um nome definido pela literatura, como por exemplo, con legno, sul ponticelo, pizzicato Bartók. É importante que abramos espaço para que os estudantes descubram seus próprios sons, destinando uma parte dessa exploração para que eles abordem sozinhos seus instrumentos. Podemos pedir para que cada um demonstre aos demais colegas um som que descobriu, a fim, novamente, de dar voz ao estudante, e, posteriormente, todos repetem aquele som.',
+      'Before its realization, we can propose to the students to explore the different sounds of their cellos. One one of the ways to carry out this practice is through imitation, we propose a sound and ask the students to repeat, together or individually, that same sound. It is important that we name the techniques that already have a name defined by the literature, such as con legno, sul ponticelo, pizzicato Bartók. It is also important for us to make room for students to discover their own sounds, dedicating a part of this exploration to them so they can explore their instruments on their own. We can ask each of the students to show the other students a sound they have discovered, in order to give the student once again, a voice and then everyone repeats that sound.',
     style: ['paragraph'],
   },
   {
     text:
-      'Podemos também escolher alguns desses sons e compartilhá-los com os estudantes, se considerarmos que o aprendizado de todos os sons no mesmo dia pode causar alguma dificuldade de assimilação. Posteriormente, nas próximas aulas, podemos introduzir mais alguns desses sons, a fim de aumentar o leque expressivo dos estudantes. Em alguns grupos de estudantes, que ainda não sabem segurar o arco, podemos oferecer esses mesmos sons, propondo que os estudantes segurem o arco “abraçando-o” no talão. Dessa maneira, os estudantes ficarão confortáveis e não vão adquirir vícios posturais. A maioria dos sons podem ser produzidos com a “pegada” do arco dessa maneira, possibilitando que os jogos sejam desenvolvidos em paralelo com a aquisição técnica dos estudantes.',
+      'We can also choose some of these sounds and share them with students if we consider that learning all the sounds on the same day can cause some assimilation difficulty for students. Posteriorly, in the next classes, we can introduce some more of these sounds, in order to increase the students\' expressive range. In some groups of students who do not yet know how to hold the bow, we can offer these same sounds, proposing that students hold the bow by "hugging" it on the frog. In doing so, students will be comfortable and will not acquire postural vices. Most sounds can be produced with the bow held this way, allowing the games to be developed in parallel with the students\' technical acquisition.',
     style: ['paragraph'],
   },
   {
     text:
-      'Após a exploração do instrumento, mostramos aos estudantes dois pequenos cartazes, um verde e um vermelho. Associamos esses cartazes às regras de trânsito, em que o verde significa seguir ou, então, tocar, e o vermelho significa parar ou não tocar. Podemos propor que os estudantes escolham, cada um, um dos sons inventariados anteriormente, ou então que produzam diferentes sons. Ao ser apresentado o sinal verde, os estudantes devem executar um som no seu violoncelo. Ao ser apresentado o sinal vermelho, os estudantes devem fazer uma pausa. Dessa maneira, estabelecemos a importância e a função do silêncio na perspectiva musical.',
+      'After exploring the instrument, we will show the students two small posters, one green and one red. We associate these posters with traffic rules, where green means to go or play, and red means to stop or do not play. We can propose that the students choose, each one of them, one of the sounds previously inventoried, or that they produce different sounds. When the green light is displayed, students should play a sound on their cello, when the red light is displayed, students should take a pause. In that way, we establish the importance and function of silence in the musical perspective.',
     style: ['paragraph'],
   },
   {
     text:
-      'É interessante proporcionar aos estudantes a experiência de ser o “maestro”, ou seja, a pessoa que vai escolher quando se faz som, quando se faz silêncio. Após algumas rodadas do jogo, podemos distribuir mais um sinal verde e um sinal vermelho, estabelecendo dois “maestros” e dividindo o grupo em dois. Cada grupo deve seguir as orientações do seu maestro específico, o que resultará em diálogos musicais entre os dois grupos e uma sonoridade mais complexa.',
+      'It is interesting to provide students with the experience of being the "conductor", i.e., the person who will choose when sound is made and when there is silence. After a few rounds of the game, we can give out one more green and one red signal, establishing two "conductors" and dividing the group in two. Each group should follow the orientations of its specific conductor, which will result in musical dialogues between the two groups and a more complex sonority.',
     style: ['paragraph'],
   },
   {
     text:
-      'Os maestros devem se comunicar entre si para definir o início e o fim da música, cabendo a nós, estabelecermos que essa comunicação deve ser não verbal. Devemos salientar nessa fase do jogo que é importante que, tantos os maestros quanto os executantes escutem as diferentes sonoridades produzidas pelo grupo e se tornem conscientes da “narrativa” musical que está sendo criada. Os maestros devem ser incentivados a criarem, junto com os sinais verde e vermelho, sinais de variação de dinâmicas, de articulação e de caráter. Por exemplo, abaixar o sinal pode indicar tocar mais piano, levantar o sinal pode significar tocar mais forte. Devemos estar atentos e estimular que o poder de escuta dos estudantes vá se aprofundando em cada rodada do jogo, evitando que ele se torne mecânico e repetitivo.',
+      'The conductors must communicate with each other to define the beginning and the end of the song, and we must establish that this communication must be non-verbal. In this phase of the game, it is important that both the conductors and the performers listen to the different sounds produced by the group and become aware of the musical "narrative" that is being created. Conductors should be encouraged to create, along with the green and red signals, signs of dynamic variation, articulation and character. For example, to lower the signal may mean playing more piano,raising the signal may mean playing louder. We must be attentive and encourage that the students\' listening ability is deepened in each round of the game, avoiding that it becomes mechanical and repetitive.',
     style: ['paragraph'],
   },
   {
     text:
-      'Também é interessante nesse momento que mostremos a gravação de alguma peça musical que utilize técnicas estendidas, como por exemplo, a peça Pression de Helmut Lachenmann, disponível em várias versões no site youtube. Tal audição aproxima o trabalho realizado pelos estudantes com o trabalho realizado por outras pessoas, o que é importante para que os estudantes valorizem sua própria produção e as dos demais. Outra peça interessante são as improvisações por senhas executadas pelo grupo de violoncelistas argentinos _ARRE!_ Algumas dessas improvisações também estão disponíveis no site youtube e proporcionam ao estudante a escuta de diferentes sonoridades, sendo produzidas por grupo de violoncelos e, assim como em Lachenmann, aproximam o trabalho realizado pelos estudantes com o que vem sendo produzido pelos músicos da atualidade.',
+      "It's also interesting at this moment that we show the recording of some musical play that uses extended techniques, such as, the play Pression by Helmut Lachenmann, avaliable in several versions on youtube. Such listening brings the work done by students closer to the work done by other people, which is important for students to value their own production and those from others. Another interesting piece is the soundpainting improvisations played by the group of Argentine cellists ARRE!. Some of these improvisations are also available on youtube and they allow the student to listen to different sonorities, being produced by group of cello, and as in Lachenmann, they approximate the work done by students with what is being produced by musicians of today.",
     style: ['paragraph'],
   },
   {
-    text: 'Fonte: Elaborado pela autora, com base nas propostas de Maria Teresa Alencar de Brito.',
+    text:
+      'Source: Elaborated by the author, based on the proposals by Maria Teresa Alencar de Brito and Murray Schafer.',
     style: ['paragraph', 'citation'],
   },
   {
@@ -266,57 +262,57 @@ const textData: Array<ArticleItem> = [
     style: ['line'],
   },
   {
-    text: 'Descrição do Jogo 3',
+    text: 'Description of Game 3',
     style: ['paragraph', 'bold', 'anchor'],
   },
   {
-    text: 'A noite no Castelo',
+    text: 'Night at the Castle',
     style: ['title2'],
   },
   {
-    text: 'Autoria: Claudia Freixedas',
+    text: 'Author: Claudia Freixedas',
     style: ['paragraph', 'italic'],
   },
   {
-    text: 'Objetivos:',
+    text: 'Objectives:',
     style: ['paragraph', 'bold'],
   },
   {
     text:
-      'Estabelecer uma relação entre o imaginário e o sonoro; reforçar a confiança entre pares; desenvolver o poder de escolha dentro da criação musical.',
+      'Establish a relationship between the imagined and the sound; reinforce the trust between the pairs; develop the power of choice within the musical creation.',
     style: ['paragraph'],
   },
   {
-    text: 'Metodologia e aplicação:',
+    text: 'Methodology and application:',
     style: ['paragraph', 'bold'],
   },
   {
     text:
-      'Nesse jogo contamos uma história imaginando um castelo mal-assombrado em meio a uma noite de tempestade. Estimulamos os estudantes a narrarem quais elementos estariam presentes nesse castelo, como por exemplo, teias de aranha, morcegos, fantasmas, bem como os elementos da natureza, como por exemplo, trovões, rajadas de vento, chuva. Nessa tempestade, um viajante se aproximará do castelo e tomará contato com essas diferentes manifestações.',
+      'In this game, we tell a story, imagining a haunted castle in the middle of a stormy night.We encourage students to narrate what elements would be present in this castle, such as spider webs, bats, ghosts, as well as the elements of nature, such as thunder, gusts of wind, rain.In this storm, a traveler will come close to the castle and make the contact with these different manifestations.',
     style: ['paragraph'],
   },
   {
     text:
-      'Distribuímos os estudantes em diferentes pontos da sala, de preferência com uma certa distância entre eles. Cada estudante escolherá o som que deseja executar ou pode ser estabelecido que os estudantes possam executar mais de um tipo de som, dependendo do que julgarem adequado ao contexto musical. Cada estudante representará um objeto do castelo, não sendo necessário que se nomeie cada um desses objetos e deixando a cargo da imaginação de cada um, dando possibilidades que associações subjetivas sejam feitas pelos estudantes.',
+      'We place students in different spots of the room, preferably with a certain distance between them. Each student will choose the sound they want to play or it can be established that the students can play more than one type of sound, depending on what they think is appropriate for the musical context. Each student will represent an object of the castle, and it is not necessary to name each one of these objects and leaving it to the imagination of each one of them, giving possibilities for subjective associations to be made by the students.',
     style: ['paragraph'],
   },
   {
     text:
-      'Um estudante escolhido pelo grupo será o viajante. Esse estudante ficará vendado com um lenço, simulando a escuridão do castelo. O objetivo é que o viajante caminhe pelo castelo sem bater em nenhum objeto. Para isso, quando o viajante se aproximar de um objeto, o estudante responsável pelo objeto deve produzir o som escolhido. Quando o viajante se afastar do objeto, o som vai diminuindo de intensidade e o som do objeto mais próximo ao viajante vai sendo acionado.',
+      'One student chosen by the group will be the traveler. This student will be blindfolded with simulating the darkness of the castle. The objective is for the traveler to walk through the castle without touching any object. To do so, when the traveler approaches an object, the student responsible for the object must produce the chosen sound. When the traveler moves away from the object, the sound decreases in intensity and the sound of the closest object to the traveler is triggered.',
     style: ['paragraph'],
   },
   {
     text:
-      'À medida que realizamos as rodadas desse jogo, podemos acrescentar complexidades. Podemos sugerir que o viajante demore mais frente a um objeto cujo som deseja ouvir ou que volte para um som já ouvido e que deseja ouvir novamente. Assim, o estudante viajante se torna uma espécie de maestro e suas escolhas produzem determinada “narrativa” musical.',
+      'As we run the rounds of that game, we can add complexities. We can suggest that the traveler takes a longer time in front of an object whose sound he wants to hear or that he returns to a sound he has already heard and that he wants to hear again. The student traveler then becomes a kind of conductor and his choices produce a certain musical "narrative".',
     style: ['paragraph'],
   },
   {
     text:
-      'É interessante que se faça uma gravação em áudio ou vídeo da improvisação e que, posteriormente, se escute essa gravação em conjunto e se discuta sobre o resultado. A audição da peça inteira proporciona a todos os participantes a ideia geral da proposta musical produzida. Algumas vezes, os estudantes envolvidos na execução podem perder a noção do todo musical e essa audição é fundamental para que os estudantes percebam que não estão sendo produzidos apenas ruídos desconexos e sim, um “caminho” musical.',
+      'It is interesting to make an audio or video recording of the improvisation and then listen to this recording together and discuss the result. Listening to the entire piece gives all participants a general idea of the musical proposal produced. Sometimes, students involved in the performance can lose track of the musical as a whole and this listening is fundamental for students to realize that they are not just producing disconnected noises, but a musical "path".',
     style: ['paragraph'],
   },
   {
-    text: 'Fonte: Elaborado pela autora, com base nas propostas de Claudia Freixedas.',
+    text: 'Source: Elaborated by the author, based on the proposals by Claudia Freixedas.',
     style: ['paragraph', 'citation'],
   },
   {
@@ -324,57 +320,57 @@ const textData: Array<ArticleItem> = [
     style: ['line'],
   },
   {
-    text: 'Descrição do Jogo 4',
+    text: 'Description of Game 4',
     style: ['paragraph', 'bold', 'anchor'],
   },
   {
-    text: 'Assinatura Musical',
+    text: 'Musical signature',
     style: ['title2'],
   },
   {
-    text: 'Autoria: Wanderson Cruz',
+    text: 'Author: Wanderson Cruz',
     style: ['paragraph', 'italic'],
   },
   {
-    text: 'Objetivos:',
+    text: 'Objectives:',
     style: ['paragraph', 'bold'],
   },
   {
     text:
-      'Possibilitar a experiência de criação a partir de células musicais pré-estabelecidas; proporcionar diferenças entre as polifonias e homofonias; incentivar o poder de escolha dentro da criação musical.',
+      'Enable the experience of creation from pre-established musical cells; expose the differences between the polyphonies and homophonies; encourage the power of choice within musical creation.',
     style: ['paragraph'],
   },
   {
-    text: 'Metodologia e aplicação:',
+    text: 'Methodology and application:',
     style: ['paragraph', 'bold'],
   },
   {
     text:
-      'Iniciamos perguntando para os estudantes o que é uma assinatura. Logo após, relacionamos essa resposta com o que seria uma “assinatura musical”. Podemos dar um exemplo com nosso próprio instrumento, sendo interessante que utilizemos sons convencionais e sons provenientes das técnicas estendidas.',
+      'We start by asking students what a signature is. Soon after, we related that answer to what would be a "musical signature". We can give an example with our own instrument, and it is interesting that we use conventional sounds and sounds from the extended techniques.',
     style: ['paragraph'],
   },
   {
     text:
-      'Propomos, então, que cada um crie sua própria assinatura musical utilizando para isso os sons que desejar. Damos um tempo para que os estudantes façam essa pesquisa e escolham individualmente sua assinatura. Logo após, propomos que cada estudante execute a sua assinatura para os demais colegas do grupo, a fim de que todos possam conhecer todas as assinaturas. É interessante que peçamos aos estudantes que executem mais de uma vez a sua assinatura, para que possamos verificar se ele está mantendo sempre a mesma assinatura ou se a cada vez executa uma assinatura diferente. Nesse jogo, propomos que as assinaturas de cada estudante sejam sempre as mesmas.',
+      "We then propose to the students that each one creates their own musical signature using the sounds they want. We give students time to do this research and individually choose their signature. Afterwards, we propose that each student execute his or her signature for the other students in the group, so that everyone can know all the signatures. It is worth asking students to execute their signature more than once, so that we can check whether they are always keeping the same signature or whether they are executing a different signature each time. For this game, we propose that each student's signatures should always be the same.",
     style: ['paragraph'],
   },
   {
     text:
-      'Após a apresentação dos estudantes, sugerimos a composição de uma peça utilizando as assinaturas musicais de cada um dos estudantes. Escolhemos um maestro para que organize a composição. O maestro executa sinais com as mãos e com o corpo indicando quando cada estudante deve tocar sua assinatura, com que dinâmica e quando deve parar de tocar. A ideia é que enquanto o maestro não der um sinal para parar de tocar, as assinaturas vão sendo executadas continuamente. Ao terminar sua assinatura, o estudante recomeça do princípio até que receba um sinal para parar.',
+      "After the students' presentation, we suggest the composition of a piece using the musical signatures of each student. We choose a conductor to organize the composition. The conductor performs signals with his hands and body indicating when each student should play his signature, with what dynamics and when to stop playing. The idea is that until the conductor gives a signal to stop playing, the signatures are executed continuously. When the student's subscription ends, he or she restarts from the top until he or she receives a stop sign.",
     style: ['paragraph'],
   },
   {
     text:
-      'Devemos estimular os estudantes a trabalharem sua escuta e sua escolha artística frente ao material apresentado pelos colegas. Dessa forma, evitamos novamente que o jogo se torne mecânico e proporcionamos a construção de uma ideia musical consistente.',
+      'We should stimulate the students to work on their listening and artistic choice in front of the material presented by their classmates. Thus, we again prevent the game from becoming mechanical and provide for the construction of a consistent musical idea.',
     style: ['paragraph'],
   },
   {
     text:
-      'É interessante, em todos os jogos, que o professor seja o maestro na primeira vez que o jogo está sendo executado, mas que, em seguida, sejam escolhidos diferentes estudantes para assumirem essa função. Assim, possibilitamos que todos os estudantes do grupo possam, em algum momento, participar como maestros de algum dos jogos de improvisação.',
+      'It is advisable to the teacher be the conductor in all games played for the first time, however, different students should be assigned for this role next, so everyone can take turns as conductors in any improvisation game.',
     style: ['paragraph'],
   },
   {
-    text: 'Fonte: Elaborado pela autora, com base nas propostas de Wanderson Cruz.',
+    text: 'Source: Elaborated by the author, based on the proposals by Wanderson Cruz.',
     style: ['paragraph', 'citation'],
   },
   {
@@ -382,48 +378,42 @@ const textData: Array<ArticleItem> = [
     style: ['line'],
   },
   {
-    text: 'Descrição do Jogo 5',
+    text: 'Description of Game 5',
     style: ['paragraph', 'bold', 'anchor'],
   },
   {
-    text: 'Igual X Parecido X Diferente',
+    text: 'Same X Similar X Different',
     style: ['title2'],
   },
   {
-    text: 'Autoria: Violeta Gainza',
+    text: 'Author: Violeta Gainza',
     style: ['paragraph', 'italic'],
   },
-
   {
-    text: 'Adaptação: Marta Brietzke',
-    style: ['paragraph', 'italic'],
-  },
-
-  {
-    text: 'Objetivos:',
+    text: 'Objectives:',
     style: ['paragraph', 'bold'],
   },
   {
     text:
-      'Trabalhar as ideias de similaridade e diferença em música; proporcionar a criação a partir de um elemento dado previamente; trabalhar a ideia de frases ou narrativas musicais.',
+      'Work on ideas of similarity and difference in music; facilitate the creation from a element previously given; work the idea of phrases or musical narratives.',
     style: ['paragraph'],
   },
   {
-    text: 'Metodologia e aplicação:',
+    text: 'Methodology and application:',
     style: ['paragraph', 'bold'],
   },
   {
     text:
-      'Apresentamos aos estudantes três pequenos cartazes. No primeiro cartaz, apresentamos o sinal matemático utilizado para igual, no segundo o sinal matemático utilizado para diferente e no terceiro cartaz podemos criar algum sinal que represente o parecido. Propomos aos estudantes que eles devem respeitar os sinais que serão oferecidos a eles. O primeiro estudante cria livremente uma frase musical. Em seguida, o professor apresenta um dos sinais ao segundo estudante, que deve repetir ou variar a frase de acordo com o sinal representado. O professor oferece, então, um novo sinal ao terceiro estudante, que agora deve repetir ou variar a frase apresentada pelo segundo estudante. Assim o jogo segue até que todos os estudantes tenham elaborado suas frases. Os sinais podem ser escolhidos aleatoriamente ou selecionados previamente pelo professor.',
+      'We present three small posters. In the first poster, we present the mathematical sign used for equal, in the second the mathematical sign used for different and in the third poster we can create some sign that represents approximately equal to sign. We propose to students that they should respect the signs that will be presented to them. The first student freely creates a musical phrase, then the teacher presents one of the signs to the second student, who must repeat or modify the phrase according to the sign shown. The teacher then gives a new signal to the third student, who must now repeat or modify the phrase presented by the second student, and successively so, until all students have elaborated their phrases. The signs can be chosen randomly or previously selected by the teacher.',
     style: ['paragraph'],
   },
   {
     text:
-      'Em seguida, propomos que um dos estudantes seja o maestro e faça as indicações dos cartazes aos seus colegas. Podemos acrescentar complexidades ao jogo propondo que o maestro, além de escolher o próximo cartaz que oferecerá aos colegas, escolha também, sempre de maneira não verbal, o estudante que executará a próxima variação da frase.',
+      'Next, we propose to have one of the students as the conductor and give the indications on the posters to their classmates. We can add complexities to the game by proposing that the conductor, in addition to choosing the next poster he or she will be giving to other students, also choose, always in a non-verbal way, the student who will perform the next variation of the phrase.',
     style: ['paragraph'],
   },
   {
-    text: 'Fonte: Elaborado pela autora, com base nas propostas de Violeta Gainza.',
+    text: 'Source: Elaborated by the author, based on the proposals by Violeta Gainza.',
     style: ['paragraph', 'citation'],
   },
   {
@@ -431,68 +421,62 @@ const textData: Array<ArticleItem> = [
     style: ['line'],
   },
   {
-    text: 'Descrição do Jogo 6',
+    text: 'Description of Game 6',
     style: ['paragraph', 'bold', 'anchor'],
   },
   {
-    text: 'Composição com gravuras e escrita com notação própria',
+    text: 'Composition with images and novel notations',
     style: ['title2'],
   },
   {
-    text: 'Autoria: Diversos autores',
+    text: 'Author: Various authors/ Marta Brietzke',
     style: ['paragraph', 'italic'],
   },
-
   {
-    text: 'Adaptação: Marta Brietzke',
-    style: ['paragraph', 'italic'],
-  },
-
-  {
-    text: 'Objetivos:',
+    text: 'Objectives:',
     style: ['paragraph', 'bold'],
   },
   {
     text:
-      'Aproximar os estudantes da ideia de composição; desenvolver uma simbologia própria que represente suas ideias musicais; fazer contato com diferentes maneiras de escrita e representação musical; chamar a atenção para as limitações existentes em qualquer tipo de escrita musical; aproximar compositores e intérpretes.',
+      'Bringing students closer to the idea of composition; developing their own symbology that represents their musical ideas; making contact with different ways of writing and musical representation; paying attention to the existing limitations in any type of musical writing; bringing together composers and performers.',
     style: ['paragraph'],
   },
   {
-    text: 'Metodologia e aplicação:',
+    text: 'Methodology and application:',
     style: ['paragraph', 'bold'],
   },
   {
     text:
-      'Para o jogo de composição com gravuras solicitamos na aula anterior que os estudantes tragam gravuras de revistas ou fotos pessoais. Porém, é interessante que o professor traga algumas gravuras selecionadas previamente, pois algumas vezes os estudantes esquecem de trazê-las e a atividade fica comprometida. Também é necessário que o professor traga cartazes de cartolina e jogos de lápis de cor. Também podemos acrescentar outros materiais, conforme nossa disponibilidade, como por exemplo, palitos de dente, fitas coloridas, cordões de espessuras diversas, pedrinhas, etc.',
+      'For the game of composition with engravings, images we requested in the previous class that students bring pictures from magazines or personal photos. However, it is interesting that the teacher brings some previously selected pictures, as sometimes the students forget to bring them and the activity is compromised. It is also required that the teacher bring cardboard posters and sets of colored pencils. We can also add other materials according to our availability, such as toothpicks, colored ribbons, strands of different thicknesses, stones, etc.',
     style: ['paragraph'],
   },
   {
     text:
-      'Começamos o jogo dividindo a turma em grupos. Cada grupo irá apresentar suas gravuras e fotos para os demais colegas. O professor poderá distribuir mais gravuras aos estudantes. Propomos, então, que os estudantes escolham uma ou mais gravuras ou fotos, quantas desejarem, para que contem uma história musical. Podemos dar um exemplo com nosso próprio violoncelo escolhendo uma das gravuras. Devemos ressaltar que a história deve ter um enredo, um início, meio e fim e que os estudantes devem discutir e elaborar em conjunto esse enredo, de acordo com a(s) gravura(s) que escolherem.',
+      'We start the game by splitting the class in groups. Each group will present their images and photos to the others and the teacher may distribute more images to the students. We then suggest that students choose one or more engravings or photos, as many as they like, so that they can tell a musical story. We can give an exemple with our own chello choosing one of the images. We should emphasize that the story must have a storyline, a beginning, middle and end and that the students must discuss and elaborate this storyline together, according to the picture(s) they choose.',
     style: ['paragraph'],
   },
   {
     text:
-      'Após a elaboração do enredo, estimulamos que os estudantes produzam com os seus violoncelos conteúdos musicais que representem a história criada por eles.  A história poderá ser contada em partes, ou mesmo simultaneamente, dependendo das escolhas feitas pelos estudantes. A seleção desses conteúdos deve ser feita em conjunto pelos grupos e podemos dar a eles quanto tempo acharmos necessário para que pesquisem e selecionem os sons desejados.',
+      'After the storyline has been written, we encourage students to use their cellos to produce musical contents that represent the story they have created, encouraging them to tell the story in parts, or even simultaneously, depending on the choices made by the students. The selection of these contents should be made by the groups together and we can give them as much time as we deem necessary for them to research and select the desired sounds.',
     style: ['paragraph'],
   },
   {
     text:
-      'Num terceiro momento do jogo, distribuímos os cartazes, os lápis coloridos e os demais materiais e propomos que os estudantes criem uma maneira de “escrever” a música inventada por eles. Essa escrita pode utilizar desenhos, cores, símbolos, palavras, dependendo do que cada grupo achar conveniente. Podemos sugerir que escolham um título para sua peça, que coloquem seus nomes como compositores ou podemos nem mencionar tais aspectos, dando liberdade para que cada grupo determine o que julgar necessário para a compreensão da peça.',
+      'In the third part of the game, we distribute the posters, colored pencils and other materials and propose that the students develop a way to "write" the music they have invented. This writing can use drawings, colors, symbols, words, depending on what each group finds convenient. We may suggest that you choose a title for their play, put their names as composers, or we may not even mention these aspects, giving each group the freedom to determine what they think is necessary to understand the play.',
     style: ['paragraph'],
   },
   {
     text:
-      'Quando os estudantes terminarem sua escrita, solicitamos que, em conjunto, utilizando ou não a partitura, ensaiem a peça criada por eles. Devemos dar autonomia para que eles estabeleçam entre si sinais para o início e fim da música, sinais de dinâmica e outras informações que sintam necessidade. Após alguns ensaios, propomos um momento de apresentação das peças para os colegas do outro grupo.',
+      'When the students have finished their writing, we ask them to rehearse together the piece they have created with or without the score. We must give them autonomy to establish between themselves signs for the beginning and end of the music, dynamic signs and other information that they feel they need. After some rehearsals, we propose a moment of presentation of the plays to the classmates of the other group.',
     style: ['paragraph'],
   },
   {
     text:
-      'Podemos sugerir que os estudantes contem sua história e depois executem a peça ou que executem a peça e depois contem sua história, ou apenas que mostrem as gravuras escolhidas por eles para a criação das suas peças, dependendo do que julgarmos interessante no momento. É importante que nesse momento também proporcionemos autonomia aos estudantes na sua organização e apresentação aos demais colegas.',
+      'We can suggest that students tell their story and then execute the play or execute the play and then tell their story, or just that they show the pictures they have chosen to create their play, depending on what we find interesting at the moment. It is also important that at this time we provide autonomy to the students in their organization and presentation to the others.',
     style: ['paragraph'],
   },
   {
-    text: 'Fonte: Elaborado pela autora.',
+    text: 'Source: Elaborated by the author.',
     style: ['paragraph', 'citation'],
   },
   {
@@ -500,51 +484,47 @@ const textData: Array<ArticleItem> = [
     style: ['line'],
   },
   {
-    text: 'Descrição do Jogo 7',
+    text: 'Description of Game 7',
     style: ['paragraph', 'bold', 'anchor'],
   },
   {
-    text: 'Improvisação com ostinato',
+    text: 'Improvisation with ostinato',
     style: ['title2'],
   },
   {
-    text: 'Autoria: Vários autores',
+    text: 'Author: V arious authors/Marta Brietzke',
     style: ['paragraph', 'italic'],
   },
   {
-    text: 'Adaptação: Marta Brietzke',
-    style: ['paragraph', 'italic'],
-  },
-  {
-    text: 'Objetivos:',
+    text: 'Objectives:',
     style: ['paragraph', 'bold'],
   },
   {
     text:
-      'Trabalhar a noção de solo e tutti; trabalhar a ideia de ostinato; trabalhar o conceito de forma musical.',
+      'Work the notion of solo and tutti; work the idea of ostinato; work the concept of musical form.',
     style: ['paragraph'],
   },
   {
-    text: 'Metodologia e aplicação:',
+    text: 'Methodology and application:',
     style: ['paragraph', 'bold'],
   },
   {
     text:
-      'Iniciamos esse jogo de improvisação explicando aos estudantes o que é um ostinato. Logo após, propomos algum ostinato rítmico a ser executado por todos os estudantes com a corda solta ré, em pizzicato. Esse ostinato deve ser simples, como por exemplo, uma semínima seguida de duas colcheias.',
+      'We start the improvisation game by explaining to the students what an ostinato is. Soon after, we propose some rhythmic ostinato to be performed by all students with a D open string in pizzicato.This ostinato must be simple, such as, a quarter note followed by two eighth notes.',
     style: ['paragraph'],
   },
   {
     text:
-      'Propomos, então, aos estudantes que o grupo se divida em orquestra e solista. O grupo que representará a orquestra executará o ritmo ostinato com corda solta ré, enquanto o estudante escolhido para ser solista executará diferentes frases, englobando os conhecimentos musicais e técnicos já aprendidos por eles. Não é necessário, nesse momento, que se pense em harmonia ou condução vocal, pois a improvisação não necessita obedecer aos padrões estéticos do tonalismo. O objetivo é que os estudantes possam utilizar livremente seus conhecimentos musicais e organizar suas ideias, tendo como ponto de partida um ritmo em ostinato.',
+      'We then propound the students to divide the group into orchestra and soloist. The group that will represent the orchestra will perform the ostinato rhythm with reverse loose string, while the student chosen to be soloist will perform different phrases, encompassing the musical and technical knowledge they have already learned. During the solos it is not necessary that we think in harmony or vocal conduction, as for the improvisation does not need to obey the patterns of tonalism. The objective is for students to be able to freely use their musical knowledge and to organize their ideas on the basis of a rhythm in ostinato.',
     style: ['paragraph'],
   },
   {
     text:
-      'Podemos organizar a improvisação de diferentes maneiras, como por exemplo, estabelecendo que vamos executar duas vezes o ritmo em ostinato após o término de cada solo, para que o próximo executante identifique a sua hora de entrar como solista na execução. Também podemos organizar a improvisação na forma rondó, propondo que a parte A seja algum número específico de vezes da repetição do ostinato ou algum tema criado em conjunto pelo grupo, a ser executado pelo solista antes da sua livre improvisação, etc. Organizamos e acrescentamos complexidade ao jogo no decorrer das jogadas, que podem ser intercaladas com sessões de audição coletiva da gravação das improvisações.',
+      'We can organize improvisation in different ways, for example, by establishing that we will perform the rhythm in ostinato twice after the end of each solo, so that the next performer identifies his time to enter as a soloist in the performance. We can also arrange a improvisation in rondo form, proposing that part A be some specific number of times the repetition of the ostinato or some theme created jointly by the group, to be performed by the soloist before his free improvisation. We organize and add complexity to the game over the course of the rounds, which can be interspersed with collective listening sessions of the improvisation recording.',
     style: ['paragraph'],
   },
   {
-    text: 'Fonte: Elaborado pela autora.',
+    text: 'Source: Elaborated by the author.',
     style: ['paragraph', 'citation'],
   },
   {
@@ -552,41 +532,41 @@ const textData: Array<ArticleItem> = [
     style: ['line'],
   },
   {
-    text: 'Descrição do Jogo 8',
+    text: 'Description of Game 8',
     style: ['paragraph', 'bold', 'anchor'],
   },
   {
-    text: 'A floresta encantada',
+    text: 'Enchanted Forest',
     style: ['title2'],
   },
   {
-    text: 'Autoria: Claudia Freixedas',
+    text: 'Author: Claudia Freixedas',
     style: ['paragraph', 'italic'],
   },
   {
-    text: 'Objetivos:',
+    text: 'Objectives:',
     style: ['paragraph', 'bold'],
   },
   {
-    text: 'Trabalhar o diálogo musical; trabalhar a ideia de polifonia.',
+    text: 'Work the musical dialogue; work the idea of polyphony.',
     style: ['paragraph'],
   },
   {
-    text: 'Metodologia e aplicação:',
+    text: 'Methodology and application:',
     style: ['paragraph', 'bold'],
   },
   {
     text:
-      'Consiste em uma variação do jogo A noite no Castelo, com um acréscimo de complexidade. Nesse caso, também criamos uma história na qual dois exploradores chegam a uma floresta encantada. Nessa floresta, cada árvore emite um som diferente. Quando os exploradores se aproximam das árvores, elas emitem o seu som. Podemos realizar esse jogo com os olhos abertos ou vendados, de forma semelhante à do jogo A noite no Castelo e as árvores podem emitir um único som ou diferentes sons conforme o contexto musical. É interessante, no entanto, propormos algumas diferenças entre este jogo e o jogo anterior.',
+      "It consists of a variation of the game Night at the Castle, with an addition of complexity. In this case, we also create a story in which two explorers arrive at an enchanted forest. In this forest, each tree emits a different sound. When explorers approach the trees, they emit their sound. TWe can perform this game with the eyes open or blindfolded, in a similar way to the game Night at the Castle, and the trees can emit a single sound or different sounds depending on the musical context. However, it's important that we propose some differences between this game and the previous one.",
     style: ['paragraph'],
   },
   {
     text:
-      'Nesse jogo, uma das complexidades a serem apresentadas aos estudantes é que mais de um explorador entra na floresta ao mesmo tempo. Tal característica proporcionará a existência de um diálogo a ser “composto” pelos exploradores, que também atuarão como maestros.',
+      'In this game, one of the complexities to be presented to students is more than one explorer enters the forest at the same time. This feature will provide the existence of a dialogue to be "composed" by the explorers, who will also act as conductors.',
     style: ['paragraph'],
   },
   {
-    text: 'Fonte: Elaborado pela autora, com base nas propostas de Claudia Freixedas.',
+    text: 'Source: Elaborated by the author, based on the proposals by Claudia Freixedas.',
     style: ['paragraph', 'citation'],
   },
   {
@@ -594,47 +574,47 @@ const textData: Array<ArticleItem> = [
     style: ['line'],
   },
   {
-    text: 'Descrição do Jogo 9',
+    text: 'Description of Game 9',
     style: ['paragraph', 'bold', 'anchor'],
   },
   {
-    text: 'Passeio no zoológico',
+    text: 'Zoo Tour',
     style: ['title2'],
   },
   {
-    text: 'Autoria: Violeta Gainza',
+    text: 'Author: Violeta Gainza',
     style: ['paragraph', 'italic'],
   },
   {
-    text: 'Objetivos:',
+    text: 'Objectives:',
     style: ['paragraph', 'bold'],
   },
   {
     text:
-      'Trabalhar diferentes possibilidades musicais de uma mesma sonoridade; trabalhar a ideia de narrativa musical.',
+      'Work on different musical options of the same sonority, work on the idea of musical narrative.',
     style: ['paragraph'],
   },
   {
-    text: 'Metodologia e aplicação:',
+    text: 'Methodology and application:',
     style: ['paragraph', 'bold'],
   },
   {
     text:
-      'Nesse jogo, também criamos, em conjunto com os estudantes, uma história de um visitante em um zoológico. O visitante passeia pelo zoológico e observa os diferentes animais. Cada estudante escolherá um animal para representar com seu violoncelo. O visitante escolherá qual animal quer visitar se posicionando na frente de cada um dos colegas que estará representando-o.',
+      'In this game, we also create, along with the students, a story of a visitor in a zoo. The visitor walks through the zoo and observes the different animals. Each student will choose an animal to perform with their cello. The visitor will choose which animal he wants to visit by positioning himself in front of each of the classmates who will be representing it.',
     style: ['paragraph'],
   },
   {
     text:
-      'Nesse jogo, podemos acrescentar a interação do visitante com os animais. Conforme essa interação ocorra, o animal pode se manifestar com diferentes caracteres musicais, utilizando diferentes dinâmicas, articulações, ritmos, nuances timbrísticas ou organização dos conteúdos em forma de frases musicais.',
+      "In this game, we can add the visitor's interaction with the animals. As this interaction occurs, the animal can manifest itself with different musical characters, using different dynamics, articulations, rhythms, timbristic nuances or organization of content in the form of musical phrases.",
     style: ['paragraph'],
   },
   {
     text:
-      'Assim, como citado anteriormente, podemos gravar as improvisações resultantes, aumentando o poder de escuta e análise dos estudantes, possibilitando que nas próximas rodadas dos jogos as interações musicais sejam, cada vez mais, provenientes da escolha artística dos estudantes. Devemos sempre evitar que a execução dos jogos se torne uma atividade mecânica e desprovida de análise crítica, pois, nesse caso, perdemos uma importante estratégia de desenvolvimento musical dos estudantes.',
+      "As mentioned above, we can record the resulting improvisations, increasing the students' listening and analyzing ability, allowing that in the next rounds of the games the musical interactions are, more and more, coming from the students' artistic choice. We should always avoid that the execution of games becomes a mechanical activity and devoid of critical analysis, because in this case, we lose an important strategy of musical development of students.",
     style: ['paragraph'],
   },
   {
-    text: 'Fonte: Elaborado pela autora, com base nas propostas de Violeta Gainza.',
+    text: 'Source: Elaborated by the author, based on the proposals by Violeta Gainza.',
     style: ['paragraph', 'citation'],
   },
   {
@@ -642,56 +622,52 @@ const textData: Array<ArticleItem> = [
     style: ['line'],
   },
   {
-    text: 'Descrição do Jogo 10',
+    text: 'Description of Game 10',
     style: ['paragraph', 'bold', 'anchor'],
   },
   {
-    text: 'Os pássaros e o caçador',
+    text: 'The birds and the hunter',
     style: ['title2'],
   },
   {
-    text: 'Autoria: Claudia Freixedas',
+    text: 'Authors: Cláudia Freixedas/Marta Brietzke',
     style: ['paragraph', 'italic'],
   },
   {
-    text: 'Adaptação: Marta Brietzke',
-    style: ['paragraph', 'italic'],
-  },
-  {
-    text: 'Objetivos:',
+    text: 'Objectives:',
     style: ['paragraph', 'bold'],
   },
   {
     text:
-      'Trabalhar a liberdade e as diferentes opções para o início, o desenvolvimento e o final da “peça” musical; trabalhar questões ligadas à ecologia e à ecologia acústica; trabalhar os diálogos, as polifonias e a noção de forma musical.',
+      'Work on the freedom and the different options for the beginning, the development and the end of the musical "play", to work on issues related to ecology and acoustic ecology; to work on the dialogues, the polyphonies and the notion of musical form.',
     style: ['paragraph'],
   },
   {
-    text: 'Metodologia e aplicação:',
+    text: 'Methodology and application:',
     style: ['paragraph', 'bold'],
   },
   {
     text:
-      'Nesse jogo, perguntamos aos estudantes quais sons de pássaros eles conhecem. Podemos inventariar, coletivamente, esses sons ou nos propormos a investigar em nossas casas e trazermos os resultados de nossas investigações aos demais colegas. Também podemos trazer um catálogo da gravação de sons de pássaros que podemos obter em sites da internet. Dessa forma, escolhemos alguns pássaros que desejamos imitar e buscamos sonoridades semelhantes em nossos violoncelos.',
+      'In this game, we ask students what bird sounds they know. We can collectively inventory these sounds or propose to do research in our homes and bring the results of our investigations to others. We can also bring a catalog of the bird sound recording that we can find on the internet. In doing so, we choose some birds that we wish to imitate and seek similar sounds in our cello.',
     style: ['paragraph'],
   },
   {
     text:
-      'Após a escolha dos sons dos pássaros, cada estudante se torna responsável pela emissão de um desses sons, representando uma espécie de pássaros. Em seguida, escolhemos em conjunto um som representativo que imite o som produzido pelo caçador. Esse som pode ser o som de um rifle disparando, da caminhada do caçador pela mata ou do que a imaginação dos estudantes determinar.',
+      "After choosing the sounds of the birds, each student becomes responsible for the emission of one of these sounds, representing a bird species. We then choose together a representative sound that emulates the sound produced by the hunter. This sound can be the sound of a shooting rifle, the hunter's walk through the woods or what the students' imagination determines.",
     style: ['paragraph'],
   },
   {
     text:
-      'Propomos, então, que na mata onde se encontram os pássaros, cada um deles atue de forma a dialogar com os demais pássaros, criando conscientemente um conteúdo sonoro. Um estudante será responsável por executar o som do caçador. Todos os pássaros, ao ouvirem o som do caçador, calam-se por um momento. Em seguida, não havendo mais perigo, os pássaros pouco a pouco voltam a cantar, novamente estabelecendo um diálogo com os demais pássaros da mata.',
+      "We suggest, then, that in the forest where the birds are found, each one of them acts in a way to dialogue with the other birds, consciously creating a sonorous content. A student will be responsible for executing the hunter's sound. All the birds, on hearing the sound of the hunter, the birds become quiet for a moment. After that, when there is no more danger, the birds gradually sing again, once again establishing a dialogue with the other birds of the forest.",
     style: ['paragraph'],
   },
   {
     text:
-      'O caçador pode intervir na mata o número de vezes que desejar e com a frequência que desejar. Também devemos dar autonomia para que o próprio grupo sinta o tempo necessário de silêncio após a intervenção do caçador, o momento de iniciar a improvisação e o momento de finalizá-la. Dessa maneira, ampliamos a percepção do grupo em relação à atuação e à participação de cada um no todo musical.',
+      "The hunter can intervene in the forest as many times as he or she wishes. We should also give autonomy so that the group feels the necessary time of silence after the hunter's intervention, the moment to start the improvisation and the moment to finish it. By doing so, we expand the group's perception of their performance and participation of each and everyone in the musical as a whole.",
     style: ['paragraph'],
   },
   {
-    text: 'Fonte: Elaborado pela autora, com base nas propostas de Claudia Freixedas.',
+    text: 'Source: Elaborated by the author, based on the proposals by Claudia Freixedas.',
     style: ['paragraph', 'citation'],
   },
   {
@@ -699,112 +675,112 @@ const textData: Array<ArticleItem> = [
     style: ['line'],
   },
   {
-    text: 'Sugestão de repertório:',
+    text: 'Suggested repertory:',
     style: ['title1', 'anchor'],
   },
   {
     text:
-      'A fim de contextualizarmos o trabalho com os jogos de improvisação dentro das poéticas da música contemporânea e oferecermos subsídios aos estudantes, podemos apresentar, em diferentes momentos, peças do repertório dos séculos XX e XXI, compostas para violoncelo. O objetivo da audição de tais peças é que os estudantes possam identificar elementos comuns dessas peças com as suas próprias criações e assim valorizem mais o seu trabalho e o trabalho dos compositores apresentados.',
+      'In order to contextualize the work with improvisation games within the poetics of contemporary music and offer subsidies to students, we can present, at different times, pieces from the repertoire of the 20th and 21st centuries, composed for cello. The purpose of listening to such pieces is that students can identify common elements of these pieces with their own creations and so appreciate more their work and the work of the composers presented.',
     style: ['paragraph'],
   },
   {
-    text: 'Relação de peças do repertório contemporâneo para violoncelo',
+    text: 'List of pieces from the contemporary repertoire for cello',
     style: ['paragraph', 'bold'],
   },
   {
-    text: 'Lachenmann, Helmut - Pression para violoncelo solo',
+    text: 'Lachenmann, Helmut - Pression for solo cello',
     style: ['itemList'],
   },
   {
-    text: 'ARRE! - Improvisações por senhas para grupo de violoncelos',
+    text: 'ARRE! - Soundpaiting improvisations for group of cello',
     style: ['itemList'],
   },
   {
-    text: 'Penderecki, Kristof - Capriccio per Siegfried Palm, para violoncelo solo',
+    text: 'Penderecki, Kristof - Capriccio per Siegfried Palm, for solo cello',
     style: ['itemList'],
   },
   {
-    text: 'Berio, Luciano - Sequenza XIV, para violoncelo solo',
+    text: 'Berio, Luciano - Sequenza XIV, for solo cello',
     style: ['itemList'],
   },
   {
-    text: 'Boulez, Piérre - Messagesquisse, para violoncelo solo e seis violoncelos',
+    text: 'Boulez, Piérre - Messagesquisse, for solo cello and six cellos',
     style: ['itemList'],
   },
   {
-    text: 'Saraaiaho, Kaija - Sept Papillons, para violoncelo solo',
+    text: 'Saraaiaho, Kaija - Sept Papillons, for solo cello',
     style: ['itemList'],
   },
   {
-    text: 'Ligeti, Györgi - Sonata, para violoncelo solo',
+    text: 'Ligeti, Györgi - Sonata, for solo cello',
     style: ['itemList'],
   },
   {
-    text: 'Romitelli, Fausto - Professor Bad Trip- lesson II- cadência para violoncelo',
+    text: 'Romitelli, Fausto - Professor Bad Trip- lesson II- cello cadence',
     style: ['itemList'],
   },
   {
-    text: 'Furrer, Beat - Solo für cello, para violoncelo solo',
+    text: 'Furrer, Beat - Solo für cello, for solo cello',
     style: ['itemList'],
   },
   {
-    text: 'Scelsi, Giancinto - Trilogia , para violoncelo solo',
+    text: 'Scelsi, Giancinto - Trilogia, for solo cello',
     style: ['itemList'],
   },
   {
-    text: 'Crumb, George - Sonata para Violoncelo, para violoncelo solo',
+    text: 'Crumb, George - Sonata para Violoncelo, for solo cello',
     style: ['itemList'],
   },
   {
-    text: 'Kagel, Maurício - Match, para dois violoncelos e percussão',
+    text: 'Kagel, Maurício - Match, for two cellos and percussion',
     style: ['itemList'],
   },
   {
-    text: 'Sciarrino, Salvatore - Variazoni, para violoncelo e orquestra',
+    text: 'Sciarrino, Salvatore - Variazoni, for solo cello and orchestr a',
     style: ['itemList'],
   },
   {
-    text: 'Saunders, Rebecca - Solitude, para violoncelo solo',
+    text: 'Saunders, Rebecca - Solitude, for solo cello',
     style: ['itemList'],
   },
   {
-    text: 'Rihm, Wolfgang - Von Weit, para violoncelo e piano',
+    text: 'Rihm, Wolfgang - Von Weit, for solo cello and piano',
     style: ['itemList'],
   },
   {
-    text: 'Ginastera, Alberto - Puneña, para violoncelo solo',
+    text: 'Ginastera, Alberto - Puneña, for solo cello',
     style: ['itemList'],
   },
   {
-    text: 'Gras, Germán - Solo para Marta, para violoncelo solo',
+    text: 'Gras, Germán - Solo para Marta, for solo cello',
     style: ['itemList'],
   },
   {
-    text: 'Kiefer, Bruno - Errância, para violoncelo solo',
+    text: 'Kiefer, Bruno - Errância, for solo cello',
     style: ['itemList'],
   },
   {
-    text: 'Santoro, Claúdio - Fantasia Sulamérica, para violoncelo solo',
+    text: 'Santoro, Claúdio - Fantasia Sulamérica, for solo cello',
     style: ['itemList'],
   },
   {
-    text: 'Nobre, Marlos - Desafio, para violoncelo e orquestra',
+    text: 'Nobre, Marlos - Desafio, for solo cello and orchestra',
     style: ['itemList'],
   },
   {
-    text: 'Lima, Rodrigo - Circuncello, para violoncelo e orquestra',
+    text: 'Lima, Rodrigo - Circuncello, for solo cello and orchestra',
     style: ['itemList'],
   },
   {
-    text: 'Ferraz, Sílvio - Lamento quase mudo, para violoncelo solo',
+    text: 'Ferraz, Sílvio - Lamento quase mudo, for solo cello',
     style: ['itemList'],
   },
   {
-    text: 'Angelo, Bruno - Traçado íntimo e hesitante, para violoncelo solo',
+    text: 'Angelo, Bruno - Traçado íntimo e hesitante, for solo cello',
     style: ['itemList'],
   },
   {
-    text: 'Fonte: Elaborado pela autora.',
+    text: 'Source: Elaborated by the author.',
     style: ['paragraph', 'citation'],
   },
   {
@@ -812,11 +788,11 @@ const textData: Array<ArticleItem> = [
     style: ['line'],
   },
   {
-    text: 'Para saber mais:',
+    text: 'For more information:',
     style: ['title2', 'anchor'],
   },
   {
-    text: 'Relação de livros e publicações sobre os temas tratados',
+    text: 'List of books and publications on the topics discussed',
     style: ['paragraph', 'bold'],
   },
   {
@@ -855,7 +831,7 @@ const textData: Array<ArticleItem> = [
     style: ['itemList'],
   },
   {
-    text: 'Fonte: Elaborado pela autora.',
+    text: 'Source: Elaborated by the author.',
     style: ['paragraph', 'citation'],
   },
   {
@@ -863,7 +839,7 @@ const textData: Array<ArticleItem> = [
     style: ['line'],
   },
   {
-    text: 'Referência:',
+    text: 'Reference:',
     style: ['title1'],
   },
   {
