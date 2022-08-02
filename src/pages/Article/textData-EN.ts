@@ -492,7 +492,7 @@ const textData: Array<ArticleItem> = [
     style: ['title2'],
   },
   {
-    text: 'Author: V arious authors/Marta Brietzke',
+    text: 'Author: Various authors/Marta Brietzke',
     style: ['paragraph', 'italic'],
   },
   {
