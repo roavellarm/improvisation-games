@@ -1,6 +1,8 @@
 import React from 'react'
 import ArticleLayout from 'components/Templates/ArticleLayout'
-import { useLanguage } from 'contexts/LanguageContext'
+import { LO, useLanguage } from 'contexts/LanguageContext'
+import { AnchorsType } from 'components/Navbar'
+import { ArticleItem } from 'types'
 import textDataPt from './textData-PT'
 import textDataEs from './textData-ES'
 import textDataEn from './textData-EN'
@@ -8,22 +10,26 @@ import { anchorsArticlePT, anchorsArticleES, anchorsArticleEN } from './anchors'
 
 import { checkStepperPosition } from './checkStepperPosition'
 
-const ANCHORS: any = {
+type TextDataType = {
+  [key: string]: Array<ArticleItem>
+}
+
+const ANCHORS: AnchorsType = {
   pt: anchorsArticlePT,
   en: anchorsArticleEN,
   es: anchorsArticleES,
 }
 
-const TEXT: any = {
+const TEXT: TextDataType = {
   pt: textDataPt,
   es: textDataEs,
   en: textDataEn,
 }
 
-const HEADER_TITLE: any = {
+const HEADER_TITLE: LO = {
   pt: 'Caderno de atividades',
   es: 'Libro de actividades',
-  en: 'Book of activities',
+  en: 'Activities notebook',
 }
 
 export default function Article() {
