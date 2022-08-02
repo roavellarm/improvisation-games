@@ -90,7 +90,7 @@ export const textEs = [
   },
   {
     text:
-      'Apesar de que le trabajo de investigación fue dirigido para estudiantes principiantes de violoncello, muchas de las propuestas que se encuentran en estos juegos pueden ser desarrolladas para otros instrumentos y, también, para otros niveles de aprendizaje. Corresponde a cada profesor realizar las adaptaciones que considere necesarias y eficaces para sus demandas. Además, hay muchos desarrollos de las propuestas iniciales que pueden dar lugar a otras ideas y perspectivas de trabajo.',
+      'Apesar de que el trabajo de investigación fue dirigido para estudiantes principiantes de violoncello, muchas de las propuestas que se encuentran en estos juegos pueden ser desarrolladas para otros instrumentos y, también, para otros niveles de aprendizaje. Corresponde a cada profesor realizar las adaptaciones que considere necesarias y eficaces para sus demandas. Además, hay muchos desarrollos de las propuestas iniciales que pueden dar lugar a otras ideas y perspectivas de trabajo.',
 
     style: ['paragraph'],
   },
@@ -109,7 +109,7 @@ export const textEs = [
   },
   {
     text:
-      'Mi nombre es Marta Macedo Brietzke, y nací en Porto Alegre, Rio Grande do Sul, Brasil. Comencé mis estudios musicales con mi padre y, poco después, en el Proyecto Preludio y en la Orquesta Infantil y Juvenil de la Universidad Federal de Río Grande do Sul, con el violín y el violoncello. Me gradué en Música en esa misma universidad, haciendo mi posgrado en São Paulo, en la Universidad de São Paulo.',
+      'Mi nombre es Marta Macedo Brietzke. Nací en Porto Alegre, Rio Grande do Sul, Brasil. Comencé mis estudios musicales con mi padre y, poco después, en el Proyecto Preludio y en la Orquesta Infantil y Juvenil de la Universidad Federal de Río Grande do Sul, con el violín y el violoncello. Me gradué en Música en esa misma universidad, haciendo mi posgrado en São Paulo, en la Universidad de São Paulo.',
     style: ['paragraph'],
   },
   {
