@@ -794,7 +794,7 @@ const textData: Array<ArticleItem> = [
     style: ['itemList'],
   },
   {
-    text: 'Fuente: Elaborado pela autora.',
+    text: 'Fuente: Elaborado por la autora.',
     style: ['paragraph', 'citation'],
   },
   {
