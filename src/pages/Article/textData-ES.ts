@@ -373,7 +373,7 @@ const textData: Array<ArticleItem> = [
     style: ['paragraph'],
   },
   {
-    text: 'Fuente: Elaborado por la autra a partir de las propuestas de Wanderson Cruz.',
+    text: 'Fuente: Elaborado por la autora a partir de las propuestas de Wanderson Cruz.',
     style: ['paragraph', 'citation'],
   },
   {
