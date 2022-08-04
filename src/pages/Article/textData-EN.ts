@@ -6,7 +6,7 @@ const textData: Array<ArticleItem> = [
     style: ['title1'],
   },
   {
-    text: 'Possibilidades para a iniciação coletiva ao violoncelo',
+    text: 'Possibilities for collective initiation to the cello',
     style: ['title1'],
   },
   {
