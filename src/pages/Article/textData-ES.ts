@@ -835,7 +835,8 @@ const textData: Array<ArticleItem> = [
     style: ['itemList'],
   },
   {
-    text: 'MATTHEWS, Wade. La libre creación musical. Madrid: Turner Publicaciones S. L., 2012.',
+    text:
+      'MATTHEWS, Wade. Improvisando: La libre creación musical. Madrid: Turner Publicaciones S. L., 2012.',
     style: ['itemList'],
   },
   {
