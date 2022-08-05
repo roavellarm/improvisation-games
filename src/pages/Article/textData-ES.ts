@@ -831,7 +831,7 @@ const textData: Array<ArticleItem> = [
   },
   {
     text:
-      'KISHIMOTO, Tizuko Morchida.  O jogo e a educação infantil. São Paulo: Cengage Learning, 2013.',
+      'KISHIMOTO, Tizuko Morchida. O jogo e a educação infantil. São Paulo: Cengage Learning, 2013.',
     style: ['itemList'],
   },
   {
