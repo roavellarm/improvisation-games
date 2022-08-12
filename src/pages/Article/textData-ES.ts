@@ -373,7 +373,7 @@ const textData: Array<ArticleItem> = [
     style: ['paragraph'],
   },
   {
-    text: 'Fuente: Elaborado por la autra a partir de las propuestas de Wanderson Cruz.',
+    text: 'Fuente: Elaborado por la autora a partir de las propuestas de Wanderson Cruz.',
     style: ['paragraph', 'citation'],
   },
   {
@@ -702,99 +702,99 @@ const textData: Array<ArticleItem> = [
     style: ['paragraph', 'bold'],
   },
   {
-    text: 'Lachenmann, Helmut - Pression para violoncelo solo',
+    text: 'Lachenmann, Helmut - Presión, para violonchelo solo',
     style: ['itemList'],
   },
   {
-    text: 'ARRE! - Improvisações por senhas para grupo de violoncelos',
+    text: 'ARRE! - Improvisaciones con señas para ensemble',
     style: ['itemList'],
   },
   {
-    text: 'Penderecki, Kristof - Capriccio per Siegfried Palm, para violoncelo solo',
+    text: 'Penderecki, Kristof - Capriccio per Siegfried Palm, para violonchelo solo',
     style: ['itemList'],
   },
   {
-    text: 'Berio, Luciano - Sequenza XIV, para violoncelo solo',
+    text: 'Berio, Luciano - Sequenza XIV, para violonchelo solo',
     style: ['itemList'],
   },
   {
-    text: 'Boulez, Piérre - Messagesquisse, para violoncelo solo e seis violoncelos',
+    text: 'Boulez, Piérre - Messagesquisse, para violonchelo solo y seis violonchelos',
     style: ['itemList'],
   },
   {
-    text: 'Saraaiaho, Kaija - Sept Papillons, para violoncelo solo',
+    text: 'Saraaiaho, Kaija - Sept Papillons, para violonchelo solo',
     style: ['itemList'],
   },
   {
-    text: 'Ligeti, Györgi - Sonata, para violoncelo solo',
+    text: 'Ligeti, Györgi - Sonata, para violonchelo solo',
     style: ['itemList'],
   },
   {
-    text: 'Romitelli, Fausto - Professor Bad Trip- lesson II- cadência para violoncelo',
+    text: 'Romitelli, Fausto - Professor Bad Trip- lesson II- cadenza para violonchelo',
     style: ['itemList'],
   },
   {
-    text: 'Furrer, Beat - Solo für cello, para violoncelo solo',
+    text: 'Furrer, Beat - Solo für cello, para violonchelo solo',
     style: ['itemList'],
   },
   {
-    text: 'Scelsi, Giancinto - Trilogia , para violoncelo solo',
+    text: 'Scelsi, Giancinto - Trilogia, para violonchelo solo',
     style: ['itemList'],
   },
   {
-    text: 'Crumb, George - Sonata para Violoncelo, para violoncelo solo',
+    text: 'Crumb, George - Sonata para Violonchelo, para violonchelo solo',
     style: ['itemList'],
   },
   {
-    text: 'Kagel, Maurício - Match, para dois violoncelos e percussão',
+    text: 'Kagel, Maurício - Match, para dos violonchelos e percusión',
     style: ['itemList'],
   },
   {
-    text: 'Sciarrino, Salvatore - Variazoni, para violoncelo e orquestra',
+    text: 'Sciarrino, Salvatore - Variazoni, para violonchelo e orquesta',
     style: ['itemList'],
   },
   {
-    text: 'Saunders, Rebecca - Solitude, para violoncelo solo',
+    text: 'Saunders, Rebecca - Solitude, para violonchelo solo',
     style: ['itemList'],
   },
   {
-    text: 'Rihm, Wolfgang - Von Weit, para violoncelo e piano',
+    text: 'Rihm, Wolfgang - Von Weit, para violonchelo e piano',
     style: ['itemList'],
   },
   {
-    text: 'Ginastera, Alberto - Puneña, para violoncelo solo',
+    text: 'Ginastera, Alberto - Puneña, para violonchelo solo',
     style: ['itemList'],
   },
   {
-    text: 'Gras, Germán - Solo para Marta, para violoncelo solo',
+    text: 'Gras, Germán - Solo para Marta, para violonchelo solo',
     style: ['itemList'],
   },
   {
-    text: 'Kiefer, Bruno - Errância, para violoncelo solo',
+    text: 'Kiefer, Bruno - Errância, para violonchelo solo',
     style: ['itemList'],
   },
   {
-    text: 'Santoro, Claúdio - Fantasia Sulamérica, para violoncelo solo',
+    text: 'Santoro, Claúdio - Fantasia Sulamérica, para violonchelo solo',
     style: ['itemList'],
   },
   {
-    text: 'Nobre, Marlos - Desafio, para violoncelo e orquestra',
+    text: 'Nobre, Marlos - Desafio, para violonchelo e orquesta',
     style: ['itemList'],
   },
   {
-    text: 'Lima, Rodrigo - Circuncello, para violoncelo e orquestra',
+    text: 'Lima, Rodrigo - Circuncello, para violonchelo e orquesta',
     style: ['itemList'],
   },
   {
-    text: 'Ferraz, Sílvio - Lamento quase mudo, para violoncelo solo',
+    text: 'Ferraz, Sílvio - Lamento quase mudo, para violonchelo solo',
     style: ['itemList'],
   },
   {
-    text: 'Angelo, Bruno - Traçado íntimo e hesitante, para violoncelo solo',
+    text: 'Angelo, Bruno - Traçado íntimo e hesitante, para violonchelo solo',
     style: ['itemList'],
   },
   {
-    text: 'Fuente: Elaborado pela autora.',
+    text: 'Fuente: Elaborado por la autora.',
     style: ['paragraph', 'citation'],
   },
   {

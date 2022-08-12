@@ -6,7 +6,7 @@ const textData: Array<ArticleItem> = [
     style: ['title1'],
   },
   {
-    text: 'Possibilidades para a iniciação coletiva ao violoncelo',
+    text: 'Possibilities for collective initiation to the cello',
     style: ['title1'],
   },
   {
@@ -492,7 +492,7 @@ const textData: Array<ArticleItem> = [
     style: ['title2'],
   },
   {
-    text: 'Author: V arious authors/Marta Brietzke',
+    text: 'Author: Various authors/Marta Brietzke',
     style: ['paragraph', 'italic'],
   },
   {

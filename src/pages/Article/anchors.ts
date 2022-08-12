@@ -58,4 +58,5 @@ export const anchorsArticleEN = [
   'Description of Game 10',
   'Suggested repertory:',
   'For more information:',
+  'Reference:',
 ]
