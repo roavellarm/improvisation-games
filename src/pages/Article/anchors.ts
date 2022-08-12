@@ -1,4 +1,4 @@
-export const anchors = [
+export const anchorsArticlePT = [
   'A música contemporânea:',
   'A improvisação:',
   'Os jogos na aprendizagem:',
@@ -17,4 +17,46 @@ export const anchors = [
   'Sugestão de repertório:',
   'Para saber mais:',
   'Referência:',
+]
+
+export const anchorsArticleES = [
+  'La música contemporánea:',
+  'La improvisación:',
+  'Los juegos en el aprendizaje:',
+  'La enseñanza colectiva del violoncelo:',
+  'Actividades prácticas:',
+  'Descripción del juego 1',
+  'Descripción del Juego 2',
+  'Descripción del Juego 3',
+  'Descripción del Juego 4',
+  'Descripción del Juego 5',
+  'Descripción del Juego 6',
+  'Descripción del Juego 7',
+  'Descripción del Juego 8',
+  'Descripción del Juego 9',
+  'Descripción del Juego 10',
+  'Sugerencia de repertorio:',
+  'Para saber más:',
+  'Referencia:',
+]
+
+export const anchorsArticleEN = [
+  'The Contemporary Music:',
+  'The improvisation:',
+  'The gaming in learning:',
+  'Collective initiation to the cello:',
+  'Practical activities:',
+  'Description of Game 1',
+  'Description of Game 2',
+  'Description of Game 3',
+  'Description of Game 4',
+  'Description of Game 5',
+  'Description of Game 6',
+  'Description of Game 7',
+  'Description of Game 8',
+  'Description of Game 9',
+  'Description of Game 10',
+  'Suggested repertory:',
+  'For more information:',
+  'Reference:',
 ]

@@ -1,22 +1,35 @@
-import React, { createContext, useContext, useState } from 'react'
+import React, { createContext, useCallback, useContext, useState } from 'react'
 
+export type LanguageOptions = 'pt' | 'en' | 'es' | string
 interface ContextData {
-  language: string
-  selectLanguage(language: string): void // eslint-disable-line
+  language: LanguageOptions
+  selectLanguage(lang: LanguageOptions): void // eslint-disable-line
 }
 
 const LanguageContext = createContext<ContextData>({} as ContextData)
 
+export type LO = {
+  [key: string]: string
+}
+
+const LANGUAGE_OPTIONS = {
+  pt: 'pt',
+  en: 'en',
+  es: 'es',
+} as LO
+
+const KEY = 'JOGOS_CELLO-language'
+
 export const LanguageProvider = ({ children }: { children: React.ReactNode }) => {
-  const LANGUAGE_OPTIONS = {
-    pt: 'pt',
-    en: 'en',
-    es: 'es',
-  }
+  const [language, setLanguage] = useState<LanguageOptions>(
+    window.localStorage.getItem(KEY) || 'pt'
+  )
 
-  const [language, setLanguage] = useState(LANGUAGE_OPTIONS.pt)
-
-  const selectLanguage = (lang: string) => setLanguage(lang)
+  const selectLanguage = useCallback((lang: LanguageOptions) => {
+    if (!LANGUAGE_OPTIONS[lang]) return null
+    window.localStorage.setItem(KEY, LANGUAGE_OPTIONS[lang])
+    return setLanguage(LANGUAGE_OPTIONS[lang])
+  }, [])
 
   return (
     <LanguageContext.Provider value={{ language, selectLanguage }}>

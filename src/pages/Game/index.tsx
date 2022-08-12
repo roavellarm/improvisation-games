@@ -2,6 +2,7 @@ import React, { useCallback, useEffect, useMemo, useState } from 'react'
 import { useParams, useHistory } from 'react-router-dom'
 
 import { Game as GameProps } from 'types'
+import { useLanguage } from 'contexts/LanguageContext'
 import HeaderTitle from 'components/HeaderTitle'
 import ItemList from 'components/ItemList'
 import Navbar from 'components/Navbar'
@@ -10,27 +11,36 @@ import ScrollToTopButton from 'components/ScrollToTopButton'
 import SubTitle from 'components/SubTitle'
 import Title from 'components/Title'
 import AudioPlayer from 'components/AudioPlayer'
-import gameList from 'assets/texts/games'
+import { useScreenSize } from 'contexts/screenSize'
+import { gameListPt } from './games-pt'
+import { gameListEn } from './games-en'
+import { gameListEs } from './games-es'
 import * as S from './styles'
+
+const GAME_LIST: any = {
+  pt: gameListPt,
+  en: gameListEn,
+  es: gameListEs,
+}
 
 export default function Game() {
   const { id } = useParams() as { id: string }
   const { push } = useHistory()
-  const [windowWith, setWindowWidth] = useState(window.innerWidth)
+  const { language } = useLanguage()
   const [game, setGame] = useState<GameProps>({
     id: '',
     gameTitle: '',
     content: [],
   })
+  const { width } = useScreenSize()
 
-  const showSideArea = useMemo(() => windowWith > 900, [windowWith])
+  const showSideArea = useMemo(() => width > 900, [width])
 
-  const getSelectedGame = (gameID: string) =>
-    gameList.filter((currentGame) => currentGame.id === gameID)[0]
-
-  const updateWindowWidth = useCallback(() => {
-    setWindowWidth(window.innerWidth)
-  }, [])
+  const getSelectedGame = useCallback(
+    (gameID: string) =>
+      GAME_LIST[language].filter((currentGame: GameProps) => currentGame.id === gameID)[0],
+    [language]
+  )
 
   useEffect(() => {
     const currentGame = getSelectedGame(id) as GameProps
@@ -39,12 +49,7 @@ export default function Game() {
     window.scrollTo({ top: 0 })
     document.body.scrollTop = 0
     document.documentElement.scrollTop = 0
-  }, [id, push])
-
-  useEffect(() => {
-    window.addEventListener('resize', updateWindowWidth)
-    return () => window.removeEventListener('resize', updateWindowWidth)
-  }, [updateWindowWidth])
+  }, [getSelectedGame, id, push])
 
   return (
     <>

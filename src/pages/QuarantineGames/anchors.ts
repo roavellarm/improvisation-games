@@ -1,4 +1,4 @@
-export const quarentineAnchors = [
+export const anchorsPt = [
   '1. Detetive sonoro',
   '2. Que som é esse?',
   '3. Telefone sem fio sonoro virtual',
@@ -9,4 +9,30 @@ export const quarentineAnchors = [
   '8. Mapa musical',
   '9. Sons da saudade',
   '10. Nossa música da quarentena',
+]
+
+export const anchorsEn = [
+  '1. Sound detective',
+  '2. What sound is this?',
+  '3. Virtual sound cordless phone',
+  '4. Musical LEGO',
+  '5. Window stories',
+  '6. Writing the story',
+  '7. Mirror, mirror on the wall',
+  '8. Musical map',
+  '9. Sounds that say “I miss you”',
+  '10. Our quarantine song',
+]
+
+export const anchorsEs = [
+  '1. Detective sonoro',
+  '2. ¿Que sonido es ese?',
+  '3. Teléfono inalámbrico sonoro virtual',
+  '4. Lego musical',
+  '5. Historias desde la ventana',
+  '6. Escribiendo la historia',
+  '7. Espejito, espejito',
+  '8. Mapa musical',
+  '9. Sonidos de la “saudade” (nostalgia)',
+  '10. Nuestra música de la cuarentena',
 ]

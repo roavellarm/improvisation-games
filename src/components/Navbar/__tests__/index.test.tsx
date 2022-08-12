@@ -11,6 +11,10 @@ jest.mock('react-router-dom', () => ({
   useHistory: () => ({ push: mockPush }),
 }))
 
+jest.mock('contexts/LanguageContext', () => ({
+  useLanguage: () => ({ language: 'pt' }),
+}))
+
 const resizeToDesktop = () => {
   global.innerWidth = 1920
   global.innerHeight = 1080

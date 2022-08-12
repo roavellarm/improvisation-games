@@ -1,6 +1,6 @@
 import { ArticleItem } from 'types'
 
-const quarantineGamesTextData: Array<ArticleItem> = [
+export const quarantineGamesTextPt: Array<ArticleItem> = [
   {
     text: '',
     style: ['space'],
@@ -149,5 +149,3 @@ const quarantineGamesTextData: Array<ArticleItem> = [
     style: ['paragraph'],
   },
 ]
-
-export default quarantineGamesTextData

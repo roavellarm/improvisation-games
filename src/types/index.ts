@@ -1,13 +1,16 @@
-export type GameContent = {
+export type Item = {
   text?: string
   style: Array<string>
   audio?: string
 }
 
-export type Game = {
+export type GameIndex = {
   id: string
   gameTitle: string
-  content: GameContent[]
+}
+
+export interface Game extends GameIndex {
+  content: Item[]
 }
 
 export interface ArticleItem {

@@ -1,41 +1,79 @@
-import React, { ReactElement, useCallback, useEffect, useState } from 'react'
+import React, { ReactElement } from 'react'
 import { useHistory } from 'react-router-dom'
 
-import gameList from 'assets/texts/games'
-import { gameOptions } from 'helpers/game'
-import { anchors } from 'pages/Article/anchors'
-import { quarentineAnchors } from 'pages/QuarantineGames/anchors'
+import { anchorsArticlePT, anchorsArticleES, anchorsArticleEN } from 'pages/Article/anchors'
+import { anchorsPt, anchorsEn, anchorsEs } from 'pages/QuarantineGames/anchors'
+import { LO, useLanguage } from 'contexts/LanguageContext'
+import { GameIndex } from 'types'
+import { useScreenSize } from 'contexts/screenSize'
 import CarousselNavbar from '../CarouselNavbar'
 import Dropdown from '../Drodown'
+import { gameIndexPt, gameIndexEn, gameIndexEs } from './gameIndex'
 import * as S from './styles'
 
-export type NavbarProps = {
-  currentPage?: string
+export type NavbarProps = { currentPage?: string }
+
+export type AnchorsType = { [key: string]: string[] }
+
+const ANCHORS: AnchorsType = {
+  pt: anchorsPt,
+  en: anchorsEn,
+  es: anchorsEs,
 }
 
-const INITIAL_STATE = {
-  windowWidth: window.innerWidth,
-  windowHeight: window.innerHeight,
+const ANCHORS_ARTICLES: AnchorsType = {
+  pt: anchorsArticlePT,
+  en: anchorsArticleEN,
+  es: anchorsArticleES,
+}
+
+const GAMES_INDEX: { [key: string]: GameIndex[] } = {
+  pt: gameIndexPt,
+  en: gameIndexEn,
+  es: gameIndexEs,
+}
+
+const GAMES_TITLE_LANGUAGE: LO = {
+  pt: 'Jogos',
+  en: 'Games',
+  es: 'Juegos',
+}
+
+const TEXT: LO = {
+  pt: 'Voltar',
+  en: 'Go back',
+  es: 'Volver',
+}
+
+const TOPIC: LO = {
+  pt: 'Tópicos',
+  en: 'Topics',
+  es: 'Temas',
 }
 
 const Navbar = ({ currentPage }: NavbarProps) => {
   const { push } = useHistory()
-  const [windowWith, setWindowWidth] = useState(INITIAL_STATE.windowWidth)
-  const [windowHeight, setWindowHeight] = useState(INITIAL_STATE.windowHeight)
+  const { language } = useLanguage()
+  const { width, height } = useScreenSize()
 
   const renderGamesOptions = () => {
-    if (windowWith > 700) return <CarousselNavbar gameList={gameList} />
-    return <Dropdown title="Jogos" options={gameOptions} />
+    if (width > 700) return <CarousselNavbar gamesIndex={GAMES_INDEX[language]} />
+    return (
+      <Dropdown
+        title={GAMES_TITLE_LANGUAGE[language]}
+        options={GAMES_INDEX[language].map((i) => i.gameTitle)}
+      />
+    )
   }
 
   const renderArticleOptions = () =>
-    windowWith <= 800 || windowHeight <= 645 ? (
-      <Dropdown title="Tópicos" isArticleStyle options={anchors} />
+    width <= 800 || height <= 645 ? (
+      <Dropdown title={TOPIC[language]} isArticleStyle options={ANCHORS_ARTICLES[language]} />
     ) : null
 
   const renderQuarantineGamesOptions = () =>
-    windowWith <= 800 || windowHeight <= 645 ? (
-      <Dropdown title="Tópicos" isArticleStyle options={quarentineAnchors} />
+    width <= 800 || height <= 645 ? (
+      <Dropdown title={TOPIC[language]} isArticleStyle options={ANCHORS[language]} />
     ) : null
 
   type PagesMenus = {
@@ -48,21 +86,11 @@ const Navbar = ({ currentPage }: NavbarProps) => {
     quarantineGamesPage: renderQuarantineGamesOptions(),
   }
 
-  const updateWindowSize = useCallback(() => {
-    setWindowWidth(window.innerWidth)
-    setWindowHeight(window.innerHeight)
-  }, [])
-
-  useEffect(() => {
-    window.addEventListener('resize', updateWindowSize)
-    return () => window.removeEventListener('resize', updateWindowSize)
-  }, [updateWindowSize])
-
   return (
     <S.StyledNavbar>
       <S.Line />
       <S.Container isGamePage={currentPage === 'gamePage' || false}>
-        <S.SideArea onClick={() => push('/')}>{`<- Voltar`}</S.SideArea>
+        <S.SideArea onClick={() => push('/')}>{`<- ${TEXT[language]}`}</S.SideArea>
         <S.Spacer>{pagesMenus[`${currentPage}`]}</S.Spacer>
         <S.SideArea />
       </S.Container>
