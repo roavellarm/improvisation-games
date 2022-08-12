@@ -702,7 +702,7 @@ const textData: Array<ArticleItem> = [
     style: ['paragraph', 'bold'],
   },
   {
-    text: 'Lachenmann, Helmut - Presion, para violonchelo solo',
+    text: 'Lachenmann, Helmut - Presión, para violonchelo solo',
     style: ['itemList'],
   },
   {
