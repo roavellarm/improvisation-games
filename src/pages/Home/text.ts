@@ -52,11 +52,7 @@ export const english = {
 export const spanish = {
   title: 'Juegos de improvisación',
   subtitle: 'para chelistas iniciantes',
-<<<<<<< HEAD
   quarantineLink: 'Sonidos de la cuarentena',
-=======
-  quarantineLink: 'Sonidos de la quarentena',
->>>>>>> 551daa8fbb890cd8b5f00d57c0ce88c8d54b8c7b
   aboutLink: 'Sobre',
   articleLink: 'Artículo',
   games: [
