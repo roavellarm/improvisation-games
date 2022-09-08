@@ -24,7 +24,7 @@ export default function QuarantineGames() {
 
   const HEADER_TITLE: any = {
     pt: 'Sons da Quarenta',
-    es: 'Sonidos de la quarentena',
+    es: 'Sonidos de la cuarentena',
     en: 'Quarentine Sounds',
   }
 
