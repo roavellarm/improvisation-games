@@ -6,6 +6,8 @@ import Paragraph from 'components/Paragraph'
 import Title from 'components/Title'
 import ItemList from 'components/ItemList'
 import contacts from 'helpers/contacts'
+import Youtube from '../../../assets/youtube.png'
+import Instagram from '../../../assets/instagram.png'
 
 import { TEXT, SUBJECT, BODY } from './textData'
 import { Link } from '../styles'
@@ -31,17 +33,18 @@ export default function SectionContact() {
       </Title>
 
       <Paragraph>
-        <ItemList>
-          <Link target="_blank" href="https://www.youtube.com/channel/UCEBNc5K-5fk02s8IZmP7wqQ">
-            Youtube:
-          </Link>
-        </ItemList>
-
-        <ItemList>
+        <Link
+          style={{ marginLeft: '30px' }}
+          target="_blank"
+          href="https://www.youtube.com/channel/UCEBNc5K-5fk02s8IZmP7wqQ"
+        >
+          <img width="50" src={Youtube} alt="yotube" />
+        </Link>
+        <div style={{ marginTop: '-50px', marginLeft: '118px' }}>
           <Link target="_blank" href="https://www.instagram.com/jogos_cello/?hl=pt-br">
-            Instagram:
+            <img height="35" width="38" src={Instagram} alt="yotube" />
           </Link>
-        </ItemList>
+        </div>
       </Paragraph>
 
       <HeaderTitle isAboutPage>{TEXT[language][4]}</HeaderTitle>
@@ -58,7 +61,7 @@ export default function SectionContact() {
           target="_blank"
           href={`mailto:${rodrigo}?subject=${SUBJECT[language]}&body=${BODY[language]}`}
         >
-          Rodrigo Avellar de Muniagurria
+          Rodrigo Avellar de Muniaguria
         </Link>
       </ItemList>
 
