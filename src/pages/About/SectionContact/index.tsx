@@ -40,7 +40,7 @@ export default function SectionContact() {
         >
           <img width="50" src={Youtube} alt="yotube" />
         </Link>
-        <div style={{ marginTop: '-50px', marginLeft: '118px' }}>
+        <div style={{ marginTop: '-50px', marginLeft: '168px' }}>
           <Link target="_blank" href="https://www.instagram.com/jogos_cello/?hl=pt-br">
             <img height="35" width="38" src={Instagram} alt="yotube" />
           </Link>
