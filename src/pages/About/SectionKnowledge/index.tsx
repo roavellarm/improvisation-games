@@ -50,6 +50,7 @@ export default function SectionKnowledge() {
         </Link>
         .
       </Paragraph>
+
       <br />
     </>
   )

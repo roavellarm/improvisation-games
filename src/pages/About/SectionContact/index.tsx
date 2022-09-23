@@ -17,7 +17,9 @@ export default function SectionContact() {
   return (
     <>
       <HeaderTitle isAboutPage>{TEXT[language][0]}</HeaderTitle>
+
       <Paragraph>{TEXT[language][1]}</Paragraph>
+
       <Title>
         {`${TEXT[language][2]} `}
         <Link
@@ -27,6 +29,20 @@ export default function SectionContact() {
           {TEXT[language][3]}
         </Link>
       </Title>
+
+      <Paragraph>
+        <ItemList>
+          <Link target="_blank" href="https://www.youtube.com/channel/UCEBNc5K-5fk02s8IZmP7wqQ">
+            Youtube:
+          </Link>
+        </ItemList>
+
+        <ItemList>
+          <Link target="_blank" href="https://www.instagram.com/jogos_cello/?hl=pt-br">
+            Instagram:
+          </Link>
+        </ItemList>
+      </Paragraph>
 
       <HeaderTitle isAboutPage>{TEXT[language][4]}</HeaderTitle>
       <ItemList>
@@ -55,7 +71,6 @@ export default function SectionContact() {
           Gustavo Sohne
         </Link>
       </ItemList>
-      
     </>
   )
 }
