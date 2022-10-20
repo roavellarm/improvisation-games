@@ -34,12 +34,12 @@ export const gameListEs: Game[] = [
       },
       {
         text:
-          'Explicar a los estudiantes qué podría ser una pregunta y qué podría ser uan respuesta dentro de una narrativa musical.',
+          'Explicar a los estudiantes qué podría ser una pregunta y qué podría ser una respuesta dentro de una narrativa musical.',
         style: ['itemList'],
       },
       {
         text:
-          'Ejemplificar utilizando únicamente las cuerdas sueltas del violoncello, contemplando diferentes ritmos, métricas, dinámicas y variaciones de carácter.',
+          'Ejemplificar utilizando únicamente las cuerdas sueltas del violonchello, contemplando diferentes ritmos, métricas, dinámicas y variaciones de carácter.',
         style: ['itemList'],
       },
       {
@@ -52,7 +52,7 @@ export const gameListEs: Game[] = [
         style: ['itemList'],
       },
       {
-        text: 'Organizar a los estudiantes en dúos, dispuestos en diferentes puntos de la sala.',
+        text: 'Organizar a los estudiantes en dúos, dispuestos en diferentes puntos de la aula.',
         style: ['itemList'],
       },
       {
