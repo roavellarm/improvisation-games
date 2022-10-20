@@ -21,7 +21,7 @@ export const gameListEs: Game[] = [
       },
       {
         text:
-          'Propiciar a los estudiantes la conciencia de su individualidad y su papel dentro del colectivo; establecer las ideas de narrativa musical e de preguntas y respuestas, enfatizando el uso de las cuatro cuerdas del violoncello, del pizzicato, de diferentes ritmos, métricas, timbres y dinámicas.',
+          'Propiciar a los estudiantes la conciencia de su individualidad y su papel dentro del colectivo establecer las ideas de narrativa musical y de preguntas y respuestas, enfatizando el uso de las cuatro cuerdas del violonchelo, del pizzicato, de diferentes ritmos, métricas, timbres y dinámicas.',
         style: ['paragraph'],
       },
       {
@@ -39,12 +39,12 @@ export const gameListEs: Game[] = [
       },
       {
         text:
-          'Ejemplificar utilizando a penas las cuerdas sueltas del violoncello, contemplando diferentes ritmos, métricas, dinámicas y variaciones de carácter.',
+          'Ejemplificar utilizando únicamente las cuerdas sueltas del violoncello, contemplando diferentes ritmos, métricas, dinámicas y variaciones de carácter.',
         style: ['itemList'],
       },
       {
         text:
-          'Proponer una pregunta al primer estudiante, que debe tocar una respuesta. En seguida, hacer lo mismo en relación al segundo estudiante ,y así sucesivamente, abordando a todos los estudiantes, uno a uno, individualmente.',
+          'Proponer una pregunta al primer estudiante, que debe tocar una respuesta.En seguida, hacer lo mismo con el al segundo estudiante, y así sucesivamente, abordando a todos los estudiantes, uno a uno, individualmente.',
         style: ['itemList'],
       },
       {
@@ -57,11 +57,11 @@ export const gameListEs: Game[] = [
       },
       {
         text:
-          'Un estudiante de cada dúo debe hacer las preguntas, y el otro estudiante debe hacer las respuestas durante algunos minutos.',
+          'Un estudiante de cada pareja debe hacer las preguntas, y el otro estudiante debe hacer las respuestas durante algunos minutos.',
         style: ['itemList'],
       },
       {
-        text: 'Alternar los roles de la actividad anterior.',
+        text: 'Cambiar los roles de la actividad anterior.',
         style: ['itemList'],
       },
       {
@@ -70,7 +70,7 @@ export const gameListEs: Game[] = [
       },
       {
         text:
-          'Cada dúo va hacia el centro del semicírculo y realiza algunas de las series de preguntas y respuestas, presentándolas para sus compañeros de clase.',
+          'Cada c hacia el centro del semicírculo y realiza algunas series de preguntas y respuestas, presentándolas a sus compañeros de clase.',
         style: ['itemList'],
       },
       {
@@ -79,7 +79,7 @@ export const gameListEs: Game[] = [
       },
       {
         text:
-          'Proporcionar a los estudiantes autonomía de decisión en relación al número de preguntas y respuestas que ellos presentarán a sus compañeros, a la distribución de los roles y a las combinaciones entre ellos que determinen el inicio y el fin de la presentación para sus pares.',
+          'Proporcionar a los estudiantes autonomía de decisión con relación al número de preguntas y respuestas que ellos presentarán a sus compañeros, a la distribución de los roles y a las combinaciones entre ellos que determinen el inicio y el fin de la presentación a sus pares.',
         style: ['itemList'],
       },
       {
