@@ -672,7 +672,7 @@ export const gameListEs: Game[] = [
       },
       {
         text:
-          'Contar a los estudiantes una historia de un visitante que llega a un zoológico y observa los diferentes animales.',
+          'Contar a los estudiantes una historia sobre un visitante que llega a un zoológico y observa los diferentes animales.',
         style: ['itemList'],
       },
       {
@@ -682,7 +682,7 @@ export const gameListEs: Game[] = [
       },
       {
         text:
-          'El visitante realiza un paseo por el zoológico, colocándose frente a los diferentes animales y, en ese momento, los animales reproducen el sonido elegido por los estudiantes.',
+          'El visitante realiza un recorrido por el zoológico, colocándose frente a los diferentes animales y, en ese momento, los animales reproducen el sonido elegido por los estudiantes.',
         style: ['itemList'],
       },
       {
@@ -691,12 +691,12 @@ export const gameListEs: Game[] = [
       },
       {
         text:
-          'Proponer que los animales emitan sus sonidos de acuerdo con las indicaciones corporales del visitante, que debe ejecutar diferentes niveles de dinámica, intensidad y carácter musical.',
+          'Proponer que los animales emitan sus sonidos de acuerdo con las indicaciones corporales del visitante, quien debe ejecutar diferentes niveles de dinámica, intensidad y carácter musical. ',
         style: ['itemList'],
       },
       {
         text:
-          'Así como en los juegos anteriores, es interesante grabar las improvisaciones, posibilitando que en las próximas vueltas de los juegos las interacciones sean más conscientes y surjan de las elecciones musicales de los estudiantes.',
+          'Así como en los juegos anteriores, es interesante grabar las improvisaciones, permitiendo que, en las próximas rondas de los juegos, las interacciones sean más conscientes y surjan de las elecciones musicales de los estudiantes.',
         style: ['itemList'],
       },
     ],
