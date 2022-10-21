@@ -95,7 +95,7 @@ export const gameListEs: Game[] = [
     gameTitle: 'Juego 2',
     content: [
       {
-        text: 'Luz Verde X Luz Roja',
+        text: 'Señal Verde X Señal Roja',
         style: ['title1'],
       },
       {
@@ -112,7 +112,7 @@ export const gameListEs: Game[] = [
       },
       {
         text:
-          'Trabajar las diferencias entre sonido y silencio, así como su importancia y su papel dentro de la construcción musical profundizar la importancia de la colectividad dentro del proceso musical; establecer la idea de diálogo musical.',
+          'Trabajar las diferencias entre sonido y silencio, así como su importancia y su papel dentro de la construcción musical; profundizar la importancia de la colectividad dentro del proceso musical; establecer la idea de diálogo musical.',
         style: ['paragraph'],
       },
       {
@@ -150,12 +150,12 @@ export const gameListEs: Game[] = [
       },
       {
         text:
-          'Ejecutar algunas combinaciones con las tarjetas, proponiendo a los estudiantes los estudiantes que toquen los sonidos que quieran.',
+          'Ejecutar algunas combinaciones con las tarjetas, proponiendo a los estudiantes que toquen los sonidos que quieran.',
         style: ['itemList'],
       },
       {
         text:
-          ' Proponer algunas variaciones de dinámica, dependiendo de la secuencia en la que se presenten las tarjetas a los estudiantes.',
+          'Proponer algunas variaciones de dinámica, dependiendo de la secuencia en la que se presenten las tarjetas a los estudiantes.',
         style: ['itemList'],
       },
       {
@@ -170,7 +170,7 @@ export const gameListEs: Game[] = [
       },
       {
         text:
-          'Cada grupo deberá seguir las indicaciones de sus respectivos “maestros”, quienes deben comunicarse de forma no verbal y propiciar la interacción y el diálogo musical entre los dos grupos.',
+          'Cada grupo deberá seguir las indicaciones de sus respectivos “maestros”, quienes deben comunicarse de forma no verbal y propiciar la interacción y el diálogo musical entre los dos grupos. ',
         style: ['itemList'],
       },
       {
@@ -179,7 +179,7 @@ export const gameListEs: Game[] = [
       },
       {
         text:
-          'Estar atento y estimular la escucha de los estudiantes, resaltando que las diferentes combinaciones de sonidos y silencios establecidas entre los “maestros” proporcionan a la creación de una narrativa musical.',
+          'Estar atento y estimular la escucha de los estudiantes, resaltando que las diferentes combinaciones de sonidos y silencios establecidas entre los “maestros” proporcionan la creación de una narrativa musical.',
         style: ['itemList'],
       },
     ],
