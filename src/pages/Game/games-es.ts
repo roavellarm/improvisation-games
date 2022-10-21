@@ -417,7 +417,7 @@ export const gameListEs: Game[] = [
       },
       {
         text:
-          '​Aproximar a los estudiantes a la idea de composición; desarrollar una simbología propia que represente sus ideas musicales; hacer contacto con diferentes maneras de escrita y representación musical; llamar la atención sobre las limitaciones existentes en cualquier tipo de escritura musical; acercar a compositores e intérpretes.',
+          'Aproximar a los estudiantes a la idea de composición; desarrollar una simbología propia que represente sus ideas musicales; entrar en contacto con diferentes formas de escritura y representación musical; llamar la atención sobre las limitaciones existentes en cualquier tipo de escritura musical; acercar a compositores e intérpretes.',
         style: ['paragraph'],
       },
       {
@@ -426,31 +426,31 @@ export const gameListEs: Game[] = [
       },
       {
         text:
-          'Solicitar, en la clase anterior, que los estudiantes traigan imágene, fotos o grabados para realizar una creación colectiva.',
+          'Solicitar, en la clase anterior, que los estudiantes traigan imágenes, fotos o dibujos para realizar una creación colectiva.',
         style: ['itemList'],
       },
       {
-        text: 'Dividir al curso en grupos de cinco o seis estudiantes.',
-        style: ['itemList'],
-      },
-      {
-        text:
-          'Cada grupo debe examinar las imágenes, fotos o grabados, y crear una historia que puede surgir de cuantas imágenes el grupo elija. Ese número puede variar entre los diferentes grupos.',
+        text: 'Dividir la clase en grupos de cinco o seis estudiantes.',
         style: ['itemList'],
       },
       {
         text:
-          'Proponer a los estudiantes que creen una historia que presente un enredo que contenga inicio, medio y final.',
+          'Cada grupo debe examinar las imágenes, fotos y dibujos y crear una historia que puede surgir a partir de la cantidad de imágenes que el grupo elija. Esa cantidad puede variar entre los diferentes grupos.',
         style: ['itemList'],
       },
       {
         text:
-          'Proponer a los estudiantes que elijan diferentes sonidos y combinaciones para que la historia creada por ellos pueda ser representada a través de la música.',
+          'Proponer a los estudiantes que creen una historia que presente una trama que contenga principio, medio y final.',
         style: ['itemList'],
       },
       {
         text:
-          'Luego del momento de creación musical, distribuir para cada grupo una cartulina, una caja con lápices de colores y algunos otros materiales, como por ejemplo cintas de colores, escarbadientes, pequeñas piedras, etc.',
+          'Proponer a los estudiantes que elijan diferentes sonidos y combinaciones para que la historia creada por ellos pueda ser representada únicamente a través de la música.',
+        style: ['itemList'],
+      },
+      {
+        text:
+          'Después del momento de creación musical, distribuir para cada grupo una cartulina, una caja con lápices de colores y algunos otros materiales, como por ejemplo cintas de colores, escarbadientes, pequeñas piedras, etc.',
         style: ['itemList'],
       },
       {
@@ -460,11 +460,11 @@ export const gameListEs: Game[] = [
       },
       {
         text:
-          'Luego de la escritura de la música, cada grupo deberá ensayar algunas veces su composición, utilizando o no el apoyo de la partitura.',
+          'Después de la escritura de la música, cada grupo deberá ensayar algunas veces su composición, utilizando o no el apoyo de la partitura.',
         style: ['itemList'],
       },
       {
-        text: 'Proponer que cada grupo presente su música a los compañeros.',
+        text: 'Proponer que cada grupo presente su música a sus compañeros.',
         style: ['itemList'],
       },
       {
@@ -473,18 +473,18 @@ export const gameListEs: Game[] = [
       },
       {
         text:
-          'Durante el proceso de creación de la historia y de la música, dar autonomía a los estudiantes para que ellos mismos se organicen, y establezcan relaciones entre ellos, estimulando que todos perticipen de este proceso.',
+          'Durante el proceso de creación de la historia y de la música, dar autonomía a los estudiantes para que ellos mismos se organicen y establezcan relaciones entre ellos, estimulando a todos a participar de este proceso. ',
         style: ['itemList'],
       },
 
       {
         text:
-          'Dar autonomía a los estudiantes durante sus ensayos y durante la presentación. Los grupos pueden elegir como van hacer esta presentación, contando o no la historia creada, presentando o no la partitura.',
+          'Dar autonomía a los estudiantes durante sus ensayos y durante la presentación. Los grupos pueden elegir como harán esta presentación, contando o no la historia creada, presentando o no la partitura.',
         style: ['itemList'],
       },
       {
         text:
-          'Estimular que la comunicación entre los estudiantes sea establecida de forma no verbal durante la presentación de la música.',
+          'Estimular que la comunicación entre los estudiantes se establezca de forma no verbal durante la presentación de la música.',
         style: ['itemList'],
       },
       {
