@@ -301,7 +301,7 @@ export const gameListEs: Game[] = [
       },
       {
         text:
-          ' Elegir a uno de los estudiantes del grupo para ser el “maestro” que deberá componer una música utilizando solamente las firmas musicales elaboradas por los estudiantes.',
+          'Elegir a uno de los estudiantes del grupo para ser el “maestro” que deberá componer una música utilizando solamente las firmas musicales elaboradas por los estudiantes.',
         style: ['itemList'],
       },
       {
@@ -315,7 +315,7 @@ export const gameListEs: Game[] = [
       },
       {
         text:
-          ' Estimular a los estudiantes a que trabajen la escucha y la elección artística frente al material presentado por sus compañeros. De esta forma, evitando que el juego se convierta en algo mecánico y proporcionando la construcción de una idea musical',
+          'Estimular a los estudiantes a que trabajen la escucha y la elección artística frente al material presentado por sus compañeros. De esta forma, evitando que el juego se convierta en algo mecánico y proporcionando la construcción de una idea musical consistente.',
         style: ['itemList'],
       },
       {
