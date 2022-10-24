@@ -646,7 +646,7 @@ export const gameListEs: Game[] = [
     gameTitle: 'Juego 9',
     content: [
       {
-        text: 'Passeo em el Zoológico',
+        text: 'Recorrido en el zoológico',
         style: ['title1'],
       },
       {
