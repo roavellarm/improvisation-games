@@ -569,7 +569,7 @@ export const gameListEs: Game[] = [
       },
       {
         text:
-          ' Agregar complejidades en el transcurso de las vueltas, intercalándolas con audiciones colectivas de improvisaciones creadas por los estudiantes.',
+          'Agregar complejidades en el transcurso de las vueltas, intercalándolas con audiciones colectivas de improvisaciones creadas por los estudiantes.',
         style: ['itemList'],
       },
     ],
