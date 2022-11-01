@@ -515,7 +515,7 @@ export const gameListEs: Game[] = [
       },
       {
         text:
-          'Trabajar la noción de solo y de tutti; trabajar la idea de ostinato; trabajar el concepto de forma musical.',
+          'Trabajar la noción de solo y tutti; trabajar la idea de ostinato; trabajar el concepto de forma musical.',
         style: ['paragraph'],
       },
       {
@@ -532,7 +532,7 @@ export const gameListEs: Game[] = [
       },
       {
         text:
-          'Proponer un ostinato rítmico simple, a ser ejecutado, por ejemlpo, con una cuerda suelta.',
+          'Proponer un ostinato rítmico sencillo, a ser ejecutado, por ejemplo, con una cuerda al aire.',
         style: ['itemList'],
       },
       {
@@ -551,7 +551,7 @@ export const gameListEs: Game[] = [
       },
       {
         text:
-          'Luego de la ejecución del solo por un estudiante, el proximo pasa a ser el solista, y así sucesivamente hasta que todos hayan participado en el papel de solistas.',
+          'Después de que el estudiante ejecute el solo, el siguiente estudiante se convierte en solista, y así sucesivamente hasta que todos hayan participado en el papel de solista. ',
         style: ['itemList'],
       },
       {
@@ -559,17 +559,17 @@ export const gameListEs: Game[] = [
         style: ['title2'],
       },
       {
-        text: 'Durante los solos no es necesario pensar en armonía o conducción vocal.',
+        text: 'Durante los solos no es necesario pensar en armonía o conducción de voces.',
         style: ['itemList'],
       },
       {
         text:
-          'La improvisación puede ser organizada de diferentes maneras, por ejemplo, estableciendo que luego del final de cada solo se ejecutará un número determinado de veces el ostinato, o proponer una forma rondó, donde la parte A será un número fijo de veces que la orquesta ejecutará el ostinato, o un tema creado en conjunto por los estudiantes, etc.',
+          'La improvisación puede ser organizada de diferentes maneras, por ejemplo, estableciendo que luego al final de cada solo se ejecutará un número determinado de veces el ostinato o proponer una forma rondó, donde la parte A será un número fijo de veces que la orquesta ejecutará el ostinato, o un tema creado en conjunto por los estudiantes, etc.',
         style: ['itemList'],
       },
       {
         text:
-          'Sumar complejidades con el correr de las vueltas, intercalándolas con audiciones colectivas de improvisaciones creadas por los estudiantes.',
+          'Agregar complejidades en el transcurso de las vueltas, intercalándolas con audiciones colectivas de improvisaciones creadas por los estudiantes.',
         style: ['itemList'],
       },
     ],
@@ -599,12 +599,12 @@ export const gameListEs: Game[] = [
         style: ['title2'],
       },
       {
-        text: `Este juego es una variación del Juego 3 (“La noche en el castillo”), agregado algunas dificultades.`,
+        text: `Este juego es una variación del juego 3 (“La noche en el castillo”), con algunas dificultades añadidas.`,
         style: ['itemList'],
       },
       {
         text:
-          'Posicionar a los estudiantes en diferentes puntos de la sala con alguna distancia entre ellos.',
+          'Posicionar a los estudiantes en diferentes puntos del aula, con una cierta distancia entre ellos. ',
         style: ['itemList'],
       },
       {
@@ -622,7 +622,7 @@ export const gameListEs: Game[] = [
       },
       {
         text:
-          'Al aproximarse a los árboles, ellos emitiran el sonido elegido por el estudianto que lo representa. Al alejarse, la intensidad del sonido irá disminuyendo y el estudiante que esté más próximo comienza a emitir el sonido que ha elegido.',
+          'Al acercarse a los árboles, ellos emiten el sonido elegido por el estudiante que lo representa. Al alejarse, la intensidad del sonido va disminuyendo, y el estudiante que esté más cerca comienza a emitir el sonido elegido por él.',
         style: ['itemList'],
       },
       {
@@ -631,7 +631,7 @@ export const gameListEs: Game[] = [
       },
       {
         text:
-          'Debemos sumar algunas diferencias y dificultades en este juego, con relación al Juego 3.',
+          'Debemos agregar algunas diferencias y dificultades en este juego en comparación con el juego 3.',
         style: ['itemList'],
       },
       {
@@ -646,7 +646,7 @@ export const gameListEs: Game[] = [
     gameTitle: 'Juego 9',
     content: [
       {
-        text: 'Passeo em el Zoológico',
+        text: 'Recorrido en el zoológico',
         style: ['title1'],
       },
       {
@@ -672,7 +672,7 @@ export const gameListEs: Game[] = [
       },
       {
         text:
-          'Contar a los estudiantes una historia de un visitante que llega a un zoológico y observa los diferentes animales.',
+          'Contar a los estudiantes una historia sobre un visitante que llega a un zoológico y observa los diferentes animales.',
         style: ['itemList'],
       },
       {
@@ -682,7 +682,7 @@ export const gameListEs: Game[] = [
       },
       {
         text:
-          'El visitante realiza un paseo por el zoológico, colocándose frente a los diferentes animales y, en ese momento, los animales reproducen el sonido elegido por los estudiantes.',
+          'El visitante realiza un recorrido por el zoológico, colocándose frente a los diferentes animales y, en ese momento, los animales reproducen el sonido elegido por los estudiantes.',
         style: ['itemList'],
       },
       {
@@ -691,12 +691,12 @@ export const gameListEs: Game[] = [
       },
       {
         text:
-          'Proponer que los animales emitan sus sonidos de acuerdo con las indicaciones corporales del visitante, que debe ejecutar diferentes niveles de dinámica, intensidad y carácter musical.',
+          'Proponer que los animales emitan sus sonidos de acuerdo con las indicaciones corporales del visitante, quien debe ejecutar diferentes niveles de dinámica, intensidad y carácter musical. ',
         style: ['itemList'],
       },
       {
         text:
-          'Así como en los juegos anteriores, es interesante grabar las improvisaciones, posibilitando que en las próximas vueltas de los juegos las interacciones sean más conscientes y surjan de las elecciones musicales de los estudiantes.',
+          'Así como en los juegos anteriores, es interesante grabar las improvisaciones, permitiendo que, en las próximas rondas de los juegos, las interacciones sean más conscientes y surjan de las elecciones musicales de los estudiantes.',
         style: ['itemList'],
       },
     ],
@@ -724,7 +724,7 @@ export const gameListEs: Game[] = [
       },
       {
         text:
-          'Trabajar sobre la libertad y las direrentes opciones para el comienzo, para el desarrollo y para el final de la “pieza” musical; trabajar cuestiones ligadas a la ecología y a la ecología acústica; trabajar los diálogos, las polifonías y la noción de forma musical.',
+          'Trabajar la libertad y las diferentes posibilidades para el comienzo, el desarrollo y el final de la “pieza” musical; trabajar cuestiones relacionadas con la ecología y la ecología acústica; trabajar los diálogos, las polifonías y la noción de forma musical.',
         style: ['paragraph'],
       },
       {
@@ -736,25 +736,25 @@ export const gameListEs: Game[] = [
         style: ['itemList'],
       },
       {
-        text: 'Preguntar a los estudiantes sobre qué sonidos de pájaros ellos econocen.',
+        text: ' Preguntar a los estudiantes qué sonidos de pájaros ellos conocen.',
         style: ['itemList'],
       },
       {
-        text: 'Inventariar junto com los estudiantes algunos de esos sonidos.',
-        style: ['itemList'],
-      },
-      {
-        text:
-          'Proponer que los estudiantes creen con sus violoncellos sonidos que representen los inventariados previamente.',
-        style: ['itemList'],
-      },
-      {
-        text: 'Crear em conjunto com los estudiantes um sonido que represente al cazador.',
+        text: ' Hacer un inventario de algunos de esos sonidos con los estudiantes.',
         style: ['itemList'],
       },
       {
         text:
-          'Cada estudiante actuará representando el sonido de uno de los pájaros, y um estudiante representará al cazador.',
+          'Proponer a los estudiantes que creen con sus violonchelos sonidos que representen los inventariados previamente. ',
+        style: ['itemList'],
+      },
+      {
+        text: 'Crear junto con los estudiantes un sonido que represente al cazador.',
+        style: ['itemList'],
+      },
+      {
+        text:
+          ' Cada estudiante representará el sonido de uno de los pájaros, y un estudiante representará al cazador.',
         style: ['itemList'],
       },
       {
@@ -763,7 +763,7 @@ export const gameListEs: Game[] = [
       },
       {
         text:
-          'Cuando lo desee, el estudiante que representa al cazador puede intervenir. Cuando el cazador interviene, todos los pájaros se callan.',
+          'Cuando lo desee, el estudiante que representa al cazador puede intervenir en el bosque. Cuando el cazador interviene, todos los pájaros se callan.',
         style: ['itemList'],
       },
       {
@@ -771,7 +771,7 @@ export const gameListEs: Game[] = [
         style: ['itemList'],
       },
       {
-        text: 'El cazador puede intervenir el número de veces que lo desee.',
+        text: 'El cazador puede intervenir en el bosque el número de veces que lo desee.',
         style: ['itemList'],
       },
       {
@@ -780,7 +780,7 @@ export const gameListEs: Game[] = [
       },
       {
         text:
-          ' Otorgar autonomía a los estudiantes, dejando a su criterio cuando será el inicio y el final de la improvisación, y también después de cuanto tiempo luego de la intervención del cazador, los pájaros volverán a cantar.',
+          'Otorgar autonomía a los estudiantes, dejándoles decidir cuándo empieza y cuándo termina la improvisación, así como cuánto tiempo después de la intervención del cazador los pájaros volverán a cantar.',
         style: ['itemList'],
       },
     ],
