@@ -109,12 +109,12 @@ export const textEs = [
   },
   {
     text:
-      'Mi nombre es Marta Macedo Brietzke. Nací en Porto Alegre, Rio Grande do Sul, Brasil. Comencé mis estudios musicales con mi padre y, poco después, en el Proyecto Preludio y en la Orquesta Infantil y Juvenil de la Universidad Federal de Río Grande do Sul, con el violín y el violoncello. Me gradué en Música en esa misma universidad, haciendo mi posgrado en São Paulo, en la Universidad de São Paulo.',
+      'Mi nombre es Marta Macedo Brietzke y nací en Porto Alegre, Rio Grande do Sul, Brasil. Comencé mis estudios musicales con mi padre y, poco después, en el Proyecto Preludio y en la Orquesta Infantil y Juvenil de la Universidade Federal do Rio Grande do Sul, con violín y violonchelo. Me gradué en Música en la misma universidad, haciendo mi posgrado en São Paulo, en la Universidade de São Paulo.',
     style: ['paragraph'],
   },
   {
     text:
-      'Actué como instrumentista y como profesora en orquestas y proyectos sociales en la capital y la región metropolitana de mi estado. Junto con algunos alumnos de violoncello, fundé en Porto Alegre un espacio autogestionado de enseñanza y aprendizaje de este instrumento, llamado Filarmônica de Violoncelos-Tchêllistas. Mi área de investigación está relacionada con la enseñanza colectiva de los instrumentos musicales, abordando diferentes posibilidades y facetas. También me dedico a la interpretación de música contemporánea, realizando el estreno de algunas piezas de compositores brasileños.',
+      'Actué como instrumentista y como profesora en orquestas y proyectos sociales en la capital y región metropolitana de mi estado. Junto con algunos estudiantes de violonchelo, fundamos en Porto Alegre un espacio autogestionado de enseñanza y aprendizaje de este instrumento, llamado Filarmônica de Violoncelos – Tchêllistas. Mi área de investigación está relacionada con la enseñanza colectiva de los instrumentos musicales, abordando diferentes posibilidades y facetas. También me dedico a la interpretación de música contemporánea de concierto, estrenando algunas piezas de compositores brasileños. ',
     style: ['paragraph'],
   },
 ]
