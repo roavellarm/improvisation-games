@@ -95,7 +95,7 @@ export const gameListEs: Game[] = [
     gameTitle: 'Juego 2',
     content: [
       {
-        text: 'Luz verde X Luz roja',
+        text: 'Señal Verde X Señal Roja',
         style: ['title1'],
       },
       {
@@ -112,7 +112,7 @@ export const gameListEs: Game[] = [
       },
       {
         text:
-          'Trabajar las diferencias entre sonido y silencio, enfatizando su importancia y su rol dentro de la construcción musical; profundizar la importancia de lo colectivo dentro del proceso musical; establecer la idea de diálogo musical.',
+          'Trabajar las diferencias entre sonido y silencio, así como su importancia y su papel dentro de la construcción musical; profundizar la importancia de la colectividad dentro del proceso musical; establecer la idea de diálogo musical.',
         style: ['paragraph'],
       },
       {
@@ -125,12 +125,12 @@ export const gameListEs: Game[] = [
       },
       {
         text:
-          'Proponer a los estudantes que exploren diferentes sonoridades de sus violoncellos, a través de técnicas extendidas.',
+          'Proponer a los estudantes que exploren diferentes sonoridades de sus violonchelos, a través de técnicas extendidas.',
         style: ['itemList'],
       },
       {
         text:
-          'Presentar una determinada sonoridad y proponer que los estudiantes, en conjunto, la reproduzcan.',
+          'Presentar una determinada sonoridad y proponer que los estudiantes, de forma conjunta, la reproduzcan.',
         style: ['itemList'],
       },
       {
@@ -140,37 +140,37 @@ export const gameListEs: Game[] = [
       },
       {
         text:
-          'Cada estudiante deberá presentar una sonoridad sobre la que haya investigado a los demás compañeros del grupo que debe, en conjunto, reproducirla.',
+          'Cada estudiante deberá presentar una sonoridad sobre la que haya investigado a los demás compañeros del grupo, quienes deben, juntos, reproducirla.',
         style: ['itemList'],
       },
       {
         text:
-          'Presentar dos pequeñas tarjetas a los estudiantes, una de color verde y otra de color rojo. Asociar estas tarjetas con el semáforo y las reglas de tránsito: el verde significará “tocar”, y el rojo “ no tocar”.',
+          'Presentar dos tarjetas a los estudiantes, una de color verde y otra de color rojo. Asociar las tarjetas con las normas de tránsito: el verde significará “tocar”, y el rojo significará “ no tocar”.',
         style: ['itemList'],
       },
       {
         text:
-          'Ejecutar algunas combinaciones con las tarjetas, proponiendo que los estudiantes toquen cualquier sonido que deseen.',
+          'Ejecutar algunas combinaciones con las tarjetas, proponiendo a los estudiantes que toquen los sonidos que quieran.',
         style: ['itemList'],
       },
       {
         text:
-          'Proponer algunas variaciones de dinámica, dependiendo de la secuencia en que las tarjetas sean presentadas a los estudiantes.',
+          'Proponer algunas variaciones de dinámica, dependiendo de la secuencia en la que se presenten las tarjetas a los estudiantes.',
         style: ['itemList'],
       },
       {
         text:
-          'Elegir un estudiante para ser el “maestro” de los demás, debiendo cumplir la función de presentar las tarjetas a sus compañeros.',
+          'Elegir a un estudiante para ser el “maestro” de los demás, quien debe cumplir la función de presentar las tarjetas a sus compañeros.',
         style: ['itemList'],
       },
       {
         text:
-          'Dividir al grupo en dos, eligiendo un “maestro” para cada sub-grupo. Cada “maestro” recibirá un conjunto de tarjetas verdes y rojas.',
+          'Dividir la clase en dos grupos, eligiendo un “maestro” para cada grupo. Cada “maestro” recibirá un conjunto de tarjetas verdes y rojas.',
         style: ['itemList'],
       },
       {
         text:
-          'Cada grupo deberá seguir las indicaciones de sus respectivos “maestros”, que deben comunicarse de manera no verbal, y proporcionar la interacción y el diálogo musical entre los dos grupos.',
+          'Cada grupo deberá seguir las indicaciones de sus respectivos “maestros”, quienes deben comunicarse de forma no verbal y propiciar la interacción y el diálogo musical entre los dos grupos. ',
         style: ['itemList'],
       },
       {
@@ -179,7 +179,7 @@ export const gameListEs: Game[] = [
       },
       {
         text:
-          'Estar atento y estimular el poder de escucha de los estudiantes, resaltando que las diferentes combinaciones de sonidos y silencios establecidas entre los “maestros” proporcionan a la creación de una narrativa musical.',
+          'Estar atento y estimular la escucha de los estudiantes, resaltando que las diferentes combinaciones de sonidos y silencios establecidas entre los “maestros” proporcionan la creación de una narrativa musical.',
         style: ['itemList'],
       },
     ],
