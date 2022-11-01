@@ -724,7 +724,7 @@ export const gameListEs: Game[] = [
       },
       {
         text:
-          'Trabajar sobre la libertad y las direrentes opciones para el comienzo, para el desarrollo y para el final de la “pieza” musical; trabajar cuestiones ligadas a la ecología y a la ecología acústica; trabajar los diálogos, las polifonías y la noción de forma musical.',
+          'Trabajar la libertad y las diferentes posibilidades para el comienzo, el desarrollo y el final de la “pieza” musical; trabajar cuestiones relacionadas con la ecología y la ecología acústica; trabajar los diálogos, las polifonías y la noción de forma musical.',
         style: ['paragraph'],
       },
       {
@@ -736,25 +736,25 @@ export const gameListEs: Game[] = [
         style: ['itemList'],
       },
       {
-        text: 'Preguntar a los estudiantes sobre qué sonidos de pájaros ellos econocen.',
+        text: ' Preguntar a los estudiantes qué sonidos de pájaros ellos conocen.',
         style: ['itemList'],
       },
       {
-        text: 'Inventariar junto com los estudiantes algunos de esos sonidos.',
-        style: ['itemList'],
-      },
-      {
-        text:
-          'Proponer que los estudiantes creen con sus violoncellos sonidos que representen los inventariados previamente.',
-        style: ['itemList'],
-      },
-      {
-        text: 'Crear em conjunto com los estudiantes um sonido que represente al cazador.',
+        text: ' Hacer un inventario de algunos de esos sonidos con los estudiantes.',
         style: ['itemList'],
       },
       {
         text:
-          'Cada estudiante actuará representando el sonido de uno de los pájaros, y um estudiante representará al cazador.',
+          'Proponer a los estudiantes que creen con sus violonchelos sonidos que representen los inventariados previamente. ',
+        style: ['itemList'],
+      },
+      {
+        text: 'Crear junto con los estudiantes un sonido que represente al cazador.',
+        style: ['itemList'],
+      },
+      {
+        text:
+          ' Cada estudiante representará el sonido de uno de los pájaros, y un estudiante representará al cazador.',
         style: ['itemList'],
       },
       {
@@ -763,7 +763,7 @@ export const gameListEs: Game[] = [
       },
       {
         text:
-          'Cuando lo desee, el estudiante que representa al cazador puede intervenir. Cuando el cazador interviene, todos los pájaros se callan.',
+          'Cuando lo desee, el estudiante que representa al cazador puede intervenir en el bosque. Cuando el cazador interviene, todos los pájaros se callan.',
         style: ['itemList'],
       },
       {
@@ -771,7 +771,7 @@ export const gameListEs: Game[] = [
         style: ['itemList'],
       },
       {
-        text: 'El cazador puede intervenir el número de veces que lo desee.',
+        text: 'El cazador puede intervenir en el bosque el número de veces que lo desee.',
         style: ['itemList'],
       },
       {
@@ -780,7 +780,7 @@ export const gameListEs: Game[] = [
       },
       {
         text:
-          ' Otorgar autonomía a los estudiantes, dejando a su criterio cuando será el inicio y el final de la improvisación, y también después de cuanto tiempo luego de la intervención del cazador, los pájaros volverán a cantar.',
+          'Otorgar autonomía a los estudiantes, dejándoles decidir cuándo empieza y cuándo termina la improvisación, así como cuánto tiempo después de la intervención del cazador los pájaros volverán a cantar.',
         style: ['itemList'],
       },
     ],
