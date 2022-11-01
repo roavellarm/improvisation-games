@@ -599,12 +599,12 @@ export const gameListEs: Game[] = [
         style: ['title2'],
       },
       {
-        text: `Este juego es una variación del Juego 3 (“La noche en el castillo”), agregado algunas dificultades.`,
+        text: `Este juego es una variación del juego 3 (“La noche en el castillo”), con algunas dificultades añadidas.`,
         style: ['itemList'],
       },
       {
         text:
-          'Posicionar a los estudiantes en diferentes puntos de la sala con alguna distancia entre ellos.',
+          'Posicionar a los estudiantes en diferentes puntos del aula, con una cierta distancia entre ellos. ',
         style: ['itemList'],
       },
       {
@@ -622,7 +622,7 @@ export const gameListEs: Game[] = [
       },
       {
         text:
-          'Al aproximarse a los árboles, ellos emitiran el sonido elegido por el estudianto que lo representa. Al alejarse, la intensidad del sonido irá disminuyendo y el estudiante que esté más próximo comienza a emitir el sonido que ha elegido.',
+          'Al acercarse a los árboles, ellos emiten el sonido elegido por el estudiante que lo representa. Al alejarse, la intensidad del sonido va disminuyendo, y el estudiante que esté más cerca comienza a emitir el sonido elegido por él.',
         style: ['itemList'],
       },
       {
@@ -631,7 +631,7 @@ export const gameListEs: Game[] = [
       },
       {
         text:
-          'Debemos sumar algunas diferencias y dificultades en este juego, con relación al Juego 3.',
+          'Debemos agregar algunas diferencias y dificultades en este juego en comparación con el juego 3.',
         style: ['itemList'],
       },
       {
