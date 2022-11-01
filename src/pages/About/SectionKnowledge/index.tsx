@@ -21,7 +21,7 @@ export default function SectionKnowledge() {
   const TEXT_LINK: any = {
     pt: ['Minha', 'dissertação', 'está disponível', 'aqui'],
     en: ['My', "master's thesis", 'is available', 'here'],
-    es: ['Mi', 'disertación', 'está disponible', 'aqui'],
+    es: ['Mi', 'tesina', 'está disponible', 'aquí'],
   }
 
   return (
