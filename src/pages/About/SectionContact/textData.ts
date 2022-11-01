@@ -23,8 +23,8 @@ const textEn = [
 ]
 
 const textEs = [
-  'Escríbe-me!',
-  'Si probás alguna de las propuestas de los juegos, no olvides compartirlas conmigo. ¡Será muy bueno conocer sus experiencias con las actividades!',
+  '¡Escríbeme!',
+  'Si pruebas alguna de las propuestas de los juegos, no olvides compartirlas conmigo. ¡Será muy bueno conocer sus experiencias con las actividades!',
   'Entre en contacto',
   'aqui',
   'Colaboradores',
