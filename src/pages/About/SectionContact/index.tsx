@@ -52,7 +52,7 @@ export default function SectionContact() {
           target="_blank"
           href={`mailto:${gustavo}?subject=${SUBJECT[language]}&body=${BODY[language]}`}
         >
-          Gustavo Sohne
+          Gustavo
         </Link>
       </ItemList>
     </>
